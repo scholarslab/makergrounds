@@ -1,0 +1,139 @@
+[
+  { 
+    "resource": "FDM 3D Printer",
+    "icon": "diamond",
+    "locations": [
+      {"name": "Scholars' Lab", "page": "scholarslab.html"},
+      {"name": "A-School Fablab", "page": "fablab.html"},
+      {"name": "Rice Rapid Prototype Lab", "page": "rpl.html"}
+      ]
+  },
+  {
+    "resource": "Polyjet 3D Printer",
+    "locations": [
+      {"name": "Scholars' Lab", "page": "scholarslab.html"}
+    ]
+  },
+  {
+    "resource": "Micro Electronics",
+    "locations": [
+      {"name": "Scholars' Lab", "page": "scholarslab.html"},
+      {"name": "Mechatronics Lab", "page": "mechatronics.html"},
+      {"name": "Drama Scenic Shop", "page": "drama.html"}
+    ]
+  },
+  {
+    "resource": "Camera Equipment",
+    "locations": [
+      {"name": "Scholars' Lab", "page": "scholarslab.html"},
+      {"name": "Robertson Media Lab", "page": "robertson.html"}
+    ]
+  },
+  {
+    "resource": "Table Saw",
+    "locations": [
+      {"name": "A-School Fablab", "page": "fablab.html"}
+    ]
+  },
+  {
+    "resource": "Band Saw",
+    "locations": [
+      {"name": "A-School Fablab", "page": "fablab.html"},
+      {"name": "Drama Scenic Shop", "page": "drama.html"},
+      {"name": "Studio Sculpture Shop", "page": "ruffin-hall.html"}
+    ]
+  },
+  {
+    "resource": "Drill Press",
+    "locations": [
+      {"name": "A-School Fablab", "page": "fablab.html"},
+      {"name": "Drama Scenic Shop", "page": "drama.html"},
+      {"name": "Studio Sculpture Shop", "page": "ruffin-hall.html"}
+    ]
+  },
+  {
+    "resource": "Wood Sanders",
+    "locations": [
+      {"name": "A-School Fablab", "page": "fablab.html"},
+      {"name": "Drama Scenic Shop", "page": "drama.html"},
+      {"name": "Studio Sculpture Shop", "page": "ruffin-hall.html"}
+    ]
+  },
+  {
+    "resource": "Radial-arm Saw",
+    "locations": [
+      {"name": "A-School Fablab", "page": "fablab.html"}
+    ]
+  },
+  {
+    "resource": "Laser Cutter",
+    "locations": [
+      {"name": "A-School Fablab", "page": "fablab.html"}
+    ]
+  },
+  {
+    "resource": "CNC Mill",
+    "locations": [
+      {"name": "A-School Fablab", "page": "fablab.html"},
+      {"name": "Mechatronics Lab", "page": "mechatronics.html"},
+      {"name": "Lacy Experiential Learning Center", "page": "lacy-hall.html"}
+    ]
+  },
+  {
+    "resource": "Audio Equipment",
+    "locations": [
+      {"name": "Robertson Media Lab", "page": "robertson.html"}
+    ]
+  },
+  {
+    "resource": "Drives and Adapters",
+    "locations": [
+      {"name": "Robertson Media Lab", "page": "robertson.html"}
+    ]
+  },
+  {
+    "resource": "Welding Equipment",
+    "locations": [
+      {"name": "Lacy Experiential Learning Center", "page": "lacy-hall.html"},
+      {"name": "Drama Scenic Shop", "page": "drama.html"},
+      {"name": "Studio Sculpture Shop", "page": "ruffin-hall.html"}
+    ]
+  },
+  {
+    "resource": "Plasma Cutter",
+    "locations": [
+      {"name": "Lacy Experiential Learning Center", "page": "lacy-hall.html"},
+      {"name": "Drama Scenic Shop", "page": "drama.html"}
+    ]
+  },
+  {
+    "resource": "Hydraulic Press",
+    "locations": [
+      {"name": "Lacy Experiential Learning Center", "page": "lacy-hall.html"}
+    ]
+  },
+  {
+    "resource": "Vacuum Former",
+    "locations": [
+      {"name": "Drama Scenic Shop", "page": "drama.html"}
+    ]
+  },
+  {
+    "resource": "Sand Blaster",
+    "locations": [
+      {"name": "Studio Sculpture Shop", "page": "ruffin-hall.html"}
+    ]
+  },
+  {
+    "resource": "Foundary",
+    "locations": [
+      {"name": "Studio Sculpture Shop", "page": "ruffin-hall.html"}
+    ]
+  },
+  {
+    "resource": "Stone Carver",
+    "locations": [
+      {"name": "Studio Sculpture Shop", "page": "ruffin-hall.html"}
+    ]
+  }
+]
