@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="/css/makergrounds.css" ?>
 <!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1224 792" style="enable-background:new 0 0 1224 792;" xml:space="preserve">
+
 <style type="text/css">
 	.st0{fill:#282828;}
 	.st1{fill:none;stroke:#C6C6C6;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;}
@@ -43,26 +45,7 @@
 	.st37{clip-path:url(#SVGID_16_);}
 	.st38{font-size:8.3px;}
 
-	@keyframes button {
-		from {fill:rgba(255,255,255,0);}
-		to {fill:rgba(255,255,255,.5);}
-	}
-
-	.map-button circle {fill:rgba(255,255,255,0);}
-	.map-button:hover circle
-	{
-		fill:rgba(255,255,255,.5);
-		animation-name:button;
-		animation-duration:.2s;
-	}
-
-	.map-button path {fill:rgba(255,255,255,0);}
-	.map-button:hover path
-	{
-		fill:rgba(255,255,255,.5);
-		animation-name:button;
-		animation-duration:.2s;
-	}
+	
 </style>
 <g id="Layer_1">
 	<g id="Layer_1_2_">

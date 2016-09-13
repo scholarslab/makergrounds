@@ -3,10 +3,19 @@
 	to {fill:rgba(255,255,255,.5);}
 }
 
-.map-button circle {fill:rgba(255,255,255,0);}
-.map-button:hover circle
-{
-	fill:rgba(255,255,255,.5);
-	animation-name:button;
-	animation-duration:5s;
+.map-button {
+	&:hover {
+		circle, path {
+
+			fill:rgba(255,255,255,.5);
+			animation-name:button;
+			animation-duration:.2s;
+		}
+	}
+
+	circle, path {
+
+		fill:rgba(255,255,255,0);
+
+	}
 }

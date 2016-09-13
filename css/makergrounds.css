@@ -1,0 +1,18 @@
+@keyframes button {
+  from {
+    fill: rgba(255, 255, 255, 0);
+  }
+  to {
+    fill: rgba(255, 255, 255, 0.5);
+  }
+}
+.map-button:hover circle,
+.map-button:hover path {
+  fill: rgba(255, 255, 255, 0.5);
+  animation-name: button;
+  animation-duration: .2s;
+}
+.map-button circle,
+.map-button path {
+  fill: rgba(255, 255, 255, 0);
+}
