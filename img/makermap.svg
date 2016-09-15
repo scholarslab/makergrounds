@@ -7088,7 +7088,7 @@
 									V47.1C785.9,45.6,787.1,44.4,788.6,44.4z"/>
 							</defs>
 							<clipPath id="SVGID_2_">
-								<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+								<use href="#SVGID_1_"  style="overflow:visible;"/>
 							</clipPath>
 							<g class="st26">
 								<path class="st22" d="M783.6,59.9l1.3,0.5l0.6,0.2l1.4-5.6l1.4,1.4l3.2-4.6l0.8,1.9l4.9-3.2v2.2l5.8-1l-0.8,2l5.5,1.2
@@ -7310,7 +7310,7 @@
 									v-28.1C1002.6,369,1003.9,367.8,1005.4,367.8z"/>
 							</defs>
 							<clipPath id="SVGID_4_">
-								<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
+								<use href="#SVGID_3_"  style="overflow:visible;"/>
 							</clipPath>
 							<g class="st30">
 								<path class="st22" d="M1000.4,383.3l1.3,0.5l0.6,0.2l1.4-5.6l1.4,1.4l3.2-4.6l0.8,1.9l4.9-3.2v2.2l5.8-1l-0.8,2l5.5,1.2
@@ -7372,7 +7372,7 @@
 									v-28.2C1002.6,700.7,1003.9,699.5,1005.4,699.5z"/>
 							</defs>
 							<clipPath id="SVGID_6_">
-								<use xlink:href="#SVGID_5_"  style="overflow:visible;"/>
+								<use href="#SVGID_5_"  style="overflow:visible;"/>
 							</clipPath>
 							<g class="st31">
 								<path class="st22" d="M1000.4,715l1.3,0.5l0.6,0.2l1.4-5.6l1.4,1.4l3.2-4.6l0.8,1.9l4.9-3.2v2.2l5.8-1l-0.8,2l5.5,1.2
@@ -7417,7 +7417,7 @@
 									v-28.2C1003,429,1004.2,427.8,1005.7,427.8z"/>
 							</defs>
 							<clipPath id="SVGID_8_">
-								<use xlink:href="#SVGID_7_"  style="overflow:visible;"/>
+								<use href="#SVGID_7_"  style="overflow:visible;"/>
 							</clipPath>
 							<g class="st32">
 								<path class="st22" d="M1000.7,443.3l1.3,0.5l0.6,0.2l1.4-5.6l1.4,1.4l3.2-4.6l0.8,1.9l4.9-3.2v2.2l5.8-1l-0.8,2l5.5,1.2
@@ -7460,7 +7460,7 @@
 									v-28.2C1003,554.6,1004.2,553.4,1005.7,553.4z"/>
 							</defs>
 							<clipPath id="SVGID_10_">
-								<use xlink:href="#SVGID_9_"  style="overflow:visible;"/>
+								<use href="#SVGID_9_"  style="overflow:visible;"/>
 							</clipPath>
 							<g class="st33">
 								<path class="st22" d="M1000.7,568.9l1.3,0.5l0.6,0.2l1.4-5.6l1.4,1.4l3.2-4.6l0.8,1.9l4.9-3.2v2.2l5.8-1l-0.8,2l5.5,1.2
@@ -7960,7 +7960,7 @@
 									V452C33.7,450.5,34.9,449.3,36.4,449.3z"/>
 							</defs>
 							<clipPath id="SVGID_12_">
-								<use xlink:href="#SVGID_11_"  style="overflow:visible;"/>
+								<use href="#SVGID_11_"  style="overflow:visible;"/>
 							</clipPath>
 							<g class="st34">
 								<path class="st22" d="M31.5,464.8l1.3,0.5l0.6,0.2l1.4-5.6l1.4,1.4l3.2-4.6l0.8,1.9l4.9-3.2v2.2l5.8-1l-0.8,2l5.5,1.2
@@ -8124,7 +8124,7 @@
 									v-28.2C33.6,665,34.8,663.7,36.3,663.7z"/>
 							</defs>
 							<clipPath id="SVGID_14_">
-								<use xlink:href="#SVGID_13_"  style="overflow:visible;"/>
+								<use href="#SVGID_13_"  style="overflow:visible;"/>
 							</clipPath>
 							<g class="st35">
 								<path class="st22" d="M31.4,679.2l1.3,0.5l0.6,0.2l1.4-5.6l1.4,1.4l3.2-4.6l0.8,1.9l4.9-3.2v2.2l5.8-1l-0.8,2l5.5,1.2
@@ -8298,7 +8298,7 @@
 									v-28.2C1003,624.4,1004.2,623.2,1005.7,623.2z"/>
 							</defs>
 							<clipPath id="SVGID_16_">
-								<use xlink:href="#SVGID_15_"  style="overflow:visible;"/>
+								<use href="#SVGID_15_"  style="overflow:visible;"/>
 							</clipPath>
 							<g class="st37">
 								<path class="st22" d="M1000.7,638.7l1.3,0.5l0.6,0.2l1.4-5.6l1.4,1.4l3.2-4.6l0.8,1.9l4.9-3.2v2.2l5.8-1l-0.8,2l5.5,1.2
@@ -8503,85 +8503,85 @@
 	</g>
 </g>
 <g id="clickables">
-	<a xlink:href="#1" class="map-button">
+	<a href="#1" class="map-button">
 		<circle cx="705" cy="477" r="16"/>
 		<path class="st22" d="M1212,403.1h-204c-6.6,0-12-5.4-12-12V351c0-6.6,5.4-12,12-12h204c6.6,0,12,5.4,12,12v40.1
 		C1224,397.7,1218.6,403.1,1212,403.1z"/>
 		
 	</a>
-	<a xlink:href="#2" class="map-button">
+	<a href="#2" class="map-button">
 		<circle cx="277" cy="617" r="16"/>
 		<path class="st22" d="M238,704.1H34c-6.6,0-12-5.4-12-12V652c0-6.6,5.4-12,12-12h204c6.6,0,12,5.4,12,12v40.1
 		C250,698.7,244.6,704.1,238,704.1z"/>
 		
 	</a>
-	<a xlink:href="#3" class="map-button">
+	<a href="#3" class="map-button">
 		<circle cx="524" cy="46" r="16"/>
 		<path d="M238,202.1H34c-6.6,0-12-5.4-12-12V150c0-6.6,5.4-12,12-12h204c6.6,0,12,5.4,12,12v40.1
 		C250,196.7,244.6,202.1,238,202.1z"/>
 	</a>
-	<a xlink:href="#4" class="map-button">
+	<a href="#4" class="map-button">
 		<circle cx="924" cy="681" r="22.5"/>
 		<path class="st22" d="M1212,665.1h-204c-6.6,0-12-5.4-12-12V613c0-6.6,5.4-12,12-12h204c6.6,0,12,5.4,12,12v40.1
 		C1224,659.7,1218.6,665.1,1212,665.1z"/>
 	</a>
-	<a xlink:href="#5" class="map-button">
+	<a href="#5" class="map-button">
 		<circle cx="715" cy="714" r="12.5"/>
 		<path class="st22" d="M1212,782h-204c-6.6,0-12-5.4-12-12v-86c0-6.6,5.4-12,12-12h204c6.6,0,12,5.4,12,12v86
 		C1224,776.6,1218.6,782,1212,782z"/>
 	</a>
-	<a xlink:href="#6" class="map-button">
+	<a href="#6" class="map-button">
 		<circle cx="543.3" cy="743" r="14.3"/>
 		<path class="st22" d="M238,774.1H34c-6.6,0-12-5.4-12-12V722c0-6.6,5.4-12,12-12h204c6.6,0,12,5.4,12,12v40.1
 		C250,768.7,244.6,774.1,238,774.1z"/>
 		
 	</a>
-	<a xlink:href="#7" class="map-button">
+	<a href="../scholarslab.html" target="_top" class="map-button">
 		<circle cx="686" cy="579" r="16.2"/>
 		<path class="st22" d="M238,275.1H34c-6.6,0-12-5.4-12-12V223c0-6.6,5.4-12,12-12h204c6.6,0,12,5.4,12,12v40.1
 		C250,269.7,244.6,275.1,238,275.1z"/>
 		
 	</a>
-	<a xlink:href="#8" class="map-button">
+	<a href="#8" class="map-button">
 		<circle cx="658" cy="590" r="12.4"/>
 		<path class="st22" d="M238,350.1H34c-6.6,0-12-5.4-12-12V298c0-6.6,5.4-12,12-12h204c6.6,0,12,5.4,12,12v40.1
 		C250,344.7,244.6,350.1,238,350.1z"/>
 	</a>
-	<a xlink:href="#9" class="map-button">
+	<a href="#9" class="map-button">
 		<circle cx="363" cy="611" r="12.4"/>
 		<path class="st22" d="M238,633.1H34c-6.6,0-12-5.4-12-12V581c0-6.6,5.4-12,12-12h204c6.6,0,12,5.4,12,12v40.1
 		C250,627.7,244.6,633.1,238,633.1z"/>
 		
 	</a>
-	<a xlink:href="#10" class="map-button">
+	<a href="../rpl.html" target="_top" class="map-button">
 		<circle cx="534.3" cy="709" r="12.4"/>
 		<path class="st22" d="M238,422.1H34c-6.6,0-12-5.4-12-12V370c0-6.6,5.4-12,12-12h204c6.6,0,12,5.4,12,12v40.1
 		C250,416.7,244.6,422.1,238,422.1z"/>
 		
 	</a>
-	<a xlink:href="#10a" class="map-button">
+	<a href="../mechatronics.html" target="_top" class="map-button">
 		<circle cx="534.3" cy="709" r="12.4"/>
 		<path class="st22" d="M238,490.1H34c-6.6,0-12-5.4-12-12V438c0-6.6,5.4-12,12-12h204c6.6,0,12,5.4,12,12v40.1
 		C250,484.7,244.6,490.1,238,490.1z"/>
 		
 	</a>
-	<a xlink:href="#10b" class="map-button">
+	<a href="#10b" class="map-button">
 		<circle cx="534.3" cy="709" r="12.4"/>
 		<path class="st22" d="M238,558.1H34c-6.6,0-12-5.4-12-12V506c0-6.6,5.4-12,12-12h204c6.6,0,12,5.4,12,12v40.1
 		C250,552.7,244.6,558.1,238,558.1z"/>
 		
 	</a>
-	<a xlink:href="#11" class="map-button">
+	<a href="../fablab.html" target="_top" class="map-button">
 		<circle cx="709" cy="504" r="10.6"/>
 		<path class="st22" d="M1212,596.1h-204c-6.6,0-12-5.4-12-12V544c0-6.6,5.4-12,12-12h204c6.6,0,12,5.4,12,12v40.1
 		C1224,590.7,1218.6,596.1,1212,596.1z"/>
 	</a>
-	<a xlink:href="#12" class="map-button">
+	<a href="#12" class="map-button">
 		<circle cx="730.6" cy="503.4" r="8.2"/>
 		<path class="st22" d="M1212,532.2h-204c-6.6,0-12-5.4-12-12V481c0-6.6,5.4-12,12-12h204c6.6,0,12,5.4,12,12v39.2
 		C1224,526.8,1218.6,532.2,1212,532.2z"/>
 	</a>
-	<a xlink:href="#13" class="map-button">
+	<a href="../ruffin-hall.html" target="_top" class="map-button">
 		<circle cx="740" cy="488" r="10.1"/>
 		<path class="st22" d="M1212,468.1h-204c-6.6,0-12-5.4-12-12V416c0-6.6,5.4-12,12-12h204c6.6,0,12,5.4,12,12v40.1
 		C1224,462.7,1218.6,468.1,1212,468.1z"/>
