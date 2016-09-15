@@ -2,6 +2,11 @@
   height:75px;
 }
 
+@media (min-width: 768px)
+.navbar-default .nav > li>a, .navbar-default .nav>li {
+  color: #222;
+}
+
 @keyframes button {
   from {
     fill: rgba(255, 255, 255, 0);
