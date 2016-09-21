@@ -6,163 +6,28 @@
 </section>
 
 <section class="no-padding" id="portfolio">
-    <div class="container-fluid">
-        <div class="row no-gutter">
+  <div class="container-fluid">
+    <div class="row no-gutter">
 
+      {{ //counter, if not divisible by three... ? }}
 
-            <div class="col-lg-4 col-sm-6">
-              <h4 class="locations-title"><a href="{{ site.url }}/scholarslab.html">UVa Library Scholars' Lab</a></h4>
-                <a href="/scholarslab.html" class="portfolio-box">
-                    <img src="img/portfolio/scholarslab.jpg" class="img-responsive" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                Alderman Library, 420
-                            </div>
-                            <div class="project-name">
-                                Scholars' Lab
-                            </div>
-                        </div>
-                    </div>
-                </a>
+      {% for place in site.data.makergrounds %}
+      <div class="col-lg-4 col-sm-6">
+        <h4 class="locations-title"><a href="{{ site.url }}/locations/{{ place.page }}/">{{ place.name }}</a></h4>
+          <a href="{{ site.url }}/locations/{{ place.page }}/" class="portfolio-box">
+            <img src="img/portfolio/{{ place.img }}" class="img-responsive" alt="" />
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded"> {{ place.location }} </div>
+                <div class="project-name"> {{ place.name }} </div>
+                <div class="project-link"> [ more info ] </div>
+              </div>
             </div>
-            <div class="col-lg-4 col-sm-6">
-              <h4 class="locations-title"><a href="{{ site.url }}/fablab.html">A School Fab Lab</a></h4>
-                <a href="/fablab.html" class="portfolio-box">
-                    <img src="img/portfolio/a-school-fab-lab.jpg" class="img-responsive" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                Campbell Hall, 132
-                            </div>
-                            <div class="project-name">
-                                Campbell Hall Woodshop & CNC Lab
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-              <h4 class="locations-title"><a href="{{ site.url }}/rpl.html">MAE Rapid Prototyping Lab</a></h4>
-                <a href="/rpl.html" class="portfolio-box">
-                    <img src="img/portfolio/rpl.jpg" class="img-responsive" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                MAE, 216A
-                            </div>
-                            <div class="project-name">
-                               Rapid Prototyping Lab (RPL)
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
+          </a>
+      </div>
+      {% endfor %}
 
-
-            <div class="col-lg-4 col-sm-6">
-              <h4 class="locations-title"><a href="{{ site.url }}/robertson.html">Robertson Media Center</a></h4>
-                <a href="robertson.html" class="portfolio-box">
-                    <img src="img/portfolio/dml.jpg" class="img-responsive" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                Clemons Library, Third Floor
-                            </div>
-                            <div class="project-name">
-                                Robertson Media Center
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-            <div class="col-lg-4 col-sm-6">
-              <h4 class="locations-title"><a href="{{ site.url }}/lacy-hall.html">Ann Warrick Lacy Experiential Learning Center</a></h4>
-                <a href="lacy-hall.html" class="portfolio-box">
-                    <img src="img/portfolio/lacy-hall.jpg" class="img-responsive" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                Lacy Hall
-                            </div>
-                            <div class="project-name">
-                                Ann Warickk Lacy Experiential Learning Center
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-              <h4 class="locations-title"><a href="{{ site.url }}/mechatronics.html">Mechatronics Lab</a></h4>
-                <a href="mechatronics.html" class="portfolio-box">
-                    <img src="img/portfolio/mechatronics-lab.jpg" class="img-responsive" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                Mechanical and Aerospace Building
-                            </div>
-                            <div class="project-name">
-                                Mechatronics Lab
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-
-            <div class="col-lg-4 col-sm-6">
-              <h4 class="locations-title"><a href="{{ site.url }}/drama.html">Drama Scenic Shop</a></h4>
-                <a href="drama.html" class="portfolio-box">
-                    <img src="img/portfolio/drama.jpg" class="img-responsive" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                Drama Building
-                            </div>
-                            <div class="project-name">
-                                Drama Scenic Shop
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-              <h4 class="locations-title"><a href="{{ site.url }}/ruffin-hall.html">Studio Art Sculpture Shop</a></h4>
-                <a href="ruffin-hall.html" class="portfolio-box">
-                    <img src="img/portfolio/ruffin-hall.jpg" class="img-responsive" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                Ruffin Hall
-                            </div>
-                            <div class="project-name">
-                                Studio Art Sculpture Shop
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-            <!--
-              <h4 class="locations-title"><a href="{{ site.url }}/">Fiske Kimball Fine Arts Library</a></h4>
-                <a href="#" class="portfolio-box">
-                    <img src="img/portfolio/5.jpg" class="img-responsive" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                Location
-                            </div>
-                            <div class="project-name">
-                                Makerspace Name
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            -->
-            </div>
-
-        </div>
-    </div>
+    </div><!-- row no-gutter -->
+  </div><!-- container-fluid -->
 </section>
 

@@ -6,7 +6,10 @@
 .navbar-default .nav > li>a, .navbar-default .nav>li {
   color: #222;
 }
-
+.project-link { 
+  font-size: .8em; 
+  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
 @keyframes button {
   from {
     fill: rgba(255, 255, 255, 0);
