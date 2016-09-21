@@ -13,13 +13,13 @@
 
       {% for place in site.data.makergrounds %}
       <div class="col-lg-4 col-sm-6">
-        <h4 class="locations-title"><a href="{{ site.url }}/locations/{{ place.page }}/">{{ place.name }}</a></h4>
-          <a href="{{ site.url }}/locations/{{ place.page }}/" class="portfolio-box">
+        <h4 class="locations-title"><a href="{{ site.url }}/locations/{{ place.slug }}/">{{ place.title }}</a></h4>
+          <a href="{{ site.url }}/locations/{{ place.slug }}/" class="portfolio-box">
             <img src="img/portfolio/{{ place.img }}" class="img-responsive" alt="" />
             <div class="portfolio-box-caption">
               <div class="portfolio-box-caption-content">
                 <div class="project-category text-faded"> {{ place.location }} </div>
-                <div class="project-name"> {{ place.name }} </div>
+                <div class="project-name"> {{ place.title }} </div>
                 <div class="project-link"> [ more info ] </div>
               </div>
             </div>
