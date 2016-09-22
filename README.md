@@ -17,6 +17,11 @@
   ```
   - Then open http://localhost:4000 in your browser
 
+## Publish
+- Run `jekyll build` to generate the static HTML/CSS/Javascript files. They are
+  stored in the '_site' folder
+- Copy the files from '_site' to the server.
+
 ## Theme
 - Theme uses [Start Bootstrap](http://startbootstrap.com/) - [Creative](http://startbootstrap.com/template-overviews/creative/)
 
