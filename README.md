@@ -4,6 +4,8 @@
 - You local computer needs to have Ruby (at least version 2.2.2) and Jekyll (at
   least version 3.0.0)
 - A copy of the page generator plugin from https://github.com/avillafiorita/jekyll-datapage_gen
+- Bundler
+	` gem install bundler`
 
 ## Set up
 - Clone this repo to your local computer
