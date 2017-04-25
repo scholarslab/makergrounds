@@ -7,6 +7,15 @@
   color: #222;
 }
 
+#listserve {
+  background-color: #ffd;
+  margin: 20px;
+}
+
+#listserve p {
+  color: black;
+}
+
 .navbar {
   background: #333;
   min-height: 105px;
@@ -44,4 +53,8 @@ header {
 .map-button circle,
 .map-button path {
   fill: rgba(255, 255, 255, 0);
+}
+
+#map-image, #people-image {
+  margin: auto;
 }

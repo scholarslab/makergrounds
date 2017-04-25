@@ -6,10 +6,8 @@
 </section>
 
 <section class="no-padding" id="portfolio">
-  <div class="container-fluid">
-    <div class="row no-gutter">
-
-      {% for place in site.data.makergrounds %}
+  <div class="row bg-dark">
+    {% for place in site.data.makergrounds %}
       <div class="col-lg-4 col-sm-6">
         <h4 class="locations-title"><a href="{{ site.url }}/locations/{{ place.slug }}.html">{{ place.title }}</a></h4>
           <a href="{{ site.url }}/locations/{{ place.slug }}.html" class="portfolio-box">
@@ -23,9 +21,7 @@
             </div>
           </a>
       </div>
-      {% endfor %}
-
-    </div><!-- row no-gutter -->
-  </div><!-- container-fluid -->
+    {% endfor %}
+  </div>
 </section>
 
