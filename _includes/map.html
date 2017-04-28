@@ -15,7 +15,7 @@
 
     <div style="height: 4px; width: 100%;background-color: #03a9f4; overflow: hidden"></div>
     <div class="filter_container">
-      <div style="font-family: sans-serif; color:#989898; margin-top: 10px;">Filter:</div>
+      <div style="font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif; font-size: 20px; color:#989898;">Filter:</div>
       <ul class="img-list">
         <li>
           <img src="icons/raw/show-all.svg" data-filter="all">
@@ -83,6 +83,10 @@
     var map = L.mapbox.map('map', 'mapbox.streets')
       .setView([38.035544, -78.508186], 14.55)
 
+    if (map.scrollWheelZoom) {
+      map.scrollWheelZoom.disable();
+    }
+
     var markers = L.mapbox.featureLayer()
       .loadURL('map-files/makergrounds-data.geojson')
       .addTo(map);
@@ -109,5 +113,4 @@
     });
   </script>
 
-  <!-- <img alt="Map of locations." id="map-image" src="img/makermap.png" class="img-responsive"/> -->
 </section>
