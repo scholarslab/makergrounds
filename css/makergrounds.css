@@ -5,6 +5,7 @@
 @media (min-width: 768px)
 .navbar-default .nav > li>a, .navbar-default .nav>li {
   color: #222;
+  background-color: #fff;
 }
 
 #listserve {
@@ -17,13 +18,14 @@
 }
 
 .navbar {
-  background: #333;
   min-height: 105px;
 }
 .navbar-default .nav > li>a, .navbar-default .nav>li>a:focus {
   font-size: 30px;
 }
-
+.navbar-right {
+  margin-right: 0;
+}
 header {
   margin-top: 105px;
 }
