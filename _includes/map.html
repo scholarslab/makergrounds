@@ -5,6 +5,794 @@
 </section>
 
 <section class="no-padding mx-auto" id="portfolio">
-  <img alt="Map of locations." id="map-image" src="img/makermap.png" class="img-responsive"/>
-</section>
 
+
+  <section style="position: relative;overflow: hidden;">
+
+    <div id="map" class="map">
+
+    </div>
+
+    <div style="height: 4px; width: 100%;background-color: #03a9f4; overflow: hidden"></div>
+    <div class="filter_container">
+      <div style="font-family: sans-serif; color:#989898; margin-top: 10px;">Filter:</div>
+      <ul class="img-list">
+        <li>
+          <img src="icons/raw/show-all.svg" data-filter="all">
+          <span class="text-content"><span>Show All</span></span>
+        </li>
+        <li>
+          <img src="icons/raw/3d-printing.svg" data-filter="3d-printing" >
+          <span class="text-content"><span>3D Printing</span></span>
+        </li>
+        <li>
+          <img src="icons/raw/3d-scanning.svg" data-filter="3d-scanning" >
+          <span class="text-content"><span>3D Scanning</span></span>
+        </li>
+        <li>
+          <img src="icons/raw/casting.svg" data-filter="casting" >
+          <span class="text-content"><span>Casting</span></span>
+        </li>
+        <li>
+          <img src="icons/raw/cnc-cutting.svg" data-filter="cnc-cutting" >
+          <span class="text-content"><span>CNC Cutting</span></span>
+        </li>
+        <li>
+          <img src="icons/raw/computer-software.svg" data-filter="computer-software" >
+          <span class="text-content"><span>Computer + Software</span></span>
+        </li>
+        <li>
+          <img src="icons/raw/drones-robotics.svg" data-filter="drones-robotics" >
+          <span class="text-content"><span>Drones/Robotics</span></span>
+        </li>
+        <li>
+          <img src="icons/raw/electronics.svg" data-filter="electronics" >
+          <span class="text-content"><span>Electronics</span></span>
+        </li>
+        <li>
+          <img src="icons/raw/material-data-archive.svg" data-filter="material-data-archive" >
+          <span class="text-content"><span>Material/Data Archive</span></span>
+        </li>
+        <li>
+          <img src="icons/raw/metalworking.svg" data-filter="metalworking" >
+          <span class="text-content"><span>Metalworking</span></span>
+        </li>
+        <li>
+          <img src="icons/raw/recording.svg" data-filter="recording" >
+          <span class="text-content"><span>Recording</span></span>
+        </li>
+        <li>
+          <img src="icons/raw/virtual-reality.svg" data-filter="virtual-reality" >
+          <span class="text-content"><span>Virtual Reality</span></span>
+        </li>
+        <li>
+          <img src="icons/raw/woodworking.svg" data-filter="woodworking" >
+          <span class="text-content"><span>Woodworking</span></span>
+        </li>
+
+      </ul>
+    </div>
+
+    </div>
+
+  </section>
+
+  <script>
+    L.mapbox.accessToken = 'pk.eyJ1IjoiamVubnl4aW5nMjciLCJhIjoiY2l2MDJjcHcwMDAwMTJvcmZvamExYnVhZyJ9.RrhpauICk05n9OQh2eha2g';
+
+    var geojson = {
+      "features": [{
+        "type": "Feature",
+        "properties": {
+          "marker-color": "#1087bf",
+          "marker-size": "medium",
+          "location-title": "OMERF Fabrication Space",
+          "drones-robotics": false,
+          "contact-phone": "",
+          "casting": false,
+          "access": "",
+          "woodworking": true,
+          "materia-data-archive": false,
+          "metalworking": true,
+          "location-img": "",
+          "slug": "omerf-fabrication-space",
+          "3d-scanning": false,
+          "virtual-reality": false,
+          "hours": "",
+          "contact-email": "",
+          "3d-printing": false,
+          "recording": false,
+          "building": "Observatory Mountain Engineering Research Facility",
+          "address": "675 Old Reservoir Rd Charlottesville, VA 22904",
+          "contact-position": "",
+          "contact-img": "",
+          "electronics": true,
+          "contact-name": "",
+          "computer-software": false,
+          "website": "http://www.seas.virginia.edu/acad/programs/tlp/designstudio.php",
+          "cnc-cutting": false,
+          "room": "",
+          "description": "The ultimate in out-of-the-way-so-we-can-prototype-what-we-want spaces, the Fabrication studio has more robust capabilities for woodworking and electronics prototyping. http://goo.gl/maps/iQZD"
+        },
+        "geometry": {
+          "coordinates": [-78.521119,
+            38.035491
+          ],
+          "type": "Point"
+        },
+        "id": "1d344290de042921362912c3683b4a5f"
+      }, {
+        "type": "Feature",
+        "properties": {
+          "marker-color": "#1087bf",
+          "marker-size": "medium",
+          "location-title": "Robertson Media Center",
+          "drones-robotics": true,
+          "contact-phone": "",
+          "casting": false,
+          "access": "Open access.",
+          "woodworking": false,
+          "materia-data-archive": true,
+          "metalworking": false,
+          "location-img": "",
+          "slug": "robertson-media-center",
+          "3d-scanning": true,
+          "virtual-reality": false,
+          "hours": "Everyday 10 AM - Midnight",
+          "contact-email": "",
+          "3d-printing": false,
+          "recording": true,
+          "building": "Clemons Library",
+          "address": "Newcomb Rd N, Charlottesville, VA 22904",
+          "contact-position": "",
+          "contact-img": "",
+          "electronics": false,
+          "contact-name": "",
+          "computer-software": true,
+          "website": "http://static.lib.virginia.edu/directory/libraries.html#robertson-media-center",
+          "cnc-cutting": false,
+          "room": "3rd floor",
+          "description": "The Robertson Media Center (RMC) is located on the third floor of Clemons Library and is adjacent to the Digital Media Lab. The Center offers digital media services, including digital audio/video/3D capture and editing, desktop publishing and technical instruction, and analog and digital media collections and services, and provides expertise, equipment, and resources for the use and development of media materials in instruction and research.\n\nThe Center has a variety of equipment available for circulation such as Flip Cams, tripods, Canon Vixia cameras, Bloggie cameras, Zoom cameras, Marantz audio recorders, USB microphones, USB optical drives, headphones, projectors, memory cards and readers, wired XLR microphones, wireless microphones, cassette audio player/recorder and a limited supply of display adapters. The equipment can not be reserved in advance and is circulated on a first-come, first-served basis from the third floor circulation desk. Equipment can not be renewed online. There are limited supplies of each type of equipment that is circulated. Equipment should be returned to the third floor desk. Library hours are available here.\n\nThe computer stations in the Center can be reserved in advance for three hour blocks of time. You may check availability and make your reservation by clicking here. A consultant is on duty when the floor is open and is available to assist with questions that arise."
+        },
+        "geometry": {
+          "coordinates": [-78.506087,
+            38.036351
+          ],
+          "type": "Point"
+        },
+        "id": "1f1758b945718621438c44444ec7cc93"
+      }, {
+        "type": "Feature",
+        "properties": {
+          "marker-color": "#1087bf",
+          "marker-size": "medium",
+          "location-title": "Props Shop",
+          "drones-robotics": false,
+          "contact-phone": "",
+          "casting": false,
+          "access": "By appointment with Steve Warner or Chris Rybitski",
+          "woodworking": true,
+          "materia-data-archive": false,
+          "metalworking": true,
+          "location-img": "",
+          "slug": "prop-shop",
+          "3d-scanning": false,
+          "virtual-reality": false,
+          "hours": "M-F 10 AM - 7 PM",
+          "contact-email": "cmf2r@virginia.edu",
+          "3d-printing": true,
+          "recording": false,
+          "building": "Culbreth Theater",
+          "address": "Culbreth Rd., Charlottesville, VA 22903",
+          "contact-position": "Property Shop Manager",
+          "contact-img": "",
+          "electronics": false,
+          "contact-name": "Sam Flippo",
+          "computer-software": false,
+          "website": "",
+          "cnc-cutting": false,
+          "room": "",
+          "description": ""
+        },
+        "geometry": {
+          "coordinates": [-78.504419,
+            38.038986
+          ],
+          "type": "Point"
+        },
+        "id": "2010c84761343fdefc887d82cd95b659"
+      }, {
+        "type": "Feature",
+        "properties": {
+          "marker-color": "#1087bf",
+          "marker-size": "medium",
+          "location-title": "Rolls Royce Rapid Prototyping Lab",
+          "drones-robotics": false,
+          "contact-phone": "434.243.3269",
+          "casting": false,
+          "access": "Submit files to our website for manufacturing and our Department folks go through an orientation for use of the machines.",
+          "woodworking": false,
+          "materia-data-archive": false,
+          "metalworking": false,
+          "location-img": "",
+          "slug": "rapid-prototyping-lab",
+          "3d-scanning": false,
+          "virtual-reality": false,
+          "hours": "Not open to the public.",
+          "contact-email": "dwight@virginia.edu",
+          "3d-printing": true,
+          "recording": false,
+          "building": "Mechanical & Aerospace Engineering Building",
+          "address": "122 Engineer's Way, Charlottesville, VA 22903",
+          "contact-position": "Design Lab Engineer",
+          "contact-img": "",
+          "electronics": false,
+          "contact-name": "Dwight Dart",
+          "computer-software": true,
+          "website": "http://rpl.mae.virginia.edu/",
+          "cnc-cutting": false,
+          "room": "217",
+          "description": "Located in the Department of Mechanical and Aerospace Engineering, within the School of Engineering and Applied Science. The RPL is a state-of-the-art advanced manufacturing facility that provides Design, 3D Printing, Laser Cutting, and CNC machining services to our students, faculty, staff, and external clients. We welcome sponsored research projects and grant collaborations."
+        },
+        "geometry": {
+          "coordinates": [-78.510973,
+            38.032812
+          ],
+          "type": "Point"
+        },
+        "id": "211a3099f1fd0eea4879641818ea9de3"
+      }, {
+        "type": "Feature",
+        "properties": {
+          "marker-color": "#1087bf",
+          "marker-size": "medium",
+          "location-title": "BME Design Lab",
+          "drones-robotics": false,
+          "contact-phone": "",
+          "casting": false,
+          "access": "Key card access only",
+          "woodworking": "",
+          "materia-data-archive": false,
+          "metalworking": false,
+          "location-img": "",
+          "slug": "bme-design-lab",
+          "3d-scanning": false,
+          "virtual-reality": false,
+          "hours": "",
+          "contact-email": "uvamedicalinnovation@gmail.com",
+          "3d-printing": true,
+          "recording": true,
+          "building": "MR5 Building, U.Va. School of Medicine",
+          "address": "298 15th St SW, Charlottesville, VA 22903",
+          "contact-position": "Program Director and Faculty in BME",
+          "contact-img": "",
+          "electronics": true,
+          "contact-name": "David Chen",
+          "computer-software": false,
+          "website": "http://bme.virginia.edu/undergraduate/research_design.html",
+          "cnc-cutting": true,
+          "room": "",
+          "description": ""
+        },
+        "geometry": {
+          "coordinates": [-78.501042,
+            38.030919
+          ],
+          "type": "Point"
+        },
+        "id": "211bc81920c1d7d4ea6d96cf3b0ecefc"
+      }, {
+        "type": "Feature",
+        "properties": {
+          "marker-color": "#1087bf",
+          "marker-size": "medium",
+          "location-title": "Drama Scene Shop",
+          "drones-robotics": false,
+          "contact-phone": "434.924.8967",
+          "casting": false,
+          "access": "By appointment with Steve Warner or Chris Rybitski",
+          "woodworking": true,
+          "materia-data-archive": false,
+          "metalworking": true,
+          "location-img": "",
+          "slug": "drama-scene-shop",
+          "3d-scanning": false,
+          "virtual-reality": false,
+          "hours": "M-F 1-5 PM M-F 10 AM - 7 PM",
+          "contact-email": "cmr4gr@virginia.edu",
+          "3d-printing": true,
+          "recording": false,
+          "building": "Culbreth Theater",
+          "address": "Culbreth Rd., Charlottesville, VA 22903",
+          "contact-position": "Shop Foreman",
+          "contact-img": "",
+          "electronics": false,
+          "contact-name": "Chris Rybitski",
+          "computer-software": false,
+          "website": "",
+          "cnc-cutting": false,
+          "room": "",
+          "description": "The Scene Shop in the Drama Department is primarily used to produce the stage sets and props for performances. The shop has tools for welding, woodworking, metal cutting, a hot wire cutter, a hand held plasma cutter, a vacuum former, and a paint frame that can rig up large projects. The shop teaches workshops about welding, vacuum forming, rigging and flying, OSHA, and Arduino micro controllers. There is also a basketball hoop that takes advantage of the high ceilings. All tools are accessible to students outside of the depart ment who have had safety training."
+        },
+        "geometry": {
+          "coordinates": [-78.50426,
+            38.03887
+          ],
+          "type": "Point"
+        },
+        "id": "39585a876088f56114b01f8b25ca95a5"
+      }, {
+        "type": "Feature",
+        "properties": {
+          "marker-color": "#1087bf",
+          "marker-size": "medium",
+          "location-title": "BME Fabrication Space",
+          "drones-robotics": false,
+          "contact-phone": "434.243.2740",
+          "casting": false,
+          "access": "By permission and in the presence of Dr. Guilford or other trained staff.",
+          "woodworking": true,
+          "materia-data-archive": false,
+          "metalworking": true,
+          "location-img": "",
+          "slug": "bme-fabrication-space",
+          "3d-scanning": false,
+          "virtual-reality": false,
+          "hours": "To be determined each semester, or by special arrangement. ",
+          "contact-email": "guilford@virginia.edu",
+          "3d-printing": true,
+          "recording": false,
+          "building": "Stacey Hall",
+          "address": "1105 W Main St Charlottesville, VA 22903",
+          "contact-position": "Associate Professor of BME (SOM), Director of Educational Innovation (SEAS)",
+          "contact-img": "",
+          "electronics": true,
+          "contact-name": "William Guilford",
+          "computer-software": false,
+          "website": "",
+          "cnc-cutting": true,
+          "room": "",
+          "description": ""
+        },
+        "geometry": {
+          "coordinates": [-78.496199,
+            38.0334
+          ],
+          "type": "Point"
+        },
+        "id": "56120db848a0c0a5b24eb4d3e5511976"
+      }, {
+        "type": "Feature",
+        "properties": {
+          "marker-color": "#1087bf",
+          "marker-size": "medium",
+          "location-title": "Ann Warrick Lacy Center",
+          "drones-robotics": false,
+          "contact-phone": "434.924.1029",
+          "casting": false,
+          "access": "Contact Sebring@virginia.edu or LacyHall@virginia.edu",
+          "woodworking": false,
+          "materia-data-archive": false,
+          "metalworking": true,
+          "location-img": "",
+          "slug": "lacy-hall",
+          "3d-scanning": false,
+          "virtual-reality": false,
+          "hours": "10-5 for newcomers",
+          "contact-email": "LacyHall@virginia.edu",
+          "3d-printing": false,
+          "recording": false,
+          "building": "Lacy Hall",
+          "address": "510 Edgemont Rd, Old Reservoir Rd, Charlottesville, VA 22903",
+          "contact-position": "Shop Manager",
+          "contact-img": "",
+          "electronics": "",
+          "contact-name": "Sebring Smith",
+          "computer-software": false,
+          "website": "http://lacy.seas.virginia.edu/",
+          "cnc-cutting": true,
+          "room": "",
+          "description": "The 20,000-square-foot, four-story Lacy Hall was designed and constructed to support the needs of students engaged in experiential learning. The Ann Warrick Lacy Experiential Center is located on the third and fourth floors of the building. The third floor, which is at ground level, has large open spaces and a front door large enough to accommodate a vehicle. The fourth floor is divided into various areas, in an open design specifically intended to foster student interaction.\n\nPrograms and team activities that were previously distributed throughout the Engineering School and elsewhere are now gathered in the building, providing opportunities for students from different teams to help each other in common areas of technology. Students will have access to modern machine tools, including rapid prototyping tools that support the manufacture of parts and devices from computer designs."
+        },
+        "geometry": {
+          "coordinates": [-78.518568,
+            38.035848
+          ],
+          "type": "Point"
+        },
+        "id": "57b104ed9ec0a88159d0ccb09c947462"
+      }, {
+        "type": "Feature",
+        "properties": {
+          "marker-color": "#1087bf",
+          "marker-size": "medium",
+          "location-title": "Ruffin Hall Wood and Metal Shop",
+          "drones-robotics": false,
+          "contact-phone": "",
+          "casting": true,
+          "access": "Faculty-keys, staff-ID, students have access only when shop is open",
+          "woodworking": true,
+          "materia-data-archive": false,
+          "metalworking": true,
+          "location-img": "",
+          "slug": "ruffin-hall-wood-metal-shop",
+          "3d-scanning": false,
+          "virtual-reality": false,
+          "hours": "30-35 hours per week.  Hours not established for Fall 2016 yet",
+          "contact-email": "ems3z@virginia.edu",
+          "3d-printing": true,
+          "recording": false,
+          "building": "Ruffin Hall",
+          "address": "179 Culbreth Rd, Charlottesville, VA 22903",
+          "contact-position": "Studio/Gallery Tech/Safety Officer",
+          "contact-img": "",
+          "electronics": false,
+          "contact-name": "Eric Schmidt",
+          "computer-software": false,
+          "website": "",
+          "cnc-cutting": false,
+          "room": "122, 121",
+          "description": "The Mcintire Department of Art is host to a little known sculpture shop in Ruffin Hall. Beyond tradition- al wood-working equipment the shop has a pneumatic stone carver, sand blaster, Mig welders, and a bronze foundry. The shop space is primarily used by sculpture students in the art department to complete projects and produce shows, but other students are welcome to be trained on the tools. Most students are trained during class time, but TA's are available outside of class hours.\n\nThe Ruffin Shop would like to collaborate with more departments in the future on projects that will help make the Arts more visible around Grounds. Like most shops, they are looking for more space to house new tools, such as a joiner and planar for reclaim wood re- processing. The shop is also looking to acquire a lathe, a ring roller, a plate shear, and a brake."
+        },
+        "geometry": {
+          "coordinates": [-78.503156,
+            38.039267
+          ],
+          "type": "Point"
+        },
+        "id": "6c2443012b49e0a0d1901c16cb393bad"
+      }, {
+        "type": "Feature",
+        "properties": {
+          "marker-color": "#1087bf",
+          "marker-size": "medium",
+          "location-title": "Milton Airfield Hangar",
+          "drones-robotics": false,
+          "contact-phone": "434.924.6443",
+          "casting": false,
+          "access": "After an initial project submittal and a training, groups can gain access to the space.  The Landscape Lab uses the buddy system.  Any shop use in the hangar uses a three buddy system.  (Engineering has a different system.)  All projects must be on the radar of Fritz Franke (frf1z@virginia.edu) who is the larger site coordinator.",
+          "woodworking": true,
+          "materia-data-archive": false,
+          "metalworking": true,
+          "location-img": "",
+          "slug": "milton-airfield-hangar",
+          "3d-scanning": false,
+          "virtual-reality": false,
+          "hours": "",
+          "contact-email": "goldman@virginia.edu",
+          "3d-printing": false,
+          "recording": false,
+          "building": "Milton Airfield",
+          "address": "2300 Milton Road Charlottesville, VA 22902",
+          "contact-position": "Fabrication Facilities Manager",
+          "contact-img": "",
+          "electronics": false,
+          "contact-name": "Melissa Goldman",
+          "computer-software": false,
+          "website": "http://www.arch.virginia.edu/fabrication",
+          "cnc-cutting": false,
+          "room": "",
+          "description": "The airport hangar at Milton Airfield has a fully equipped woodshop and space for full scale prototyping and design/build projects. In the past, projects at Milton have included ecoMOD, reCOVER, and the Elizabeth River Learning Barge. Studios and courses building at this large scale can coordinate space and schedule through Melissa on a semester basis."
+        },
+        "geometry": {
+          "coordinates": [-78.394788,
+            37.992467
+          ],
+          "type": "Point"
+        },
+        "id": "7264578e8cea509627093fe38602bc3e"
+      }, {
+        "type": "Feature",
+        "properties": {
+          "marker-color": "#1087bf",
+          "marker-size": "medium",
+          "location-title": "Fine Arts Library/Materials Collection",
+          "drones-robotics": false,
+          "contact-phone": "434.924.8967",
+          "casting": false,
+          "access": "The Materials Collection is available for browsing any time the Fine Arts Library is open.  If you require consultation or wish to schedule a visit for a class, please contact us in advance so we can make arrangements.",
+          "woodworking": false,
+          "materia-data-archive": true,
+          "metalworking": false,
+          "location-img": "",
+          "slug": "library-materials-collection",
+          "3d-scanning": false,
+          "virtual-reality": false,
+          "hours": "The collection is open for browsing any time the Fine Arts Library is open.  Library hours are posted on the website.",
+          "contact-email": "rac8f@virginia.edu",
+          "3d-printing": false,
+          "recording": false,
+          "building": "Fiske Kimball Fine Arts Library",
+          "address": "Bayly Dr, Charlottesville, VA 22903",
+          "contact-position": "Research Librarian for Architecture",
+          "contact-img": "",
+          "electronics": false,
+          "contact-name": "Rebecca Coleman",
+          "computer-software": true,
+          "website": "https://www.library.virginia.edu/libraries/#fine-arts",
+          "cnc-cutting": false,
+          "room": "",
+          "description": "The Fiske Kimball Fine Arts Library provides research support and collections for the School of Architecture and the subjects of Art, Art History, and European Archeology. We offer research and digital tool consultation, resources for image scanning, and spaces for quiet and collaborative study.  In addition, the Fine Arts Library features the Niche, a venue for new video art and the Faculty R-Lab, a reservable space dedicated to faculty collaborative work."
+        },
+        "geometry": {
+          "coordinates": [-78.503434,
+            38.039003
+          ],
+          "type": "Point"
+        },
+        "id": "90b6478863c0777c4c37ef1d5f8ff4b2"
+      }, {
+        "type": "Feature",
+        "properties": {
+          "marker-color": "#1087bf",
+          "marker-size": "medium",
+          "location-title": "Scholars' Lab Makerspace",
+          "drones-robotics": false,
+          "contact-phone": "",
+          "casting": false,
+          "access": "Walk Ins Welcome or email ahead slabmakerspace@virginia.edu",
+          "woodworking": false,
+          "materia-data-archive": true,
+          "metalworking": false,
+          "location-img": "",
+          "slug": "scholars-lab",
+          "3d-scanning": false,
+          "virtual-reality": true,
+          "hours": "M-T 1-7 PM, F 1-5 PM",
+          "contact-email": "slabmakerspace@virginia.edu",
+          "3d-printing": true,
+          "recording": false,
+          "building": "Alderman Library",
+          "address": "160 McCormick Rd, Charlottesville, VA 22904",
+          "contact-position": "Makerspace Technologist",
+          "contact-img": "",
+          "electronics": true,
+          "contact-name": "Ammon Shepherd",
+          "computer-software": true,
+          "website": "http://scholarslab.org/makerspace",
+          "cnc-cutting": false,
+          "room": "419",
+          "description": "The Scholars' Lab Makerspace is a place for tinkering and experimentation with technologies like desktop fabrication, physical computing, and augmented reality. Open to everyone, we specialize in applications and research questions in the humanities and arts.\n\nInterested in exploring the Makerspace? Have an idea to use microcontrollers or 3D modeling and printing technology to enhance your research or differently interrogate your assumptions? The Makerspace is open from 1:00-5:00 p.m. Monday through Friday. Stop by to talk to one of our student consultants, attend our maker workshops, or contact us at scholarslab@virginia.edu to schedule an appointment with Scholars' Lab faculty and staff to discuss your planned project."
+        },
+        "geometry": {
+          "coordinates": [-78.505372,
+            38.036455
+          ],
+          "type": "Point"
+        },
+        "id": "aa32979ea39e71ffe3ac815cee2d65ec"
+      }, {
+        "type": "Feature",
+        "properties": {
+          "marker-color": "#1087bf",
+          "marker-size": "medium",
+          "location-title": "i.Lab",
+          "drones-robotics": false,
+          "contact-phone": "",
+          "casting": false,
+          "access": "",
+          "woodworking": false,
+          "materia-data-archive": false,
+          "metalworking": false,
+          "location-img": "",
+          "slug": "ilab",
+          "3d-scanning": false,
+          "virtual-reality": false,
+          "hours": "",
+          "contact-email": "touved@ilab.virginia.edu",
+          "3d-printing": false,
+          "recording": false,
+          "building": "i.Lab at U.Va.",
+          "address": "621 Nash Dr, Charlottesville, VA 22901",
+          "contact-position": "Director of the i.Lab",
+          "contact-img": "",
+          "electronics": false,
+          "contact-name": "David Touve",
+          "computer-software": false,
+          "website": "http://www.ilabatuva.org/",
+          "cnc-cutting": true,
+          "room": "",
+          "description": "The i.Lab is a University-wide initiative that creates a nexus for entrepreneurship and innovation education. Its mission is to foster deep cross-collaboration with no boundaries, across disciplines, schools or ways of thinking. The i.Lab provides coaching, courses and incubation to students, faculty and community members innovating the future. Initiatives such as the i.Lab help create a robust entrepreneurial ecosystem within U.Va. and its surrounding community. The i.Lab is a collaborative effort of 11 schools of the University, the Provost's Office, and U.Va. Innovation."
+        },
+        "geometry": {
+          "coordinates": [-78.511498,
+            38.052893
+          ],
+          "type": "Point"
+        },
+        "id": "e001cc4baf5c90ecade4b6d76c243c4f"
+      }, {
+        "type": "Feature",
+        "properties": {
+          "marker-color": "#1087bf",
+          "marker-size": "medium",
+          "location-title": "A-School FabLab",
+          "drones-robotics": false,
+          "contact-phone": "434.924.6443",
+          "casting": true,
+          "access": "After an initial FabLab training, users gain access to the certain shop spaces and then can gain access to certain advanced tools through the Shops Short Courses (SSCs) taught throughout the semester.  Faculty and staff can schedule specific class or group SSCs with the Fabrication Facilities Manager.",
+          "woodworking": true,
+          "materia-data-archive": false,
+          "metalworking": false,
+          "location-img": "",
+          "slug": "a-school-fablab",
+          "3d-scanning": false,
+          "virtual-reality": false,
+          "hours": "",
+          "contact-email": "goldman@virginia.edu",
+          "3d-printing": true,
+          "recording": false,
+          "building": "Campbell Hall",
+          "address": "Carrs Hill Rd, Charlottesville, VA 22903",
+          "contact-position": "Fabrication Facilities Manager",
+          "contact-img": "",
+          "electronics": false,
+          "contact-name": "Melissa Goldman",
+          "computer-software": false,
+          "website": "http://www.arch.virginia.edu/fabrication",
+          "cnc-cutting": true,
+          "room": "122",
+          "description": "There are three main facilities: the Woodshop with the Victor Elmaleh Fabrications Lab, the CNC Lab, and the Milton Airport Facility. Students go through a mandatory training when they enter the School of Architecture, and we always welcome U.Va. students, faculty, and staff outside of the School to get trained to use the facilities."
+        },
+        "geometry": {
+          "coordinates": [-78.504014,
+            38.038761
+          ],
+          "type": "Point"
+        },
+        "id": "e6f9ccbb4eafece8ad746fcbc7e708f6"
+      }, {
+        "type": "Feature",
+        "properties": {
+          "marker-color": "#1087bf",
+          "marker-size": "medium",
+          "location-title": "Mechatronics Lab and The MILL",
+          "drones-robotics": true,
+          "contact-phone": "",
+          "casting": false,
+          "access": "These labs are primarily used for courses in Mechatronics and Machine Design.",
+          "woodworking": true,
+          "materia-data-archive": false,
+          "metalworking": true,
+          "location-img": "",
+          "slug": "mechatronics-lab-the-mill",
+          "3d-scanning": false,
+          "virtual-reality": false,
+          "hours": "Not open to the public.",
+          "contact-email": "garner@virginia.edu",
+          "3d-printing": true,
+          "recording": false,
+          "building": "Mechanical & Aerospace Engineering Building",
+          "address": "122 Engineer's Way, Charlottesville, VA 22903",
+          "contact-position": "Assistant Professor of Mechanical & Aerospace Engineering",
+          "contact-img": "",
+          "electronics": true,
+          "contact-name": "Gavin T. Garner",
+          "computer-software": false,
+          "website": "https://gavitronics.com/about/mechatronics-lab/",
+          "cnc-cutting": false,
+          "room": "204, B014",
+          "description": "Mechatronics involves the synergistic integration of Mechanical Engineering with electronics and intelligent computer control in the design and manufacture of industrial products and processes.\n\nIn U.Va.'s Mechatronics Lab, students fuse theory and practice, bringing together principles of mechanical, electrical, and software engineering. Here students learn how to integrate microcontrollers, sensors, and smart actuators when designing state-of-the-art mechanisms. The recent drop in cost of embedded computer technology has revolutionized the way that modern products are developed and manufactured. The Mechatronics Lab ensures that UVA's engineering students are prepared to succeed on the cutting edge of technology. For example, our current experiments teach students how to program a microcontroller chip that houses eight, parallel, 32-bit processors, is capable of executing 200 million instructions every second, and only costs about four dollars. When students learn to incorporate this type of intelligence into their machines, their devices come alive and are able to automatically adapt to changes in their environment, that is, they read data from sensors, think about it, and then decide how to move their actuators to react to any changes. In this lab, students are also introduced to basic circuit components and measurement tools such as breadboards, oscilloscopes, function generators, and digital multi-meters. Students working on projects for their senior thesis work, capstone design courses, ASME, Baja car, Hoos Flying, and countless other creative outlets offered through the University, frequently use the resources of this lab to help bring their inventions to life."
+        },
+        "geometry": {
+          "coordinates": [-78.511053,
+            38.032627
+          ],
+          "type": "Point"
+        },
+        "id": "f5ab095bb5119ebbf76d28ad0dc332c6"
+      }, {
+        "type": "Feature",
+        "properties": {
+          "marker-color": "#1087bf",
+          "marker-size": "medium",
+          "location-title": "Wilson Media and Maker Studios",
+          "drones-robotics": false,
+          "contact-phone": "",
+          "casting": false,
+          "access": "Tours are welcome during open hours. 24-hour card access is given on a case-by-case basis (generally given if asked!)",
+          "woodworking": true,
+          "materia-data-archive": false,
+          "metalworking": false,
+          "location-img": "",
+          "slug": "wilson-hall-maker-studio",
+          "3d-scanning": false,
+          "virtual-reality": false,
+          "hours": "10-4pm",
+          "contact-email": "jasonb@virginia.edu",
+          "3d-printing": true,
+          "recording": true,
+          "building": "Wilson Hall",
+          "address": "Wilson Hall Charlottesville, VA 22903",
+          "contact-position": "Maker Space Specialist",
+          "contact-img": "",
+          "electronics": true,
+          "contact-name": "Jason Bennett",
+          "computer-software": true,
+          "website": "http://music.virginia.edu/maker-space",
+          "cnc-cutting": true,
+          "room": "141",
+          "description": ""
+        },
+        "geometry": {
+          "coordinates": [-78.504016,
+            38.032469
+          ],
+          "type": "Point"
+        },
+        "id": "fe695ec5db06c7dbb40b7b9116b7c16a"
+      }, {
+        "type": "Feature",
+        "properties": {
+          "marker-color": "#1087bf",
+          "marker-size": "medium",
+          "location-title": "Lacy Design Lab",
+          "drones-robotics": false,
+          "contact-phone": "",
+          "casting": false,
+          "access": "Open hours, evenings and weekends",
+          "woodworking": false,
+          "materia-data-archive": false,
+          "metalworking": false,
+          "location-img": "",
+          "slug": "rice-120",
+          "3d-scanning": false,
+          "virtual-reality": false,
+          "hours": "Most evenings; Sunday afternoon",
+          "contact-email": "gcl8a@virginia.edu",
+          "3d-printing": true,
+          "recording": false,
+          "building": "Rice Hall",
+          "address": "85 Engineer's Way, Charlottesville, VA 22903",
+          "contact-position": "Engineering Supergenius (aka. \"Lecturer\")",
+          "contact-img": "",
+          "electronics": true,
+          "contact-name": "Greg Lewin",
+          "computer-software": false,
+          "website": "http://www.seas.virginia.edu/acad/programs/tlp/designstudio.php",
+          "cnc-cutting": false,
+          "room": "120",
+          "description": "We outfitted the Rice 120 Lacy Design Studio for use by all Introduction to Engineering (ENGR 1620) students. Included are:\n\n4 Afinia 3d printers -- Afinia 3D printer instructions\nPrototyping bins filled with materials for quick ideation-oriented prototyping\nA Silhouette Die-cutter for 2d prototyping -- Silhouette die-cutter instructions\nFoam and foamwork tools\nA soldering and electronics workstation\nOur customized z-rack whiteboards\nTools and a Parts Cart with a random collection of materials"
+        },
+        "geometry": {
+          "coordinates": [-78.510875,
+            38.031631
+          ],
+          "type": "Point"
+        },
+        "id": "fe764df1158f975279a2ba8bceb30176"
+      }],
+      "type": "FeatureCollection"
+    }
+
+    var map = L.mapbox.map('map', 'mapbox.streets')
+      .setView([38.035544, -78.508186], 14.55)
+
+    var markers = L.mapbox.featureLayer().addTo(map);
+
+    markers.on('layeradd', function(e) {
+      var marker = e.layer,
+        feature = marker.feature;
+      var content = '<h2>' + feature.properties["location-title"] + '</h2>';
+      marker.bindPopup(content);
+    });
+
+    markers.setGeoJSON(geojson);
+
+    $('.filter_container img').on('click', function() {
+      // For each filter link, get the 'data-filter' attribute value.
+      var filter = $(this).data('filter');
+
+      $(this).addClass('active').siblings().removeClass('active');
+      markers.setFilter(function(f) {
+        // If the data-filter attribute is set to "all", return
+        // all (true). Otherwise, filter on markers that have
+        // a value set to true based on the filter name.
+        return (filter === 'all') ? true : f.properties[filter] === true;
+      });
+      return false;
+    });
+  </script>
+
+  <!-- <img alt="Map of locations." id="map-image" src="img/makermap.png" class="img-responsive"/> -->
+</section>
