@@ -60,3 +60,7 @@ span.text-content {
     -moz-background-size: cover;
     -o-background-size: cover;
 }
+
+.location-popups {
+  word-break: break-all;
+}

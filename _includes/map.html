@@ -81,7 +81,7 @@
     L.mapbox.accessToken = 'pk.eyJ1IjoiamVubnl4aW5nMjciLCJhIjoiY2l2MDJjcHcwMDAwMTJvcmZvamExYnVhZyJ9.RrhpauICk05n9OQh2eha2g';
 
     var map = L.mapbox.map('map', 'mapbox.streets')
-      .setView([38.035544, -78.508186], 14.55)
+      .setView([38.035544, -78.508186], 15.55)
 
     if (map.scrollWheelZoom) {
       map.scrollWheelZoom.disable();
@@ -94,8 +94,11 @@
     markers.on('layeradd', function(e) {
       var marker = e.layer,
         feature = marker.feature;
-      var content = '<h2>' + feature.properties["location-title"] + '</h2>';
-      marker.bindPopup(content);
+      var content = '<h2><b>' + feature.properties["location-title"] + '</b></h2>';
+      var websiteName = '<p><a href="url" target="blank">' + feature.properties["website"] + '</a><p>'
+      var popup = L.popup({closeButton: false, className: "location-popups"})
+      	.setContent(content + websiteName)
+      marker.bindPopup(popup);
     });
 
     $('.filter_container img').on('click', function() {
