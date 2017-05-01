@@ -13,6 +13,31 @@
 
     </div>
 
+    <!-- creates overlay of locations on right -->
+    <ul class="locations-list">
+      {% for place in site.data.makergrounds %}
+      <li style="cursor: pointer;" slug = {{place.slug}} onClick="openPopup(this)">{{ place.title }}</li>
+      {% endfor %}
+    </ul>
+
+
+    <script>
+    // sorts list of locations created above
+    var items = $('.locations-list li').get();
+      items.sort(function(a,b){
+        var keyA = $(a).text().toLowerCase();
+        var keyB = $(b).text().toLowerCase();
+
+        if (keyA < keyB) return -1;
+        if (keyA > keyB) return 1;
+        return 0;
+      });
+      var ul = $('.locations-list');
+      $.each(items, function(i, li){
+        ul.append(li);
+      });
+    </script>
+
     <div style="height: 4px; width: 100%;background-color: #03a9f4; overflow: hidden"></div>
     <div class="filter_container">
       <div style="font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif; font-size: 20px; color:#989898;">Filter:</div>
@@ -85,7 +110,7 @@
     L.mapbox.accessToken = 'pk.eyJ1IjoiamVubnl4aW5nMjciLCJhIjoiY2l2MDJjcHcwMDAwMTJvcmZvamExYnVhZyJ9.RrhpauICk05n9OQh2eha2g';
 
     var map = L.mapbox.map('map', 'mapbox.streets')
-      .setView([38.035544, -78.508186], 15.55)
+      .setView([38.035544, -78.505186], 15.55)
 
     if (map.scrollWheelZoom) {
       map.scrollWheelZoom.disable();
@@ -95,9 +120,12 @@
       .loadURL('map-files/makergrounds-data.geojson')
       .addTo(map);
 
+    var slug_to_marker = [];
     markers.on('layeradd', function(e) {
       var marker = e.layer,
         feature = marker.feature;
+
+      slug_to_marker[feature.properties["slug"]] = marker;
       var content = '<h2><b>' + feature.properties["location-title"] + '</b></h2>';
       var websiteName = '<p><a href="url" target="blank">' + feature.properties["website"] + '</a><p>'
 
@@ -118,6 +146,11 @@
       marker.bindPopup(popup);
     });
 
+    function openPopup(self){
+      console.log(slug_to_marker)
+      console.log(self.getAttribute("slug"))
+      slug_to_marker[self.getAttribute("slug")].openPopup();
+    }
     $('.filter_container img').on('click', function() {
       // For each filter link, get the 'data-filter' attribute value.
       var filter = $(this).data('filter');
