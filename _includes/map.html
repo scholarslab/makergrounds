@@ -1,6 +1,5 @@
 <section class="bg-dark">
   <div class="text-center">
-    <a name="map"></a>
     <h2>Makers Map</h2>
   </div>
   <div id='map' style='width: 400px; height: 300px;'></div>
@@ -13,11 +12,166 @@
   </script>
 </section>
 
-<section class="no-padding" id="portfolio">
-    <div class="container-fluid">
-        <div class="row no-gutter">
-          <img src="img/makermap.png" class="img-responsive"/>
-        </div>
-    </div>
-</section>
+<section class="no-padding mx-auto" id="portfolio">
 
+
+  <section style="position: relative;overflow: hidden;">
+
+    <div id="map" class="map">
+
+    </div>
+
+    <!-- creates overlay of locations on right -->
+    <ul class="locations-list">
+      {% for place in site.data.makergrounds %}
+      <li style="cursor: pointer;" slug = {{place.slug}} onClick="openPopup(this)">{{ place.title }}</li>
+      {% endfor %}
+    </ul>
+
+
+    <script>
+    // sorts list of locations created above
+    var items = $('.locations-list li').get();
+      items.sort(function(a,b){
+        var keyA = $(a).text().toLowerCase();
+        var keyB = $(b).text().toLowerCase();
+
+        if (keyA < keyB) return -1;
+        if (keyA > keyB) return 1;
+        return 0;
+      });
+      var ul = $('.locations-list');
+      $.each(items, function(i, li){
+        ul.append(li);
+      });
+    </script>
+
+    <div style="height: 4px; width: 100%;background-color: #03a9f4; overflow: hidden"></div>
+    <div class="filter_container">
+      <div style="font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif; font-size: 20px; color:#989898;">Filter:</div>
+      <ul class="img-list">
+        <li>
+          <img src="icons/raw/show-all.svg" data-filter="all">
+          <span class="text-content"><span>Show All</span></span>
+        </li>
+        <li>
+          <img src="icons/raw/3d-printing.svg" data-filter="3d-printing" >
+          <span class="text-content"><span>3D Printing</span></span>
+        </li>
+        <li>
+          <img src="icons/raw/3d-scanning.svg" data-filter="3d-scanning" >
+          <span class="text-content"><span>3D Scanning</span></span>
+        </li>
+        <li>
+          <img src="icons/raw/casting.svg" data-filter="casting" >
+          <span class="text-content"><span>Casting</span></span>
+        </li>
+        <li>
+          <img src="icons/raw/cnc-cutting.svg" data-filter="cnc-cutting" >
+          <span class="text-content"><span>CNC Cutting</span></span>
+        </li>
+        <li>
+          <img src="icons/raw/computer-software.svg" data-filter="computer-software" >
+          <span class="text-content"><span>Computer + Software</span></span>
+        </li>
+        <li>
+          <img src="icons/raw/drones.svg" data-filter="drones" >
+          <span class="text-content"><span>Drones</span></span>
+        </li>
+        <li>
+          <img src="icons/raw/robotics.svg" data-filter="robotics" >
+          <span class="text-content"><span>Robotics</span></span>
+        </li>
+        <li>
+          <img src="icons/raw/electronics.svg" data-filter="electronics" >
+          <span class="text-content"><span>Electronics</span></span>
+        </li>
+        <li>
+          <img src="icons/raw/material-data-archive.svg" data-filter="material-data-archive" >
+          <span class="text-content"><span>Material/Data Archive</span></span>
+        </li>
+        <li>
+          <img src="icons/raw/metalworking.svg" data-filter="metalworking" >
+          <span class="text-content"><span>Metalworking</span></span>
+        </li>
+        <li>
+          <img src="icons/raw/recording.svg" data-filter="recording" >
+          <span class="text-content"><span>Recording</span></span>
+        </li>
+        <li>
+          <img src="icons/raw/virtual-reality.svg" data-filter="virtual-reality" >
+          <span class="text-content"><span>Virtual Reality</span></span>
+        </li>
+        <li>
+          <img src="icons/raw/woodworking.svg" data-filter="woodworking" >
+          <span class="text-content"><span>Woodworking</span></span>
+        </li>
+
+      </ul>
+    </div>
+
+    </div>
+
+  </section>
+
+  <script>
+    L.mapbox.accessToken = 'pk.eyJ1IjoiamVubnl4aW5nMjciLCJhIjoiY2l2MDJjcHcwMDAwMTJvcmZvamExYnVhZyJ9.RrhpauICk05n9OQh2eha2g';
+
+    var map = L.mapbox.map('map', 'mapbox.streets')
+      .setView([38.035544, -78.505186], 15.55)
+
+    if (map.scrollWheelZoom) {
+      map.scrollWheelZoom.disable();
+    }
+
+    var markers = L.mapbox.featureLayer()
+      .loadURL('map-files/makergrounds-data.geojson')
+      .addTo(map);
+
+    var slug_to_marker = [];
+    markers.on('layeradd', function(e) {
+      var marker = e.layer,
+        feature = marker.feature;
+
+      slug_to_marker[feature.properties["slug"]] = marker;
+      var content = '<h2><b>' + feature.properties["location-title"] + '</b></h2>';
+      var websiteName = '<p><a href="url" target="blank">' + feature.properties["website"] + '</a><p>'
+
+      var iconsList = '<div class="location-icons-container"><ul class="location-icons-list">';
+      //this code assumes that the only booleans in feature.properties are booleans saying if that location has or doesn't have a filter.
+      for (key in feature.properties){
+        // console.log(key)
+        if (feature.properties[key]==true){
+          iconsList += '<li>'
+            + '<img src="icons/raw/' + key + '.svg">'
+            + '</li>'
+        }
+      }
+      iconsList += "</ul></div>";
+
+      var popup = L.popup({closeButton: false, className: "location-popups"})
+      	.setContent(content + websiteName + iconsList)
+      marker.bindPopup(popup);
+    });
+
+    function openPopup(self){
+      console.log(slug_to_marker)
+      console.log(self.getAttribute("slug"))
+      slug_to_marker[self.getAttribute("slug")].openPopup();
+    }
+    $('.filter_container img').on('click', function() {
+      // For each filter link, get the 'data-filter' attribute value.
+      var filter = $(this).data('filter');
+
+      $(this).addClass('active').siblings().removeClass('active');
+      markers.setFilter(function(f) {
+        // If the data-filter attribute is set to "all", return
+        // all (true). Otherwise, filter on markers that have
+        // a value set to true based on the filter name.
+        return (filter === 'all') ? true : f.properties[filter] === true;
+      });
+      return false;
+    });
+  </script>
+
+</section>
