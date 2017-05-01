@@ -38,6 +38,40 @@ ul.img-list li {
     width: 50px;
 }
 
+
+.location-icons-container {
+    width: 100%;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.location-icons-container ul{
+    margin: 10px 10px 10px 10px;
+}
+
+.location-icons-container li{
+    display: inline;
+}
+
+.location-icons-container li img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+ul.location-icons-list {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0px;
+    text-align: center;
+}
+
+ul.location-icons-list li {
+    display: inline;
+    margin: 5px 5px 5px 5px;;
+    position: relative;
+}
+
 span.text-content {
     text-align: center;
     background: rgba(201, 201, 201, 0);

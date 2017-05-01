@@ -100,8 +100,21 @@
         feature = marker.feature;
       var content = '<h2><b>' + feature.properties["location-title"] + '</b></h2>';
       var websiteName = '<p><a href="url" target="blank">' + feature.properties["website"] + '</a><p>'
+
+      var iconsList = '<div class="location-icons-container"><ul class="location-icons-list">';
+      //this code assumes that the only booleans in feature.properties are booleans saying if that location has or doesn't have a filter.
+      for (key in feature.properties){
+        // console.log(key)
+        if (feature.properties[key]==true){
+          iconsList += '<li>'
+            + '<img src="icons/raw/' + key + '.svg">'
+            + '</li>'
+        }
+      }
+      iconsList += "</ul></div>";
+
       var popup = L.popup({closeButton: false, className: "location-popups"})
-      	.setContent(content + websiteName)
+      	.setContent(content + websiteName + iconsList)
       marker.bindPopup(popup);
     });
 
