@@ -20,7 +20,6 @@
       {% endfor %}
     </ul>
 
-
     <script>
     // sorts list of locations created above
     var items = $('.locations-list li').get();
@@ -127,6 +126,7 @@
 
       slug_to_marker[feature.properties["slug"]] = marker;
       var content = '<h2><b>' + feature.properties["location-title"] + '</b></h2>';
+      var locationTitle = '<h2><b><a class="location-popup-title" href="http://makergrounds.virginia.edu/locations/' + feature.properties["slug"] + '.html" target="blank">' + feature.properties["location-title"] + '</a></b></h2>';
       var websiteName = '<p><a href="url" target="blank">' + feature.properties["website"] + '</a><p>'
 
       var iconsList = '<div class="location-icons-container"><ul class="location-icons-list">';
@@ -142,7 +142,7 @@
       iconsList += "</ul></div>";
 
       var popup = L.popup({closeButton: false, className: "location-popups"})
-      	.setContent(content + websiteName + iconsList)
+      	.setContent(locationTitle + websiteName + iconsList)
       marker.bindPopup(popup);
     });
 
@@ -160,8 +160,6 @@
     $('.filter_container img').on('click', function() {
       // For each filter link, get the 'data-filter' attribute value.
       var filter = $(this).data('filter');
-
-      $(this).addClass('active').siblings().removeClass('active');
       markers.setFilter(function(f) {
         // If the data-filter attribute is set to "all", return
         // all (true). Otherwise, filter on markers that have
