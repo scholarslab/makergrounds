@@ -151,6 +151,12 @@
       console.log(self.getAttribute("slug"))
       slug_to_marker[self.getAttribute("slug")].openPopup();
     }
+    // $.each($('.locations-list li'), function(i, location){
+    //   location.on('click', function(e){
+    //     console.log(location.getAttribute("slug"))
+    //   })
+    // });
+
     $('.filter_container img').on('click', function() {
       // For each filter link, get the 'data-filter' attribute value.
       var filter = $(this).data('filter');

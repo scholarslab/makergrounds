@@ -126,3 +126,12 @@ span.text-content {
 .location-popups {
   word-break: break-all;
 }
+
+a.location-popup-title:link{
+  text-decoration:underline;
+  color: #212121;
+}
+a.location-popup-title:visited{
+  text-decoration:underline;
+  color: #212121;
+}
