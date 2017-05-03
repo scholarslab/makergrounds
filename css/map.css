@@ -135,3 +135,7 @@ a.location-popup-title:visited{
   text-decoration:underline;
   color: #212121;
 }
+
+.active span.text-content{
+  color: #1087bf;
+}

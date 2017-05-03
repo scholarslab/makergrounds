@@ -41,60 +41,60 @@
     <div class="filter_container">
       <div style="font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif; font-size: 20px; color:#989898;">Filter:</div>
       <ul class="img-list">
-        <li>
-          <img src="icons/raw/show-all.svg" data-filter="all">
+        <li class="filter-item active" data-filter="all">
+          <img src="icons/raw/show-all.svg">
           <span class="text-content"><span>Show All</span></span>
         </li>
-        <li>
-          <img src="icons/raw/3d-printing.svg" data-filter="3d-printing" >
+        <li class="filter-item" data-filter="3d-printing" >
+          <img src="icons/raw/3d-printing.svg">
           <span class="text-content"><span>3D Printing</span></span>
         </li>
-        <li>
-          <img src="icons/raw/3d-scanning.svg" data-filter="3d-scanning" >
+        <li class="filter-item" data-filter="3d-scanning" >
+          <img src="icons/raw/3d-scanning.svg">
           <span class="text-content"><span>3D Scanning</span></span>
         </li>
-        <li>
-          <img src="icons/raw/casting.svg" data-filter="casting" >
+        <li class="filter-item" data-filter="casting" >
+          <img src="icons/raw/casting.svg">
           <span class="text-content"><span>Casting</span></span>
         </li>
-        <li>
-          <img src="icons/raw/cnc-cutting.svg" data-filter="cnc-cutting" >
+        <li class="filter-item" data-filter="cnc-cutting" >
+          <img src="icons/raw/cnc-cutting.svg">
           <span class="text-content"><span>CNC Cutting</span></span>
         </li>
-        <li>
-          <img src="icons/raw/computer-software.svg" data-filter="computer-software" >
+        <li class="filter-item" data-filter="computer-software" >
+          <img src="icons/raw/computer-software.svg">
           <span class="text-content"><span>Computer + Software</span></span>
         </li>
-        <li>
-          <img src="icons/raw/drones.svg" data-filter="drones" >
+        <li class="filter-item" data-filter="drones" >
+          <img src="icons/raw/drones.svg">
           <span class="text-content"><span>Drones</span></span>
         </li>
-        <li>
-          <img src="icons/raw/robotics.svg" data-filter="robotics" >
+        <li class="filter-item" data-filter="robotics" >
+          <img src="icons/raw/robotics.svg">
           <span class="text-content"><span>Robotics</span></span>
         </li>
-        <li>
-          <img src="icons/raw/electronics.svg" data-filter="electronics" >
+        <li class="filter-item" data-filter="electronics" >
+          <img src="icons/raw/electronics.svg">
           <span class="text-content"><span>Electronics</span></span>
         </li>
-        <li>
-          <img src="icons/raw/material-data-archive.svg" data-filter="material-data-archive" >
+        <li class="filter-item" data-filter="material-data-archive" >
+          <img src="icons/raw/material-data-archive.svg">
           <span class="text-content"><span>Material/Data Archive</span></span>
         </li>
-        <li>
-          <img src="icons/raw/metalworking.svg" data-filter="metalworking" >
+        <li class="filter-item" data-filter="metalworking" >
+          <img src="icons/raw/metalworking.svg">
           <span class="text-content"><span>Metalworking</span></span>
         </li>
-        <li>
-          <img src="icons/raw/recording.svg" data-filter="recording" >
+        <li class="filter-item" data-filter="recording" >
+          <img src="icons/raw/recording.svg">
           <span class="text-content"><span>Recording</span></span>
         </li>
-        <li>
-          <img src="icons/raw/virtual-reality.svg" data-filter="virtual-reality" >
+        <li class="filter-item" data-filter="virtual-reality" >
+          <img src="icons/raw/virtual-reality.svg">
           <span class="text-content"><span>Virtual Reality</span></span>
         </li>
-        <li>
-          <img src="icons/raw/woodworking.svg" data-filter="woodworking" >
+        <li class="filter-item" data-filter="woodworking" >
+          <img src="icons/raw/woodworking.svg">
           <span class="text-content"><span>Woodworking</span></span>
         </li>
 
@@ -147,26 +147,24 @@
     });
 
     function openPopup(self){
-      console.log(slug_to_marker)
-      console.log(self.getAttribute("slug"))
+      // console.log(slug_to_marker)
+      // console.log(self.getAttribute("slug"))
       slug_to_marker[self.getAttribute("slug")].openPopup();
     }
-    // $.each($('.locations-list li'), function(i, location){
-    //   location.on('click', function(e){
-    //     console.log(location.getAttribute("slug"))
-    //   })
-    // });
 
-    $('.filter_container img').on('click', function() {
-      // For each filter link, get the 'data-filter' attribute value.
-      var filter = $(this).data('filter');
-      markers.setFilter(function(f) {
+    $('.img-list li').click(function(e) {
+        e.preventDefault()
+        $(this).parent().find('li').removeClass('active');
+        $(this).addClass('active');
+
+        var filter = $(this).data('filter');
+        markers.setFilter(function(f) {
         // If the data-filter attribute is set to "all", return
         // all (true). Otherwise, filter on markers that have
         // a value set to true based on the filter name.
-        return (filter === 'all') ? true : f.properties[filter] === true;
-      });
-      return false;
+          return (filter === 'all') ? true : f.properties[filter] === true;
+        });
+        return false;
     });
   </script>
 
