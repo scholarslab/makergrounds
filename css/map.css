@@ -122,6 +122,9 @@ span.text-content {
     color: #1087bf;
 }
 
+.locations-list li.active {
+    background-color: #7fc2e2;
+}
 
 .location-popups {
   word-break: break-all;
@@ -136,6 +139,6 @@ a.location-popup-title:visited{
   color: #212121;
 }
 
-.active span.text-content{
+.img-list li.active span.text-content{
   color: #1087bf;
 }
