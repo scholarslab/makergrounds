@@ -1,0 +1,369 @@
+﻿{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#1087bf",
+        "marker-size": "medium",
+        "slug": "omerf-fabrication-space",
+        "location-title": "OMERF Fabrication Space",
+        "website": "http://www.seas.virginia.edu/acad/programs/tlp/designstudio.php",
+        "woodworking": true,
+        "metalworking": true,
+        "electronics": true
+      },
+      "geometry": {
+        "coordinates": [
+          -78.521119,
+          38.035491
+        ],
+        "type": "Point"
+      },
+      "id": "1d344290de042921362912c3683b4a5f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#1087bf",
+        "marker-size": "medium",
+        "slug": "robertson-media-center",
+        "location-title": "Robertson Media Center",
+        "website": "http://static.lib.virginia.edu/directory/libraries.html#robertson-media-center",
+        "drones": true,
+        "material-data-archive": true,
+        "3d-scanning": true,
+        "recording": true,
+        "computer-software": true
+      },
+      "geometry": {
+        "coordinates": [
+          -78.506087,
+          38.036351
+        ],
+        "type": "Point"
+      },
+      "id": "1f1758b945718621438c44444ec7cc93"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#1087bf",
+        "marker-size": "medium",
+        "slug": "prop-shop",
+        "location-title": "Props Shop ",
+        "website": "",
+        "woodworking": true,
+        "metalworking": true,
+        "3d-printing": true
+      },
+      "geometry": {
+        "coordinates": [
+          -78.504342,
+          38.039098
+        ],
+        "type": "Point"
+      },
+      "id": "2010c84761343fdefc887d82cd95b659"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#1087bf",
+        "marker-size": "medium",
+        "slug": "rapid-prototyping-lab",
+        "location-title": "Rolls Royce Rapid Prototyping Lab",
+        "website": "http://rpl.mae.virginia.edu/",
+        "3d-printing": true,
+        "computer-software": true
+      },
+      "geometry": {
+        "coordinates": [
+          -78.510846,
+          38.032769
+        ],
+        "type": "Point"
+      },
+      "id": "211a3099f1fd0eea4879641818ea9de3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#1087bf",
+        "marker-size": "medium",
+        "slug": "bme-design-lab",
+        "location-title": "BME Design Lab",
+        "website": "http://bme.virginia.edu/undergraduate/research_design.html",
+        "3d-printing": true,
+        "recording": true,
+        "electronics": true,
+        "cnc-cutting": true
+      },
+      "geometry": {
+        "coordinates": [
+          -78.501042,
+          38.030919
+        ],
+        "type": "Point"
+      },
+      "id": "211bc81920c1d7d4ea6d96cf3b0ecefc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#1087bf",
+        "marker-size": "medium",
+        "slug": "drama-scene-shop",
+        "location-title": "Drama Scene Shop",
+        "website": "",
+        "woodworking": true,
+        "metalworking": true,
+        "3d-printing": true
+      },
+      "geometry": {
+        "coordinates": [
+          -78.504143,
+          38.038822
+        ],
+        "type": "Point"
+      },
+      "id": "39585a876088f56114b01f8b25ca95a5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#1087bf",
+        "marker-size": "medium",
+        "slug": "bme-fabrication-space",
+        "location-title": "BME Fabrication Space",
+        "website": "",
+        "woodworking": true,
+        "metalworking": true,
+        "3d-printing": true,
+        "electronics": true,
+        "cnc-cutting": true
+      },
+      "geometry": {
+        "coordinates": [
+          -78.496199,
+          38.0334
+        ],
+        "type": "Point"
+      },
+      "id": "56120db848a0c0a5b24eb4d3e5511976"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#1087bf",
+        "marker-size": "medium",
+        "slug": "lacy-hall",
+        "location-title": "Ann Warrick Lacy Center",
+        "website": "http://lacy.seas.virginia.edu/",
+        "metalworking": true,
+        "cnc-cutting": true
+      },
+      "geometry": {
+        "coordinates": [
+          -78.518568,
+          38.035848
+        ],
+        "type": "Point"
+      },
+      "id": "57b104ed9ec0a88159d0ccb09c947462"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#1087bf",
+        "marker-size": "medium",
+        "slug": "ruffin-hall-wood-metal-shop",
+        "location-title": "Ruffin Hall Wood and Metal Shop",
+        "website": "",
+        "casting": true,
+        "woodworking": true,
+        "metalworking": true,
+        "3d-printing": true
+      },
+      "geometry": {
+        "coordinates": [
+          -78.503192,
+          38.039388
+        ],
+        "type": "Point"
+      },
+      "id": "6c2443012b49e0a0d1901c16cb393bad"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#1087bf",
+        "marker-size": "medium",
+        "slug": "milton-airfield-hangar",
+        "location-title": "Milton Airfield Hangar",
+        "website": "http://www.arch.virginia.edu/fabrication",
+        "woodworking": true,
+        "metalworking": true
+      },
+      "geometry": {
+        "coordinates": [
+          -78.394788,
+          37.992467
+        ],
+        "type": "Point"
+      },
+      "id": "7264578e8cea509627093fe38602bc3e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#1087bf",
+        "marker-size": "medium",
+        "slug": "library-materials-collection",
+        "location-title": "Fine Arts Library/Materials Collection",
+        "website": "https://www.library.virginia.edu/libraries/#fine-arts",
+        "material-data-archive": true,
+        "computer-software": true
+      },
+      "geometry": {
+        "coordinates": [
+          -78.503412,
+          38.038999
+        ],
+        "type": "Point"
+      },
+      "id": "90b6478863c0777c4c37ef1d5f8ff4b2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#1087bf",
+        "marker-size": "medium",
+        "slug": "scholars-lab",
+        "location-title": "Scholars' Lab Makerspace",
+        "website": "http://scholarslab.org/makerspace",
+        "material-data-archive": true,
+        "virtual-reality": true,
+        "3d-printing": true,
+        "electronics": true,
+        "computer-software": true
+      },
+      "geometry": {
+        "coordinates": [
+          -78.505372,
+          38.036455
+        ],
+        "type": "Point"
+      },
+      "id": "aa32979ea39e71ffe3ac815cee2d65ec"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#1087bf",
+        "marker-size": "medium",
+        "slug": "darden-ilab",
+        "location-title": "i.Lab",
+        "website": "http://www.ilabatuva.org/",
+        "3d-printing": true
+      },
+      "geometry": {
+        "coordinates": [
+          -78.511498,
+          38.052893
+        ],
+        "type": "Point"
+      },
+      "id": "e001cc4baf5c90ecade4b6d76c243c4f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#1087bf",
+        "marker-size": "medium",
+        "slug": "a-school-fablab",
+        "location-title": "A-School FabLab",
+        "website": "http://www.arch.virginia.edu/fabrication",
+        "casting": true,
+        "woodworking": true,
+        "3d-printing": true,
+        "cnc-cutting": true
+      },
+      "geometry": {
+        "coordinates": [
+          -78.503681,
+          38.038607
+        ],
+        "type": "Point"
+      },
+      "id": "e6f9ccbb4eafece8ad746fcbc7e708f6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#1087bf",
+        "marker-size": "medium",
+        "slug": "mechatronics-lab-the-mill",
+        "location-title": "Mechatronics Lab and The MILL",
+        "website": "https://gavitronics.com/about/mechatronics-lab/",
+        "robotics": true,
+        "woodworking": true,
+        "metalworking": true,
+        "3d-printing": true,
+        "electronics": true
+      },
+      "geometry": {
+        "coordinates": [
+          -78.511266,
+          38.032509
+        ],
+        "type": "Point"
+      },
+      "id": "f5ab095bb5119ebbf76d28ad0dc332c6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#1087bf",
+        "marker-size": "medium",
+        "slug": "wilson-hall-maker-studio",
+        "location-title": "Wilson Media and Maker Studios",
+        "website": "http://music.virginia.edu/maker-space",
+        "woodworking": true,
+        "3d-printing": true,
+        "recording": true,
+        "electronics": true,
+        "computer-software": true,
+        "cnc-cutting": true
+      },
+      "geometry": {
+        "coordinates": [
+          -78.504016,
+          38.032469
+        ],
+        "type": "Point"
+      },
+      "id": "fe695ec5db06c7dbb40b7b9116b7c16a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#1087bf",
+        "marker-size": "medium",
+        "slug": "rice-120",
+        "location-title": "Lacy Design Lab",
+        "website": "http://www.seas.virginia.edu/acad/programs/tlp/designstudio.php",
+        "3d-printing": true,
+        "electronics": true
+      },
+      "geometry": {
+        "coordinates": [
+          -78.510875,
+          38.031631
+        ],
+        "type": "Point"
+      },
+      "id": "fe764df1158f975279a2ba8bceb30176"
+    }
+  ],
+  "type": "FeatureCollection"
+}
