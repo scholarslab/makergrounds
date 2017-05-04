@@ -122,7 +122,23 @@ span.text-content {
     color: #1087bf;
 }
 
+.locations-list li.active {
+    background-color: #7fc2e2;
+}
 
 .location-popups {
   word-break: break-all;
+}
+
+a.location-popup-title:link{
+  text-decoration:underline;
+  color: #212121;
+}
+a.location-popup-title:visited{
+  text-decoration:underline;
+  color: #212121;
+}
+
+.img-list li.active span.text-content{
+  color: #1087bf;
 }
