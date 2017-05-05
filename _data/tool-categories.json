@@ -1,0 +1,153 @@
+[
+  {
+    "name" : "3D Printing",
+    "slug" : "3d-printing",
+    "icon" : "3d-printing.svg",
+    "locations" : [
+      "prop-shop",
+      "rapid-prototyping-lab",
+      "bme-design-lab",
+      "drama-scene-shop",
+      "bme-fabrication-space",
+      "ruffin-hall-wood-metal-shop",
+      "scholars-lab",
+      "darden-ilab",
+      "a-school-fablab",
+      "mechatronics-lab-the-mill",
+      "wilson-hall-maker-studio",
+      "rice-120"
+    ]
+  },
+  {
+    "name" : "3D Scanning",
+    "slug" : "3d-scanning",
+    "icon" : "3d-scanning.svg",
+    "locations" : [
+      "robertson-media-center"
+    ]
+  },
+  {
+    "name" : "Casting",
+    "slug" : "casting",
+    "icon" : "casting.svg",
+    "locations" : [
+      "ruffin-hall-wood-metal-shop",
+      "a-school-fablab"
+    ]
+  },
+  {
+    "name" : "CNC Cutting",
+    "slug" : "cnc-cutting",
+    "icon" : "cnc-cutting.svg",
+    "locations" : [
+      "bme-design-lab",
+      "bme-fabrication-space",
+      "lacy-hall",
+      "a-school-fablab",
+      "wilson-hall-maker-studio"
+    ]
+  },
+  {
+    "name" : "Computer + Software",
+    "slug" : "computer-software",
+    "icon" : "computer-software.svg",
+    "locations" : [
+      "robertson-media-center",
+      "rapid-prototyping-lab",
+      "library-materials-collection",
+      "scholars-lab",
+      "wilson-hall-maker-studio"
+    ]
+  },
+  {
+    "name" : "Drones",
+    "slug" : "drones",
+    "icon" : "drones.svg",
+    "locations" : [
+      "robertson-media-center"
+    ]
+  },
+  {
+    "name" : "Electronics",
+    "slug" : "electronics",
+    "icon" : "electronics.svg",
+    "locations" : [
+      "omerf-fabrication-space",
+      "bme-design-lab",
+      "bme-fabrication-space",
+      "scholars-lab",
+      "mechatronics-lab-the-mill",
+      "wilson-hall-maker-studio",
+      "rice-120"
+    ]
+  },
+  {
+    "name" : "Material/Data Archive",
+    "slug" : "material-data-archive",
+    "icon" : "material-data-archive.svg",
+    "locations" : [
+      "robertson-media-center",
+      "library-materials-collection",
+      "scholars-lab"
+    ]
+  },
+  {
+    "name" : "Metalworking",
+    "slug" : "metalworking",
+    "icon" : "metalworking.svg",
+    "locations" : [
+      "omerf-fabrication-space",
+      "prop-shop",
+      "drama-scene-shop",
+      "bme-fabrication-space",
+      "lacy-hall",
+      "ruffin-hall-wood-metal-shop",
+      "milton-airfield-hangar",
+      "mechatronics-lab-the-mill"
+    ]
+  },
+  {
+    "name" : "Recording",
+    "slug" : "recording",
+    "icon" : "recording.svg",
+    "locations" : [
+      "robertson-media-center",
+      "bme-design-lab",
+      "wilson-hall-maker-studio",
+    ]
+  },
+  {
+    "name" : "Robotics",
+    "slug" : "robotics",
+    "icon" : "robotics.svg",
+    "locations" : [
+      "mechatronics-lab-the-mill"
+    ]
+  },
+  {
+    "name" : "Virtual Reality",
+    "slug" : "virtual-reality",
+    "icon" : "virtual-reality.svg",
+    "locations" : [
+      "scholars-lab"
+    ]
+  },
+  {
+    "name" : "Woodworking",
+    "slug" : "woodworking",
+    "icon" : "woodworking.svg",
+    "locations" : [
+      "omerf-fabrication-space",
+      "prop-shop",
+      "drama-scene-shop",
+      "bme-fabrication-space",
+      "ruffin-hall-wood-metal-shop",
+      "milton-airfield-hangar",
+      "a-school-fablab",
+      "mechatronics-lab-the-mill",
+      "wilson-hall-maker-studio"
+    ]
+  },
+
+
+]

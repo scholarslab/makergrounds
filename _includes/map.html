@@ -5,98 +5,35 @@
 </section>
 
 <section class="no-padding mx-auto" id="portfolio">
-
-
   <section style="position: relative;overflow: hidden;">
 
-    <div id="map" class="map">
-
-    </div>
+    <div id="map" class="map"></div>
 
     <!-- creates overlay of locations on right -->
-    <ul class="locations-list">
+    <ul class="map-locations-list">
       {% for place in site.data.makergrounds %}
-      <li style="cursor: pointer;" slug = {{place.slug}} onClick="openPopup(this)">{{ place.title }}</li>
+        <li style="cursor: pointer;" map-locations-list-slug={{place.slug}} onClick="openPopup(this)">{{ place.title }}</li>
       {% endfor %}
     </ul>
 
-    <script>
-    // sorts list of locations created above
-    var items = $('.locations-list li').get();
-      items.sort(function(a,b){
-        var keyA = $(a).text().toLowerCase();
-        var keyB = $(b).text().toLowerCase();
+    <!-- creates blue line that separates the map from the map-filter-container -->
+    <div style="height: 4px; width: 100%; background-color: #03a9f4; overflow: hidden"></div>
 
-        if (keyA < keyB) return -1;
-        if (keyA > keyB) return 1;
-        return 0;
-      });
-      var ul = $('.locations-list');
-      $.each(items, function(i, li){
-        ul.append(li);
-      });
-    </script>
-
-    <div style="height: 4px; width: 100%;background-color: #03a9f4; overflow: hidden"></div>
-    <div class="filter_container">
+    <!-- creates icons and labels for filtering -->
+    <div class="map-filter-container">
       <div style="font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif; font-size: 20px; color:#989898;">Filter:</div>
-      <ul class="img-list">
-        <li class="filter-item active" data-filter="all">
+      <ul class="map-filter-list">
+        <li class="active" data-filter="all">
           <img src="img/icons/show-all.svg">
-          <span class="text-content"><span>Show All</span></span>
+          <span class="text-content">Show All</span>
         </li>
-        <li class="filter-item" data-filter="3d-printing" >
-          <img src="img/icons/3d-printing.svg">
-          <span class="text-content"><span>3D Printing</span></span>
+
+        {% for toolCategory in site.data.tool-categories %}
+        <li data-filter={{toolCategory.slug}}>
+          <img src="img/icons/{{toolCategory.icon}}">
+          <span class="text-content">{{toolCategory.name}}</span>
         </li>
-        <li class="filter-item" data-filter="3d-scanning" >
-          <img src="img/icons/3d-scanning.svg">
-          <span class="text-content"><span>3D Scanning</span></span>
-        </li>
-        <li class="filter-item" data-filter="casting" >
-          <img src="img/icons/casting.svg">
-          <span class="text-content"><span>Casting</span></span>
-        </li>
-        <li class="filter-item" data-filter="cnc-cutting" >
-          <img src="img/icons/cnc-cutting.svg">
-          <span class="text-content"><span>CNC Cutting</span></span>
-        </li>
-        <li class="filter-item" data-filter="computer-software" >
-          <img src="img/icons/computer-software.svg">
-          <span class="text-content"><span>Computer + Software</span></span>
-        </li>
-        <li class="filter-item" data-filter="drones" >
-          <img src="img/icons/drones.svg">
-          <span class="text-content"><span>Drones</span></span>
-        </li>
-        <li class="filter-item" data-filter="robotics" >
-          <img src="img/icons/robotics.svg">
-          <span class="text-content"><span>Robotics</span></span>
-        </li>
-        <li class="filter-item" data-filter="electronics" >
-          <img src="img/icons/electronics.svg">
-          <span class="text-content"><span>Electronics</span></span>
-        </li>
-        <li class="filter-item" data-filter="material-data-archive" >
-          <img src="img/icons/material-data-archive.svg">
-          <span class="text-content"><span>Material/Data Archive</span></span>
-        </li>
-        <li class="filter-item" data-filter="metalworking" >
-          <img src="img/icons/metalworking.svg">
-          <span class="text-content"><span>Metalworking</span></span>
-        </li>
-        <li class="filter-item" data-filter="recording" >
-          <img src="img/icons/recording.svg">
-          <span class="text-content"><span>Recording</span></span>
-        </li>
-        <li class="filter-item" data-filter="virtual-reality" >
-          <img src="img/icons/virtual-reality.svg">
-          <span class="text-content"><span>Virtual Reality</span></span>
-        </li>
-        <li class="filter-item" data-filter="woodworking" >
-          <img src="img/icons/woodworking.svg">
-          <span class="text-content"><span>Woodworking</span></span>
-        </li>
+        {% endfor %}
 
       </ul>
     </div>
@@ -106,6 +43,41 @@
   </section>
 
   <script>
+    // sorts list of locations created above
+    var items = $('.map-locations-list li').get();
+    items.sort(function(a, b) {
+      var keyA = $(a).text().toLowerCase();
+      var keyB = $(b).text().toLowerCase();
+
+      if (keyA < keyB) return -1;
+      if (keyA > keyB) return 1;
+      return 0;
+    });
+    var ul = $('.map-locations-list');
+    $.each(items, function(i, li) {
+      ul.append(li);
+    });
+
+    var makergroundsJSON = {{site.data.makergrounds | jsonify}};
+
+    var toolCategories = {{site.data.tool-categories | jsonify}};
+    //makergroundsData is used to access location data from the csv.
+    var makergroundsData = {};
+
+    //maps slug to location info (from the csv)
+    makergroundsJSON.forEach(function(location) {
+      makergroundsData[location.slug] = location;
+    });
+
+    //opens marker popup when a location is selected
+    function openPopup(self) {
+      makergroundsData[self.getAttribute("map-locations-list-slug")].marker.openPopup();
+    }
+  </script>
+
+  <script>
+    //this token is generated a mapbox.com account. Any token works.
+    //the token should really be placed in a config file.
     L.mapbox.accessToken = 'pk.eyJ1IjoiamVubnl4aW5nMjciLCJhIjoiY2l2MDJjcHcwMDAwMTJvcmZvamExYnVhZyJ9.RrhpauICk05n9OQh2eha2g';
 
     var map = L.mapbox.map('map', 'mapbox.streets')
@@ -115,59 +87,75 @@
       map.scrollWheelZoom.disable();
     }
 
+    //creates markers using "features" in the geojson
     var markers = L.mapbox.featureLayer()
       .loadURL('map-files/makergrounds-map-data.geojson')
       .addTo(map);
 
-    var slug_to_marker = [];
     markers.on('layeradd', function(e) {
       var marker = e.layer,
         feature = marker.feature;
 
-      slug_to_marker[feature.properties["slug"]] = marker;
-      var content = '<h2><b>' + feature.properties["location-title"] + '</b></h2>';
-      var locationTitle = '<h2><b><a class="location-popup-title" href="http://makergrounds.virginia.edu/locations/' + feature.properties["slug"] + '.html" target="blank">' + feature.properties["location-title"] + '</a></b></h2>';
-      var websiteName = '<p><a href="url" target="blank">' + feature.properties["website"] + '</a><p>'
+      var locationData = makergroundsData[feature.properties["location-slug"]];
+      //add marker object to data so the marker can be accessed later
+      locationData.marker = marker;
 
-      var iconsList = '<div class="location-icons-container"><ul class="location-icons-list">';
-      //this code assumes that the only booleans in feature.properties are booleans saying if that location has or doesn't have a filter.
-      for (key in feature.properties){
-        if (feature.properties[key]==true){
-          iconsList += '<li>'
-            + '<img src="img/icons/' + key + '.svg">'
-            + '</li>'
+      var locationTitle = '<h2><b><a class="marker-popup-title" href="/locations/' + locationData.slug + '.html" target="blank">' + locationData.title + '</a></b></h2>';
+      var websiteName = locationData.website ? '<p><a href="' + locationData.website + '" target="blank">' + locationData.website + '</a><p>' : ""
+
+      //adds icons to popup
+      var iconsList = '<div class="marker-popup-icons-container"><ul class="marker-popup-icons-list">';
+      toolCategories.forEach(function(t) {
+        if (t.locations.includes(locationData.slug)) {
+          iconsList += '<li>' +
+            '<img src="img/icons/' + t.icon + '">' +
+            '</li>'
         }
-      }
+      })
       iconsList += "</ul></div>";
 
-      var popup = L.popup({closeButton: false, className: "location-popups"})
-      	.setContent(locationTitle + websiteName + iconsList)
+      //bind popup to marker
+      var popup = L.popup({
+          closeButton: false,
+          className: "marker-popup"
+        })
+        .setContent(locationTitle + websiteName + iconsList)
       marker.bindPopup(popup);
     });
 
-    function openPopup(self){
-      slug_to_marker[self.getAttribute("slug")].openPopup();
-    }
+    //when a filter is clicked
+    $('.map-filter-list li').click(function(e) {
+      e.preventDefault()
+      //all other filers become inactive
+      $(this).parent().find('li').removeClass('active');
+      //all locations in the locations list become inactive
+      $('.map-locations-list').find('li').removeClass('active');
+      //the filter that is clicked is active
+      $(this).addClass('active');
 
-    $('.img-list li').click(function(e) {
-        e.preventDefault()
-        $(this).parent().find('li').removeClass('active');
-        $('.locations-list').find('li').removeClass('active');
-        $(this).addClass('active');
+      var filter = $(this).data('filter');
 
-        var filter = $(this).data('filter');
-        markers.setFilter(function(f) {
-          //highlight locations on the locations list
-          if (f.properties[filter] === true){
-            console.log(f.properties['slug'])
-            $('.locations-list').find('[slug='+f.properties['slug'] + "]").addClass('active');
-          }
-          // If the data-filter attribute is set to "all", return
-          // all (true). Otherwise, filter on markers that have
-          // a value set to true based on the filter name.
-          return (filter === 'all') ? true : f.properties[filter] === true;
-        });
-        return false;
+      var filtered_locations = [];
+      // only make locations active if a filter is applied
+      if (filter != 'all') {
+        //find locations that has tools of that category
+        filtered_locations = toolCategories.filter(function(toolCategory) {
+          return toolCategory.slug == filter;
+        })[0].locations;
+        //highlight locations on the locations list (made active)
+        filtered_locations.forEach(function(l) {
+          $('.map-locations-list').find('[map-locations-list-slug=' + l + "]").addClass('active');
+        })
+      }
+
+      //mapbox: show/hide location markers that are filtered
+      markers.setFilter(function(f) {
+        // If the data-filter attribute is set to "all", return
+        // all (true). Otherwise, filter on the locations that are in the toolcategory.
+        return (filter === 'all') ? true : filtered_locations.includes(f.properties["location-slug"]);
+      });
+
+      return false;
     });
   </script>
 
