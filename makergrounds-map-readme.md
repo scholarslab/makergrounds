@@ -1,6 +1,6 @@
 # Makergrounds map documentation
 
-## uses mapbox with an access token
+## uses mapbox with an access token (generated from a personal mapbox account, but any token should suffice.)
 
 ### mapfiles/makergrounds-map-data.geojson
   * contains coordinate information for map markers (as well as marker styling)
