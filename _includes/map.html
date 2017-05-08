@@ -100,8 +100,8 @@
       //add marker object to data so the marker can be accessed later
       locationData.marker = marker;
 
-      var locationTitle = '<h2><b><a class="marker-popup-title" href="/locations/' + locationData.slug + '.html" target="blank">' + locationData.title + '</a></b></h2>';
-      var websiteName = locationData.website ? '<p><a href="' + locationData.website + '" target="blank">' + locationData.website + '</a><p>' : ""
+      var locationTitle = '<h2><b><a class="marker-popup-title" href="/locations/' + locationData.slug + '.html">' + locationData.title + '</a></b></h2>';
+      var websiteName = locationData.website ? '<p><a href="' + locationData.website + '">' + locationData.website + '</a><p>' : ""
 
       //adds icons to popup
       var iconsList = '<div class="marker-popup-icons-container"><ul class="marker-popup-icons-list">';
