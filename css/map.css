@@ -87,6 +87,10 @@
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
 
+.map-filter-list li:hover span.text-content{
+  color: #1087bf;
+}
+
 .map-filter-list li.active span.text-content{
   color: #1087bf;
 }
