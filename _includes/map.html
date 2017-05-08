@@ -63,6 +63,7 @@
     var toolCategories = {{site.data.tool-categories | jsonify}};
     //makergroundsData is used to access location data from the csv.
     var makergroundsData = {};
+    var map, markers;
 
     //maps slug to location info (from the csv)
     makergroundsJSON.forEach(function(location) {
@@ -71,7 +72,11 @@
 
     //opens marker popup when a location is selected
     function openPopup(self) {
-      makergroundsData[self.getAttribute("map-locations-list-slug")].marker.openPopup();
+      var marker = makergroundsData[self.getAttribute("map-locations-list-slug")].marker
+      var coordinates = marker.feature.geometry.coordinates;
+      //center marker and open its popup
+      map.panTo([coordinates[1], coordinates[0]], marker._zIndex);
+      marker.openPopup();
     }
   </script>
 
@@ -80,7 +85,7 @@
     //the token should really be placed in a config file.
     L.mapbox.accessToken = 'pk.eyJ1Ijoic2Nob2xhcnNsYWIiLCJhIjoiY2oxdzlqNDh1MDAwMTMzcW96MGxtajZxNSJ9.8I1zZymMKofR_FbOiazznw';
 
-    var map = L.mapbox.map('map', 'mapbox.streets')
+    map = L.mapbox.map('map', 'mapbox.streets')
       .setView([38.035544, -78.505186], 15.55)
 
     if (map.scrollWheelZoom) {
@@ -88,7 +93,8 @@
     }
 
     //creates markers using "features" in the geojson
-    var markers = L.mapbox.featureLayer()
+
+    markers = L.mapbox.featureLayer()
       .loadURL('map-geojson/makergrounds-map-data.geojson')
       .addTo(map);
 
