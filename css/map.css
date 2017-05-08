@@ -1,91 +1,3 @@
-
-.filter_container {
-    padding-top: 8px;
-    width: 100%;
-    background-color: #ffffff;
-    text-align: center;
-}
-
-.filter_container ul{
-    margin: 10px 10px 10px 10px;
-}
-
-.filter_container li{
-    display: inline;
-}
-
-.filter_container li img {
-    width: 50px;
-    height: 50px;
-    cursor: pointer;
-    margin-bottom: 20px;
-}
-
-ul.img-list {
-    list-style-type: none;
-    margin: 0;
-    padding-top: 8px;
-    padding-left: 0px;
-    padding-bottom: 40px;
-    text-align: center;
-}
-
-ul.img-list li {
-    display: inline;
-    height: 50px;
-    margin: 5px 25px 5px 25px;;
-    position: relative;
-    width: 50px;
-}
-
-
-.location-icons-container {
-    width: 100%;
-    background-color: #ffffff;
-    text-align: center;
-}
-
-.location-icons-container ul{
-    margin: 10px 10px 10px 10px;
-}
-
-.location-icons-container li{
-    display: inline;
-}
-
-.location-icons-container li img {
-    width: 40px;
-    height: 40px;
-    cursor: pointer;
-}
-
-ul.location-icons-list {
-    list-style-type: none;
-    margin: 0;
-    padding-left: 0px;
-    text-align: center;
-}
-
-ul.location-icons-list li {
-    display: inline;
-    margin: 5px 5px 5px 5px;;
-    position: relative;
-}
-
-span.text-content {
-    text-align: center;
-    background: rgba(201, 201, 201, 0);
-    color: #858585;
-    cursor: pointer;
-    display: inline-block;
-    height: 10px;
-    left: -23px;
-    position: absolute;
-    top: 25px;
-    width: 90px;
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-}
-
 .map {
     width: 100%;
     height: 600px;
@@ -96,7 +8,8 @@ span.text-content {
     -o-background-size: cover;
 }
 
-.locations-list {
+/**********list of locations on the right side of the map**********/
+.map-locations-list {
     position: absolute;
     display: block;
     margin-top: 45px;
@@ -111,34 +24,122 @@ span.text-content {
     right: 0px;
     padding-left: 10px;
 }
-.locations-list li {
+.map-locations-list li {
     margin: 10px;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-size: 10pt;
     color: #212121;
 }
 
-.locations-list li:hover {
+.map-locations-list li:hover {
     color: #1087bf;
 }
 
-.locations-list li.active {
+/*becomes active when a filter is selected*/
+.map-locations-list li.active {
     background-color: #7fc2e2;
 }
 
-.location-popups {
+/**********filter box**********/
+.map-filter-container {
+    padding-top: 8px;
+    width: 100%;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.map-filter-container ul{
+    margin: 10px 10px 10px 10px;
+}
+
+.map-filter-list {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 8px;
+    padding-left: 0px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.map-filter-list li {
+    display: inline;
+    margin: 5px 25px 5px 25px;;
+    position: relative;
+}
+
+/*filter icon*/
+.map-filter-list li img {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+/*filter icon text*/
+.map-filter-list li span.text-content {
+    text-align: center;
+    color: #858585;
+    cursor: pointer;
+    left: -20px;
+    position: absolute;
+    top: 30px;
+    width: 90px;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+
+.map-filter-list li:hover span.text-content{
+  color: #1087bf;
+}
+
+.map-filter-list li.active span.text-content{
+  color: #1087bf;
+}
+
+
+/**********marker popups**********/
+.marker-popup {
   word-break: break-all;
 }
 
-a.location-popup-title:link{
-  text-decoration:underline;
-  color: #212121;
-}
-a.location-popup-title:visited{
+.marker-popup-title:link{
   text-decoration:underline;
   color: #212121;
 }
 
-.img-list li.active span.text-content{
-  color: #1087bf;
+.marker-popup-title:visited{
+  text-decoration:underline;
+  color: #212121;
+}
+
+/*marker popup icons*/
+.marker-popup-icons-container {
+    width: 100%;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.marker-popup-icons-container ul{
+    margin: 10px 10px 10px 10px;
+}
+
+.marker-popup-icons-container li{
+    display: inline;
+}
+
+.marker-popup-icons-container li img {
+    width: 40px;
+    height: 40px;
+}
+
+.marker-popup-icons-list {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0px;
+    text-align: center;
+}
+
+.marker-popup-icons-list li {
+    display: inline;
+    margin: 5px 5px 5px 5px;;
+    position: relative;
 }
