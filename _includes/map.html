@@ -83,7 +83,7 @@
   <script>
     //this token is generated a mapbox.com account. Any token works.
     //the token should really be placed in a config file.
-    L.mapbox.accessToken = 'pk.eyJ1IjoiamVubnl4aW5nMjciLCJhIjoiY2l2MDJjcHcwMDAwMTJvcmZvamExYnVhZyJ9.RrhpauICk05n9OQh2eha2g';
+    L.mapbox.accessToken = 'pk.eyJ1Ijoic2Nob2xhcnNsYWIiLCJhIjoiY2oxdzlqNDh1MDAwMTMzcW96MGxtajZxNSJ9.8I1zZymMKofR_FbOiazznw';
 
     map = L.mapbox.map('map', 'mapbox.streets')
       .setView([38.035544, -78.505186], 15.55)
@@ -93,9 +93,11 @@
     }
 
     //creates markers using "features" in the geojson
+
     markers = L.mapbox.featureLayer()
       .loadURL('map-geojson/makergrounds-map-data.geojson')
       .addTo(map);
+
 
     markers.on('layeradd', function(e) {
       var marker = e.layer,
@@ -105,8 +107,8 @@
       //add marker object to data so the marker can be accessed later
       locationData.marker = marker;
 
-      var locationTitle = '<h2><b><a class="marker-popup-title" href="/locations/' + locationData.slug + '.html" target="blank">' + locationData.title + '</a></b></h2>';
-      var websiteName = locationData.website ? '<p><a href="' + locationData.website + '" target="blank">' + locationData.website + '</a><p>' : ""
+      var locationTitle = '<h2><b><a class="marker-popup-title" href="/locations/' + locationData.slug + '.html">' + locationData.title + '</a></b></h2>';
+      var websiteName = locationData.website ? '<p><a href="' + locationData.website + '">' + locationData.website + '</a><p>' : ""
 
       //adds icons to popup
       var iconsList = '<div class="marker-popup-icons-container"><ul class="marker-popup-icons-list">';
