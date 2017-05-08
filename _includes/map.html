@@ -89,7 +89,7 @@
 
     //creates markers using "features" in the geojson
     var markers = L.mapbox.featureLayer()
-      .loadURL('map-files/makergrounds-map-data.geojson')
+      .loadURL('map-geojson/makergrounds-map-data.geojson')
       .addTo(map);
 
     markers.on('layeradd', function(e) {
