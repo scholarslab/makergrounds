@@ -78,7 +78,7 @@
   <script>
     //this token is generated a mapbox.com account. Any token works.
     //the token should really be placed in a config file.
-    L.mapbox.accessToken = 'pk.eyJ1IjoiamVubnl4aW5nMjciLCJhIjoiY2l2MDJjcHcwMDAwMTJvcmZvamExYnVhZyJ9.RrhpauICk05n9OQh2eha2g';
+    L.mapbox.accessToken = 'pk.eyJ1Ijoic2Nob2xhcnNsYWIiLCJhIjoiY2oxdzlqNDh1MDAwMTMzcW96MGxtajZxNSJ9.8I1zZymMKofR_FbOiazznw';
 
     var map = L.mapbox.map('map', 'mapbox.streets')
       .setView([38.035544, -78.505186], 15.55)
@@ -91,6 +91,7 @@
     var markers = L.mapbox.featureLayer()
       .loadURL('map-geojson/makergrounds-map-data.geojson')
       .addTo(map);
+
 
     markers.on('layeradd', function(e) {
       var marker = e.layer,
