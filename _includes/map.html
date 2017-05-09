@@ -72,11 +72,14 @@
 
     //opens marker popup when a location is selected
     function openPopup(self) {
-      var marker = makergroundsData[self.getAttribute("map-locations-list-slug")].marker
-      var coordinates = marker.feature.geometry.coordinates;
-      //center marker and open its popup
-      map.panTo([coordinates[1], coordinates[0]], marker._zIndex);
-      marker.openPopup();
+      //only open popup if the location is not inactive
+      if (!$(self).hasClass('inactive')){
+        var marker = makergroundsData[self.getAttribute("map-locations-list-slug")].marker
+        var coordinates = marker.feature.geometry.coordinates;
+        //center marker and open its popup (coordinates from geoJSON are flipped in terms of latitude and longitude)
+        map.panTo([coordinates[1], coordinates[0]], marker._zIndex);
+        marker.openPopup();
+      }
     }
   </script>
 
@@ -136,7 +139,7 @@
       //all other filers become inactive
       $(this).parent().find('li').removeClass('active');
       //all locations in the locations list become inactive
-      $('.map-locations-list').find('li').removeClass('active');
+      $('.map-locations-list').find('li').removeClass();
       //the filter that is clicked is active
       $(this).addClass('active');
 
@@ -153,6 +156,19 @@
         filtered_locations.forEach(function(l) {
           $('.map-locations-list').find('[map-locations-list-slug=' + l + "]").addClass('active');
         })
+
+        //makes all locations that are not filtered inactive
+        $('.map-locations-list li').each(function(index, li){
+          if (!$(li).hasClass('active')){
+            $(li).addClass('inactive')
+          }
+        })
+      }
+
+      if (filter == 'all'){
+        //pan to original position if "show all" is selected
+        map.panTo([38.035544, -78.505186], 15.55);
+        $('.map-locations-list').find('li').removeClass();
       }
 
       //mapbox: show/hide location markers that are filtered
