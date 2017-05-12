@@ -9,8 +9,7 @@
 }
 
 #listserve {
-  background-color: #ffd;
-  margin: 20px;
+  margin: 10px;
 }
 
 #listserve p {
@@ -59,4 +58,11 @@ header {
 
 #map-image, #people-image {
   margin: auto;
+}
+
+#footer {
+  margin-top: 20px;
+  background-color: #000;
+  border-top: solid 5px #444;
+  color: #aaa;
 }
