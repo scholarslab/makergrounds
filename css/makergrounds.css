@@ -2,23 +2,38 @@
   height:75px;
 }
 
+/*hide navbar text on non-mobile*/
+#uva-makergrounds-navbar {
+  display: none
+}
 @media (min-width: 768px)
 .navbar-default .nav > li>a, .navbar-default .nav>li {
   color: #222;
   background-color: #fff;
 }
 
+/*on mobile, hide lodo and show text instead*/
+@media (max-width: 600px) {
+   #uva-makers-logo {
+     display: none;
+   }
+   #uva-makergrounds-navbar {
+     display: block
+   }
+ }
+
 #listserve {
   margin: 10px;
+  margin-top: 70px;
 }
 
 #listserve p {
   color: black;
 }
 
-.navbar {
+/*.navbar {
   min-height: 105px;
-}
+}*/
 .navbar-default .nav > li>a, .navbar-default .nav>li>a:focus {
   font-size: 30px;
 }
@@ -29,12 +44,12 @@ header {
   margin-top: 105px;
 }
 
-.bg-dark {
-  margin-top: 105px;
-}
+/*.bg-dark {
+  margin-top: 50px;
+}*/
 
-.project-link { 
-  font-size: .8em; 
+.project-link {
+  font-size: .8em;
   font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
 @keyframes button {
