@@ -40,6 +40,10 @@
     background-color: #7fc2e2;
 }
 
+.map-locations-list li.inactive {
+    opacity: 0.25;
+}
+
 /**********filter box**********/
 .map-filter-container {
     padding-top: 8px;
