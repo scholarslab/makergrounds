@@ -1,8 +1,17 @@
 # Development
 
-## Requireds
-- You local computer needs to have Ruby (at least version 2.2.2) and Jekyll (at
+## Requireds for Mac Development
+- Install Homebrew:
+  - https://brew.sh/
+  - `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+- Your local computer needs to have Ruby (at least version 2.2.2) and Jekyll (at
   least version 3.0.0)
+  - Check the version if already installed
+    - `ruby --version`
+    - `jekyll --version`
+  - Install
+    - `brew install ruby`
+    - `brew install jekyll`
 - A copy of the page generator plugin from https://github.com/avillafiorita/jekyll-datapage_gen
 - Bundler
 	` gem install bundler`
