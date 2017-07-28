@@ -1,0 +1,50 @@
+---
+---
+
+.keybox {
+	display:block;
+	float:left;
+	width:200px;
+	height:100px;
+	text-align: center;
+	color:#fff;
+	padding-top:40px;
+}
+
+.person-box {
+
+	float:left;
+	width:200px;
+	height:324px;
+	padding:10px;
+	background-color: #ccc;
+	padding-left:25px;
+	margin:5px;
+
+	.img-box {
+
+		width:150px;
+		height:200px;
+		overflow: hidden;
+		display:table-cell;
+		;
+		vertical-align: bottom;
+		background-color: #fff;
+
+		img {
+			width:150px;
+			vertical-align: bottom;
+		}
+	
+	}
+
+}
+
+.arts-sciences {
+
+	background-color: orange;
+}
+
+.engineering {
+	background-color: blue;
+}

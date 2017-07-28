@@ -5,6 +5,37 @@
 </section>
 
 <section class="no-padding mx-auto" id="portfolio">
-  <img alt="Network of people image" id="people-image" src="img/PeepsAndSpaces.jpg" class="img-responsive"/>
+  <div class="keybox arts-sciences
+  ">
+  	Arts & Sciences
+  </div>
+  <div class="keybox engineering
+  ">
+  	Engineering
+  </div>
+  
+  <div style="clear:both; height:40px;"></div>
+
+  {% for person in site.data.people %}
+  	<div class="person-box 
+
+  	{% case person.location_id %}
+  		{% when 8 or 2 %}
+  			arts-sciences
+  		{% when 3 or 14 %}
+  			engineering
+  		{% else %}
+  			no-color
+  	{% endcase %}
+
+  	">
+  		<div class="img-box"><img src="http://sfm.lib.virginia.edu/uploads/{{ person.picture }}" /></div>
+  		<p>{{ person.name }}</p>
+  		<p>{{ person.location.name }}
+
+  	</div>
+
+  {% endfor %}
+
 </section>
 
