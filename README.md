@@ -12,6 +12,8 @@
   - Install
     - `brew install ruby`
     - `brew install jekyll`
+- Install Git
+  - `brew install git`
 - A copy of the page generator plugin from https://github.com/avillafiorita/jekyll-datapage_gen
 - Bundler
 	` gem install bundler`
@@ -21,6 +23,8 @@
   ```
   git clone https://github.com/scholarslab/makergrounds.git makergrounds
   ```
+- Run 'bundler' to install all of the dependencies
+  - `bundle install`
 
 ## Preview
 - You can preview your changes on the local computer
