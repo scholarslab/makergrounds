@@ -48,6 +48,14 @@ header {
   margin-top: 50px;
 }*/
 
+.location-image {
+  max-height: 570px;
+}
+.tool-image, .person-image {
+  max-height: 150px;
+  background: white;
+}
+
 .project-link {
   font-size: .8em;
   font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;

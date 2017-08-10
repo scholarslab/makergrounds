@@ -10,7 +10,7 @@ module Jekyll
       if(name.is_a? Integer)
         return name.to_s
       end
-      return name.downcase.strip.gsub(' ', '-').gsub(/[^\w.-]/, '')
+      return name.to_s.downcase.strip.gsub(' ', '-').gsub(/[^\w.-]/, '')
     end
   end
 
@@ -23,30 +23,30 @@ module Jekyll
     # - `index_files` specifies if we want to generate named folders (true) or not (false)
     # - `dir` is the default output directory
     # - `data` is the data defined in `_data.yml` of the record for which we are generating a page
-    # - `name` is the key in `data` which determines the output filename
+    # - `filename` is the key in `data` which determines the output filename
     # - `template` is the name of the template for generating the page
     # - `extension` is the extension for the generated file
-    def initialize(site, base, index_files, dir, data, name, template, extension)
+    def initialize(site, base, index_files, dir, data, filename, template, extension)
       @site = site
       @base = base
 
       # @dir is the directory where we want to output the page
-      # @name is the name of the page to generate
+      # @filename is the name of the page to generate
       #
       # the value of these variables changes according to whether we
       # want to generate named folders or not
-      filename = sanitize_filename(data[name]).to_s
+      the_filename = sanitize_filename(data[filename]).to_s
       if index_files
-        @dir = dir + (index_files ? "/" + filename + "/" : "")
-        @name =  "index" + "." + extension.to_s
+        @dir = dir + (index_files ? "/" + the_filename + "/" : "")
+        @filename =  "index" + "." + extension.to_s
       else
         @dir = dir
-        @name = filename + "." + extension.to_s
+        @filename = the_filename + "." + extension.to_s
       end
 
-      self.process(@name)
+      self.process(@filename)
       self.read_yaml(File.join(base, '_layouts'), template + ".html")
-      self.data['title'] = data[name]
+      self.data['title'] = data[filename]
       # add all the information defined in _data for the current record to the
       # current page (so that we can access it with liquid tags)
       self.data.merge!(data)
@@ -61,7 +61,7 @@ module Jekyll
 
     def generate(site)
       # page_gen_dirs determines whether we want to generate index pages
-      # (name/index.html) or standard files (name.html). This information
+      # (filename/index.html) or standard files (filename.html). This information
       # is passed to the DataPage constructor, which sets the @dir variable
       # as required by this directive
       index_files = site.config['page_gen-dirs'] == true
@@ -72,7 +72,7 @@ module Jekyll
       if data
         data.each do |data_spec|
           template = data_spec['template'] || data_spec['data']
-          name = data_spec['name']
+          filename = data_spec['filename']
           dir = data_spec['dir'] || data_spec['data']
           extension = data_spec['extension'] || "html"
 
@@ -88,7 +88,7 @@ module Jekyll
               end
             end
             records.each do |record|
-              site.pages << DataPage.new(site, site.source, index_files, dir, record, name, template, extension)
+              site.pages << DataPage.new(site, site.source, index_files, dir, record, filename, template, extension)
             end
           else
             puts "error. could not find template #{template}" if not site.layouts.key? template

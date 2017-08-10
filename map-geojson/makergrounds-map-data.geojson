@@ -133,7 +133,7 @@
       "properties": {
         "marker-color": "#1087bf",
         "marker-size": "medium",
-        "location-slug": "ruffin-hall-wood-metal-shop"
+        "location-slug": "ruffin-hall-wood-and-metal-shop"
       },
       "geometry": {
         "coordinates": [
@@ -181,7 +181,7 @@
       "properties": {
         "marker-color": "#1087bf",
         "marker-size": "medium",
-        "location-slug": "scholars-lab"
+        "location-slug": "scholars-lab-makerspace"
       },
       "geometry": {
         "coordinates": [
@@ -197,7 +197,7 @@
       "properties": {
         "marker-color": "#1087bf",
         "marker-size": "medium",
-        "location-slug": "darden-ilab"
+        "location-slug": "ilab"
       },
       "geometry": {
         "coordinates": [
@@ -213,7 +213,7 @@
       "properties": {
         "marker-color": "#1087bf",
         "marker-size": "medium",
-        "location-slug": "a-school-fablab"
+        "location-slug": "fablab"
       },
       "geometry": {
         "coordinates": [
@@ -229,7 +229,7 @@
       "properties": {
         "marker-color": "#1087bf",
         "marker-size": "medium",
-        "location-slug": "mechatronics-lab-the-mill"
+        "location-slug": "mechatronics-lab-and-the-mill"
       },
       "geometry": {
         "coordinates": [
@@ -245,7 +245,7 @@
       "properties": {
         "marker-color": "#1087bf",
         "marker-size": "medium",
-        "location-slug": "wilson-hall-maker-studio"
+        "location-slug": "wilson-hall"
       },
       "geometry": {
         "coordinates": [

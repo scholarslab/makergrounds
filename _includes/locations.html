@@ -6,15 +6,19 @@
 
 <section class="no-padding" id="portfolio">
   <div class="row bg-dark">
-    {% for place in site.data.makergrounds %}
+    {% for place in site.data.places %}
       <div class="col-lg-4 col-sm-6">
-        <h4 class="locations-title"><a href="{{ site.url }}/locations/{{ place.slug }}.html">{{ place.title }}</a></h4>
+        <h4 class="locations-title"><a href="{{ site.url }}/locations/{{ place.slug }}.html">{{ place.name }}</a></h4>
           <a href="{{ site.url }}/locations/{{ place.slug }}.html" class="portfolio-box">
-            <img src="img/portfolio/{{ place.img }}" class="img-responsive" alt="" />
+            {% if place.picture == "" or place.picture == nil %}
+              <img src="images/no-location.png" class="img-responsive location-image" alt="" />
+            {% else %}
+              <img src="images/{{ place.picture }}" class="img-responsive location-image" alt="" />
+            {% endif %}
             <div class="portfolio-box-caption">
               <div class="portfolio-box-caption-content">
                 <div class="project-category text-faded"> {{ place.location }} </div>
-                <div class="project-name"> {{ place.title }} </div>
+                <div class="project-name"> {{ place.name }} </div>
                 <div class="project-link"> [ more info ] </div>
               </div>
             </div>

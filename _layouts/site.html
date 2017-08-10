@@ -2,9 +2,9 @@
 layout: default
 ---
 
-<section style="background-image: url({{ site.url }}/img/headers/{{ page.slug }}.jpg)" class="bg-dark">
+<section class="bg-dark">
   <div class="text-center">
-    <h1>{{ page.title }}</h1>
+    <h1>{{ page.name }}</h1>
   </div>
 </section>
 
@@ -12,13 +12,13 @@ layout: default
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-              <h2 class="section-heading">{{ page.tagline }}</h2>
-                <hr class="primary">
-                <p><a href="{{ page.website }}">{{ page.website }}</a></p>
-                <div class='text-justify'>
-                  {{ page.description }} 
-                  </p>
-                </div>
+              <img class='location-image' src="../images/{{ page.picture }}" />
+              <hr class="primary">
+              <p><a href="{{ page.website }}">{{ page.website }}</a></p>
+              <div class='text-justify'>
+                {{ page.description }} 
+                </p>
+              </div>
             </div>
         </div>
         <div class="row">
@@ -26,7 +26,7 @@ layout: default
             <table class="table table-responsive">
               <tr>
                 <td><h4>Location:</h4></td>
-                <td><p class="location-info">{{ page.location }}</p></td>
+                <td><p class="location-info">{{ page.address }}</p></td>
               </tr>
               <tr>
                 <td><h4>Access:</h4></td>
@@ -34,7 +34,7 @@ layout: default
               </tr>
               <tr>
                 <td><h4>Hours:</h4></td>
-                <td><p class="location-info">{{ page.times }}</p></td>
+                <td><p class="location-info">{{ page.hours }}</p></td>
               </tr>
               <tr>
                 <td><h4>Contact:</h4></td>
@@ -47,57 +47,48 @@ layout: default
             </table>
           </div>
         </div>
+
         <div class="row">
           <div class="col-md-4 col-md-offset-4">
             <h1>Tools</h1>
             <ul>
-              {% assign tools = page.tools | split: ";" %}
+              {% assign tools = page.tools %}
               {% for tool in tools %}
-                <li><p>{{ tool }}</p></li>
+                <li>
+                  <ul>
+                    <li><img class='tool-image' src="../images/{{ tool.picture }}" /></li>
+                    <li>Name: {{ tool.name }}</li>
+                    <li>Make: {{ tool.make }}</li>
+                    <li>Model: {{ tool.model }}</li>
+                    <li>Required Training: {{ tool.training }}</li>
+                  </ul>
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4 col-md-offset-4">
+            <h1>People</h1>
+            <ul>
+              {% assign people = page.people %}
+              {% for person in people %}
+                <li>
+                  <ul>
+                    <li><img class='person-image' src="../images/{{ person.picture }}" /></li>
+                    <li>Name: {{ person.name }}</li>
+                    <li>Title: {{ person.moniker }}</li>
+                    <li>Department: {{ person.department }}</li>
+                    <li>Email: <a href="mailto:{{ person.email }}">{{ person.email }}</a></li>
+                    <li>Phone: {{ person.phone }}</li>
+                    <li>Website: <a href="{{ person.website }}">{{ person.website }}</a></li>
+                  </ul>
+                </li>
               {% endfor %}
             </ul>
           </div>
         </div>
     </div>
-      <!--
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-3 col-md-6 text-center">
-                <div class="service-box">
-                    <i class="fa fa-4x fa-diamond wow bounceIn text-primary"></i>
-                    <h3>3D Printers</h3>
-                    <p class="text-muted">Ultimaker 2, Taz 5, MakerBot Replicator</p>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 text-center">
-                <div class="service-box">
-                    <i class="fa fa-4x fa-cubes wow bounceIn text-primary" data-wow-delay=".1s"></i>
-                    <h3>Sparkfun Arduino kits & Raspberry Pi</h3>
-                    <p class="text-muted">Arduino UNO boards and an assortment of Arduino shields, and Raspberry Pi's.</p>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 text-center">
-                <div class="service-box">
-                    <i class="fa fa-4x fa-shield wow bounceIn text-primary" data-wow-delay=".2s"></i>
-                    <h3>Wearable Computing</h3>
-                    <p class="text-muted">Basic supplies for wearables and
-                    tactile computing: Conductive thread, Conductive fabric,
-                    Felt Sewing needles and thread, Quilting/cross-stitch
-                    frames
-                    </p> 
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 text-center">
-                <div class="service-box">
-                    <i class="fa fa-4x fa-camera-retro wow bounceIn text-primary" data-wow-delay=".3s"></i>
-                    <h3>Camera equipment</h3>
-                    <p class="text-muted">Canon EOS 6D camera, Samsung NX1000
-                    camera, 25mm lens, 35mm lens
-                    </p> 
-                </div>
-            </div>
-        </div>
-    </div>
-        -->
 </section>
 

@@ -1,8 +1,8 @@
-gems: ['kramdown']
+plugins: ['kramdown']
 exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile']
 page_gen:
-  - data: makergrounds
+  - data: places
     template: site
-    name: slug
+    filename: slug
     dir: locations
     extension: html
