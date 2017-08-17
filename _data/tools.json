@@ -1,0 +1,32 @@
+[
+   {
+      "name": "Replicator 2",
+      "slug": "replicator-2",
+      "make": "Makerbot",
+      "model": "Replicator 2",
+      "training": "",
+      "picture": "Makerbot_Replicator_2_2_0_1502904468025.jpg",
+      "location_name": "Scholars' Lab Makerspace",
+      "location_slug": "scholars-lab-makerspace"
+   },
+   {
+      "name": "Taz 5",
+      "slug": "taz-5",
+      "make": "Lulzbot",
+      "model": "Taz 5",
+      "training": "",
+      "picture": "TAZ_5_Transparent_Front_0_1502300625902.png",
+      "location_name": "Scholars' Lab Makerspace",
+      "location_slug": "scholars-lab-makerspace"
+   },
+   {
+      "name": "Ultimaker",
+      "slug": "ultimaker",
+      "make": "Ultimaker",
+      "model": "2",
+      "training": "",
+      "picture": "ultimaker_2_3d_printer_front_2_igo3d_451_1502827018216.jpg",
+      "location_name": "Scholars' Lab Makerspace",
+      "location_slug": "scholars-lab-makerspace"
+   }
+]

@@ -48,9 +48,6 @@ header {
   margin-top: 50px;
 }*/
 
-.location-image {
-  max-height: 570px;
-}
 .tool-image, .person-image {
   max-height: 150px;
   background: white;

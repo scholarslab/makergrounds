@@ -11,7 +11,7 @@
         <h4 class="locations-title"><a href="{{ site.url }}/locations/{{ place.slug }}.html">{{ place.name }}</a></h4>
           <a href="{{ site.url }}/locations/{{ place.slug }}.html" class="portfolio-box">
             {% if place.picture == "" or place.picture == nil %}
-              <img src="images/no-location.png" class="img-responsive location-image" alt="" />
+              <img src="imgs/no-location.png" class="img-responsive location-image" alt="" />
             {% else %}
               <img src="images/{{ place.picture }}" class="img-responsive location-image" alt="" />
             {% endif %}

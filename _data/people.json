@@ -1,0 +1,33 @@
+[
+   {
+      "name": "Ammon Shepherd",
+      "slug": "ammon-shepherd",
+      "moniker": "Makerspace Manager",
+      "department": "",
+      "picture": "me_copy_1502826906568.jpg",
+      "email": "ammon@virginia.edu",
+      "phone": "4349246265",
+      "website": "http://scholarslab.org/makerspace/",
+      "office_hours": "",
+      "office_address": "Alderman 415",
+      "bio": "",
+      "location_name": "Scholars' Lab Makerspace",
+      "location_slug": "scholars-lab-makerspace"
+   },
+   {
+      "name": "willRourk",
+      "slug": "willrourk",
+      "moniker": "Cultural Heritage Informatics Specialist",
+      "department": "UVA Library - Scholars' Lab West (Clemons)",
+      "picture": "willRourk_1502830049149.jpg",
+      "email": "will@virginia.edu",
+      "phone": "",
+      "website": "https://pages.shanti.virginia.edu/Cultural_Heritage_Data/",
+      "office_hours": "",
+      "office_address": "",
+      "bio": "",
+      "location_name": "Robertson Media Center",
+      "location_slug": "robertson-media-center"
+   }
+]
+

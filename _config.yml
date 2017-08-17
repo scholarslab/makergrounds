@@ -2,7 +2,19 @@ plugins: ['kramdown']
 exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile']
 page_gen:
   - data: places
-    template: site
+    template: locations
     filename: slug
     dir: locations
+    extension: html
+tool_page:
+  - data: tools
+    template: tools
+    filename: slug
+    dir: tools
+    extension: html
+people_page:
+  - data: people
+    template: people
+    filename: slug
+    dir: people
     extension: html
