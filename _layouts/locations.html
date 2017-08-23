@@ -50,43 +50,35 @@ layout: default
 
         {% if page.tools.size > 0 %}
         <div class="row">
-          <div class="col-md-4 col-md-offset-4">
-            <h1>Tools</h1>
-            <ul>
-              {% assign tools = page.tools %}
-              {% for tool in tools %}
-                <li>
-                  <ul>
-                    <li><a href="{{site.baseurl}}/tools/{{tool.slug}}"><img class='tool-image' src="../images/{{ tool.picture }}" /></a></li>
-                    <li>Name: {{ tool.name }}</li>
-                    <li>Make: {{ tool.make }}</li>
-                    <li>Model: {{ tool.model }}</li>
-                  </ul>
-                </li>
-              {% endfor %}
-            </ul>
-          </div>
+          <h1>Tools</h1>
+          {% assign tools = page.tools %}
+          {% for tool in tools %}
+            <div class="col-sm-4 tool-list">
+              <ul class='list-group'>
+                <li class='list-group-item'><a href="{{site.baseurl}}/tools/{{tool.slug}}"><img class='tool-image' src="../images/{{ tool.picture }}" /></a></li>
+                <li class='list-group-item'>Name: {{ tool.name }}</li>
+                <li class='list-group-item'>Make: {{ tool.make }}</li>
+                <li class='list-group-item'>Model: {{ tool.model }}</li>
+              </ul>
+            </div>
+          {% endfor %}
         </div>
         {% endif %}
 
         {% if page.people.size > 0 %}
         <div class="row">
-          <div class="col-md-4 col-md-offset-4">
-            <h1>People</h1>
-            <ul>
-              {% assign people = page.people %}
-              {% for person in people %}
-                <li>
-                  <ul>
-                    <li><a href="{{site.baseurl}}/people/{{person.slug}}"><img class='person-image' src="../images/{{ person.picture }}" /></a></li>
-                    <li>Name: {{ person.name }}</li>
-                    <li>Title: {{ person.moniker }}</li>
-                    <li>Department: {{ person.department }}</li>
-                  </ul>
-                </li>
-              {% endfor %}
-            </ul>
-          </div>
+          <h1>People</h1>
+          {% assign people = page.people %}
+          {% for person in people %}
+            <div class="col-sm-4 people-list">
+              <ul class='list-group'>
+                <li class='list-group-item'><a href="{{site.baseurl}}/people/{{person.slug}}"><img class='person-image' src="../images/{{ person.picture }}" /></a></li>
+                <li class='list-group-item'>Name: {{ person.name }}</li>
+                <li class='list-group-item'>Title: {{ person.moniker }}</li>
+                <li class='list-group-item'>Department: {{ person.department }}</li>
+              </ul>
+            </div>
+          {% endfor %}
         </div>
         {% endif %}
     </div>

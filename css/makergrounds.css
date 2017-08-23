@@ -86,3 +86,8 @@ header {
   border-top: solid 5px #444;
   color: #aaa;
 }
+
+/* location pages */
+.tool-list, .people-list {
+  color: black;
+}
