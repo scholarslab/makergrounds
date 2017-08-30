@@ -15,6 +15,36 @@
       "location_slug": "scholars-lab-makerspace"
    },
    {
+      "name": "Greg Lewin",
+      "slug": "greg-lewin",
+      "moniker": "Lecturer",
+      "department": "Systems & Information Engineering",
+      "picture": null,
+      "email": "gcl8a@virginia.edu",
+      "phone": "",
+      "website": "",
+      "office_hours": "",
+      "office_address": "Olsson 111C",
+      "bio": "",
+      "location_name": "Lacy Design Lab, aka. Rice 120",
+      "location_slug": "rice-120"
+   },
+   {
+      "name": "William Guilford",
+      "slug": "william-guilford",
+      "moniker": "Associate Professor of BME (SOM), Director of Educational Innovation (SEAS)",
+      "department": "",
+      "picture": "Guilford_William_2822_bust_1502201975705.jpg",
+      "email": "guilford@virginia.edu",
+      "phone": "434.243.2740",
+      "website": "",
+      "office_hours": "",
+      "office_address": "MR4 room 1122",
+      "bio": "",
+      "location_name": "BME Fabrication Space",
+      "location_slug": "bme-fabrication-space"
+   },
+   {
       "name": "willRourk",
       "slug": "willrourk",
       "moniker": "Cultural Heritage Informatics Specialist",
@@ -30,4 +60,3 @@
       "location_slug": "robertson-media-center"
    }
 ]
-

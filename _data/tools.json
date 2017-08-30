@@ -1,5 +1,95 @@
 [
    {
+      "name": "Arduino 101 Kits",
+      "slug": "arduino-101-kits",
+      "make": "Arduino",
+      "model": "101",
+      "training": "",
+      "picture": "sparkfun_101_inventor_kit_1504034655459.jpg",
+      "location_name": "Scholars' Lab Makerspace",
+      "location_slug": "scholars-lab-makerspace"
+   },
+   {
+      "name": "Arduino Uno Kits",
+      "slug": "arduino-uno-kits",
+      "make": "Arduino",
+      "model": "Uno",
+      "training": "",
+      "picture": "sparkfun_uno_inventor_kit_1504034629556.jpg",
+      "location_name": "Scholars' Lab Makerspace",
+      "location_slug": "scholars-lab-makerspace"
+   },
+   {
+      "name": "CNC Mill",
+      "slug": "cnc-mill",
+      "make": "Roland",
+      "model": "MD-40a",
+      "training": "In person",
+      "picture": "Roland_MDX_40_large_1503933655331.jpg",
+      "location_name": "BME Fabrication Space",
+      "location_slug": "bme-fabrication-space"
+   },
+   {
+      "name": "Combination sander",
+      "slug": "combination-sander",
+      "make": "JET",
+      "model": "",
+      "training": "",
+      "picture": "Jet_414550K_1_1503932622829.jpg",
+      "location_name": "BME Fabrication Space",
+      "location_slug": "bme-fabrication-space"
+   },
+   {
+      "name": "Drill press",
+      "slug": "drill-press",
+      "make": "JET",
+      "model": "",
+      "training": "(1) In-person and video training through BME 2000, or by appointment, and (2) video re-training prior to use.",
+      "picture": "7f021912_d73c_4205_b49b_ec61082e686f_1000_1503933347287.jpg",
+      "location_name": "BME Fabrication Space",
+      "location_slug": "bme-fabrication-space"
+   },
+   {
+      "name": "Drill press",
+      "slug": "drill-press",
+      "make": "JET",
+      "model": "",
+      "training": "(1) In-person and video training through BME 2000, or by appointment, and (2) video re-training prior to use.",
+      "picture": "7f021912_d73c_4205_b49b_ec61082e686f_1000_1503933323561.jpg",
+      "location_name": "BME Fabrication Space",
+      "location_slug": "bme-fabrication-space"
+   },
+   {
+      "name": "Horizontal band saw",
+      "slug": "horizontal-band-saw",
+      "make": "Harbor Freight",
+      "model": "",
+      "training": "(1) In-person and video training through BME 2000, or by appointment, and (2) video re-training prior to use.",
+      "picture": "Unknown_2_1503933479770",
+      "location_name": "BME Fabrication Space",
+      "location_slug": "bme-fabrication-space"
+   },
+   {
+      "name": "Horizontal metal cutting band saw (hydraulic feed)",
+      "slug": "horizontal-metal-cutting-band-saw-hydraulic-feed-",
+      "make": "JET",
+      "model": "",
+      "training": "(1) In-person and video training through BME 2000, or by appointment, and (2) video re-training prior to use.",
+      "picture": "JET_B00004T9KT_3_lg_1503932980915.jpg",
+      "location_name": "BME Fabrication Space",
+      "location_slug": "bme-fabrication-space"
+   },
+   {
+      "name": "MIG (wirefeed) Welder",
+      "slug": "mig-wirefeed-welder",
+      "make": "Lincoln Electric",
+      "model": "",
+      "training": "In-person, by appointment, AND prior experience.",
+      "picture": "22baeff7_b921_448b_b45b_da9420d38723_1000_1503933212918.jpg",
+      "location_name": "BME Fabrication Space",
+      "location_slug": "bme-fabrication-space"
+   },
+   {
       "name": "Replicator 2",
       "slug": "replicator-2",
       "make": "Makerbot",
@@ -8,6 +98,36 @@
       "picture": "Makerbot_Replicator_2_2_0_1502904468025.jpg",
       "location_name": "Scholars' Lab Makerspace",
       "location_slug": "scholars-lab-makerspace"
+   },
+   {
+      "name": "Saw Stop Table Saw",
+      "slug": "saw-stop-table-saw",
+      "make": "Saw Stop",
+      "model": "Cabinet saw",
+      "training": "(1) In-person and video training through BME 2000, or by appointment, and (2) video re-training prior to use.",
+      "picture": "product_ics_straight_800x0.png_1503932733147.jpeg",
+      "location_name": "BME Fabrication Space",
+      "location_slug": "bme-fabrication-space"
+   },
+   {
+      "name": "Sewing Machine 1",
+      "slug": "sewing-machine-1",
+      "make": "Bernina",
+      "model": "350F",
+      "training": "",
+      "picture": "bernina_350_1504035228905.png",
+      "location_name": "Scholars' Lab Makerspace",
+      "location_slug": "scholars-lab-makerspace"
+   },
+   {
+      "name": "SparkFun Inventor's Kits",
+      "slug": "sparkfun-inventor-s-kits",
+      "make": "SparkFun",
+      "model": "v3",
+      "training": "",
+      "picture": null,
+      "location_name": "Lacy Design Lab, aka. Rice 120",
+      "location_slug": "rice-120"
    },
    {
       "name": "Taz 5",
@@ -20,6 +140,26 @@
       "location_slug": "scholars-lab-makerspace"
    },
    {
+      "name": "Taz 5",
+      "slug": "taz-5",
+      "make": "Lulzbot",
+      "model": "Taz 5",
+      "training": "In person training.",
+      "picture": "tol_13300_1503932746853.jpg",
+      "location_name": "BME Fabrication Space",
+      "location_slug": "bme-fabrication-space"
+   },
+   {
+      "name": "TIG welder",
+      "slug": "tig-welder",
+      "make": "Lincoln Electric",
+      "model": "",
+      "training": "In-person, AND prior experience.",
+      "picture": "2d3cf9d4_d887_487f_a2e5_79e90a80a2e3_1000_1503933258023.jpg",
+      "location_name": "BME Fabrication Space",
+      "location_slug": "bme-fabrication-space"
+   },
+   {
       "name": "Ultimaker",
       "slug": "ultimaker",
       "make": "Ultimaker",
@@ -28,5 +168,35 @@
       "picture": "ultimaker_2_3d_printer_front_2_igo3d_451_1502827018216.jpg",
       "location_name": "Scholars' Lab Makerspace",
       "location_slug": "scholars-lab-makerspace"
+   },
+   {
+      "name": "Vacuum former",
+      "slug": "vacuum-former",
+      "make": "Formech",
+      "model": "",
+      "training": "In person",
+      "picture": "450DT_NEW_001large_1_1503933438695.jpg",
+      "location_name": "BME Fabrication Space",
+      "location_slug": "bme-fabrication-space"
+   },
+   {
+      "name": "Vertical band saw",
+      "slug": "vertical-band-saw",
+      "make": "JET",
+      "model": "",
+      "training": "(1) In-person and video training through BME 2000, or by appointment, and (2) video re-training prior to use.",
+      "picture": "26425_01_1000_1503932905086.jpg",
+      "location_name": "BME Fabrication Space",
+      "location_slug": "bme-fabrication-space"
+   },
+   {
+      "name": "Vertical metal cutting band saw",
+      "slug": "vertical-metal-cutting-band-saw",
+      "make": "JET",
+      "model": "",
+      "training": "(1) In-person and video training through BME 2000, or by appointment, and (2) video re-training prior to use.",
+      "picture": "jet_B0042X9IMM_414500K_main_lg_1503932923876.jpg",
+      "location_name": "BME Fabrication Space",
+      "location_slug": "bme-fabrication-space"
    }
 ]

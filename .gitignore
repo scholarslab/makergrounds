@@ -3,4 +3,4 @@ _site/
 .jekyll-metadata
 update-server.sh
 .DS_Store
-
+_bin

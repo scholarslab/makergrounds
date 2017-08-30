@@ -91,3 +91,8 @@ header {
 .tool-list, .people-list {
   color: black;
 }
+
+/* people pages */
+.bio-pic {
+  max-width: 500px;
+}

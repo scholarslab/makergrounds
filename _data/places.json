@@ -28,8 +28,8 @@
       "phone": "",
       "latitude": "",
       "longitude": "",
-      "picture": "Screen_Shot_2017_08_16_at_8.37.20_AM_1502887519386.png",
-      "updated_at": "2017-08-16T12:49:06.152Z",
+      "picture": "bme_1503519418370.png",
+      "updated_at": "2017-08-23T20:16:58.411Z",
       "tools": [],
       "people": []
    },
@@ -37,18 +37,132 @@
       "name": "BME Fabrication Space",
       "slug": "bme-fabrication-space",
       "description": "Machine shop for Biomedical Engineering Students",
-      "access": "By permission and in the presence of Dr. Guilford or other trained staff.",
+      "access": "By permission and with supervision from Dr. Guilford or other trained staff.",
       "hours": "To be determined each semester, or by special arrangement. ",
       "address": "Stacey Hall",
-      "website": null,
+      "website": "",
       "email": "guilford@virginia.edu",
       "phone": "434.243.2740",
-      "latitude": null,
-      "longitude": null,
-      "picture": "",
-      "updated_at": "2017-07-18T21:16:16.343Z",
-      "tools": [],
-      "people": []
+      "latitude": "",
+      "longitude": "",
+      "picture": "IMG_4832_1503932279478.jpg",
+      "updated_at": "2017-08-28T14:57:59.506Z",
+      "tools": [
+         {
+            "name": "Combination sander",
+            "make": "JET",
+            "model": "",
+            "slug": "combination-sander",
+            "picture": "Jet_414550K_1_1503932622829.jpg",
+            "training": ""
+         },
+         {
+            "name": "Saw Stop Table Saw",
+            "make": "Saw Stop",
+            "model": "Cabinet saw",
+            "slug": "saw-stop-table-saw",
+            "picture": "product_ics_straight_800x0.png_1503932733147.jpeg",
+            "training": "(1) In-person and video training through BME 2000, or by appointment, and (2) video re-training prior to use."
+         },
+         {
+            "name": "Taz 5",
+            "make": "Lulzbot",
+            "model": "Taz 5",
+            "slug": "taz-5",
+            "picture": "tol_13300_1503932746853.jpg",
+            "training": "In person training."
+         },
+         {
+            "name": "Vertical band saw",
+            "make": "JET",
+            "model": "",
+            "slug": "vertical-band-saw",
+            "picture": "26425_01_1000_1503932905086.jpg",
+            "training": "(1) In-person and video training through BME 2000, or by appointment, and (2) video re-training prior to use."
+         },
+         {
+            "name": "Vertical metal cutting band saw",
+            "make": "JET",
+            "model": "",
+            "slug": "vertical-metal-cutting-band-saw",
+            "picture": "jet_B0042X9IMM_414500K_main_lg_1503932923876.jpg",
+            "training": "(1) In-person and video training through BME 2000, or by appointment, and (2) video re-training prior to use."
+         },
+         {
+            "name": "MIG (wirefeed) Welder",
+            "make": "Lincoln Electric",
+            "model": "",
+            "slug": "mig-wirefeed-welder",
+            "picture": "22baeff7_b921_448b_b45b_da9420d38723_1000_1503933212918.jpg",
+            "training": "In-person, by appointment, AND prior experience."
+         },
+         {
+            "name": "TIG welder",
+            "make": "Lincoln Electric",
+            "model": "",
+            "slug": "tig-welder",
+            "picture": "2d3cf9d4_d887_487f_a2e5_79e90a80a2e3_1000_1503933258023.jpg",
+            "training": "In-person, AND prior experience."
+         },
+         {
+            "name": "Drill press",
+            "make": "JET",
+            "model": "",
+            "slug": "drill-press",
+            "picture": "7f021912_d73c_4205_b49b_ec61082e686f_1000_1503933323561.jpg",
+            "training": "(1) In-person and video training through BME 2000, or by appointment, and (2) video re-training prior to use."
+         },
+         {
+            "name": "Drill press",
+            "make": "JET",
+            "model": "",
+            "slug": "drill-press",
+            "picture": "7f021912_d73c_4205_b49b_ec61082e686f_1000_1503933347287.jpg",
+            "training": "(1) In-person and video training through BME 2000, or by appointment, and (2) video re-training prior to use."
+         },
+         {
+            "name": "Vacuum former",
+            "make": "Formech",
+            "model": "",
+            "slug": "vacuum-former",
+            "picture": "450DT_NEW_001large_1_1503933438695.jpg",
+            "training": "In person"
+         },
+         {
+            "name": "Horizontal band saw",
+            "make": "Harbor Freight",
+            "model": "",
+            "slug": "horizontal-band-saw",
+            "picture": "Unknown_2_1503933479770",
+            "training": "(1) In-person and video training through BME 2000, or by appointment, and (2) video re-training prior to use."
+         },
+         {
+            "name": "Horizontal metal cutting band saw (hydraulic feed)",
+            "make": "JET",
+            "model": "",
+            "slug": "horizontal-metal-cutting-band-saw-hydraulic-feed-",
+            "picture": "JET_B00004T9KT_3_lg_1503932980915.jpg",
+            "training": "(1) In-person and video training through BME 2000, or by appointment, and (2) video re-training prior to use."
+         },
+         {
+            "name": "CNC Mill",
+            "make": "Roland",
+            "model": "MD-40a",
+            "slug": "cnc-mill",
+            "picture": "Roland_MDX_40_large_1503933655331.jpg",
+            "training": "In person"
+         }
+      ],
+      "people": [
+         {
+            "name": "William Guilford",
+            "moniker": "Associate Professor of BME (SOM), Director of Educational Innovation (SEAS)",
+            "department": "",
+            "slug": "william-guilford",
+            "picture": "Guilford_William_2822_bust_1502201975705.jpg",
+            "email": "guilford@virginia.edu"
+         }
+      ]
    },
    {
       "name": "Drama Scene Shop",
@@ -68,21 +182,73 @@
       "people": []
    },
    {
+      "name": "Environmental Health & Safety ",
+      "slug": "environmental-health-safety",
+      "description": "Environmental Health &Safety (EHS) provides and coordinates services for the University's Makerspace, Shop and Studio Managers.  You can find safety and health resources at our EHS website including: the University Policy for students working safely in these environments; the User Agreement to use tools and equipment in University Maker Lab Spaces, Shops, and Studios; and Online Safety Training Modules.  Please give us a call,we love \"a day in the shop\"!  \r\n",
+      "access": "",
+      "hours": "Available for consultation 8-5",
+      "address": "One Morton Drive Suite 320 Charlottesville, VA 22903",
+      "website": "http://ehs.virginia.edu/Shop-Studio-Safety.html",
+      "email": "maw4u@virginia.edu",
+      "phone": "434-982-4836",
+      "latitude": "",
+      "longitude": "",
+      "picture": "",
+      "updated_at": "2017-08-30T18:24:19.282Z",
+      "tools": [],
+      "people": []
+   },
+   {
+      "name": "iLab",
+      "slug": "ilab",
+      "description": "The i.Lab is a University-wide initiative that creates a nexus for entrepreneurship and innovation education. Its mission is to foster deep cross-collaboration with no boundaries, across disciplines, schools or ways of thinking. The i.Lab provides coaching, courses and incubation to students, faculty and community members innovating the future. Initiatives such as the i.Lab help create a robust entrepreneurial ecosystem within U.Va. and its surrounding community. The i.Lab is a collaborative effort of 11 schools of the University, the Provost's Office, and U.Va. Innovation.",
+      "access": "Contact Sandra McCutcheon, i.Lab Programs Manager mccutcheons@ilab.virginia.edu",
+      "hours": "",
+      "address": "621 Nash Drive",
+      "website": "http://www.ilabatuva.org/",
+      "email": "mccutcheons@ilab.virginia.edu",
+      "phone": "",
+      "latitude": "",
+      "longitude": "",
+      "picture": "ilab_1501258079195_1503517727294_1503519077756.jpg",
+      "updated_at": "2017-08-23T20:11:17.836Z",
+      "tools": [],
+      "people": []
+   },
+   {
       "name": "Lacy Design Lab, aka. Rice 120",
       "slug": "rice-120",
-      "description": "We outfitted the Rice 120 Lacy Design Studio for use by all Introduction to Engineering (ENGR 1620) students.",
+      "description": "The Lacy Design Lab is a prototyping and design space that is available to all students. 3d printers, soldering and electronics, foam work and hand tools - a wide range of supplies to get you started on your next design project.",
       "access": "Open hours, evenings and weekends",
-      "hours": "Most evenings; Sunday afternoon",
+      "hours": "TBD",
       "address": "Rice Hall 120",
       "website": "http://www.seas.virginia.edu/acad/programs/tlp/designstudio.php",
       "email": "gcl8a@virginia.edu",
       "phone": "",
       "latitude": "",
-      "longitude": null,
-      "picture": "lacy-1501259238402.jpg",
-      "updated_at": "2017-07-28T16:27:18.482Z",
-      "tools": [],
-      "people": []
+      "longitude": "",
+      "picture": "lacy_1501259238402_1503517670889_1503519112805.jpg",
+      "updated_at": "2017-08-30T15:01:59.521Z",
+      "tools": [
+         {
+            "name": "SparkFun Inventor's Kits",
+            "make": "SparkFun",
+            "model": "v3",
+            "slug": "sparkfun-inventor-s-kits",
+            "picture": null,
+            "training": ""
+         }
+      ],
+      "people": [
+         {
+            "name": "Greg Lewin",
+            "moniker": "Lecturer",
+            "department": "Systems & Information Engineering",
+            "slug": "greg-lewin",
+            "picture": null,
+            "email": "gcl8a@virginia.edu"
+         }
+      ]
    },
    {
       "name": "Lacy Student Experiential Center (Lacy Hall)",
@@ -249,17 +415,17 @@
    {
       "name": "Scholars' Lab Makerspace",
       "slug": "scholars-lab-makerspace",
-      "description": "The Scholars' Lab Makerspace is a place for tinkering and experimentation with technologies like desktop fabrication, physical computing, and augmented reality. Open to everyone, we specialize in applications and research questions in the humanities and arts.\r\n\r\nInterested in exploring the Makerspace? Have an idea to use microcontrollers or 3D modeling and printing technology to enhance your research or differently interrogate your assumptions? The Makerspace is open from 1:00-5:00 p.m. Monday through Friday. Stop by to talk to one of our student consultants, attend our maker workshops, or contact us at scholarslab@virginia.edu to schedule an appointment with Scholars' Lab faculty and staff to discuss your planned project.",
+      "description": "The Scholars' Lab Makerspace is a place for tinkering and experimentation with technologies like desktop fabrication, physical computing, and augmented reality. Open to everyone, we specialize in applications and research questions in the humanities and arts.\n\nInterested in exploring the Makerspace? Have an idea to use microcontrollers or 3D modeling and printing technology to enhance your research or differently interrogate your assumptions? The Makerspace is open from 1:00-5:00 p.m. Monday through Friday. Stop by to talk to one of our student consultants, attend our maker workshops, or contact us at scholarslab@virginia.edu to schedule an appointment with Scholars' Lab faculty and staff to discuss your planned project.",
       "access": "Walk Ins Welcome or email ahead slabmakerspace@virginia.edu",
       "hours": "M-T 1-7 PM, F 1-5 PM",
       "address": "Alderman 419",
       "website": "http://scholarslab.org/makerspace",
       "email": "slabmakerspace@virginia.edu",
-      "phone": "",
-      "latitude": "",
-      "longitude": "",
+      "phone": null,
+      "latitude": null,
+      "longitude": null,
       "picture": "scholarslab.jpg",
-      "updated_at": "2017-08-17T12:46:02.326Z",
+      "updated_at": "2017-07-18T21:16:16.343Z",
       "tools": [
          {
             "name": "Taz 5",
@@ -283,6 +449,30 @@
             "model": "Replicator 2",
             "slug": "replicator-2",
             "picture": "Makerbot_Replicator_2_2_0_1502904468025.jpg",
+            "training": ""
+         },
+         {
+            "name": "Arduino 101 Kits",
+            "make": "Arduino",
+            "model": "101",
+            "slug": "arduino-101-kits",
+            "picture": "sparkfun_101_inventor_kit_1504034655459.jpg",
+            "training": ""
+         },
+         {
+            "name": "Arduino Uno Kits",
+            "make": "Arduino",
+            "model": "Uno",
+            "slug": "arduino-uno-kits",
+            "picture": "sparkfun_uno_inventor_kit_1504034629556.jpg",
+            "training": ""
+         },
+         {
+            "name": "Sewing Machine 1",
+            "make": "Bernina",
+            "model": "350F",
+            "slug": "sewing-machine-1",
+            "picture": "bernina_350_1504035228905.png",
             "training": ""
          }
       ],
@@ -313,23 +503,5 @@
       "updated_at": "2017-08-09T19:26:10.585Z",
       "tools": [],
       "people": []
-   },
-   {
-      "name": "iLab",
-      "slug": "ilab",
-      "description": "The i.Lab is a University-wide initiative that creates a nexus for entrepreneurship and innovation education. Its mission is to foster deep cross-collaboration with no boundaries, across disciplines, schools or ways of thinking. The i.Lab provides coaching, courses and incubation to students, faculty and community members innovating the future. Initiatives such as the i.Lab help create a robust entrepreneurial ecosystem within U.Va. and its surrounding community. The i.Lab is a collaborative effort of 11 schools of the University, the Provost's Office, and U.Va. Innovation.",
-      "access": "Contact Sandra McCutcheon, i.Lab Programs Manager mccutcheons@ilab.virginia.edu",
-      "hours": "",
-      "address": "621 Nash Drive",
-      "website": "http://www.ilabatuva.org/",
-      "email": "mccutcheons@ilab.virginia.edu",
-      "phone": "",
-      "latitude": "",
-      "longitude": null,
-      "picture": "ilab-1501258079195.jpg",
-      "updated_at": "2017-07-28T16:07:59.237Z",
-      "tools": [],
-      "people": []
    }
 ]
-
