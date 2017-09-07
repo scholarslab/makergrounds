@@ -43,5 +43,19 @@
   * file names correspond to slugs for each tool category
   * taken from The Noun Project (creative commons)
   * https://thenounproject.com/jennyxing27/kit/favorites/
-  * the woodworking icon couldn't be found anymore on thenounproject for some reason...
   * suggestion: these should also be used in the individual locations' sites once * specific tools are established under each tool category
+  * icons:
+    - 3D printing: 3D Printing, Andrew Cameron, https://thenounproject.com/term/3d-printing/62251
+    - 3D scanning: 3D Scanner, Arthur Schmitt, https://thenounproject.com/term/3d-scanner/18158
+    - casting: Casting, Jasmine Rae Friedrich, https://thenounproject.com/term/casting/10773
+    - cnc cutting: CNC Milling Machine, Toke Frello, https://thenounproject.com/term/cnc-milling-machine/189666
+    - computer + software: Computer, Aleksandr Vector, https://thenounproject.com/term/computer/997804
+    - drone: Drone Camera, Adrien Croquet, https://thenounproject.com/term/drone-camera/1177292
+    - electronics: Circuit Board, Hea Poh Lin, https://thenounproject.com/term/circuit-board/585905
+    - laser cutter: Laser Cutter, Toke Frello, https://thenounproject.com/term/laser-cutter/190353/
+    - material + data archive: Archive, Rockicon, https://thenounproject.com/term/archive/989776
+    - metalworking: Anvil, Pedro Ivo Hudson, https://thenounproject.com/term/anvil/3891
+    - recording: Slider, Hea Poh Lin, https://thenounproject.com/term/slider/668941
+    - robot arm: Robot, Dylan Thompson, https://thenounproject.com/term/robot/24952/
+    - virtual-reality: VR Cardboard, Vaibhav Radhakrishnan, https://thenounproject.com/term/vr-cardboard/551703/
+    - woodcutting: Saw Blade, Liane Kirschner, https://thenounproject.com/liane/uploads/?i=164988

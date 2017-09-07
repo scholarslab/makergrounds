@@ -9,12 +9,12 @@
       "bme-design-lab",
       "drama-scene-shop",
       "bme-fabrication-space",
-      "ruffin-hall-wood-metal-shop",
-      "scholars-lab",
-      "darden-ilab",
-      "a-school-fablab",
-      "mechatronics-lab-the-mill",
-      "wilson-hall-maker-studio",
+      "ruffin-hall-wood-and-metal-shop",
+      "scholars-lab-makerspace",
+      "ilab",
+      "fablab",
+      "mechatronics-lab-and-the-mill",
+      "wilson-hall",
       "rice-120"
     ]
   },
@@ -31,8 +31,8 @@
     "slug" : "casting",
     "icon" : "casting.svg",
     "locations" : [
-      "ruffin-hall-wood-metal-shop",
-      "a-school-fablab"
+      "ruffin-hall-wood-and-metal-shop",
+      "fablab"
     ]
   },
   {
@@ -43,8 +43,8 @@
       "bme-design-lab",
       "bme-fabrication-space",
       "lacy-hall",
-      "a-school-fablab",
-      "wilson-hall-maker-studio"
+      "fablab",
+      "wilson-hall"
     ]
   },
   {
@@ -55,8 +55,8 @@
       "robertson-media-center",
       "rapid-prototyping-lab",
       "library-materials-collection",
-      "scholars-lab",
-      "wilson-hall-maker-studio"
+      "scholars-lab-makerspace",
+      "wilson-hall"
     ]
   },
   {
@@ -75,9 +75,9 @@
       "omerf-fabrication-space",
       "bme-design-lab",
       "bme-fabrication-space",
-      "scholars-lab",
-      "mechatronics-lab-the-mill",
-      "wilson-hall-maker-studio",
+      "scholars-lab-makerspace",
+      "mechatronics-lab-and-the-mill",
+      "wilson-hall",
       "rice-120"
     ]
   },
@@ -88,7 +88,7 @@
     "locations" : [
       "robertson-media-center",
       "library-materials-collection",
-      "scholars-lab"
+      "scholars-lab-makerspace"
     ]
   },
   {
@@ -101,9 +101,9 @@
       "drama-scene-shop",
       "bme-fabrication-space",
       "lacy-hall",
-      "ruffin-hall-wood-metal-shop",
+      "ruffin-hall-wood-and-metal-shop",
       "milton-airfield-hangar",
-      "mechatronics-lab-the-mill"
+      "mechatronics-lab-and-the-mill"
     ]
   },
   {
@@ -113,7 +113,7 @@
     "locations" : [
       "robertson-media-center",
       "bme-design-lab",
-      "wilson-hall-maker-studio",
+      "wilson-hall",
     ]
   },
   {
@@ -121,7 +121,7 @@
     "slug" : "robotics",
     "icon" : "robotics.svg",
     "locations" : [
-      "mechatronics-lab-the-mill"
+      "mechatronics-lab-and-the-mill"
     ]
   },
   {
@@ -129,7 +129,7 @@
     "slug" : "virtual-reality",
     "icon" : "virtual-reality.svg",
     "locations" : [
-      "scholars-lab"
+      "scholars-lab-makerspace"
     ]
   },
   {
@@ -141,11 +141,11 @@
       "prop-shop",
       "drama-scene-shop",
       "bme-fabrication-space",
-      "ruffin-hall-wood-metal-shop",
+      "ruffin-hall-wood-and-metal-shop",
       "milton-airfield-hangar",
-      "a-school-fablab",
-      "mechatronics-lab-the-mill",
-      "wilson-hall-maker-studio"
+      "fablab",
+      "mechatronics-lab-and-the-mill",
+      "wilson-hall"
     ]
   },
 

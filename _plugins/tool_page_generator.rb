@@ -1,6 +1,7 @@
 # Generate pages from individual records in yml files
 # (c) 2014-2016 Adolfo Villafiorita
 # Distributed under the conditions of the MIT License
+# Edited 2017 by Ammon Shepherd
 
 module Jekyll
 
@@ -15,7 +16,7 @@ module Jekyll
   end
 
   # this class is used to tell Jekyll to generate a page
-  class DataPage < Page
+  class ToolPage < Page
     include Sanitizer
 
     # - site and base are copied from other plugins: to be honest, I am not sure what they do
@@ -53,22 +54,22 @@ module Jekyll
     end
   end
 
-  class DataPagesGenerator < Generator
+  class ToolPagesGenerator < Generator
     safe true
 
-    # generate loops over _config.yml/page_gen invoking the DataPage
+    # generate loops over _config.yml/tool_page invoking the ToolPage
     # constructor for each record for which we want to generate a page
 
     def generate(site)
-      # page_gen_dirs determines whether we want to generate index pages
+      # tool_page_dirs determines whether we want to generate index pages
       # (filename/index.html) or standard files (filename.html). This information
-      # is passed to the DataPage constructor, which sets the @dir variable
+      # is passed to the ToolPage constructor, which sets the @dir variable
       # as required by this directive
-      index_files = site.config['page_gen-dirs'] == true
+      index_files = site.config['tool_page-dirs'] == true
 
       # data contains the specification of the data for which we want to generate
       # the pages (look at the README file for its specification)
-      data = site.config['page_gen']
+      data = site.config['tool_page']
       if data
         data.each do |data_spec|
           template = data_spec['template'] || data_spec['data']
@@ -88,7 +89,7 @@ module Jekyll
               end
             end
             records.each do |record|
-              site.pages << DataPage.new(site, site.source, index_files, dir, record, filename, template, extension)
+              site.pages << ToolPage.new(site, site.source, index_files, dir, record, filename, template, extension)
             end
           else
             puts "error. could not find template #{template}" if not site.layouts.key? template
@@ -98,10 +99,10 @@ module Jekyll
     end
   end
 
-  module DataPageLinkGenerator
+  module ToolPageLinkGenerator
     include Sanitizer
 
-    # use it like this: {{input | datapage_url: dir}}
+    # use it like this: {{input | toolpage_url: dir}}
     # to generate a link to a data_page.
     #
     # the filter is smart enough to generate different link styles
@@ -112,8 +113,8 @@ module Jekyll
     #
     # Thus, if you use the `extension` feature of this plugin, you
     # need to generate the links by hand
-    def datapage_url(input, dir)
-      @gen_dir = Jekyll.configuration({})['page_gen-dirs']
+    def toolpage_url(input, dir)
+      @gen_dir = Jekyll.configuration({})['tool_page-dirs']
       if @gen_dir then
         dir + "/" + sanitize_filename(input) + "/index.html"
       else
@@ -124,5 +125,5 @@ module Jekyll
 
 end
 
-Liquid::Template.register_filter(Jekyll::DataPageLinkGenerator)
+Liquid::Template.register_filter(Jekyll::ToolPageLinkGenerator)
 

@@ -2,19 +2,19 @@
   <div class="text-center">
     <h2>Makers Map</h2>
   </div>
-  <script>
-  mapboxgl.accessToken = 'pk.eyJ1Ijoic2Nob2xhcnNsYWIiLCJhIjoiY2oxdzlqNDh1MDAwMTMzcW96MGxtajZxNSJ9.8I1zZymMKofR_FbOiazznw';
-  var map = new mapboxgl.Map({
-  container: 'map',
-  style: 'mapbox://styles/mapbox/dark-v9'
-  });
-  </script>
 </section>
 
 <section class="no-padding mx-auto" id="portfolio">
   <section style="position: relative;overflow: hidden;">
 
     <div id="map" class="map"></div>
+    <script>
+      mapboxgl.accessToken = 'pk.eyJ1Ijoic2Nob2xhcnNsYWIiLCJhIjoiY2oxdzlqNDh1MDAwMTMzcW96MGxtajZxNSJ9.8I1zZymMKofR_FbOiazznw';
+      var map = new mapboxgl.Map({
+      container: 'map',
+      style: 'mapbox://styles/mapbox/dark-v9'
+      });
+    </script>
 
     <!-- creates overlay of locations on right -->
     <ul class="map-locations-list">

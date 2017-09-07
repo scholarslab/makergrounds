@@ -48,6 +48,11 @@ header {
   margin-top: 50px;
 }*/
 
+.tool-image, .person-image {
+  max-height: 150px;
+  background: white;
+}
+
 .project-link {
   font-size: .8em;
   font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
@@ -80,4 +85,14 @@ header {
   background-color: #000;
   border-top: solid 5px #444;
   color: #aaa;
+}
+
+/* location pages */
+.tool-list, .people-list {
+  color: black;
+}
+
+/* people pages */
+.bio-pic {
+  max-width: 500px;
 }
