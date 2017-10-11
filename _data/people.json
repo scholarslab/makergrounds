@@ -11,8 +11,25 @@
       "office_hours": "",
       "office_address": "Alderman 415",
       "bio": "",
+      "location_id": 8,
       "location_name": "Scholars' Lab Makerspace",
       "location_slug": "scholars-lab-makerspace"
+   },
+   {
+      "name": "Clarissa Lynch",
+      "slug": "clarissa-lynch",
+      "moniker": "Chemical Safety Officer",
+      "department": "Environmental Health and Safety",
+      "picture": "Clarisa_R_2C_1504717893777.jpg",
+      "email": "cl9ev@virginia.edu",
+      "phone": "434-982-4311",
+      "website": "http://ehs.virginia.edu/",
+      "office_hours": "",
+      "office_address": "",
+      "bio": "Expertise in:\r\nChemical safety guidelines and best practices, hazardous material regulations--including collection and disposal, Safety Equipment (eyewash)",
+      "location_id": 18,
+      "location_name": "Environmental Health & Safety ",
+      "location_slug": "environmental-health-safety"
    },
    {
       "name": "Greg Lewin",
@@ -26,8 +43,25 @@
       "office_hours": "",
       "office_address": "Olsson 111C",
       "bio": "",
+      "location_id": 10,
       "location_name": "Lacy Design Lab, aka. Rice 120",
       "location_slug": "rice-120"
+   },
+   {
+      "name": "Michelle Whitlock",
+      "slug": "michelle-whitlock",
+      "moniker": "Occupational Safety Specialist",
+      "department": "Environmental Health &Safety",
+      "picture": "Michelle_R_2C_1504706598567.jpg",
+      "email": "maw4u@virginia.edu",
+      "phone": "434-982-4836",
+      "website": "http://ehs.virginia.edu",
+      "office_hours": "",
+      "office_address": "One Morton Drive",
+      "bio": "Occuaptional Safety expertise in equipment safety including machine guarding, lock out and electrical safety; fall protection-(fall arrest equipment and fall prevention solutions); hazard assessments and personal protective equipment selection.",
+      "location_id": 18,
+      "location_name": "Environmental Health & Safety ",
+      "location_slug": "environmental-health-safety"
    },
    {
       "name": "William Guilford",
@@ -41,6 +75,7 @@
       "office_hours": "",
       "office_address": "MR4 room 1122",
       "bio": "",
+      "location_id": 4,
       "location_name": "BME Fabrication Space",
       "location_slug": "bme-fabrication-space"
    },
@@ -56,6 +91,7 @@
       "office_hours": "",
       "office_address": "",
       "bio": "",
+      "location_id": 16,
       "location_name": "Robertson Media Center",
       "location_slug": "robertson-media-center"
    }

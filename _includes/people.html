@@ -5,36 +5,63 @@
 </section>
 
 <section class="no-padding mx-auto" id="portfolio">
-  <div class="keybox arts-sciences
-  ">
-  	Arts & Sciences
+  <div class="people-key">
+    <div>
+      <div class="keybox-left arts-sciences"></div>
+      <div class="arts-sciences keybox">
+      	Arts & Sciences
+      </div>
+    </div>
+    <div>
+      <div class="keybox-left engineering"></div>
+      <div class="keybox engineering">
+      	Engineering
+      </div>
+    </div>
+    <div>
+      <div class="keybox-left architecture"></div>
+      <div class="keybox architecture">
+        Architecture
+      </div>
+    </div>
+    <div>
+      <div class="keybox-left darden"></div>
+      <div class="keybox darden">
+        Darden
+      </div>
+    </div>
+    <div>
+      <div class="keybox-left health-sciences"></div>
+      <div class="keybox health-sciences">
+        Health Sciences
+      </div>
+    </div>
+    <div>
+      <div class="keybox-left ehs"></div>
+      <div class="keybox ehs">
+        EHS
+      </div>
+    </div>
   </div>
-  <div class="keybox engineering
-  ">
-  	Engineering
-  </div>
-  
-  <div style="clear:both; height:40px;"></div>
+
+  <!-- <div style="clear:both; height:40px;"></div> -->
 
   {% for person in site.data.people %}
-  	<div class="person-box 
+  	
+    <a href="/people/{{ person.slug }}" class="person-box">
+  	
+      <div class="img-box"><img src="http://sfm.lib.virginia.edu/uploads/{{ person.picture }}" /></div>
+  		<br/>
+      <p>{{ person.name }}</p>
+  		
+      <div>
+        <div class="{{ person.location_slug }} person-location-color-block"></div> 
+        <div class="person-location-name">{{ person.location_name }}</div>
+      </div> 
 
-  	{% case person.location_id %}
-  		{% when 8 or 2 %}
-  			arts-sciences
-  		{% when 3 or 14 %}
-  			engineering
-  		{% else %}
-  			no-color
-  	{% endcase %}
-
-  	">
-  		<div class="img-box"><img src="http://sfm.lib.virginia.edu/uploads/{{ person.picture }}" /></div>
-  		<p>{{ person.name }}</p>
-  		<p>{{ person.location.name }}
-
-  	</div>
-
+      
+  	</a>
+  
   {% endfor %}
 
 </section>
