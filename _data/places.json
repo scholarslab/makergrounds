@@ -205,7 +205,16 @@
             "training": ""
          }
       ],
-      "people": []
+      "people": [
+         {
+            "name": "Chris Rybitski",
+            "moniker": "Shop Foreman",
+            "department": "Drama",
+            "slug": "chris-rybitski",
+            "picture": "MBailey_Chris_Rybitski_1507664841313.jpg",
+            "email": "cmr4gr@virginia.edu"
+         }
+      ]
    },
    {
       "name": "Environmental Health & Safety ",
@@ -550,18 +559,52 @@
    {
       "name": "Wilson Hall Maker Studio",
       "slug": "wilson-hall",
-      "description": "The primary mission of the Wilson Hall Maker Studio is to support creative and critical academic projects for the University of Virginia College of Arts & Sciences. We are a new studio, and are growing; we aspire to be open and inclusive to all disciplines and projects. Whether you are faculty, staff, or student, we hope to give you access to the studio, and to listen to your feedback as we grow.",
+      "description": "The primary mission of the Wilson Hall Maker Studio is to support creative and critical academic projects for the University of Virginia College of Arts & Sciences. We are a new studio, and are growing; we aspire to be open and inclusive to all disciplines and projects. Whether you are faculty, staff, or student, we hope to give you access to the studio, and to listen to your feedback as we grow. ",
       "access": "Tours are welcome during open hours. 24-hour card access is given on a case-by-case basis (generally given if asked!)",
       "hours": "Monday through Friday, 10am-4pm",
       "address": "Wilson Hall 141",
       "website": "http://wilsonstudios.as.virginia.edu/wilson-hall-maker-studio",
-      "email": "jasonb@virginia.edu",
+      "email": "jasonbennett@virginia.edu",
       "phone": "",
-      "latitude": "",
-      "longitude": "",
+      "latitude": "38.032487",
+      "longitude": "78.504051",
       "picture": "wilson.jpg",
-      "updated_at": "2017-08-09T19:26:10.585Z",
-      "tools": [],
-      "people": []
+      "updated_at": "2017-10-18T17:38:56.037Z",
+      "tools": [
+         {
+            "name": "Makerbot Replicator 5th Gen",
+            "make": "Makerbot",
+            "model": "5th Gen",
+            "slug": "makerbot-replicator-5th-gen",
+            "picture": "makerbot_mp05825_replicator_5th_gen_desktop_1435866384000_1026718_1508348642415.jpg",
+            "training": ""
+         },
+         {
+            "name": "X-Carve CNC Router",
+            "make": "Inventables",
+            "model": "X-Carve",
+            "slug": "x-carve-cnc-router",
+            "picture": "xcarve_1508348744458.png",
+            "training": "Individual Training"
+         },
+         {
+            "name": "Nomad 883 CNC Router",
+            "make": "Carbide3D",
+            "model": "Nomad 883",
+            "slug": "nomad-883-cnc-router",
+            "picture": "nomad883_1508349158238.jpg",
+            "training": "Individual Training"
+         }
+      ],
+      "people": [
+         {
+            "name": "Jason Bennett",
+            "moniker": "Maker Space Specialist",
+            "department": "Learning Design & Technology",
+            "slug": "jason-bennett",
+            "picture": "large_jason_in_maker_studio_1508348482377.jpg",
+            "email": "jasonb@virginia.edu"
+         }
+      ]
    }
 ]
