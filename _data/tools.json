@@ -30,6 +30,16 @@
       "location_slug": "bme-fabrication-space"
    },
    {
+      "name": "CNC Router",
+      "slug": "cnc-router",
+      "make": "Shopbot",
+      "model": "PRS Standard 48x96",
+      "training": "",
+      "picture": "products_PRS_1_1507665570354.jpg",
+      "location_name": "Drama Scene Shop",
+      "location_slug": "drama-scene-shop"
+   },
+   {
       "name": "Combination sander",
       "slug": "combination-sander",
       "make": "JET",
@@ -45,7 +55,7 @@
       "make": "JET",
       "model": "",
       "training": "(1) In-person and video training through BME 2000, or by appointment, and (2) video re-training prior to use.",
-      "picture": "7f021912_d73c_4205_b49b_ec61082e686f_1000_1503933347287.jpg",
+      "picture": "7f021912_d73c_4205_b49b_ec61082e686f_1000_1503933323561.jpg",
       "location_name": "BME Fabrication Space",
       "location_slug": "bme-fabrication-space"
    },
@@ -55,7 +65,7 @@
       "make": "JET",
       "model": "",
       "training": "(1) In-person and video training through BME 2000, or by appointment, and (2) video re-training prior to use.",
-      "picture": "7f021912_d73c_4205_b49b_ec61082e686f_1000_1503933323561.jpg",
+      "picture": "7f021912_d73c_4205_b49b_ec61082e686f_1000_1503933347287.jpg",
       "location_name": "BME Fabrication Space",
       "location_slug": "bme-fabrication-space"
    },
@@ -80,6 +90,16 @@
       "location_slug": "bme-fabrication-space"
    },
    {
+      "name": "MakerBot",
+      "slug": "makerbot",
+      "make": "MakerBot",
+      "model": "Replicator 2",
+      "training": "",
+      "picture": null,
+      "location_name": "iLab @UVA",
+      "location_slug": "ilab"
+   },
+   {
       "name": "MIG (wirefeed) Welder",
       "slug": "mig-wirefeed-welder",
       "make": "Lincoln Electric",
@@ -100,6 +120,16 @@
       "location_slug": "scholars-lab-makerspace"
    },
    {
+      "name": "Saw Stop",
+      "slug": "saw-stop",
+      "make": "Saw Stop",
+      "model": "Cabinet Saw",
+      "training": "",
+      "picture": "e04ee07703ff6615087dcd413acc812c_1_1507664956937.jpg",
+      "location_name": "Drama Scene Shop",
+      "location_slug": "drama-scene-shop"
+   },
+   {
       "name": "Saw Stop Table Saw",
       "slug": "saw-stop-table-saw",
       "make": "Saw Stop",
@@ -116,6 +146,16 @@
       "model": "350F",
       "training": "",
       "picture": "bernina_350_1504035228905.png",
+      "location_name": "Scholars' Lab Makerspace",
+      "location_slug": "scholars-lab-makerspace"
+   },
+   {
+      "name": "Sewing Machine 2",
+      "slug": "sewing-machine-2",
+      "make": "Bernina",
+      "model": "350F",
+      "training": "",
+      "picture": "bernina_350_1504292611713.png",
       "location_name": "Scholars' Lab Makerspace",
       "location_slug": "scholars-lab-makerspace"
    },

@@ -26,7 +26,7 @@
       "website": "http://ehs.virginia.edu/",
       "office_hours": "",
       "office_address": "",
-      "bio": "Expertise in:\r\nChemical safety guidelines and best practices, hazardous material regulations--including collection and disposal, Safety Equipment (eyewash)",
+      "bio": "Expertise in:\r\nChemical safety guidelines and best practices, hazardous material regulations--including collection and disposal of waste, Safety Equipment (eyewash)",
       "location_id": 18,
       "location_name": "Environmental Health & Safety ",
       "location_slug": "environmental-health-safety"
@@ -46,6 +46,22 @@
       "location_id": 10,
       "location_name": "Lacy Design Lab, aka. Rice 120",
       "location_slug": "rice-120"
+   },
+   {
+      "name": "Melissa Goldman",
+      "slug": "melissa-goldman",
+      "moniker": "Fabrication Facilities Manager",
+      "department": "School of Architecture",
+      "picture": "melissagoldman_1507656338971.jpg",
+      "email": "goldman@virginia.edu",
+      "phone": "434.924.6443",
+      "website": "",
+      "office_hours": "",
+      "office_address": "123 Campbell Hall",
+      "bio": "",
+      "location_id": 5,
+      "location_name": "A School FabLab",
+      "location_slug": "fablab"
    },
    {
       "name": "Michelle Whitlock",

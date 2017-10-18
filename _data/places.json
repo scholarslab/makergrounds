@@ -14,7 +14,16 @@
       "picture": "a-school-fab-lab.jpg",
       "updated_at": "2017-08-09T19:20:52.648Z",
       "tools": [],
-      "people": []
+      "people": [
+         {
+            "name": "Melissa Goldman",
+            "moniker": "Fabrication Facilities Manager",
+            "department": "School of Architecture",
+            "slug": "melissa-goldman",
+            "picture": "melissagoldman_1507656338971.jpg",
+            "email": "goldman@virginia.edu"
+         }
+      ]
    },
    {
       "name": "BME DesignLab",
@@ -167,18 +176,35 @@
    {
       "name": "Drama Scene Shop",
       "slug": "drama-scene-shop",
-      "description": "The Scene Shop in the Drama Department is primarily used to produce the stage sets and props for performances. The shop has tools for welding, woodworking, metal cutting, a hot wire cutter, a hand held plasma cutter, a vacuum former, and a paint frame that can rig up large projects. The shop teaches workshops about welding, vacuum forming, rigging and flying, OSHA, and Arduino micro controllers. There is also a basketball hoop that takes advantage of the high ceilings. All tools are accessible to students outside of the depart ment who have had safety training.",
+      "description": "The Scene Shop in the Drama Department is primarily used to produce the stage sets and props for performances. The shop has tools for welding, woodworking, metal cutting, a hot wire cutter, a hand held plasma cutter, a vacuum former, and a paint frame for large drops. The shop teaches workshops about welding, vacuum forming, rigging and flying, OSHA, and Arduino micro controllers. There is also a basketball hoop that takes advantage of the high ceilings.",
       "access": "By appointment with Steve Warner or Chris Rybitski",
       "hours": "M-F 1-5 PM",
       "address": "Drama Scene Shop",
-      "website": null,
+      "website": "",
       "email": "cmr4gr@virginia.edu",
-      "phone": null,
-      "latitude": null,
-      "longitude": null,
-      "picture": "drama.jpg",
-      "updated_at": "2017-07-18T21:16:16.343Z",
-      "tools": [],
+      "phone": "",
+      "latitude": "",
+      "longitude": "",
+      "picture": "IMG_20170427_172039541_1507664704243.jpg",
+      "updated_at": "2017-10-10T19:45:21.528Z",
+      "tools": [
+         {
+            "name": "Saw Stop",
+            "make": "Saw Stop",
+            "model": "Cabinet Saw",
+            "slug": "saw-stop",
+            "picture": "e04ee07703ff6615087dcd413acc812c_1_1507664956937.jpg",
+            "training": ""
+         },
+         {
+            "name": "CNC Router",
+            "make": "Shopbot",
+            "model": "PRS Standard 48x96",
+            "slug": "cnc-router",
+            "picture": "products_PRS_1_1507665570354.jpg",
+            "training": ""
+         }
+      ],
       "people": []
    },
    {
@@ -186,33 +212,59 @@
       "slug": "environmental-health-safety",
       "description": "Environmental Health &Safety (EHS) provides and coordinates services for the University's Makerspace, Shop and Studio Managers.  You can find safety and health resources at our EHS website including: the University Policy for students working safely in these environments; the User Agreement to use tools and equipment in University Maker Lab Spaces, Shops, and Studios; and Online Safety Training Modules.  Please give us a call,we love \"a day in the shop\"!  \r\n",
       "access": "",
-      "hours": "Available for consultation 8-5",
+      "hours": "Available for consultation M-F, 8am-5pm",
       "address": "One Morton Drive Suite 320 Charlottesville, VA 22903",
       "website": "http://ehs.virginia.edu/Shop-Studio-Safety.html",
       "email": "maw4u@virginia.edu",
       "phone": "434-982-4836",
       "latitude": "",
       "longitude": "",
-      "picture": "",
-      "updated_at": "2017-08-30T18:24:19.282Z",
+      "picture": "Makerspace_Safety_586_A_1506532889591.jpg",
+      "updated_at": "2017-09-27T17:21:29.646Z",
       "tools": [],
-      "people": []
+      "people": [
+         {
+            "name": "Michelle Whitlock",
+            "moniker": "Occupational Safety Specialist",
+            "department": "Environmental Health &Safety",
+            "slug": "michelle-whitlock",
+            "picture": "Michelle_R_2C_1504706598567.jpg",
+            "email": "maw4u@virginia.edu"
+         },
+         {
+            "name": "Clarissa Lynch",
+            "moniker": "Chemical Safety Officer",
+            "department": "Environmental Health and Safety",
+            "slug": "clarissa-lynch",
+            "picture": "Clarisa_R_2C_1504717893777.jpg",
+            "email": "cl9ev@virginia.edu"
+         }
+      ]
    },
    {
-      "name": "iLab",
+      "name": "iLab @UVA",
       "slug": "ilab",
-      "description": "The i.Lab is a University-wide initiative that creates a nexus for entrepreneurship and innovation education. Its mission is to foster deep cross-collaboration with no boundaries, across disciplines, schools or ways of thinking. The i.Lab provides coaching, courses and incubation to students, faculty and community members innovating the future. Initiatives such as the i.Lab help create a robust entrepreneurial ecosystem within U.Va. and its surrounding community. The i.Lab is a collaborative effort of 11 schools of the University, the Provost's Office, and U.Va. Innovation.",
+      "description": "The W.L. Lyons Brown III Innovation Laboratory, or i.Lab at UVA, is a University of Virginia-wide initiative with the mission of supporting entrepreneurs and innovators both on and beyond the UVA Grounds. To accomplish this mission, the i.Lab provides programs, funding, workspace, mentors, community, and additional resources to support new entrepreneurs and accelerate new ventures. The i.Lab is a collaborative effort of 11 schools of the University, the Provost's Office, and U.Va. Innovation.",
       "access": "Contact Sandra McCutcheon, i.Lab Programs Manager mccutcheons@ilab.virginia.edu",
       "hours": "",
       "address": "621 Nash Drive",
       "website": "http://www.ilabatuva.org/",
       "email": "mccutcheons@ilab.virginia.edu",
-      "phone": "",
+      "phone": "(434) 924-4775",
       "latitude": "",
       "longitude": "",
       "picture": "ilab_1501258079195_1503517727294_1503519077756.jpg",
-      "updated_at": "2017-08-23T20:11:17.836Z",
-      "tools": [],
+      "updated_at": "2017-08-31T13:43:41.446Z",
+      "tools": [
+         {
+            "name": "MakerBot",
+            "make": "MakerBot",
+            "model": "Replicator 2",
+            "slug": "makerbot",
+            "picture": null,
+            "training": ""
+         }
+      ],
       "people": []
    },
    {
@@ -473,6 +525,14 @@
             "model": "350F",
             "slug": "sewing-machine-1",
             "picture": "bernina_350_1504035228905.png",
+            "training": ""
+         },
+         {
+            "name": "Sewing Machine 2",
+            "make": "Bernina",
+            "model": "350F",
+            "slug": "sewing-machine-2",
+            "picture": "bernina_350_1504292611713.png",
             "training": ""
          }
       ],
