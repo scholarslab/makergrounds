@@ -30,6 +30,16 @@
       "location_slug": "bme-fabrication-space"
    },
    {
+      "name": "CNC Router",
+      "slug": "cnc-router",
+      "make": "Shopbot",
+      "model": "PRS Standard 48x96",
+      "training": "",
+      "picture": "products_PRS_1_1507665570354.jpg",
+      "location_name": "Drama Scene Shop",
+      "location_slug": "drama-scene-shop"
+   },
+   {
       "name": "Combination sander",
       "slug": "combination-sander",
       "make": "JET",
@@ -80,6 +90,26 @@
       "location_slug": "bme-fabrication-space"
    },
    {
+      "name": "MakerBot",
+      "slug": "makerbot",
+      "make": "MakerBot",
+      "model": "Replicator 2",
+      "training": "",
+      "picture": null,
+      "location_name": "iLab @UVA",
+      "location_slug": "ilab"
+   },
+   {
+      "name": "Makerbot Replicator 5th Gen",
+      "slug": "makerbot-replicator-5th-gen",
+      "make": "Makerbot",
+      "model": "5th Gen",
+      "training": "",
+      "picture": "makerbot_mp05825_replicator_5th_gen_desktop_1435866384000_1026718_1508348642415.jpg",
+      "location_name": "Wilson Hall Maker Studio",
+      "location_slug": "wilson-hall"
+   },
+   {
       "name": "MIG (wirefeed) Welder",
       "slug": "mig-wirefeed-welder",
       "make": "Lincoln Electric",
@@ -90,6 +120,16 @@
       "location_slug": "bme-fabrication-space"
    },
    {
+      "name": "Nomad 883 CNC Router",
+      "slug": "nomad-883-cnc-router",
+      "make": "Carbide3D",
+      "model": "Nomad 883",
+      "training": "Individual Training",
+      "picture": "nomad883_1508349158238.jpg",
+      "location_name": "Wilson Hall Maker Studio",
+      "location_slug": "wilson-hall"
+   },
+   {
       "name": "Replicator 2",
       "slug": "replicator-2",
       "make": "Makerbot",
@@ -98,6 +138,16 @@
       "picture": "Makerbot_Replicator_2_2_0_1502904468025.jpg",
       "location_name": "Scholars' Lab Makerspace",
       "location_slug": "scholars-lab-makerspace"
+   },
+   {
+      "name": "Saw Stop",
+      "slug": "saw-stop",
+      "make": "Saw Stop",
+      "model": "Cabinet Saw",
+      "training": "",
+      "picture": "e04ee07703ff6615087dcd413acc812c_1_1507664956937.jpg",
+      "location_name": "Drama Scene Shop",
+      "location_slug": "drama-scene-shop"
    },
    {
       "name": "Saw Stop Table Saw",
@@ -116,6 +166,16 @@
       "model": "350F",
       "training": "",
       "picture": "bernina_350_1504035228905.png",
+      "location_name": "Scholars' Lab Makerspace",
+      "location_slug": "scholars-lab-makerspace"
+   },
+   {
+      "name": "Sewing Machine 2",
+      "slug": "sewing-machine-2",
+      "make": "Bernina",
+      "model": "350F",
+      "training": "",
+      "picture": "bernina_350_1504292611713.png",
       "location_name": "Scholars' Lab Makerspace",
       "location_slug": "scholars-lab-makerspace"
    },
@@ -198,5 +258,15 @@
       "picture": "jet_B0042X9IMM_414500K_main_lg_1503932923876.jpg",
       "location_name": "BME Fabrication Space",
       "location_slug": "bme-fabrication-space"
+   },
+   {
+      "name": "X-Carve CNC Router",
+      "slug": "x-carve-cnc-router",
+      "make": "Inventables",
+      "model": "X-Carve",
+      "training": "Individual Training",
+      "picture": "xcarve_1508348744458.png",
+      "location_name": "Wilson Hall Maker Studio",
+      "location_slug": "wilson-hall"
    }
 ]

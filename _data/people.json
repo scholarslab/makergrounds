@@ -16,6 +16,22 @@
       "location_slug": "scholars-lab-makerspace"
    },
    {
+      "name": "Chris Rybitski",
+      "slug": "chris-rybitski",
+      "moniker": "Shop Foreman",
+      "department": "Drama",
+      "picture": "MBailey_Chris_Rybitski_1507664841313.jpg",
+      "email": "cmr4gr@virginia.edu",
+      "phone": "",
+      "website": "",
+      "office_hours": "1-5 M-F",
+      "office_address": "Drama Scene Shop",
+      "bio": "Chris Rybitski is the Shop Foreman for the UVA Drama Department and the Technical Director for the Heritage Theatre Festival. Chris specializes in automation and creating control systems for onstage effects. Previously, he worked for Carnival Cruise Lines as the Automation Technician and as the Shop Foreman for the Pacific Conservatory for the Performing Arts. He also served as Project Manager for the Virginia Curiosity Shop, a large scale art installation by Mark Dion. In addition to theatrical production credits, Chris was also the Lead Fabricator of select pieces for Nickelodeon’s Double Dare and World Wide Day of Play. His work has been published in the 2015 Tech Expo Catalog, TD&T Spring 2015 issue, and 2017 Tech Expo Catalog.",
+      "location_id": 12,
+      "location_name": "Drama Scene Shop",
+      "location_slug": "drama-scene-shop"
+   },
+   {
       "name": "Clarissa Lynch",
       "slug": "clarissa-lynch",
       "moniker": "Chemical Safety Officer",
@@ -26,7 +42,7 @@
       "website": "http://ehs.virginia.edu/",
       "office_hours": "",
       "office_address": "",
-      "bio": "Expertise in:\r\nChemical safety guidelines and best practices, hazardous material regulations--including collection and disposal, Safety Equipment (eyewash)",
+      "bio": "Expertise in:\r\nChemical safety guidelines and best practices, hazardous material regulations--including collection and disposal of waste, Safety Equipment (eyewash)",
       "location_id": 18,
       "location_name": "Environmental Health & Safety ",
       "location_slug": "environmental-health-safety"
@@ -46,6 +62,38 @@
       "location_id": 10,
       "location_name": "Lacy Design Lab, aka. Rice 120",
       "location_slug": "rice-120"
+   },
+   {
+      "name": "Jason Bennett",
+      "slug": "jason-bennett",
+      "moniker": "Maker Space Specialist",
+      "department": "Learning Design & Technology",
+      "picture": "large_jason_in_maker_studio_1508348482377.jpg",
+      "email": "jasonb@virginia.edu",
+      "phone": "434-535-2762",
+      "website": "",
+      "office_hours": "",
+      "office_address": "Wilson Hall 141",
+      "bio": "Jason is a Maker Space Specialist in the Learning Design & Technology group. He manages the Wilson Hall Maker Studio, teaches maker skills, software, and mindsets, develops space-specific pedagogies (including researching and purchasing equipment), and facilitates classes and workshops. He has a M.Ed. in Instructional Technology from the Curry School of Education at the University of Virginia.",
+      "location_id": 2,
+      "location_name": "Wilson Hall Maker Studio",
+      "location_slug": "wilson-hall"
+   },
+   {
+      "name": "Melissa Goldman",
+      "slug": "melissa-goldman",
+      "moniker": "Fabrication Facilities Manager",
+      "department": "School of Architecture",
+      "picture": "melissagoldman_1507656338971.jpg",
+      "email": "goldman@virginia.edu",
+      "phone": "434.924.6443",
+      "website": "",
+      "office_hours": "",
+      "office_address": "123 Campbell Hall",
+      "bio": "",
+      "location_id": 5,
+      "location_name": "A School FabLab",
+      "location_slug": "fablab"
    },
    {
       "name": "Michelle Whitlock",
