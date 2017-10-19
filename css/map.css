@@ -1,6 +1,6 @@
 .map {
     width: 100%;
-    height: 600px;
+    height: 650px;
     position: relative;
     background-size: cover;
     -webkit-background-size: cover;
@@ -12,7 +12,7 @@
 .map-locations-list {
     position: absolute;
     display: block;
-    margin-top: 45px;
+    margin-top: 25px;
     top:0;
     width: 240px;
     z-index: 1;
@@ -63,12 +63,14 @@
     padding-left: 0px;
     padding-bottom: 40px;
     text-align: center;
+    line-height: 100px;
 }
 
 .map-filter-list li {
     display: inline;
     margin: 5px 25px 5px 25px;;
     position: relative;
+    line-height: 20px;
 }
 
 /*filter icon*/

@@ -271,6 +271,21 @@
         "type": "Point"
       },
       "id": "fe764df1158f975279a2ba8bceb30176"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#1087bf",
+        "marker-size": "medium",
+        "location-slug": "vrc"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.50304365158081,
+          38.0377467819042
+        ]
+      }
     }
   ],
   "type": "FeatureCollection"

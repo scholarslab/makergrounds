@@ -88,6 +88,9 @@ header {
 }
 
 /* location pages */
+.locations-title {
+  margin-top: 50px;
+}
 .tool-list, .people-list {
   color: black;
 }

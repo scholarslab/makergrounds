@@ -557,6 +557,23 @@
       ]
    },
    {
+      "name": "Visual Resources Center at Fayerweather Hall",
+      "slug": "vrc",
+      "description": "Graduate Student space for design and printing of 3D objects",
+      "access": "Swipe Card, Graduate credentials for Art History or Archaeology",
+      "hours": "9-5",
+      "address": "151 Rugby Rd, Charlottesville, VA 22901",
+      "website": "http://www.virginia.edu/art/resources/",
+      "email": "victoria.valdes@virginia.edu",
+      "phone": "434-2976938",
+      "latitude": "",
+      "longitude": "",
+      "picture": "IMG_E0543_1508359619668.jpg",
+      "updated_at": "2017-10-18T20:54:40.067Z",
+      "tools": [],
+      "people": []
+   },
+   {
       "name": "Wilson Hall Maker Studio",
       "slug": "wilson-hall",
       "description": "The primary mission of the Wilson Hall Maker Studio is to support creative and critical academic projects for the University of Virginia College of Arts & Sciences. We are a new studio, and are growing; we aspire to be open and inclusive to all disciplines and projects. Whether you are faculty, staff, or student, we hope to give you access to the studio, and to listen to your feedback as we grow. ",
