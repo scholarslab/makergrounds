@@ -1,5 +1,15 @@
 [
    {
+      "name": "3D Printer",
+      "slug": "3d-printer",
+      "make": "uPrint Plus",
+      "model": "",
+      "training": "",
+      "picture": null,
+      "location_name": "Rapid Prototyping Lab",
+      "location_slug": "rapid-prototyping-lab"
+   },
+   {
       "name": "Arduino 101 Kits",
       "slug": "arduino-101-kits",
       "make": "Arduino",
@@ -88,6 +98,16 @@
       "picture": "JET_B00004T9KT_3_lg_1503932980915.jpg",
       "location_name": "BME Fabrication Space",
       "location_slug": "bme-fabrication-space"
+   },
+   {
+      "name": "Lulzbot",
+      "slug": "lulzbot",
+      "make": "Lulzbot",
+      "model": "TAZ6",
+      "training": "Operated by VRC staff",
+      "picture": "IMG_0540_1508428468999.jpg",
+      "location_name": "Visual Resources Center at Fayerweather Hall",
+      "location_slug": "vrc"
    },
    {
       "name": "MakerBot",
@@ -194,20 +214,20 @@
       "slug": "taz-5",
       "make": "Lulzbot",
       "model": "Taz 5",
-      "training": "",
-      "picture": "TAZ_5_Transparent_Front_0_1502300625902.png",
-      "location_name": "Scholars' Lab Makerspace",
-      "location_slug": "scholars-lab-makerspace"
+      "training": "In person training.",
+      "picture": "tol_13300_1503932746853.jpg",
+      "location_name": "BME Fabrication Space",
+      "location_slug": "bme-fabrication-space"
    },
    {
       "name": "Taz 5",
       "slug": "taz-5",
       "make": "Lulzbot",
       "model": "Taz 5",
-      "training": "In person training.",
-      "picture": "tol_13300_1503932746853.jpg",
-      "location_name": "BME Fabrication Space",
-      "location_slug": "bme-fabrication-space"
+      "training": "",
+      "picture": "TAZ_5_Transparent_Front_0_1502300625902.png",
+      "location_name": "Scholars' Lab Makerspace",
+      "location_slug": "scholars-lab-makerspace"
    },
    {
       "name": "TIG welder",

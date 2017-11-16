@@ -423,11 +423,20 @@
       "website": "http://rpl.mae.virginia.edu/",
       "email": "dwight@virginia.edu",
       "phone": "434.243.3269",
-      "latitude": null,
-      "longitude": null,
+      "latitude": "",
+      "longitude": "",
       "picture": "rpl.jpg",
-      "updated_at": "2017-07-18T21:16:16.343Z",
-      "tools": [],
+      "updated_at": "2017-10-19T18:52:29.905Z",
+      "tools": [
+         {
+            "name": "3D Printer",
+            "make": "uPrint Plus",
+            "model": "",
+            "slug": "3d-printer",
+            "picture": null,
+            "training": ""
+         }
+      ],
       "people": []
    },
    {
@@ -476,17 +485,17 @@
    {
       "name": "Scholars' Lab Makerspace",
       "slug": "scholars-lab-makerspace",
-      "description": "The Scholars' Lab Makerspace is a place for tinkering and experimentation with technologies like desktop fabrication, physical computing, and augmented reality. Open to everyone, we specialize in applications and research questions in the humanities and arts.\n\nInterested in exploring the Makerspace? Have an idea to use microcontrollers or 3D modeling and printing technology to enhance your research or differently interrogate your assumptions? The Makerspace is open from 1:00-5:00 p.m. Monday through Friday. Stop by to talk to one of our student consultants, attend our maker workshops, or contact us at scholarslab@virginia.edu to schedule an appointment with Scholars' Lab faculty and staff to discuss your planned project.",
+      "description": "The Scholars' Lab Makerspace is a place for tinkering and experimentation with technologies like desktop fabrication, physical computing, and augmented reality. Open to everyone, we specialize in applications and research questions in the humanities and arts.\r\n\r\nInterested in exploring the Makerspace? Have an idea to use microcontrollers or 3D modeling and printing technology to enhance your research or differently interrogate your assumptions? The Makerspace is open from 1:00-5:00 p.m. Monday through Friday. Stop by to talk to one of our student consultants, attend our maker workshops, or contact us at scholarslab@virginia.edu to schedule an appointment with Scholars' Lab faculty and staff to discuss your planned project.",
       "access": "Walk Ins Welcome or email ahead slabmakerspace@virginia.edu",
       "hours": "M-T 1-7 PM, F 1-5 PM",
       "address": "Alderman 419",
       "website": "http://scholarslab.org/makerspace",
       "email": "slabmakerspace@virginia.edu",
-      "phone": null,
-      "latitude": null,
-      "longitude": null,
-      "picture": "scholarslab.jpg",
-      "updated_at": "2017-07-18T21:16:16.343Z",
+      "phone": "",
+      "latitude": "",
+      "longitude": "",
+      "picture": "scholars_lab_1509469204058.jpg",
+      "updated_at": "2017-10-31T17:00:04.131Z",
       "tools": [
          {
             "name": "Taz 5",
@@ -570,7 +579,16 @@
       "longitude": "",
       "picture": "IMG_E0543_1508359619668.jpg",
       "updated_at": "2017-10-18T20:54:40.067Z",
-      "tools": [],
+      "tools": [
+         {
+            "name": "Lulzbot",
+            "make": "Lulzbot",
+            "model": "TAZ6",
+            "slug": "lulzbot",
+            "picture": "IMG_0540_1508428468999.jpg",
+            "training": "Operated by VRC staff"
+         }
+      ],
       "people": []
    },
    {
