@@ -1,11 +1,11 @@
 <section class="bg-dark">
-  <div class="text-center">
-    <h2>Makers Map</h2>
+  <div class="center">
+    <h2 class="white-text">Makers Map</h2>
   </div>
 </section>
 
-<section class="no-padding mx-auto" id="portfolio">
-  <section style="position: relative;overflow: hidden;">
+<section class="" id="portfolio">
+  <section id="map-locations">
 
     <div id="map" class="map"></div>
     <script>
@@ -19,30 +19,33 @@
     <!-- creates overlay of locations on right -->
     <ul class="map-locations-list">
       {% for place in site.data.makergrounds %}
-        <li style="cursor: pointer;" map-locations-list-slug={{place.slug}} onClick="openPopup(this)">{{ place.title }}</li>
+        <li class="map-list-item" map-locations-list-slug={{place.slug}} onClick="openPopup(this)">{{ place.title }}</li>
       {% endfor %}
     </ul>
 
     <!-- creates blue line that separates the map from the map-filter-container -->
-    <div style="height: 4px; width: 100%; background-color: #03a9f4; overflow: hidden"></div>
+    <div id="under-map-line" class="blue"></div>
 
     <!-- creates icons and labels for filtering -->
-    <div class="map-filter-container">
-      <div style="font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif; font-size: 20px; color:#989898;">Filter:</div>
-      <ul class="map-filter-list">
-        <li class="active" data-filter="all">
-          <img src="img/icons/show-all.svg">
-          <span class="text-content">Show All</span>
-        </li>
-
-        {% for toolCategory in site.data.tool-categories %}
-        <li data-filter={{toolCategory.slug}}>
-          <img src="img/icons/{{toolCategory.icon}}">
-          <span class="text-content">{{toolCategory.name}}</span>
-        </li>
-        {% endfor %}
-
-      </ul>
+    <div class="row white" id="map-filter-container">
+      <div class="row">
+        <div class="col s12 valign-wrapper" id="filter">
+          <span class="grey-text text-darken-3" id="filter">Filter: </span>
+            <a class="waves-effect waves-light btn indigo darken-4 map-filter-item" data-filter="all"> Show All </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12">
+          <ul class="map-filter-list">
+            {% for toolCategory in site.data.tool-categories %}
+              <li class="map-filter-item" data-filter={{toolCategory.slug}}>
+                <img src="img/icons/{{toolCategory.icon}}">
+                <span class="text-content">{{toolCategory.name}}</span>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
     </div>
 
     </div>
@@ -141,10 +144,12 @@
     });
 
     //when a filter is clicked
-    $('.map-filter-list li').click(function(e) {
+    //$('.map-filter-list li').click(function(e) {
+    $('.map-filter-item').click(function(e) {
       e.preventDefault()
       //all other filers become inactive
-      $(this).parent().find('li').removeClass('active');
+      //$(this).parent().find('li').removeClass('active');
+      $('.map-filter-item').removeClass('active');
       //all locations in the locations list become inactive
       $('.map-locations-list').find('li').removeClass();
       //the filter that is clicked is active
@@ -175,6 +180,7 @@
       if (filter == 'all'){
         //pan to original position if "show all" is selected
         map.panTo([38.035544, -78.505186], 15.55);
+        //$('.map-locations-list').find('li').removeClass();
         $('.map-locations-list').find('li').removeClass();
       }
 

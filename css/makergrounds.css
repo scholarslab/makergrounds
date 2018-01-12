@@ -2,51 +2,9 @@
   height:75px;
 }
 
-/*hide navbar text on non-mobile*/
-#uva-makergrounds-navbar {
-  display: none
+#home-title {
+  font-weight: bold;
 }
-@media (min-width: 768px)
-.navbar-default .nav > li>a, .navbar-default .nav>li {
-  color: #222;
-  background-color: #fff;
-}
-
-/*on mobile, hide lodo and show text instead*/
-@media (max-width: 600px) {
-   #uva-makers-logo {
-     display: none;
-   }
-   #uva-makergrounds-navbar {
-     display: block
-   }
- }
-
-#listserve {
-  margin: 10px;
-  margin-top: 70px;
-}
-
-#listserve p {
-  color: black;
-}
-
-/*.navbar {
-  min-height: 105px;
-}*/
-.navbar-default .nav > li>a, .navbar-default .nav>li>a:focus {
-  font-size: 30px;
-}
-.navbar-right {
-  margin-right: 0;
-}
-header {
-  margin-top: 105px;
-}
-
-/*.bg-dark {
-  margin-top: 50px;
-}*/
 
 .tool-image, .person-image {
   max-height: 150px;
@@ -64,6 +22,21 @@ header {
   to {
     fill: rgba(255, 255, 255, 0.5);
   }
+}
+
+#map-locations {
+  position: relative;
+  overflow: hidden;
+}
+
+.map-list-item {
+  cursor: pointer;
+}
+
+#under-map-line {
+ height: 4px; 
+ width: 100%; 
+ overflow: hidden;
 }
 .map-button:hover circle,
 .map-button:hover path {

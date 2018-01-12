@@ -1,37 +1,22 @@
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="/"><img id="uva-makers-logo" src="{{ site.url }}/img/uva-makers-logo-non-alpha.png" alt="Makers @ UVA" /></a>
-                <a class="navbar-brand" id="uva-makergrounds-navbar" href="#">Maker Grounds @ UVA</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                      <a href="{{ site.url }}/about.html">About</a>
-                    </li>
-                    <li>
-                      <a href="{{ site.url }}/#map">Map</a>
-                    </li>
-                    <li>
-                      <a href="{{ site.url }}/#locations">Locations</a>
-                    </li>
-					<li>
-                      <a href="{{ site.url }}/#people">People</a>
-                    </li>
-					<li>
-                      <a href="{{ site.url }}/#calendar">Calendar</a>
-                    </li>
-
-
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper grey darken-2">
+        <a class="brand-logo" href="/"><img id="uva-makers-logo" src="{{ site.url }}/img/uva-makers-logo-non-alpha.png" alt="Makers @ UVA" /></a>
+        <a href="#" data-activates="mobile-menu" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li> <a href="{{ site.url }}/about.html">About</a> </li>
+          <li> <a href="{{ site.url }}/#map">Map</a> </li>
+          <li> <a href="{{ site.url }}/#locations">Locations</a> </li>
+					<li> <a href="{{ site.url }}/#people">People</a> </li>
+					<li> <a href="{{ site.url }}/#calendar">Calendar</a> </li>
+        </ul>
+        <ul class="side-nav" id="mobile-menu">
+          <li> <a href="{{ site.url }}/about.html">About</a> </li>
+          <li> <a href="{{ site.url }}/#map">Map</a> </li>
+          <li> <a href="{{ site.url }}/#locations">Locations</a> </li>
+					<li> <a href="{{ site.url }}/#people">People</a> </li>
+					<li> <a href="{{ site.url }}/#calendar">Calendar</a> </li>
+        </ul>
+      </div>
     </nav>
+  </div>

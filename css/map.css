@@ -45,11 +45,13 @@
 }
 
 /**********filter box**********/
-.map-filter-container {
+#map-filter-container {
     padding-top: 8px;
-    width: 100%;
-    background-color: #ffffff;
-    text-align: center;
+}
+
+#filter {
+  padding-right: 20px;
+  font-size: 1.4em;
 }
 
 .map-filter-container ul{
@@ -88,7 +90,7 @@
     cursor: pointer;
     left: -20px;
     position: absolute;
-    top: 30px;
+    top: 0px;
     width: 90px;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
