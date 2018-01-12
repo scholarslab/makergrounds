@@ -7,7 +7,7 @@
 <section class="no-padding" id="portfolio">
   <div class="row bg-dark">
     {% for place in site.data.places %}
-      <div class="col-lg-4 col-sm-6">
+      <div class="col">
         <h4 class="locations-title"><a href="{{ site.url }}/locations/{{ place.slug }}.html">{{ place.name }}</a></h4>
           <a href="{{ site.url }}/locations/{{ place.slug }}.html" class="portfolio-box">
             {% if place.picture == "" or place.picture == nil %}

@@ -99,3 +99,6 @@ header {
 .bio-pic {
   max-width: 500px;
 }
+.no-bio-pic {
+  max-width: 250px;
+}

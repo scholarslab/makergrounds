@@ -50,7 +50,13 @@
   	
     <a href="/people/{{ person.slug }}" class="person-box">
   	
-      <div class="img-box"><img src="http://sfm.lib.virginia.edu/uploads/{{ person.picture }}" /></div>
+      <div class="img-box">
+        {% if person.picture and person.picture != '  ' %}
+          <img src="../images/{{ person.picture }}" />
+        {% else %}
+          <img src="../imgs/no-person.png" />
+        {% endif %}
+      </div>
   		<br/>
       <p>{{ person.name }}</p>
   		

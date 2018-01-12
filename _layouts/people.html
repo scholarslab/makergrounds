@@ -12,7 +12,11 @@ layout: default
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-              <img class='bio-pic' src="../images/{{ page.picture }}" />
+              {% if page.picture and page.picture != '  ' %}
+                <img class='bio-pic' src="../images/{{ page.picture }}" />
+              {% else %}
+                <img class='no-bio-pic' src="../imgs/no-person.png" />
+              {% endif %}
               <hr class="primary">
             </div>
         </div>
