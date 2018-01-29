@@ -114,7 +114,7 @@
     "locations" : [
       "robertson-media-center",
       "bme-design-lab",
-      "wilson-hall",
+      "wilson-hall"
     ]
   },
   {
@@ -122,6 +122,7 @@
     "slug" : "robotics",
     "icon" : "robotics.svg",
     "locations" : [
+      "fablab",
       "mechatronics-lab-and-the-mill"
     ]
   },
@@ -149,6 +150,20 @@
       "wilson-hall"
     ]
   },
-
-
+  {
+  "name": "Laser Cutting",
+  "slug": "lasercutting",
+  "icon": "laser_cutter.svg",
+  "locations": [
+    "fablab"
+  ]
+  },
+  {
+    "name": "Textiles",
+    "slug": "textiles",
+    "icon": "fabrics.svg",
+    "locations": [
+      "scholars-lab-makerspace"
+    ]
+  }
 ]
