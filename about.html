@@ -2,46 +2,50 @@
 layout: default
 title: About Makers @ UVA
 ---
+
 <div class="row">
-  <div class="col-xs-12 bg-info">
-    {% include listserve.html %}
+  <div class="col s12">
+    <div class="card orange darken-4">
+      <div class="card-content center white-text">
+        <h1 id="home-title">Maker Grounds @ UVA</h1>
+        <p>A site for finding resources and learning about Makerspaces, Shops, Labs, and other spaces for making at the University of Virginia.</p>
+      </div>
+    </div>
   </div>
 </div>
 
-<div class="row">
-  <div class="col-xs-12">
-    <h1>Maker Grounds @ UVA</h1>
-    <hr>
-    <p>A site for finding resources and learning about Makerspaces, Shops, Labs, and other spaces for making at the University of Virginia.</p>
-  </div>
-</div>
+{% include listserve.html %}
 
-<div class="row">
-  <div class="col-xs-12">
-    <h3>Website</h3>
-    <p>This website is built and maintained by Ammon Shepherd, UVA Library Scholars' Lab, and Jason Bennett, Wilson Hall Maker Studio.</p>
-    <p>You can send any questions or comments by sending an email to <a href="mailto:makergroundwebsite@virginia.edu">makergroundwebsite@virginia.edu</a>
+<div class="container">
+  <div class="row white">
+    <div class="col s12 l6">
+      <div class="card blue-grey darken-1">
+        <div class="card-content white-text">
+          <h3 class="card-title">Website</h3>
+          <p>This website is built and maintained by Ammon Shepherd, UVA Library Scholars' Lab, and Jason Bennett, Wilson Hall Maker Studio.</p>
+          <p>You can send any questions or comments by sending an email to <a class="waves-effect waves-light btn" href="mailto:makergroundwebsite@virginia.edu"><i class="material-icons left">email</i>makergroundwebsite@virginia.edu</a></p>
+        </div>
+      </div>
+    </div>
 
-    <h3>Attribution</h3>
-    <p>This website uses a bootstrap theme (http://getbootstrap.com) and icons are from the Noun Project (https://thenounproject.com/)
-    icons:
-    <ul>
-      <li> 3D printing: 3D Printing, Andrew Cameron, https://thenounproject.com/term/3d-printing/62251</li>
-      <li> 3D scanning: 3D Scanner, Arthur Schmitt, https://thenounproject.com/term/3d-scanner/18158</li>
-      <li> casting: Casting, Jasmine Rae Friedrich, https://thenounproject.com/term/casting/10773</li>
-      <li> cnc cutting: CNC Milling Machine, Toke Frello, https://thenounproject.com/term/cnc-milling-machine/189666</li>
-      <li> computer + software: Computer, Aleksandr Vector, https://thenounproject.com/term/computer/997804</li>
-      <li> drone: Drone Camera, Adrien Croquet, https://thenounproject.com/term/drone-camera/1177292</li>
-      <li> electronics: Electronics Lab, Saeful Muslim, https://thenounproject.com/search/?q=electronics&creator=2783159&i=1214787</li>
-      <li> fabrics: Sewing Thread, Ben Davis, https://thenounproject.com/term/sewing-thread/574564</li>
-      <li> laser cutter: Laser Cutter, Toke Frello, https://thenounproject.com/term/laser-cutter/190353/</li>
-      <li> material + data archive: Archive, Ocean Bussard, CH, https://thenounproject.com/term/archive/35056/</li>
-      <li> metalworking: Anvil, Ben Avery, https://thenounproject.com/search/?q=anvil&i=1306644</li>
+    <div class="col s12 l6">
+      <div class="card orange lighten-3">
+        <div class="card-content black-text">
+          <h3>Attribution:</h3>
+          <p>This website uses the following icons from the Noun Project (https://thenounproject.com/):
+          <ul class="browser-default">
+            {% for icon in site.data.icons %}
+            <li> 
+              <div class="chip orange lighten-3 grey-text text-darken-4">
+                <img src="/img/icons/{{ icon.path }}"/>
+                {{ icon.name }}: <a href="{{ icon.source }}">{{ icon.author }}</a>
+              </div>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div><!-- col s12  l6-->
 
-      <li> recording: Slider, Hea Poh Lin, https://thenounproject.com/term/slider/668941</li>
-      <li> robot arm: Robot, Dylan Thompson, https://thenounproject.com/term/robot/24952/</li>
-      <li> virtual-reality: VR Cardboard, Vaibhav Radhakrishnan, https://thenounproject.com/term/vr-cardboard/551703/</li>
-      <li> woodcutting: Saw Blade, Liane Kirschner, https://thenounproject.com/liane/uploads/?i=164988</li>
-    </ul>
-  </div>
-</div>
+  </div><!-- row -->
+</div><!-- container -->

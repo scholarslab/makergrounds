@@ -20,7 +20,7 @@
    height="50.700001"><metadata
      id="metadata22"><rdf:RDF><cc:Work
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
      id="defs20" /><sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -30,12 +30,12 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1171"
-     inkscape:window-height="797"
+     inkscape:window-width="1187"
+     inkscape:window-height="809"
      id="namedview18"
      showgrid="false"
      inkscape:zoom="1.888"
-     inkscape:cx="-3.2474576"
+     inkscape:cx="-69.984746"
      inkscape:cy="12.8"
      inkscape:window-x="0"
      inkscape:window-y="0"
@@ -46,7 +46,7 @@
      fit-margin-right="0"
      fit-margin-bottom="0" /><switch
      id="switch4"
-     transform="translate(-2.4,-24.6)"><foreignObject
+     transform="translate(-2.3999981,-24.6)"><foreignObject
        requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/"
        x="0"
        y="0"
