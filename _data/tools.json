@@ -2,12 +2,32 @@
    {
       "name": "3D Printer",
       "slug": "3d-printer",
+      "make": "MakerBot",
+      "model": "5th Gen",
+      "training": "",
+      "picture": "makerbot_replicator_5th_generation_front_view_1516998833600.jpg",
+      "location_name": "Wilson Hall Maker Studio",
+      "location_slug": "wilson-hall"
+   },
+   {
+      "name": "3D Printer",
+      "slug": "3d-printer",
       "make": "uPrint Plus",
       "model": "",
       "training": "",
       "picture": null,
       "location_name": "Rapid Prototyping Lab",
       "location_slug": "rapid-prototyping-lab"
+   },
+   {
+      "name": "Angle Grinder",
+      "slug": "angle-grinder",
+      "make": "Makita",
+      "model": "4.5\"",
+      "training": "Requires shop supervisor to operate",
+      "picture": "makita_9527nb_800x800_1516999284263.jpg",
+      "location_name": "Wilson Hall Maker Studio",
+      "location_slug": "wilson-hall"
    },
    {
       "name": "Arduino 101 Kits",
@@ -28,6 +48,16 @@
       "picture": "sparkfun_uno_inventor_kit_1504034629556.jpg",
       "location_name": "Scholars' Lab Makerspace",
       "location_slug": "scholars-lab-makerspace"
+   },
+   {
+      "name": "Circular Saw",
+      "slug": "circular-saw",
+      "make": "Dewalt",
+      "model": "15amp 7.5\"",
+      "training": "Requires shop supervisor to operate",
+      "picture": "saw_1516999228523.jpg",
+      "location_name": "Wilson Hall Maker Studio",
+      "location_slug": "wilson-hall"
    },
    {
       "name": "CNC Mill",
@@ -60,14 +90,24 @@
       "location_slug": "bme-fabrication-space"
    },
    {
-      "name": "Drill press",
-      "slug": "drill-press",
-      "make": "JET",
-      "model": "",
-      "training": "(1) In-person and video training through BME 2000, or by appointment, and (2) video re-training prior to use.",
-      "picture": "7f021912_d73c_4205_b49b_ec61082e686f_1000_1503933347287.jpg",
-      "location_name": "BME Fabrication Space",
-      "location_slug": "bme-fabrication-space"
+      "name": "Cordless Drill",
+      "slug": "cordless-drill",
+      "make": "Milwaukee",
+      "model": "9R31",
+      "training": "",
+      "picture": "dril_1516998107979.jpg",
+      "location_name": "Wilson Hall Maker Studio",
+      "location_slug": "wilson-hall"
+   },
+   {
+      "name": "Dremel Hand Rotary Tool",
+      "slug": "dremel-hand-rotary-tool",
+      "make": "Dremel",
+      "model": "4000 (with press)",
+      "training": "",
+      "picture": "dremel_1516999374535.jpg",
+      "location_name": "Wilson Hall Maker Studio",
+      "location_slug": "wilson-hall"
    },
    {
       "name": "Drill press",
@@ -78,6 +118,36 @@
       "picture": "7f021912_d73c_4205_b49b_ec61082e686f_1000_1503933323561.jpg",
       "location_name": "BME Fabrication Space",
       "location_slug": "bme-fabrication-space"
+   },
+   {
+      "name": "Drill press",
+      "slug": "drill-press",
+      "make": "JET",
+      "model": "",
+      "training": "(1) In-person and video training through BME 2000, or by appointment, and (2) video re-training prior to use.",
+      "picture": "7f021912_d73c_4205_b49b_ec61082e686f_1000_1503933347287.jpg",
+      "location_name": "BME Fabrication Space",
+      "location_slug": "bme-fabrication-space"
+   },
+   {
+      "name": "Drill Press",
+      "slug": "drill-press",
+      "make": "Palmgren",
+      "model": "15\" Benchtop",
+      "training": "Requires special training",
+      "picture": "drillpress_1516998181855.jpeg",
+      "location_name": "Wilson Hall Maker Studio",
+      "location_slug": "wilson-hall"
+   },
+   {
+      "name": "Heat Gun",
+      "slug": "heat-gun",
+      "make": "Wagner",
+      "model": "",
+      "training": "",
+      "picture": "heatgun_1516999087620.jpeg",
+      "location_name": "Wilson Hall Maker Studio",
+      "location_slug": "wilson-hall"
    },
    {
       "name": "Horizontal band saw",
@@ -100,6 +170,16 @@
       "location_slug": "bme-fabrication-space"
    },
    {
+      "name": "Jigsaw",
+      "slug": "jigsaw",
+      "make": "Bosch",
+      "model": "JS365",
+      "training": "",
+      "picture": "jigsaw_1516998003269.jpg",
+      "location_name": "Wilson Hall Maker Studio",
+      "location_slug": "wilson-hall"
+   },
+   {
       "name": "Lulzbot",
       "slug": "lulzbot",
       "make": "Lulzbot",
@@ -118,16 +198,6 @@
       "picture": null,
       "location_name": "iLab @UVA",
       "location_slug": "ilab"
-   },
-   {
-      "name": "Makerbot Replicator 5th Gen",
-      "slug": "makerbot-replicator-5th-gen",
-      "make": "Makerbot",
-      "model": "5th Gen",
-      "training": "",
-      "picture": "makerbot_mp05825_replicator_5th_gen_desktop_1435866384000_1026718_1508348642415.jpg",
-      "location_name": "Wilson Hall Maker Studio",
-      "location_slug": "wilson-hall"
    },
    {
       "name": "MIG (wirefeed) Welder",
@@ -150,6 +220,16 @@
       "location_slug": "wilson-hall"
    },
    {
+      "name": "Orbital Sander",
+      "slug": "orbital-sander",
+      "make": "Bosch",
+      "model": "3725",
+      "training": "",
+      "picture": "sander_1516999026795.png",
+      "location_name": "Wilson Hall Maker Studio",
+      "location_slug": "wilson-hall"
+   },
+   {
       "name": "Replicator 2",
       "slug": "replicator-2",
       "make": "Makerbot",
@@ -158,6 +238,16 @@
       "picture": "Makerbot_Replicator_2_2_0_1502904468025.jpg",
       "location_name": "Scholars' Lab Makerspace",
       "location_slug": "scholars-lab-makerspace"
+   },
+   {
+      "name": "RotoZip Hand Router",
+      "slug": "rotozip-hand-router",
+      "make": "RotoZip",
+      "model": "",
+      "training": "Requires shop supervisor to operate",
+      "picture": "RotoZip_RotoSaw_Spiral_Saw_1516998314423.jpg",
+      "location_name": "Wilson Hall Maker Studio",
+      "location_slug": "wilson-hall"
    },
    {
       "name": "Saw Stop",
@@ -200,6 +290,16 @@
       "location_slug": "scholars-lab-makerspace"
    },
    {
+      "name": "Soldering Iron",
+      "slug": "soldering-iron",
+      "make": "Weller",
+      "model": "WES51",
+      "training": "",
+      "picture": "soldering_iron_1516999161410.jpg",
+      "location_name": "Wilson Hall Maker Studio",
+      "location_slug": "wilson-hall"
+   },
+   {
       "name": "SparkFun Inventor's Kits",
       "slug": "sparkfun-inventor-s-kits",
       "make": "SparkFun",
@@ -210,14 +310,14 @@
       "location_slug": "rice-120"
    },
    {
-      "name": "Taz 5",
-      "slug": "taz-5",
-      "make": "Lulzbot",
-      "model": "Taz 5",
-      "training": "In person training.",
-      "picture": "tol_13300_1503932746853.jpg",
-      "location_name": "BME Fabrication Space",
-      "location_slug": "bme-fabrication-space"
+      "name": "Tabletop Jigsaw",
+      "slug": "tabletop-jigsaw",
+      "make": "Rockwell",
+      "model": "Bladerunner X2",
+      "training": "Special training required",
+      "picture": "bladerunner_1516998920061.jpg",
+      "location_name": "Wilson Hall Maker Studio",
+      "location_slug": "wilson-hall"
    },
    {
       "name": "Taz 5",
@@ -228,6 +328,16 @@
       "picture": "TAZ_5_Transparent_Front_0_1502300625902.png",
       "location_name": "Scholars' Lab Makerspace",
       "location_slug": "scholars-lab-makerspace"
+   },
+   {
+      "name": "Taz 5",
+      "slug": "taz-5",
+      "make": "Lulzbot",
+      "model": "Taz 5",
+      "training": "In person training.",
+      "picture": "tol_13300_1503932746853.jpg",
+      "location_name": "BME Fabrication Space",
+      "location_slug": "bme-fabrication-space"
    },
    {
       "name": "TIG welder",

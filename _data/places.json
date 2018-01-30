@@ -595,24 +595,32 @@
       "name": "Wilson Hall Maker Studio",
       "slug": "wilson-hall",
       "description": "The primary mission of the Wilson Hall Maker Studio is to support creative and critical academic projects for the University of Virginia College of Arts & Sciences. We are a new studio, and are growing; we aspire to be open and inclusive to all disciplines and projects. Whether you are faculty, staff, or student, we hope to give you access to the studio, and to listen to your feedback as we grow. ",
-      "access": "Tours are welcome during open hours. 24-hour card access is given on a case-by-case basis (generally given if asked!)",
-      "hours": "Monday through Friday, 10am-4pm",
+      "access": "Tours are welcome during open hours. Swipe access given after orientation.",
+      "hours": "Orientation and tour hours: Monday through Friday, 10am-4pm",
       "address": "Wilson Hall 141",
       "website": "http://wilsonstudios.as.virginia.edu/wilson-hall-maker-studio",
       "email": "jasonbennett@virginia.edu",
       "phone": "",
-      "latitude": "38.032487",
-      "longitude": "78.504051",
-      "picture": "wilson.jpg",
-      "updated_at": "2017-10-18T17:38:56.037Z",
+      "latitude": "",
+      "longitude": "",
+      "picture": "makerstudio_for_makergrounds_1516998755184.jpg",
+      "updated_at": "2018-01-26T20:32:35.230Z",
       "tools": [
          {
-            "name": "Makerbot Replicator 5th Gen",
-            "make": "Makerbot",
+            "name": "3D Printer",
+            "make": "MakerBot",
             "model": "5th Gen",
-            "slug": "makerbot-replicator-5th-gen",
-            "picture": "makerbot_mp05825_replicator_5th_gen_desktop_1435866384000_1026718_1508348642415.jpg",
+            "slug": "3d-printer",
+            "picture": "makerbot_replicator_5th_generation_front_view_1516998833600.jpg",
             "training": ""
+         },
+         {
+            "name": "Tabletop Jigsaw",
+            "make": "Rockwell",
+            "model": "Bladerunner X2",
+            "slug": "tabletop-jigsaw",
+            "picture": "bladerunner_1516998920061.jpg",
+            "training": "Special training required"
          },
          {
             "name": "X-Carve CNC Router",
@@ -629,6 +637,86 @@
             "slug": "nomad-883-cnc-router",
             "picture": "nomad883_1508349158238.jpg",
             "training": "Individual Training"
+         },
+         {
+            "name": "Jigsaw",
+            "make": "Bosch",
+            "model": "JS365",
+            "slug": "jigsaw",
+            "picture": "jigsaw_1516998003269.jpg",
+            "training": ""
+         },
+         {
+            "name": "Cordless Drill",
+            "make": "Milwaukee",
+            "model": "9R31",
+            "slug": "cordless-drill",
+            "picture": "dril_1516998107979.jpg",
+            "training": ""
+         },
+         {
+            "name": "Drill Press",
+            "make": "Palmgren",
+            "model": "15\" Benchtop",
+            "slug": "drill-press",
+            "picture": "drillpress_1516998181855.jpeg",
+            "training": "Requires special training"
+         },
+         {
+            "name": "RotoZip Hand Router",
+            "make": "RotoZip",
+            "model": "",
+            "slug": "rotozip-hand-router",
+            "picture": "RotoZip_RotoSaw_Spiral_Saw_1516998314423.jpg",
+            "training": "Requires shop supervisor to operate"
+         },
+         {
+            "name": "Orbital Sander",
+            "make": "Bosch",
+            "model": "3725",
+            "slug": "orbital-sander",
+            "picture": "sander_1516999026795.png",
+            "training": ""
+         },
+         {
+            "name": "Heat Gun",
+            "make": "Wagner",
+            "model": "",
+            "slug": "heat-gun",
+            "picture": "heatgun_1516999087620.jpeg",
+            "training": ""
+         },
+         {
+            "name": "Soldering Iron",
+            "make": "Weller",
+            "model": "WES51",
+            "slug": "soldering-iron",
+            "picture": "soldering_iron_1516999161410.jpg",
+            "training": ""
+         },
+         {
+            "name": "Circular Saw",
+            "make": "Dewalt",
+            "model": "15amp 7.5\"",
+            "slug": "circular-saw",
+            "picture": "saw_1516999228523.jpg",
+            "training": "Requires shop supervisor to operate"
+         },
+         {
+            "name": "Angle Grinder",
+            "make": "Makita",
+            "model": "4.5\"",
+            "slug": "angle-grinder",
+            "picture": "makita_9527nb_800x800_1516999284263.jpg",
+            "training": "Requires shop supervisor to operate"
+         },
+         {
+            "name": "Dremel Hand Rotary Tool",
+            "make": "Dremel",
+            "model": "4000 (with press)",
+            "slug": "dremel-hand-rotary-tool",
+            "picture": "dremel_1516999374535.jpg",
+            "training": ""
          }
       ],
       "people": [
