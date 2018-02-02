@@ -33,23 +33,9 @@
 
   {{content}}
 
-  <div class="row" id="footer">
-    <div class="col s12">
-      <section class="footer">
-        <div class="text-center">
-          <p>&copy; {{ site.time | date: "%Y" }} by the Rector and Visitors of the University of Virginia<br>
-          <a href="http://www.virginia.edu/copyright.html">Copyright &amp; Privacy</a></p>
-        </div>
-        <div class="text-center">
-          <p>Send questions and corrections to <a href="mailto:makergroundwebsite@virginia.edu">makergroundwebsite@virginia.edu</a></p>
-        </div>
-        <div class="center">
-          <a class="login waves-effect waves-light btn" href="http://sfm.lib.virginia.edu/">Staff Login</a></p>
-        </div>
-      </section>
-    </div> <!-- foot col-xs-12 -->
-  </div> <!-- foot row -->
 </div> <!-- container -->
+
+{% include foot.html %}
 
 <div id="scripts">
   <!--Import jQuery before materialize.js-->

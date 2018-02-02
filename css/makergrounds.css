@@ -6,11 +6,6 @@
   font-weight: bold;
 }
 
-.person-image {
-  max-height: 150px;
-  background: white;
-}
-
 .project-link {
   font-size: .8em;
   font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
@@ -53,13 +48,6 @@
   margin: auto;
 }
 
-#footer {
-  margin-top: 20px;
-  background-color: #000;
-  border-top: solid 5px #444;
-  color: #aaa;
-}
-
 /* location pages */
 #locations {
   padding: 20px
@@ -70,7 +58,7 @@
 .people-list {
   color: black;
 }
-.tool-card {
+.tool-card, .people-card {
   padding: 20px;
 }
 

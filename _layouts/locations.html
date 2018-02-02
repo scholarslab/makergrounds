@@ -85,21 +85,34 @@ layout: page
   </div>
   {% endif %}
 
-        {% if page.people.size > 0 %}
-        <div class="row">
-          <h1>People</h1>
-          {% assign people = page.people %}
-          {% for person in people %}
-            <div class="col-sm-4 people-list">
-              <ul class='list-group'>
-                <li class='list-group-item'><a href="{{site.baseurl}}/people/{{person.slug}}"><img class='person-image' src="../images/{{ person.picture }}" /></a></li>
-                <li class='list-group-item'>Name: {{ person.name }}</li>
-                <li class='list-group-item'>Title: {{ person.moniker }}</li>
-                <li class='list-group-item'>Department: {{ person.department }}</li>
-              </ul>
+
+  {% if page.people.size > 0 %}
+  <div class="row">
+    <div class="col s12">
+      <div class="row">
+        <h1>People</h1>
+        {% assign people = page.people %}
+        {% for person in people %}
+          <div class="col s12 m4 l3">
+            <div class="card people-card">
+              <div class="card-image">
+                <img class='responsive-img person-image' src="../images/{{ person.picture }}" />
+              </div>
+              <div class="card-title">
+                {{ person.name }}
+              </div>
+              <div class="card-content">
+                <span class="grey-text">Title:</span> {{ person.moniker }}
+                {% if person.department != empty %}
+                  <span class="grey-text">Department:</span> {{ person.department }}
+                {% endif %}
+              </div>
             </div>
-          {% endfor %}
-        </div>
-        {% endif %}
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  {% endif %}
 </section>
 
