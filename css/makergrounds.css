@@ -6,7 +6,7 @@
   font-weight: bold;
 }
 
-.tool-image, .person-image {
+.person-image {
   max-height: 150px;
   background: white;
 }
@@ -61,11 +61,17 @@
 }
 
 /* location pages */
+#locations {
+  padding: 20px
+}
 .locations-title {
   margin-top: 50px;
 }
-.tool-list, .people-list {
+.people-list {
   color: black;
+}
+.tool-card {
+  padding: 20px;
 }
 
 /* people pages */
