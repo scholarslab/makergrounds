@@ -48,6 +48,22 @@
       "location_slug": "environmental-health-safety"
    },
    {
+      "name": "Fang Yi",
+      "slug": "fang-yi",
+      "moniker": "Educational Technologist ",
+      "department": "Teaching and Learning Team at UVA Library ",
+      "picture": "Staff_Photo_1518021901884.jpg",
+      "email": "fy5g@virginia.edu",
+      "phone": "2132455085",
+      "website": "",
+      "office_hours": "",
+      "office_address": "DML 301 (Clemons Library)",
+      "bio": "",
+      "location_id": 16,
+      "location_name": "Robertson Media Center",
+      "location_slug": "robertson-media-center"
+   },
+   {
       "name": "Greg Lewin",
       "slug": "greg-lewin",
       "moniker": "Lecturer",
