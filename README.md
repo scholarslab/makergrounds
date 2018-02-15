@@ -34,9 +34,14 @@
   - Then open http://localhost:4000 in your browser
 
 ## Publish
-- Run `jekyll build` to generate the static HTML/CSS/Javascript files. They are
+- Copy the files from the backend
+  - In the terminal, run the script in the "_bin" folder that copies all of the json files and image files "copy-files.sh"
+  - `./_bin/copy-server.sh`
+- In terminal, run `jekyll build` to generate the static HTML/CSS/Javascript files. They are
   stored in the '_site' folder
 - Copy the files from '_site' to the server.
+  - In the terminal, run the script in the "_bin" folder that runs an rsync to copy over files and remove unused files from the server, "update-server.sh"
+  - `./_bin/update-server.sh`
 
 ## Theme
 - Theme uses [Start Bootstrap](http://startbootstrap.com/) - [Creative](http://startbootstrap.com/template-overviews/creative/)
