@@ -1,10 +1,5 @@
-<section class="bg-dark">
-  <div class="text-center">
-    <h2>People Network</h2>
-  </div>
-</section>
-
-<section class="no-padding mx-auto" id="portfolio">
+<section id="people-section" class="bg-dark">
+  <h2 class="white-text center-align">People Network</h2>
   <div class="people-key">
     <div>
       <div class="keybox-left arts-sciences"></div>
@@ -50,7 +45,13 @@
   	
     <a href="/people/{{ person.slug }}" class="person-box">
   	
-      <div class="img-box"><img src="http://sfm.lib.virginia.edu/uploads/{{ person.picture }}" /></div>
+      <div class="img-box">
+        {% if person.picture and person.picture != '  ' %}
+          <img class="responsive-img" src="../images/{{ person.picture }}" />
+        {% else %}
+          <img class="responsive-img" src="../imgs/no-person.png" />
+        {% endif %}
+      </div>
   		<br/>
       <p>{{ person.name }}</p>
   		

@@ -24,6 +24,7 @@
   git clone https://github.com/scholarslab/makergrounds.git makergrounds
   ```
 - Run 'bundler' to install all of the dependencies
+  - `cd makergrounds`
   - `bundle install`
 
 ## Preview
@@ -43,6 +44,15 @@
   - In the terminal, run the script in the "_bin" folder that runs an rsync to copy over files and remove unused files from the server, "update-server.sh"
   - `./_bin/update-server.sh`
 
+## Workflow
+- This project uses [GitHub Flow](https://help.github.com/articles/github-flow/)
+  - Create a branch from the repository.
+  - Create, edit, rename, move, or delete files.
+  - Send a pull request from your branch with your proposed changes to kick off a discussion.
+  - Make changes on your branch as needed. Your pull request will update automatically.
+  - Merge the pull request once the branch is ready to be merged.
+  - Tidy up your branches using the delete button in the pull request or on the branches page.
+  
 ## Theme
-- Theme uses [Start Bootstrap](http://startbootstrap.com/) - [Creative](http://startbootstrap.com/template-overviews/creative/)
+- Based off of [Creative](http://startbootstrap.com/template-overviews/creative/), but uses the [MaterializeCSS Framework](http://materializecss.com/).
 
