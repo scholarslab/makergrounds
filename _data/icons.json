@@ -1,0 +1,106 @@
+[
+  {
+    "name": "3D Printing",
+    "path": "3d-printing.svg",
+    "source": "https://thenounproject.com/term/3d-printing/62251",
+    "author": "Andrew Cameron"
+  },
+  {
+    "name": "3D Scanner",
+    "path": "3d-scanning.svg",
+    "source": "https://thenounproject.com/term/3d-scanner/18158",
+    "author": "Arthur Schmitt"
+
+  },
+  {
+    "name": "Casting",
+    "path": "casting.svg",
+    "source": "https://thenounproject.com/term/casting/10773",
+    "author": "Jasmine Rae Friedrich"
+
+  },
+  {
+    "name": "CNC Milling Machine",
+    "path": "cnc-cutting.svg",
+    "source": "https://thenounproject.com/term/cnc-milling-machine/189666",
+    "author": "Toke Frello"
+
+  },
+  {
+    "name": "Computer",
+    "path": "computer-software.svg",
+    "source": "https://thenounproject.com/term/computer/997804",
+    "author": "Aleksandr Vector"
+
+  },
+  {
+    "name": "Drone Camera",
+    "path": "drones.svg",
+    "source": "https://thenounproject.com/term/drone-camera/1177292",
+    "author": "Adrien Croquet"
+
+  },
+  {
+    "name": "Electronics Lab",
+    "path": "electronics.svg",
+    "source": "https://thenounproject.com/search/?q=electronics&creator=2783159&i=1214787",
+    "author": "Saeful Muslim"
+
+  },
+  {
+    "name": "Sewing Thread",
+    "path": "fabrics.svg",
+    "source": "https://thenounproject.com/term/sewing-thread/574564",
+    "author": "Ben Davis"
+
+  },
+  {
+    "name": "Laser Cutter",
+    "path": "laser_cutter.svg",
+    "source": "https://thenounproject.com/term/laser-cutter/190353/",
+    "author": "Toke Frello"
+
+  },
+  {
+    "name": "Archive",
+    "path": "material-data-archive.svg",
+    "source": "https://thenounproject.com/term/archive/35056/",
+    "author": "Ocean Bussard"
+
+  },
+  {
+    "name": "Anvil",
+    "path": "metalworking.svg",
+    "source": "https://thenounproject.com/search/?q=anvil&i=1306644",
+    "author": "Ben Avery"
+
+  },
+  {
+    "name": "Slider",
+    "path": "recording.svg",
+    "source": "https://thenounproject.com/term/slider/668941",
+    "author": "Hea Poh Lin"
+
+  },
+  {
+    "name": "Robot",
+    "path": "robotics.svg",
+    "source": "https://thenounproject.com/term/robot/24952/",
+    "author": "Dylan Thompson"
+
+  },
+  {
+    "name": "VR Cardboard",
+    "path": "virtual-reality.svg",
+    "source": "https://thenounproject.com/term/vr-cardboard/551703/",
+    "author": "Vaibhav Radhakrishnan"
+
+  },
+  {
+    "name": "Saw Blade",
+    "path": "woodworking.svg",
+    "source": "https://thenounproject.com/liane/uploads/?i=164988",
+    "author": "Liane Kirschner"
+
+  }
+]
