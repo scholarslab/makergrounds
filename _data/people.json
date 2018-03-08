@@ -48,6 +48,22 @@
       "location_slug": "environmental-health-safety"
    },
    {
+      "name": "Eric Schmidt",
+      "slug": "eric-schmidt",
+      "moniker": "Studio/Gallery Tech/Safety Officer",
+      "department": "",
+      "picture": null,
+      "email": "ems3z@virginia.edu",
+      "phone": "",
+      "website": "",
+      "office_hours": "",
+      "office_address": "Ruffin Hall 122 and 121",
+      "bio": "",
+      "location_id": 7,
+      "location_name": "Ruffin Hall Wood and Metal Shop",
+      "location_slug": "ruffin-hall-wood-and-metal-shop"
+   },
+   {
       "name": "Fang Yi",
       "slug": "fang-yi",
       "moniker": "Educational Technologist ",
@@ -126,6 +142,22 @@
       "location_id": 18,
       "location_name": "Environmental Health & Safety ",
       "location_slug": "environmental-health-safety"
+   },
+   {
+      "name": "Sebring Smith",
+      "slug": "sebring-smith",
+      "moniker": "Shop Manager",
+      "department": "",
+      "picture": null,
+      "email": "LacyHall@virginia.edu",
+      "phone": "434.924.1029",
+      "website": "",
+      "office_hours": "",
+      "office_address": "Lacy Hall, 510 Edgemont Rd",
+      "bio": "",
+      "location_id": 9,
+      "location_name": "Lacy Student Experiential Center (Lacy Hall)",
+      "location_slug": "lacy-hall"
    },
    {
       "name": "William Guilford",

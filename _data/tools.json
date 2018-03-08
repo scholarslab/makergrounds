@@ -1,13 +1,23 @@
 [
    {
-      "name": "3D Printer",
-      "slug": "3d-printer",
-      "make": "MakerBot",
-      "model": "5th Gen",
+      "name": "12-ton Shop Press",
+      "slug": "12-ton-shop-press",
+      "make": "Sunex",
+      "model": "5212",
       "training": "",
-      "picture": "makerbot_replicator_5th_generation_front_view_1516998833600.jpg",
-      "location_name": "Wilson Hall Maker Studio",
-      "location_slug": "wilson-hall"
+      "picture": "sunex_press_5212_1520539003553.jpg",
+      "location_name": "Lacy Student Experiential Center (Lacy Hall)",
+      "location_slug": "lacy-hall"
+   },
+   {
+      "name": "3-axis Mill",
+      "slug": "3-axis-mill",
+      "make": "Trak",
+      "model": "DPM3",
+      "training": "",
+      "picture": "trak_dpm3_1520537692839.jpg",
+      "location_name": "Lacy Student Experiential Center (Lacy Hall)",
+      "location_slug": "lacy-hall"
    },
    {
       "name": "3D Printer",
@@ -20,6 +30,16 @@
       "location_slug": "rapid-prototyping-lab"
    },
    {
+      "name": "3D Printer",
+      "slug": "3d-printer",
+      "make": "MakerBot",
+      "model": "5th Gen",
+      "training": "",
+      "picture": "makerbot_replicator_5th_generation_front_view_1516998833600.jpg",
+      "location_name": "Wilson Hall Maker Studio",
+      "location_slug": "wilson-hall"
+   },
+   {
       "name": "Angle Grinder",
       "slug": "angle-grinder",
       "make": "Makita",
@@ -28,6 +48,16 @@
       "picture": "makita_9527nb_800x800_1516999284263.jpg",
       "location_name": "Wilson Hall Maker Studio",
       "location_slug": "wilson-hall"
+   },
+   {
+      "name": "Arbor Press",
+      "slug": "arbor-press",
+      "make": "KR Wilson",
+      "model": "unknown",
+      "training": "",
+      "picture": "krwilson_arbor_press_1520538985167.png",
+      "location_name": "Lacy Student Experiential Center (Lacy Hall)",
+      "location_slug": "lacy-hall"
    },
    {
       "name": "Arduino 101 Kits",
@@ -50,6 +80,26 @@
       "location_slug": "scholars-lab-makerspace"
    },
    {
+      "name": "Bench Grinder #1",
+      "slug": "bench-grinder-1",
+      "make": "Kraftsman",
+      "model": "351.215131",
+      "training": "",
+      "picture": "kraftsman_bench_grinder_1520539156531.jpg",
+      "location_name": "Lacy Student Experiential Center (Lacy Hall)",
+      "location_slug": "lacy-hall"
+   },
+   {
+      "name": "Bench Grinder #2",
+      "slug": "bench-grinder-2",
+      "make": "Baldor",
+      "model": "unknown",
+      "training": "",
+      "picture": "baldor_bench_grinder_1520539313385.jpg",
+      "location_name": "Lacy Student Experiential Center (Lacy Hall)",
+      "location_slug": "lacy-hall"
+   },
+   {
       "name": "Circular Saw",
       "slug": "circular-saw",
       "make": "Dewalt",
@@ -60,6 +110,36 @@
       "location_slug": "wilson-hall"
    },
    {
+      "name": "CNC 3-axis Mill",
+      "slug": "cnc-3-axis-mill",
+      "make": "YCM",
+      "model": "XV 560A",
+      "training": "",
+      "picture": "ycm_xv_560a_1520537603544.jpg",
+      "location_name": "Lacy Student Experiential Center (Lacy Hall)",
+      "location_slug": "lacy-hall"
+   },
+   {
+      "name": "CNC 5-axis Water Jet",
+      "slug": "cnc-5-axis-water-jet",
+      "make": "Omax",
+      "model": "Maxiem 1515",
+      "training": "",
+      "picture": "omax_maxiem1515_1520537824145.jpg",
+      "location_name": "Lacy Student Experiential Center (Lacy Hall)",
+      "location_slug": "lacy-hall"
+   },
+   {
+      "name": "CNC Lathe",
+      "slug": "cnc-lathe",
+      "make": "Haas",
+      "model": "ST-15Y",
+      "training": "",
+      "picture": "haas_st_15y_1520539384527.jpg",
+      "location_name": "Lacy Student Experiential Center (Lacy Hall)",
+      "location_slug": "lacy-hall"
+   },
+   {
       "name": "CNC Mill",
       "slug": "cnc-mill",
       "make": "Roland",
@@ -68,6 +148,16 @@
       "picture": "Roland_MDX_40_large_1503933655331.jpg",
       "location_name": "BME Fabrication Space",
       "location_slug": "bme-fabrication-space"
+   },
+   {
+      "name": "CNC Plasma Cutter",
+      "slug": "cnc-plasma-cutter",
+      "make": "CNC Plasma Cutter",
+      "model": "CNC Plasma Cutter",
+      "training": "",
+      "picture": "cnc_plasma_cutter_1520537505926.jpg",
+      "location_name": "Lacy Student Experiential Center (Lacy Hall)",
+      "location_slug": "lacy-hall"
    },
    {
       "name": "CNC Router",
@@ -140,6 +230,36 @@
       "location_slug": "wilson-hall"
    },
    {
+      "name": "Drill Press #1",
+      "slug": "drill-press-1",
+      "make": "Jet",
+      "model": "JDP-20mf",
+      "training": "",
+      "picture": "jet_jdp_20mf_1520537374145.jpg",
+      "location_name": "Lacy Student Experiential Center (Lacy Hall)",
+      "location_slug": "lacy-hall"
+   },
+   {
+      "name": "Drill Press #2",
+      "slug": "drill-press-2",
+      "make": "Jet",
+      "model": "JDP-170a",
+      "training": "",
+      "picture": "jet_jdp_170a_1520537258759.jpg",
+      "location_name": "Lacy Student Experiential Center (Lacy Hall)",
+      "location_slug": "lacy-hall"
+   },
+   {
+      "name": "Hand Tools",
+      "slug": "hand-tools",
+      "make": "Random",
+      "model": "Many",
+      "training": "",
+      "picture": "hand_tools_1520540041091.jpg",
+      "location_name": "Lacy Student Experiential Center (Lacy Hall)",
+      "location_slug": "lacy-hall"
+   },
+   {
       "name": "Heat Gun",
       "slug": "heat-gun",
       "make": "Wagner",
@@ -158,6 +278,16 @@
       "picture": "Unknown_2_1503933479770",
       "location_name": "BME Fabrication Space",
       "location_slug": "bme-fabrication-space"
+   },
+   {
+      "name": "Horizontal Bandsaw",
+      "slug": "horizontal-bandsaw",
+      "make": "Clausing Kalamazoo",
+      "model": "KC812W",
+      "training": "",
+      "picture": "clausing_kalamazoo_kc812w_1520538344542.jpg",
+      "location_name": "Lacy Student Experiential Center (Lacy Hall)",
+      "location_slug": "lacy-hall"
    },
    {
       "name": "Horizontal metal cutting band saw (hydraulic feed)",
@@ -200,6 +330,16 @@
       "location_slug": "ilab"
    },
    {
+      "name": "Manual Metal Lathe",
+      "slug": "manual-metal-lathe",
+      "make": "South Bend Precision",
+      "model": "CL8187AB",
+      "training": "",
+      "picture": "south_bend_cl8187ab_1520539985633.jpg",
+      "location_name": "Lacy Student Experiential Center (Lacy Hall)",
+      "location_slug": "lacy-hall"
+   },
+   {
       "name": "MIG (wirefeed) Welder",
       "slug": "mig-wirefeed-welder",
       "make": "Lincoln Electric",
@@ -208,6 +348,16 @@
       "picture": "22baeff7_b921_448b_b45b_da9420d38723_1000_1503933212918.jpg",
       "location_name": "BME Fabrication Space",
       "location_slug": "bme-fabrication-space"
+   },
+   {
+      "name": "NC Pneumatic Tube Bender",
+      "slug": "nc-pneumatic-tube-bender",
+      "make": "NC Pneumatic Tube Bender",
+      "model": "NC Pneumatic Tube Bender",
+      "training": "",
+      "picture": "nc_tube_bender_1520536968817.jpg",
+      "location_name": "Lacy Student Experiential Center (Lacy Hall)",
+      "location_slug": "lacy-hall"
    },
    {
       "name": "Nomad 883 CNC Router",
@@ -290,6 +440,16 @@
       "location_slug": "scholars-lab-makerspace"
    },
    {
+      "name": "Sheetmetal Brake",
+      "slug": "sheetmetal-brake",
+      "make": "Birmingham",
+      "model": "Pan and Box",
+      "training": "",
+      "picture": "birmingham_brake_1520538192075.jpg",
+      "location_name": "Lacy Student Experiential Center (Lacy Hall)",
+      "location_slug": "lacy-hall"
+   },
+   {
       "name": "Soldering Iron",
       "slug": "soldering-iron",
       "make": "Weller",
@@ -300,6 +460,16 @@
       "location_slug": "wilson-hall"
    },
    {
+      "name": "Soldering Stations",
+      "slug": "soldering-stations",
+      "make": "Several ",
+      "model": "many",
+      "training": "",
+      "picture": null,
+      "location_name": "Lacy Student Experiential Center (Lacy Hall)",
+      "location_slug": "lacy-hall"
+   },
+   {
       "name": "SparkFun Inventor's Kits",
       "slug": "sparkfun-inventor-s-kits",
       "make": "SparkFun",
@@ -308,6 +478,16 @@
       "picture": null,
       "location_name": "Lacy Design Lab, aka. Rice 120",
       "location_slug": "rice-120"
+   },
+   {
+      "name": "Spot Welder",
+      "slug": "spot-welder",
+      "make": "Miller",
+      "model": "unknown",
+      "training": "",
+      "picture": "miller_spot_welder_1520539712589.png",
+      "location_name": "Lacy Student Experiential Center (Lacy Hall)",
+      "location_slug": "lacy-hall"
    },
    {
       "name": "Tabletop Jigsaw",
@@ -388,6 +568,36 @@
       "picture": "jet_B0042X9IMM_414500K_main_lg_1503932923876.jpg",
       "location_name": "BME Fabrication Space",
       "location_slug": "bme-fabrication-space"
+   },
+   {
+      "name": "Welder #1",
+      "slug": "welder-1",
+      "make": "Hobart",
+      "model": "Handler 187",
+      "training": "",
+      "picture": "hobart_handler_187_1520539768116.jpg",
+      "location_name": "Lacy Student Experiential Center (Lacy Hall)",
+      "location_slug": "lacy-hall"
+   },
+   {
+      "name": "Welder #2",
+      "slug": "welder-2",
+      "make": "Miller",
+      "model": "unknown",
+      "training": "",
+      "picture": "miller_welder_1520539802601.jpg",
+      "location_name": "Lacy Student Experiential Center (Lacy Hall)",
+      "location_slug": "lacy-hall"
+   },
+   {
+      "name": "Welder #3",
+      "slug": "welder-3",
+      "make": "Miller",
+      "model": "Diversion 180",
+      "training": "",
+      "picture": "miller_diversion_180_1520539822361.jpg",
+      "location_name": "Lacy Student Experiential Center (Lacy Hall)",
+      "location_slug": "lacy-hall"
    },
    {
       "name": "X-Carve CNC Router",

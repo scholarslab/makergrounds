@@ -314,7 +314,7 @@
    {
       "name": "Lacy Student Experiential Center (Lacy Hall)",
       "slug": "lacy-hall",
-      "description": "The 20,000-square-foot, four-story Ann Warrick Lacy Student Experiential Center (Lacy Hall) was designed and constructed to support the needs of students engaged in experiential learning. The Ann Warrick Lacy Experiential Center is located on the third and fourth floors of the building. The third floor, which is at ground level, has large open spaces and a front door large enough to accommodate a vehicle. The fourth floor is divided into various areas, in an open design specifically intended to foster student interaction.\r\n\r\nPrograms and team activities that were previously distributed throughout the Engineering School and elsewhere are now gathered in the building, providing opportunities for students from different teams to help each other in common areas of technology. Students will have access to modern machine tools, including rapid prototyping tools that support the manufacture of parts and devices from computer designs.",
+      "description": "The 20,000-square-foot, four-story Ann Warrick Lacy Student Experiential Center (Lacy Hall) was designed and constructed to support the needs of students engaged in experiential learning. The Ann Warrick Lacy Experiential Center is located on the third and fourth floors of the building. The third floor, which is at ground level, has large open spaces and a front door large enough to accommodate a vehicle. The fourth floor is divided into various areas, in an open design specifically intended to foster student interaction.\r\n\r\nPrograms and team activities that were previously distributed throughout the Engineering School and elsewhere are now gathered in the building, providing opportunities for students from different teams to help each other in common areas of technology. Students will have access to modern machine tools, including rapid prototyping tools that support the manufacture of parts and devices from computer designs.\r\n\r\nThis shop is for metal and plastic only. \r\n\r\nNO WOODWORKING TOOLS.",
       "access": "Contact Sebring@virginia.edu or LacyHall@virginia.edu",
       "hours": "10-5 for newcomers",
       "address": "Lacy Hall, 510 Edgemont Rd",
@@ -324,9 +324,187 @@
       "latitude": "",
       "longitude": "",
       "picture": "lacy-hall.jpg",
-      "updated_at": "2017-08-15T18:46:42.320Z",
-      "tools": [],
-      "people": []
+      "updated_at": "2018-03-08T20:15:55.769Z",
+      "tools": [
+         {
+            "name": "NC Pneumatic Tube Bender",
+            "make": "NC Pneumatic Tube Bender",
+            "model": "NC Pneumatic Tube Bender",
+            "slug": "nc-pneumatic-tube-bender",
+            "picture": "nc_tube_bender_1520536968817.jpg",
+            "training": ""
+         },
+         {
+            "name": "Drill Press #2",
+            "make": "Jet",
+            "model": "JDP-170a",
+            "slug": "drill-press-2",
+            "picture": "jet_jdp_170a_1520537258759.jpg",
+            "training": ""
+         },
+         {
+            "name": "Drill Press #1",
+            "make": "Jet",
+            "model": "JDP-20mf",
+            "slug": "drill-press-1",
+            "picture": "jet_jdp_20mf_1520537374145.jpg",
+            "training": ""
+         },
+         {
+            "name": "CNC 3-axis Mill",
+            "make": "YCM",
+            "model": "XV 560A",
+            "slug": "cnc-3-axis-mill",
+            "picture": "ycm_xv_560a_1520537603544.jpg",
+            "training": ""
+         },
+         {
+            "name": "CNC 5-axis Water Jet",
+            "make": "Omax",
+            "model": "Maxiem 1515",
+            "slug": "cnc-5-axis-water-jet",
+            "picture": "omax_maxiem1515_1520537824145.jpg",
+            "training": ""
+         },
+         {
+            "name": "CNC Plasma Cutter",
+            "make": "CNC Plasma Cutter",
+            "model": "CNC Plasma Cutter",
+            "slug": "cnc-plasma-cutter",
+            "picture": "cnc_plasma_cutter_1520537505926.jpg",
+            "training": ""
+         },
+         {
+            "name": "3-axis Mill",
+            "make": "Trak",
+            "model": "DPM3",
+            "slug": "3-axis-mill",
+            "picture": "trak_dpm3_1520537692839.jpg",
+            "training": ""
+         },
+         {
+            "name": "Sheetmetal Brake",
+            "make": "Birmingham",
+            "model": "Pan and Box",
+            "slug": "sheetmetal-brake",
+            "picture": "birmingham_brake_1520538192075.jpg",
+            "training": ""
+         },
+         {
+            "name": "Horizontal Bandsaw",
+            "make": "Clausing Kalamazoo",
+            "model": "KC812W",
+            "slug": "horizontal-bandsaw",
+            "picture": "clausing_kalamazoo_kc812w_1520538344542.jpg",
+            "training": ""
+         },
+         {
+            "name": "Arbor Press",
+            "make": "KR Wilson",
+            "model": "unknown",
+            "slug": "arbor-press",
+            "picture": "krwilson_arbor_press_1520538985167.png",
+            "training": ""
+         },
+         {
+            "name": "12-ton Shop Press",
+            "make": "Sunex",
+            "model": "5212",
+            "slug": "12-ton-shop-press",
+            "picture": "sunex_press_5212_1520539003553.jpg",
+            "training": ""
+         },
+         {
+            "name": "Bench Grinder #1",
+            "make": "Kraftsman",
+            "model": "351.215131",
+            "slug": "bench-grinder-1",
+            "picture": "kraftsman_bench_grinder_1520539156531.jpg",
+            "training": ""
+         },
+         {
+            "name": "Bench Grinder #2",
+            "make": "Baldor",
+            "model": "unknown",
+            "slug": "bench-grinder-2",
+            "picture": "baldor_bench_grinder_1520539313385.jpg",
+            "training": ""
+         },
+         {
+            "name": "CNC Lathe",
+            "make": "Haas",
+            "model": "ST-15Y",
+            "slug": "cnc-lathe",
+            "picture": "haas_st_15y_1520539384527.jpg",
+            "training": ""
+         },
+         {
+            "name": "Spot Welder",
+            "make": "Miller",
+            "model": "unknown",
+            "slug": "spot-welder",
+            "picture": "miller_spot_welder_1520539712589.png",
+            "training": ""
+         },
+         {
+            "name": "Welder #1",
+            "make": "Hobart",
+            "model": "Handler 187",
+            "slug": "welder-1",
+            "picture": "hobart_handler_187_1520539768116.jpg",
+            "training": ""
+         },
+         {
+            "name": "Welder #2",
+            "make": "Miller",
+            "model": "unknown",
+            "slug": "welder-2",
+            "picture": "miller_welder_1520539802601.jpg",
+            "training": ""
+         },
+         {
+            "name": "Welder #3",
+            "make": "Miller",
+            "model": "Diversion 180",
+            "slug": "welder-3",
+            "picture": "miller_diversion_180_1520539822361.jpg",
+            "training": ""
+         },
+         {
+            "name": "Manual Metal Lathe",
+            "make": "South Bend Precision",
+            "model": "CL8187AB",
+            "slug": "manual-metal-lathe",
+            "picture": "south_bend_cl8187ab_1520539985633.jpg",
+            "training": ""
+         },
+         {
+            "name": "Hand Tools",
+            "make": "Random",
+            "model": "Many",
+            "slug": "hand-tools",
+            "picture": "hand_tools_1520540041091.jpg",
+            "training": ""
+         },
+         {
+            "name": "Soldering Stations",
+            "make": "Several ",
+            "model": "many",
+            "slug": "soldering-stations",
+            "picture": null,
+            "training": ""
+         }
+      ],
+      "people": [
+         {
+            "name": "Sebring Smith",
+            "moniker": "Shop Manager",
+            "department": "",
+            "slug": "sebring-smith",
+            "picture": null,
+            "email": "LacyHall@virginia.edu"
+         }
+      ]
    },
    {
       "name": "Library Materials Collection",
@@ -488,7 +666,16 @@
       "picture": "ruffin-hall.jpg",
       "updated_at": "2017-07-18T21:16:16.343Z",
       "tools": [],
-      "people": []
+      "people": [
+         {
+            "name": "Eric Schmidt",
+            "moniker": "Studio/Gallery Tech/Safety Officer",
+            "department": "",
+            "slug": "eric-schmidt",
+            "picture": null,
+            "email": "ems3z@virginia.edu"
+         }
+      ]
    },
    {
       "name": "Scholars' Lab Makerspace",

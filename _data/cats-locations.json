@@ -31,7 +31,8 @@
       "icon": "cnc_cutting_1503075847199.svg",
       "locations": [
          "Drama Scene Shop",
-         "Wilson Hall Maker Studio"
+         "Wilson Hall Maker Studio",
+         "Lacy Student Experiential Center (Lacy Hall)"
       ]
    },
    {
@@ -51,7 +52,8 @@
       "locations": [
          "Scholars' Lab Makerspace",
          "Lacy Design Lab, aka. Rice 120",
-         "Wilson Hall Maker Studio"
+         "Wilson Hall Maker Studio",
+         "Lacy Student Experiential Center (Lacy Hall)"
       ]
    },
    {
@@ -78,7 +80,8 @@
       "icon": "metalworking_1503512059783.svg",
       "locations": [
          "BME Fabrication Space",
-         "Wilson Hall Maker Studio"
+         "Wilson Hall Maker Studio",
+         "Lacy Student Experiential Center (Lacy Hall)"
       ]
    },
    {
