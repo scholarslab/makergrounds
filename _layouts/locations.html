@@ -66,7 +66,11 @@ layout: page
         <div class="col s12 m4 l3">
           <div class="card tool-card">
             <div class="card-image">
+            {% if tool.picture %}
               <img class='responsive-img tool-image' src="../images/{{ tool.picture }}" />
+            {% else %}
+              <img class='responsive-img tool-image' src="../imgs/no-tool.png" />
+            {% endif %}
             </div>
             <div class="card-title">
               {{ tool.name }}
@@ -96,7 +100,11 @@ layout: page
           <div class="col s12 m4 l3">
             <div class="card people-card">
               <div class="card-image">
+              {% if person.picture %}
                 <img class='responsive-img person-image' src="../images/{{ person.picture }}" />
+              {% else %}
+                <img class='responsive-img person-image' src="../imgs/no-person.png" />
+              {% endif %}
               </div>
               <div class="card-title">
                 {{ person.name }}
