@@ -51,13 +51,14 @@
 
 <body id="page-top" class="grey darken-4">
 
+<header>
   {% include nav.html %}
+</header>
 
-<div class="">
+<main>
 
   {{content}}
 
-  {% include foot.html %}
 
 <div id="scripts">
   <!--Import jQuery before materialize.js-->
@@ -76,7 +77,10 @@
     ga('send', 'pageview');
   */
   </script>
-</div>
+</main>
+
+{% include foot.html %}
+
 </body>
 
 </html>
