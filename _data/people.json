@@ -80,6 +80,22 @@
       "location_slug": "robertson-media-center"
    },
    {
+      "name": "Gavin T. Garner",
+      "slug": "gavin-t-garner",
+      "moniker": "Assistant Professor of Mechanical & Aerospace Engineering",
+      "department": "Mechanical & Aerospace Engineering",
+      "picture": "Guitar_1522790982285.png",
+      "email": "garner@virginia.edu",
+      "phone": "",
+      "website": "https://gavitronics.com/",
+      "office_hours": "",
+      "office_address": "MEC 204 and MEC B014 (MEC=Mechanical & Aerospace Engineering Building)",
+      "bio": "",
+      "location_id": 3,
+      "location_name": "Mechatronics Lab and The MILL",
+      "location_slug": "mechatronics-lab-and-the-mill"
+   },
+   {
       "name": "Greg Lewin",
       "slug": "greg-lewin",
       "moniker": "Lecturer",

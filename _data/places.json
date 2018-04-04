@@ -538,7 +538,16 @@
       "picture": "mechatronics-lab.jpg",
       "updated_at": "2017-07-18T21:16:16.343Z",
       "tools": [],
-      "people": []
+      "people": [
+         {
+            "name": "Gavin T. Garner",
+            "moniker": "Assistant Professor of Mechanical & Aerospace Engineering",
+            "department": "Mechanical & Aerospace Engineering",
+            "slug": "gavin-t-garner",
+            "picture": "Guitar_1522790982285.png",
+            "email": "garner@virginia.edu"
+         }
+      ]
    },
    {
       "name": "Milton Airfield Hangar",
