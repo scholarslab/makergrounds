@@ -75,10 +75,16 @@ layout: page
             <div class="card-title">
               {{ tool.name }}
             </div>
-            <div class="card-content">
+            <div class="card-content tool-info">
               <ul>
-                <li class='list-group-item'>Make: {{ tool.make }}</li>
-                <li class='list-group-item'>Model: {{ tool.model }}</li>
+                <li class='list-group-item'>
+                  <span class="orange-text text-darken-3">Make:</span> 
+                  {{ tool.make }}
+                </li>
+                <li class='list-group-item'>
+                  <span class="orange-text text-darken-3">Model:</span> 
+                  {{ tool.model }}
+                </li>
               </ul>
             </div>
           </div>

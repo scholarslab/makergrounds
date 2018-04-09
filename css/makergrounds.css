@@ -59,6 +59,9 @@
   color: black;
 }
 .tool-card, .people-card {
-  padding: 20px;
+  padding: 10px;
+}
+.tool-info {
+  padding: 0px !important;
 }
 
