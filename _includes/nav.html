@@ -2,15 +2,8 @@
     <nav>
       <div class="nav-wrapper grey darken-2">
         <a class="brand-logo" href="/"><img id="uva-makers-logo" src="{{ site.url }}/img/uva-makers-logo-non-alpha.png" alt="Makers @ UVA" /></a>
-        <a href="#" data-activates="mobile-menu" class="button-collapse"><i class="material-icons">menu</i></a>
+        <a href="#" data-target="mobile-menu" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
-          <li> <a href="{{ site.url }}/about.html">About</a> </li>
-          <li> <a href="{{ site.url }}/#map">Map</a> </li>
-          <li> <a href="{{ site.url }}/#locations">Locations</a> </li>
-					<li> <a href="{{ site.url }}/#people">People</a> </li>
-					<li> <a href="{{ site.url }}/#calendar">Calendar</a> </li>
-        </ul>
-        <ul class="side-nav" id="mobile-menu">
           <li> <a href="{{ site.url }}/about.html">About</a> </li>
           <li> <a href="{{ site.url }}/#map">Map</a> </li>
           <li> <a href="{{ site.url }}/#locations">Locations</a> </li>
@@ -20,3 +13,11 @@
       </div>
     </nav>
   </div>
+
+  <ul class="sidenav" id="mobile-menu">
+    <li> <a href="{{ site.url }}/about.html">About</a> </li>
+    <li> <a href="{{ site.url }}/#map">Map</a> </li>
+    <li> <a href="{{ site.url }}/#locations">Locations</a> </li>
+    <li> <a href="{{ site.url }}/#people">People</a> </li>
+    <li> <a href="{{ site.url }}/#calendar">Calendar</a> </li>
+  </ul>
