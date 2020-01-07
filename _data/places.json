@@ -302,12 +302,12 @@
       ],
       "people": [
          {
-            "name": "Greg Lewin",
-            "moniker": "Lecturer",
-            "department": "Systems & Information Engineering",
-            "slug": "greg-lewin",
+            "name": "Reid Bailey",
+            "moniker": "Professor",
+            "department": "Eng Sys and Environment",
+            "slug": "reid-bailey",
             "picture": null,
-            "email": "gcl8a@virginia.edu"
+            "email": "rrbailey@virginia.edu"
          }
       ]
    },
@@ -569,19 +569,28 @@
    {
       "name": "OMERF Fabrication Space",
       "slug": "omerf-fabrication-space",
-      "description": "The ultimate in out-of-the-way-so-we-can-prototype-what-we-want spaces, the Fabrication studio has more robust capabilities for woodworking and electronics prototyping. http://goo.gl/maps/iQZD",
-      "access": null,
+      "description": "The ultimate in out-of-the-way-so-we-can-prototype-what-we-want spaces, the Fabrication studio has more robust capabilities for woodworking and electronics prototyping. It is available only for the FIRST robotics club.",
+      "access": "Only open for FIRST robotics club.",
       "hours": null,
-      "address": "Old Reactor",
-      "website": "http://www.seas.virginia.edu/acad/programs/tlp/designstudio.php",
-      "email": null,
+      "address": "Old Reactor, <a href='http://goo.gl/maps/iQZD'>http://goo.gl/maps/iQZD</a>",
+      "website": "",
+      "email": "rrbailey@virginia.edu",
       "phone": null,
       "latitude": null,
       "longitude": null,
       "picture": "",
-      "updated_at": "2017-07-18T21:16:16.343Z",
+      "updated_at": "2020-01-07T14:10:16.343Z",
       "tools": [],
-      "people": []
+      "people": [
+         {
+            "name": "Reid Bailey",
+            "moniker": "Professor",
+            "department": "Eng Sys and Environment",
+            "slug": "reid-bailey",
+            "picture": null,
+            "email": "rrbailey@virginia.edu"
+         }
+      ]
    },
    {
       "name": "Prop Shop",
