@@ -233,12 +233,12 @@
       "tools": [],
       "people": [
          {
-            "name": "Michelle Whitlock",
-            "moniker": "Occupational Safety Specialist",
-            "department": "Environmental Health &Safety",
-            "slug": "michelle-whitlock",
-            "picture": "Michelle_R_2C_1504706598567.jpg",
-            "email": "maw4u@virginia.edu"
+            "name": "Kate Smith",
+            "moniker": "Research Safety Specialist",
+            "department": "Environmental Health &amp; Safety",
+            "slug": "kate-smith",
+            "picture": "kate-smith.jpg",
+            "email": "kms2cx@virginia.edu"
          },
          {
             "name": "Clarissa Lynch",
@@ -603,7 +603,7 @@
    {
       "name": "Rapid Prototyping Lab",
       "slug": "rapid-prototyping-lab",
-      "description": "Located in the Department of Mechanical and Aerospace Engineering, within the School of Engineering and Applied Science. The RPL is a state-of-the-art advanced manufacturing facility that provides Design, 3D Printing, Laser Cutting, and CNC machining services to our students, faculty, staff, and external clients. We welcome sponsored research projects and grant collaborations.",
+      "description": "Located in the Department of Mechanical and Aerospace Engineering, within the School of Engineering and Applied Science, the RPL is a state-of-the-art polymer additive manufacturing facility that provides Computer-Aided Design, and FDM and Poly-Jet 3D Printing services to our students, faculty, staff, and external clients.  We welcome sponsored research projects and grant collaborations.  \r\n\r\nWe have three Fused Deposition Modeling (FDM) 3D printers that use ASA plastic.  They have a 10” x 10” x 10” build platform, and a 0.01 inch layer resolution.  \r\n\r\nWe have one Poly-Jet 3D printer.  With material properties from rigid to flexible, 14 different materials can be printed in the same part.  Out poly-jet machine has a 18” x 14” x 6” build platform, and 30 micron layer resolution.",
       "access": "Submit files to our website for manufacturing and our Department folks go through an orientation for use of the machines.",
       "hours": "Not open to the public.",
       "address": "Mechanical and Aerospace Engineering, Room 217",
