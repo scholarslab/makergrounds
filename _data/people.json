@@ -48,6 +48,22 @@
       "location_slug": "environmental-health-safety"
    },
    {
+      "name": "Dwight Dart",
+      "slug": "dwight-dart",
+      "moniker": "Director of the Rapid Prototyping Lab",
+      "department": "Mechanical and Aerospace Engineering",
+      "picture": "dwight-dart.jpg",
+      "email": "dwight@virginia.edu",
+      "phone": "434-243-3269",
+      "website": "https://rpl.mae.virginia.edu/rapid-prototyping-lab",
+      "office_hours": "",
+      "office_address": "",
+      "bio": "Computer-aided design, medical imaging, bio-fabrication, and advanced manufacturing including 3D printing, laser cutting, and CNC machining. Product development including jewelry, medical devices, educational and engineering teaching kits.",
+      "location_id": 14,
+      "location_name": "Rapid Prototyping Lab ",
+      "location_slug": "rapid-prototyping-lab"
+   },
+   {
       "name": "Eric Schmidt",
       "slug": "eric-schmidt",
       "moniker": "Studio/Gallery Tech/Safety Officer",
@@ -144,19 +160,19 @@
       "location_slug": "fablab"
    },
    {
-      "name": "Michelle Whitlock",
-      "slug": "michelle-whitlock",
-      "moniker": "Occupational Safety Specialist",
-      "department": "Environmental Health &Safety",
-      "picture": "Michelle_R_2C_1504706598567.jpg",
-      "email": "maw4u@virginia.edu",
-      "phone": "434-982-4836",
+      "name": "Kate Smith",
+      "slug": "kate-smith",
+      "moniker": "Research Safety Specialist",
+      "department": "Environmental Health &amp; Safety",
+      "picture": "kate-smith.jpg",
+      "email": "kms2cx@virginia.edu",
+      "phone": "434-243-7659",
       "website": "http://ehs.virginia.edu",
       "office_hours": "",
       "office_address": "One Morton Drive",
       "bio": "Occuaptional Safety expertise in equipment safety including machine guarding, lock out and electrical safety; fall protection-(fall arrest equipment and fall prevention solutions); hazard assessments and personal protective equipment selection.",
       "location_id": 18,
-      "location_name": "Environmental Health & Safety ",
+      "location_name": "Environmental Health &amp; Safety ",
       "location_slug": "environmental-health-safety"
    },
    {

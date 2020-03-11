@@ -68,3 +68,9 @@
 footer {
   margin-top:20px;
 }
+
+/* person pages */
+.bio-pic {
+    max-width: 300px !important;
+    margin: auto;
+}
