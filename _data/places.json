@@ -802,7 +802,16 @@
             "training": "Operated by VRC staff"
          }
       ],
-      "people": []
+      "people": [
+         {
+            "name": "Victoria Valdes",
+            "moniker": "Assistant Director",
+            "department": "McIntire Department of Art",
+            "slug": "vicotria-valdes",
+            "picture": "victoria-valdes.jpg",
+            "email": "victoria.valdes@virginia.edu"
+         }
+      ]
    },
    {
       "name": "Wilson Hall Maker Studio",

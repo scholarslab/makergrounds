@@ -192,6 +192,22 @@
       "location_slug": "lacy-hall"
    },
    {
+      "name": "Victoria Valdes",
+      "slug": "victoria-valdes",
+      "moniker": "Assistant Director of the Visual Resources Collection in UVA’s McIntire Department of Art",
+      "department": "McIntire Department of Art",
+      "picture": "victoria-valdes.jpg",
+      "email": "victoria.valdes@virginia.edu",
+      "phone": "434-2976938",
+      "website": "",
+      "office_hours": "",
+      "office_address": "",
+      "bio": "",
+      "location_id": 24,
+      "location_name": "Visual Resources Center at Fayerweather Hall",
+      "location_slug": "vrc"
+   },
+   {
       "name": "William Guilford",
       "slug": "william-guilford",
       "moniker": "Associate Professor of BME (SOM), Director of Educational Innovation (SEAS)",
