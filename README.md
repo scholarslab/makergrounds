@@ -1,7 +1,21 @@
-# Development
+# MakerGrounds website
 
-## Edit data in locations
-- Locations data is in the `_data/places.json` file
+## Quick list of steps to make changes to the website
+- make a copy of the repo.
+- make the changes
+- check your changes locally (run `jekyll serve`).
+  - view your changes in the browser at http://localhost:4000
+- If changes are good, run `bundle exec jekyll build`
+- copy files in `_site` to corgi server.
+
+
+## Where's stuff at?
+- Most of the home page is sectioned out into files in the `_includes` folder.
+- Design stuff is in the `css` and `layouts` folders
+- Data for the locations is in the `_data/places.json` file
+
+
+# Development
 
 ## Requireds for Mac Development
 - Install Homebrew:
