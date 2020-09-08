@@ -698,10 +698,10 @@
    {
       "name": "Scholars' Lab Makerspace",
       "slug": "scholars-lab-makerspace",
-      "description": "The Scholars' Lab Makerspace is a place for tinkering and experimentation with technologies like desktop fabrication, physical computing, and augmented reality. Open to everyone, we specialize in applications and research questions in the humanities and arts.\r\n\r\nInterested in exploring the Makerspace? Have an idea to use microcontrollers or 3D modeling and printing technology to enhance your research or differently interrogate your assumptions? The Makerspace is open from 1:00-5:00 p.m. Monday through Friday. Stop by to talk to one of our student consultants, attend our maker workshops, or contact us at scholarslab@virginia.edu to schedule an appointment with Scholars' Lab faculty and staff to discuss your planned project.",
-      "access": "Walk Ins Welcome or email ahead slabmakerspace@virginia.edu",
-      "hours": "Monday and Wednesday 1-7pm, Tuesday and Thursday 1-9pm, Friday 1-5pm",
-      "address": "Alderman 419",
+      "description": "The Scholars' Lab Makerspace is a place for tinkering and experimentation with technologies like desktop fabrication, physical computing, and augmented reality. Open to everyone, we specialize in applications and research questions in the humanities and arts.\r\n\r\nInterested in exploring the Makerspace? Have an idea to use microcontrollers or 3D modeling and printing technology to enhance your research or differently interrogate your assumptions? Contact us at slabmakerspace@virginia.edu to schedule an appointment with Scholars' Lab faculty and staff to discuss your planned project.",
+      "access": "Email for a virtual consultation slabmakerspace@virginia.edu",
+      "hours": "By appointment only",
+      "address": "Clemons, 3rd floor",
       "website": "http://scholarslab.org/makerspace",
       "email": "slabmakerspace@virginia.edu",
       "phone": "",
@@ -710,30 +710,6 @@
       "picture": "scholars_lab_1509469204058.jpg",
       "updated_at": "2018-03-30T18:32:44.217Z",
       "tools": [
-         {
-            "name": "Taz 5",
-            "make": "Lulzbot",
-            "model": "Taz 5",
-            "slug": "taz-5",
-            "picture": "TAZ_5_Transparent_Front_0_1502300625902.png",
-            "training": ""
-         },
-         {
-            "name": "Ultimaker",
-            "make": "Ultimaker",
-            "model": "2",
-            "slug": "ultimaker",
-            "picture": "ultimaker_2_3d_printer_front_2_igo3d_451_1502827018216.jpg",
-            "training": ""
-         },
-         {
-            "name": "Replicator 2",
-            "make": "Makerbot",
-            "model": "Replicator 2",
-            "slug": "replicator-2",
-            "picture": "Makerbot_Replicator_2_2_0_1502904468025.jpg",
-            "training": ""
-         },
          {
             "name": "Arduino 101 Kits",
             "make": "Arduino",

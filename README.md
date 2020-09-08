@@ -1,5 +1,8 @@
 # Development
 
+## Edit data in locations
+- Locations data is in the `_data/places.json` file
+
 ## Requireds for Mac Development
 - Install Homebrew:
   - https://brew.sh/

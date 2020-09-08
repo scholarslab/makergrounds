@@ -3,7 +3,6 @@
     "resource": "FDM 3D Printer",
     "icon": "diamond",
     "locations": [
-      {"name": "Scholars' Lab", "page": "scholarslab.html"},
       {"name": "A-School Fablab", "page": "fablab.html"},
       {"name": "Rice Rapid Prototype Lab", "page": "rpl.html"}
       ]
@@ -11,7 +10,6 @@
   {
     "resource": "Polyjet 3D Printer",
     "locations": [
-      {"name": "Scholars' Lab", "page": "scholarslab.html"}
     ]
   },
   {
@@ -25,7 +23,6 @@
   {
     "resource": "Camera Equipment",
     "locations": [
-      {"name": "Scholars' Lab", "page": "scholarslab.html"},
       {"name": "Robertson Media Lab", "page": "robertson.html"}
     ]
   },
