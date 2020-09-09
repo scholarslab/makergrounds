@@ -18,3 +18,5 @@ people_page:
     filename: slug
     dir: people
     extension: html
+
+theme: jekyll-theme-cayman
