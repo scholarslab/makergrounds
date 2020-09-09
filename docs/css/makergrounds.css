@@ -1,0 +1,79 @@
+#uva-makers-logo {
+  height:75px;
+}
+
+#home-title {
+  font-weight: bold;
+}
+
+#fall2020 {
+  width: 100%;
+}
+.project-link {
+  font-size: .8em;
+  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+@keyframes button {
+  from {
+    fill: rgba(255, 255, 255, 0);
+  }
+  to {
+    fill: rgba(255, 255, 255, 0.5);
+  }
+}
+
+#map-locations {
+  position: relative;
+  overflow: hidden;
+}
+
+.map-list-item {
+  cursor: pointer;
+}
+
+#under-map-line {
+ height: 4px; 
+ width: 100%; 
+ overflow: hidden;
+}
+.map-button:hover circle,
+.map-button:hover path {
+  fill: rgba(255, 255, 255, 0.5);
+  animation-name: button;
+  animation-duration: .2s;
+}
+.map-button circle,
+.map-button path {
+  fill: rgba(255, 255, 255, 0);
+}
+
+#map-image, #people-image {
+  margin: auto;
+}
+
+/* location pages */
+#locations {
+  padding: 20px
+}
+.locations-title {
+  margin-top: 50px;
+}
+.people-list {
+  color: black;
+}
+.tool-card, .people-card {
+  padding: 10px;
+}
+.tool-info {
+  padding: 0px !important;
+}
+
+footer {
+  margin-top:20px;
+}
+
+/* person pages */
+.bio-pic {
+    max-width: 300px !important;
+    margin: auto;
+}

@@ -1,0 +1,1258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117191816-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-117191816-1');
+  </script>
+
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>
+    Makers @ UVA - 
+    
+      HOME
+    
+  </title>
+
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="/css/materialize.min.css"  media="screen,projection"/>
+
+
+  <!-- Plugin CSS -->
+  <link rel="stylesheet" href="/css/animate.min.css" type="text/css">
+
+  <!-- Mapbox -->
+  <script src='https://api.mapbox.com/mapbox.js/v3.0.1/mapbox.js'></script>
+  <link href='https://api.mapbox.com/mapbox.js/v3.0.1/mapbox.css' rel='stylesheet' />
+  <!-- this version required for map pins -->
+  <script src='/js/jquery-1.12.4.min.js'></script>
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+  <!-- Mapbox stuff -->
+  <script src='https://api.mapbox.com/mapbox-gl-js/v0.35.1/mapbox-gl.js'></script>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v0.35.1/mapbox-gl.css' rel='stylesheet' />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/css/map.css" type="text/css" >
+  <link rel="stylesheet" href="/css/people.css" type="text/css" >
+  <link rel="stylesheet" href="/css/makergrounds.css" type="text/css">
+</head>
+
+<body id="page-top" class="grey darken-4">
+
+<header>
+    <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper grey darken-2">
+        <a class="brand-logo" href="/"><img id="uva-makers-logo" src="/img/uva-makers-logo-non-alpha.png" alt="Makers @ UVA" /></a>
+        <a href="#" data-target="mobile-menu" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li> <a href="/about.html">About</a> </li>
+          <li> <a href="/#map">Map</a> </li>
+          <li> <a href="/#locations">Locations</a> </li>
+					<li> <a href="/#people">People</a> </li>
+					<!-- <li> <a href="/#calendar">Calendar</a> </li> -->
+					<li> <a href="/newsletters/">Newsletters</a> </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <ul class="sidenav" id="mobile-menu">
+    <li> <a href="/about.html">About</a> </li>
+    <li> <a href="/#map">Map</a> </li>
+    <li> <a href="/#locations">Locations</a> </li>
+    <li> <a href="/#people">People</a> </li>
+    <li> <a href="/newsletters/">Newsletters</a> </li>
+  </ul>
+
+</header>
+
+<main>
+
+  <div class="row">
+  <div class="col s12 orange darken-4">
+    <div class="center-align grey-text text-lighten-4">
+      <h1 id="home-title">Maker Grounds @ UVA</h1>
+      <p>A site for finding resources and learning about Makerspaces, Shops, Labs, and other spaces for making at the University of Virginia.</p>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col s12">
+      <div class="card horizontal white lighten-2">
+        <div class="card-stacked">
+          <div class="card-content center">
+              <h4>Up to date access information for MakerGrounds spaces.</h4>
+              <iframe id="fall2020" height="600px" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS98-BsbJQc02yuvBZgQZzH_hOFP_QAgWr4qJiJhESv_h6MNutNudDRCXirmSvI9eYSuxdFaA57xPnz/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col s12">
+      <div class="card horizontal yellow lighten-2">
+        <div class="card-stacked">
+          <div class="card-content center">
+              <p> <a class="waves-effect waves-light btn indigo darken-4" href="mailto:sympa@virginia.edu?Subject=subscribe makergrounds [Your Name Here]">
+                <i class="material-icons left">mail</i>SIGN UP</a> for the Makergrounds email list serve!</p><br>
+              <h4>To sign up, send an email to <a href="mailto:sympa@virginia.edu">sympa@virginia.edu</a>.</h4>
+              <p>The subject line should look like: <code>subscribe makergrounds Your Name</code></p>
+              <h4>Please only use your UVA email address.</h4>
+              <h6>[<a href="https://lists.virginia.edu/sympa/help/user#subscribe">More info about UVA email listserves</a>]</h6>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+<a name="map"></a>
+<div class="row">
+  <div class="col s12">
+    <section class="bg-dark">
+  <div class="center">
+    <h2 class="white-text">Makers Map</h2>
+  </div>
+</section>
+
+<section class="" id="portfolio">
+  <section id="map-locations">
+
+    <div id="map" class="map"></div>
+    <script>
+      mapboxgl.accessToken = 'pk.eyJ1Ijoic2Nob2xhcnNsYWIiLCJhIjoiY2oxdzlqNDh1MDAwMTMzcW96MGxtajZxNSJ9.8I1zZymMKofR_FbOiazznw';
+      var map = new mapboxgl.Map({
+      container: 'map',
+      style: 'mapbox://styles/mapbox/dark-v9'
+      });
+    </script>
+
+    <!-- creates overlay of locations on right -->
+    <ul class="map-locations-list">
+      
+        <li class="map-list-item" map-locations-list-slug=bme-design-lab onClick="openPopup(this)">BME Design Lab</li>
+      
+        <li class="map-list-item" map-locations-list-slug=wilson-hall onClick="openPopup(this)">Wilson Hall Maker Studio</li>
+      
+        <li class="map-list-item" map-locations-list-slug=mechatronics-lab-and-the-mill onClick="openPopup(this)">Mechatronics Lab and The MILL</li>
+      
+        <li class="map-list-item" map-locations-list-slug=bme-fabrication-space onClick="openPopup(this)">BME Fabrication Space</li>
+      
+        <li class="map-list-item" map-locations-list-slug=fablab onClick="openPopup(this)">A School FabLab</li>
+      
+        <li class="map-list-item" map-locations-list-slug=milton-airfield-hangar onClick="openPopup(this)">Milton Airfield Hangar</li>
+      
+        <li class="map-list-item" map-locations-list-slug=ruffin-hall-wood-and-metal-shop onClick="openPopup(this)">Ruffin Hall Wood and Metal Shop</li>
+      
+        <li class="map-list-item" map-locations-list-slug=scholars-lab-makerspace onClick="openPopup(this)">Scholars' Lab Makerspace</li>
+      
+        <li class="map-list-item" map-locations-list-slug=lacy-hall onClick="openPopup(this)">Ann Warrick Lacy Student Experiential Center (Lacy Hall)</li>
+      
+        <li class="map-list-item" map-locations-list-slug=rice-120 onClick="openPopup(this)">Lacy Design Lab, aka. Rice 120</li>
+      
+        <li class="map-list-item" map-locations-list-slug=library-materials-collection onClick="openPopup(this)">Library Materials Collection</li>
+      
+        <li class="map-list-item" map-locations-list-slug=drama-scene-shop onClick="openPopup(this)">Drama Scene Shop</li>
+      
+        <li class="map-list-item" map-locations-list-slug=prop-shop onClick="openPopup(this)">Prop Shop</li>
+      
+        <li class="map-list-item" map-locations-list-slug=rapid-prototyping-lab onClick="openPopup(this)">Rapid Prototyping Lab</li>
+      
+        <li class="map-list-item" map-locations-list-slug=ilab onClick="openPopup(this)">iLab</li>
+      
+        <li class="map-list-item" map-locations-list-slug=robertson-media-center onClick="openPopup(this)">Robertson Media Center</li>
+      
+        <li class="map-list-item" map-locations-list-slug=omerf-fabrication-space onClick="openPopup(this)">OMERF Fabrication Space</li>
+      
+        <li class="map-list-item" map-locations-list-slug=vrc onClick="openPopup(this)">Visual Resources Center at Fayerweather Hall</li>
+      
+    </ul>
+
+    <!-- creates blue line that separates the map from the map-filter-container -->
+    <div id="under-map-line" class="blue"></div>
+
+    <!-- creates icons and labels for filtering -->
+    <div class="row white" id="map-filter-container">
+      <div class="row">
+        <div class="col s12 valign-wrapper" id="filter">
+          <span class="grey-text text-darken-3" id="filter">Filter: </span>
+            <a class="waves-effect waves-light btn indigo darken-4 map-filter-item" data-filter="all"> Show All </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12">
+          <ul class="map-filter-list">
+            
+              <li class="map-filter-item" data-filter=3d-printing>
+                <img src="img/icons/3d-printing.svg">
+                <span class="text-content">3D Printing</span>
+              </li>
+            
+              <li class="map-filter-item" data-filter=3d-scanning>
+                <img src="img/icons/3d-scanning.svg">
+                <span class="text-content">3D Scanning</span>
+              </li>
+            
+              <li class="map-filter-item" data-filter=casting>
+                <img src="img/icons/casting.svg">
+                <span class="text-content">Casting</span>
+              </li>
+            
+              <li class="map-filter-item" data-filter=cnc-cutting>
+                <img src="img/icons/cnc-cutting.svg">
+                <span class="text-content">CNC Cutting</span>
+              </li>
+            
+              <li class="map-filter-item" data-filter=computer-software>
+                <img src="img/icons/computer-software.svg">
+                <span class="text-content">Computer + Software</span>
+              </li>
+            
+              <li class="map-filter-item" data-filter=drones>
+                <img src="img/icons/drones.svg">
+                <span class="text-content">Drones</span>
+              </li>
+            
+              <li class="map-filter-item" data-filter=electronics>
+                <img src="img/icons/electronics.svg">
+                <span class="text-content">Electronics</span>
+              </li>
+            
+              <li class="map-filter-item" data-filter=material-data-archive>
+                <img src="img/icons/material-data-archive.svg">
+                <span class="text-content">Material/Data Archive</span>
+              </li>
+            
+              <li class="map-filter-item" data-filter=metalworking>
+                <img src="img/icons/metalworking.svg">
+                <span class="text-content">Metalworking</span>
+              </li>
+            
+              <li class="map-filter-item" data-filter=recording>
+                <img src="img/icons/recording.svg">
+                <span class="text-content">Recording</span>
+              </li>
+            
+              <li class="map-filter-item" data-filter=robotics>
+                <img src="img/icons/robotics.svg">
+                <span class="text-content">Robotics</span>
+              </li>
+            
+              <li class="map-filter-item" data-filter=virtual-reality>
+                <img src="img/icons/virtual-reality.svg">
+                <span class="text-content">Virtual Reality</span>
+              </li>
+            
+              <li class="map-filter-item" data-filter=woodworking>
+                <img src="img/icons/woodworking.svg">
+                <span class="text-content">Woodworking</span>
+              </li>
+            
+              <li class="map-filter-item" data-filter=lasercutting>
+                <img src="img/icons/laser_cutter.svg">
+                <span class="text-content">Laser Cutting</span>
+              </li>
+            
+              <li class="map-filter-item" data-filter=textiles>
+                <img src="img/icons/fabrics.svg">
+                <span class="text-content">Textiles</span>
+              </li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    </div>
+
+  </section>
+
+  <script>
+    // sorts list of locations created above
+    var items = $('.map-locations-list li').get();
+    items.sort(function(a, b) {
+      var keyA = $(a).text().toLowerCase();
+      var keyB = $(b).text().toLowerCase();
+
+      if (keyA < keyB) return -1;
+      if (keyA > keyB) return 1;
+      return 0;
+    });
+    var ul = $('.map-locations-list');
+    $.each(items, function(i, li) {
+      ul.append(li);
+    });
+
+    var makergroundsJSON = [{"title":"BME Design Lab","contact":"David Chen:  Program Director and Faculty in BME","email":"uvamedicalinnovation@gmail.com ","phone":null,"location":"MR5","access":"Key card access only","times":null,"tools":"3D Printer - FDM/FFF;3D Printer - SLA;Video Recording Equipment;Camera Equipment;Microcontrollers + Electronics  Parts/Accessories;Soldering Station;Projet 1200 (micro SLA printer) & Othermill CNC","website":"http://bme.virginia.edu/undergraduate/research_design.html","description":null,"img":"temp.png","slug":"bme-design-lab","tagline":null},{"title":"Wilson Hall Maker Studio","contact":"Jason Bennett: Maker Space Specialist","email":"jasonb@virginia.edu","phone":null,"location":"Wilson Hall 141","access":"Tours are welcome during open hours. 24-hour card access is given on a case-by-case basis (generally given if asked!)","times":"10-4pm","tools":"Handtools for basic wood, metal, plastic work;Drill press;3D Printer - SLA;CNC Router - 3-4 Axis;Video Recording Equipment;Audio Recording Equipment;Camera Equipment;Microcontrollers + Electronics  Parts/Accessories;Soldering Station","website":"http://music.virginia.edu/maker-space","description":null,"img":"wilson.jpg","slug":"wilson-hall","tagline":null},{"title":"Mechatronics Lab and The MILL","contact":"Gavin T. Garner: Assistant Professor of Mechanical & Aerospace Engineering","email":"garner@virginia.edu","phone":null,"location":"MEC 204 and MEC B014 (MEC=Mechanical & Aerospace Engineering Building)","access":"These labs are primarily used for courses in Mechatronics and Machine Design.","times":"Not open to the public.","tools":"Handtools for basic wood, metal, plastic work;Tablesaw;Bandsaw;Drill press;Stationary sanders;3D Printer - FDM/FFF;3D Printer - SLA;Laser Cutter;CNC Router - 3-4 Axis;CNC Mill -- 3-4 Axis;Microcontrollers + Electronics  Parts/Accessories;Soldering Station;Scroll Saw","website":"https://gavitronics.com/about/mechatronics-lab/","description":"Mechatronics involves the synergistic integration of Mechanical Engineering with electronics and intelligent computer control in the design and manufacture of industrial products and processes.\n\nIn UVA's Mechatronics Lab, students fuse theory and practice, bringing together principles of mechanical, electrical, and software engineering. Here students learn how to integrate microcontrollers, sensors, and smart actuators when designing state-of-the-art mechanisms. The recent drop in cost of embedded computer technology has revolutionized the way that modern products are developed and manufactured. The Mechatronics Lab ensures that UVA's engineering students are prepared to succeed on the cutting edge of technology. For example, our current experiments teach students how to program a microcontroller chip that houses eight, parallel, 32-bit processors, is capable of executing 200 million instructions every second, and only costs about four dollars. When students learn to incorporate this type of intelligence into their machines, their devices come alive and are able to automatically adapt to changes in their environment, that is, they read data from sensors, think about it, and then decide how to move their actuators to react to any changes. In this lab, students are also introduced to basic circuit components and measurement tools such as breadboards, oscilloscopes, function generators, and digital multi-meters. Students working on projects for their senior thesis work, capstone design courses, ASME, Baja car, Hoos Flying, and countless other creative outlets offered through the University, frequently use the resources of this lab to help bring their inventions to life.","img":"mechatronics-lab.jpg","slug":"mechatronics-lab-and-the-mill","tagline":null},{"title":"BME Fabrication Space","contact":"William Guilford: Associate Professor of BME (SOM), Director of Educational Innovation (SEAS)","email":"guilford@virginia.edu","phone":"434.243.2740","location":"Stacey Hall","access":"By permission and in the presence of Dr. Guilford or other trained staff.","times":"To be determined each semester, or by special arrangement. ","tools":"Handtools for basic wood, metal, plastic work;Tablesaw;Bandsaw;Drill press;Stationary sanders;Vacuformer;Sandblaster;Welder - MIG;Welder - TIG;Metal Brake;Hydraulic Press;Bench grinder;Mill (Not CNC);3D Printer - FDM/FFF;Laser Cutter;CNC Mill -- 3-4 Axis;Microcontrollers + Electronics  Parts/Accessories;Soldering Station","website":null,"description":null,"img":"temp.png","slug":"bme-fabrication-space","tagline":null},{"title":"A School FabLab","contact":"Melissa Goldman: Fabrication Facilities Manager","email":"goldman@virginia.edu","phone":"434.924.6443","location":"Campbell Hall 122","access":"After an initial FabLab training, users gain access to the certain shop spaces and then can gain access to certain advanced tools through the Shops Short Courses (SSCs) taught throughout the semester.  Faculty and staff can schedule specific class or group SSCs with the Fabrication Facilities Manager.","times":null,"tools":"Handtools for basic wood, metal, plastic work;Pneumatic tools;Tablesaw;Crosscut Saw;Bandsaw;Drill press;Stationary sanders;Planer/Jointer;Spray booth;Metal Brake;Bench grinder;Concrete mixer;3D Printer - FDM/FFF;3D Printer - SLA;Laser Cutter;CNC Router - 3-4 Axis;CNC Mill -- 3-4 Axis;6 Axis Robotic Arm;Microcontrollers + Electronics  Parts/Accessories;Soldering Station;3D Digitizer;3D Scanner;CNC Embroidery Machine, Sewing Machines","website":"http://www.arch.virginia.edu/fabrication","description":"There are three main facilities: the Woodshop with the Victor Elmaleh Fabrications Lab, the CNC Lab, and the Milton Airport Facility. Students go through a mandatory training when they enter the School of Architecture, and we always welcome UVa students, faculty, and staff outside of the School to get trained to use the facilities.","img":"a-school-fab-lab.jpg","slug":"fablab","tagline":null},{"title":"Milton Airfield Hangar","contact":"Melissa Goldman: Fabrication Facilities Manager","email":"goldman@virginia.edu","phone":"434.924.6443","location":"Milton Airfield, 2300 Milton Road","access":"After an initial project submittal and a training, groups can gain access to the space.  The Landscape Lab uses the buddy system.  Any shop use in the hangar uses a three buddy system.  (Engineering has a different system.)  All projects must be on the radar of Fritz Franke (frf1z@virginia.edu) who is the larger site coordinator.","times":null,"tools":"Handtools for basic wood, metal, plastic work;Pneumatic tools;Tablesaw;Crosscut Saw;Bandsaw;Drill press;Planer/Jointer;Steel Gantry","website":"http://www.arch.virginia.edu/fabrication","description":"The airport hangar at Milton Airfield has a fully equipped woodshop and space for full scale prototyping and design/build projects. In the past, projects at Milton have included ecoMOD, reCOVER, and the Elizabeth River Learning Barge. Studios and courses building at this large scale can coordinate space and schedule through Melissa on a semester basis.","img":"temp.png","slug":"milton-airfield-hangar","tagline":null},{"title":"Ruffin Hall Wood and Metal Shop","contact":"Eric Schmidt: Studio/Gallery Tech/Safety Officer","email":"ems3z@virginia.edu","phone":null,"location":"Ruffin Hall 122 and 121","access":"Faculty-keys, staff-ID, students have access only when shop is open","times":"30-35 hours per week.  Hours not established for Fall 2016 yet","tools":"Handtools for basic wood, metal, plastic work;Pneumatic tools;Tablesaw;Crosscut Saw;Bandsaw;Drill press;Stationary sanders;Sandblaster;Welder - MIG;Welder - Other;Bench grinder;Stone carving tools;Foundry tools;Soldering Station;plasma cutter-non CNC, oxy/acetylene setup, chainsaw carving wheels and other advanced wood carving tools","website":null,"description":"The Mcintire Department of Art is host to a little known sculpture shop in Ruffin Hall. Beyond tradition- al wood-working equipment the shop has a pneumatic stone carver, sand blaster, Mig welders, and a bronze foundry. The shop space is primarily used by sculpture students in the art department to complete projects and produce shows, but other students are welcome to be trained on the tools. Most students are trained during class time, but TA's are available outside of class hours.\n\nThe Ruffin Shop would like to collaborate with more departments in the future on projects that will help make the Arts more visible around Grounds. Like most shops, they are looking for more space to house new tools, such as a joiner and planar for reclaim wood re- processing. The shop is also looking to acquire a lathe, a ring roller, a plate shear, and a brake.","img":"ruffin-hall.jpg","slug":"ruffin-hall-wood-and-metal-shop","tagline":null},{"title":"Scholars' Lab Makerspace","contact":"Ammon Shepherd: Makerspace Technologist","email":"slabmakerspace@virginia.edu","phone":null,"location":"Clemons 3rd Floor","access":"By appointment only, email ahead slabmakerspace@virginia.edu","times":"By appointment only","tools":"3D Printer - FDM/FFF;Camera Equipment;Microcontrollers + Electronics  Parts/Accessories;Soldering Station","website":"http://scholarslab.org/makerspace","description":"The Scholars' Lab Makerspace is a place for tinkering and experimentation with technologies like desktop fabrication, physical computing, and augmented reality. Open to everyone, we specialize in applications and research questions in the humanities and arts.\n\nInterested in exploring the Makerspace? Have an idea to use microcontrollers or 3D modeling and printing technology to enhance your research or differently interrogate your assumptions? The Makerspace is open from 1:00-5:00 p.m. Monday through Friday. Stop by to talk to one of our student consultants, attend our maker workshops, or contact us at scholarslab@virginia.edu to schedule an appointment with Scholars' Lab faculty and staff to discuss your planned project.","img":"scholarslab.jpg","slug":"scholars-lab-makerspace","tagline":null},{"title":"Ann Warrick Lacy Student Experiential Center (Lacy Hall)","contact":"Sebring Smith: Shop Manager","email":"LacyHall@virginia.edu","phone":"434.924.1029","location":"Lacy Hall, 510 Edgemont Rd","access":"Contact Sebring@virginia.edu or LacyHall@virginia.edu","times":"10-5 for newcomers","tools":"Handtools for basic wood, metal, plastic work;Pneumatic tools;Bandsaw;Drill press;Stationary sanders;Welder - MIG;Welder - TIG;Welder - Other;Metal Brake;Hydraulic Press;Bench grinder;Mill (Not CNC);CNC Mill -- 3-4 Axis;CNC Router/Mill - 5 axis;CNC Plasma Cutter;Water Jet;Microcontrollers + Electronics  Parts/Accessories;Soldering Station;Lathes, Hand Plasma Cutter, Mechanic's Tools, Auto Lift, ","website":"http://lacy.seas.virginia.edu/","description":"The 20,000-square-foot, four-story Lacy Hall was designed and constructed to support the needs of students engaged in experiential learning. The Ann Warrick Lacy Experiential Center is located on the third and fourth floors of the building. The third floor, which is at ground level, has large open spaces and a front door large enough to accommodate a vehicle. The fourth floor is divided into various areas, in an open design specifically intended to foster student interaction.\n\nPrograms and team activities that were previously distributed throughout the Engineering School and elsewhere are now gathered in the building, providing opportunities for students from different teams to help each other in common areas of technology. Students will have access to modern machine tools, including rapid prototyping tools that support the manufacture of parts and devices from computer designs.","img":"lacy-hall.jpg","slug":"lacy-hall","tagline":null},{"title":"Lacy Design Lab, aka. Rice 120","contact":"Greg Lewin: Engineering Supergenius (aka. \"Lecturer\")","email":"gcl8a@virginia.edu","phone":null,"location":"Rice Hall 120","access":"Open hours, evenings and weekends","times":"Most evenings; Sunday afternoon","tools":"Handtools for basic wood, metal, plastic work;3D Printer - FDM/FFF;Microcontrollers + Electronics  Parts/Accessories;Soldering Station;Die-cutters; foam cutter","website":"http://www.seas.virginia.edu/acad/programs/tlp/designstudio.php","description":"We outfitted the Rice 120 Lacy Design Studio for use by all Introduction to Engineering (ENGR 1620) students. Included are:\n\n4 Afinia 3d printers -- Afinia 3D printer instructions\nPrototyping bins filled with materials for quick ideation-oriented prototyping\nA Silhouette Die-cutter for 2d prototyping -- Silhouette die-cutter instructions\nFoam and foamwork tools\nA soldering and electronics workstation\nOur customized z-rack whiteboards\nTools and a Parts Cart with a random collection of materials","img":"temp.png","slug":"rice-120","tagline":null},{"title":"Library Materials Collection","contact":"Rebecca Coleman: Research Librarian for Architecture","email":"rac8f@virginia.edu","phone":null,"location":"Fine Arts Library ","access":"The Materials Collection is available for browsing any time the Fine Arts Library is open.  If you require consultation or wish to schedule a visit for a class, please contact us in advance so we can make arrangements.","times":"The collection is open for browsing any time the Fine Arts Library is open.  Library hours are posted on the website.","tools":"Camera Equipment;Material Samples","website":"https://www.library.virginia.edu/libraries/#fine-arts","description":"The Fiske Kimball Fine Arts Library provides research support and collections for the School of Architecture and the subjects of Art, Art History, and European Archeology. We offer research and digital tool consultation, resources for image scanning, and spaces for quiet and collaborative study.  In addition, the Fine Arts Library features the Niche, a venue for new video art and the Faculty R-Lab, a reservable space dedicated to faculty collaborative work.","img":"temp.png","slug":"library-materials-collection","tagline":null},{"title":"Drama Scene Shop","contact":"Chris Rybitski: Shop Foreman","email":"cmr4gr@virginia.edu","phone":null,"location":"Drama Scene Shop","access":"By appointment with Steve Warner or Chris Rybitski","times":"M-F 1-5 PM","tools":"Handtools for basic wood, metal, plastic work;Pneumatic tools;Tablesaw;Crosscut Saw;Bandsaw;Drill press;Stationary sanders;Planer/Jointer;Vacuformer;Welder - MIG;Welder - TIG;Welder - Other;Bench grinder","website":null,"description":"The Scene Shop in the Drama Department is primarily used to produce the stage sets and props for performances. The shop has tools for welding, woodworking, metal cutting, a hot wire cutter, a hand held plasma cutter, a vacuum former, and a paint frame that can rig up large projects. The shop teaches workshops about welding, vacuum forming, rigging and flying, OSHA, and Arduino micro controllers. There is also a basketball hoop that takes advantage of the high ceilings. All tools are accessible to students outside of the depart ment who have had safety training.","img":"drama.jpg","slug":"drama-scene-shop","tagline":null},{"title":"Prop Shop","contact":"Chris Rybitski: Prop Shop Manager","email":"cmf2r@virginia.edu","phone":"434.924.8967","location":"Drama Scene Shop","access":"appointment","times":"M-F 10 AM - 7 PM","tools":"Handtools for basic wood, metal, plastic work;Pneumatic tools;Drill press;Planer/Jointer;Vacuformer;Band Saw","website":null,"description":null,"img":"temp.png","slug":"prop-shop","tagline":null},{"title":"Rapid Prototyping Lab","contact":"Dwight Dart: Design Lab Engineer","email":"dwight@virginia.edu","phone":"434.243.3269","location":"Mechanical and Aerospace Engineering, Room 217","access":"Submit files to our website for manufacturing and our Department folks go through an orientation for use of the machines.","times":"Not open to the public.","tools":"3D Printer - FDM/FFF;3D Printer - Polyjet;Design Services","website":"http://rpl.mae.virginia.edu/","description":"Located in the Department of Mechanical and Aerospace Engineering, within the School of Engineering and Applied Science. The RPL is a state-of-the-art advanced manufacturing facility that provides Design, 3D Printing, Laser Cutting, and CNC machining services to our students, faculty, staff, and external clients. We welcome sponsored research projects and grant collaborations.","img":"rpl-1.jpg","slug":"rapid-prototyping-lab","tagline":null},{"title":"iLab","contact":null,"email":null,"phone":null,"location":"621 Nash Drive","access":null,"times":null,"tools":"3D Printer - FDM","website":"http://www.ilabatuva.org/","description":"The i.Lab is a University-wide initiative that creates a nexus for entrepreneurship and innovation education. Its mission is to foster deep cross-collaboration with no boundaries, across disciplines, schools or ways of thinking. The i.Lab provides coaching, courses and incubation to students, faculty and community members innovating the future. Initiatives such as the i.Lab help create a robust entrepreneurial ecosystem within U.Va. and its surrounding community. The i.Lab is a collaborative effort of 11 schools of the University, the Provost's Office, and U.Va. Innovation.","img":"ilab.jpg","slug":"ilab","tagline":null},{"title":"Robertson Media Center","contact":null,"email":null,"phone":null,"location":"Clemons 3rd floor","access":"Open access.","times":"Everyday 10 AM - Midnight","tools":"Camera Equipment","website":"http://static.lib.virginia.edu/directory/libraries.html#robertson-media-center","description":"The Robertson Media Center (RMC) is located on the third floor of Clemons Library and is adjacent to the Digital Media Lab. The Center offers digital media services, including digital audio/video/3D capture and editing, desktop publishing and technical instruction, and analog and digital media collections and services, and provides expertise, equipment, and resources for the use and development of media materials in instruction and research.\n\nThe Center has a variety of equipment available for circulation such as Flip Cams, tripods, Canon Vixia cameras, Bloggie cameras, Zoom cameras, Marantz audio recorders, USB microphones, USB optical drives, headphones, projectors, memory cards and readers, wired XLR microphones, wireless microphones, cassette audio player/recorder and a limited supply of display adapters. The equipment can not be reserved in advance and is circulated on a first-come, first-served basis from the third floor circulation desk. Equipment can not be renewed online. There are limited supplies of each type of equipment that is circulated. Equipment should be returned to the third floor desk. Library hours are available here.\n\nThe computer stations in the Center can be reserved in advance for three hour blocks of time. You may check availability and make your reservation by clicking here. A consultant is on duty when the floor is open and is available to assist with questions that arise.","img":"rmc.jpg","slug":"robertson-media-center","tagline":null},{"title":"OMERF Fabrication Space","contact":null,"email":null,"phone":null,"location":"Old Reactor","access":null,"times":null,"tools":"3D Printer - FDM","website":null,"description":"The ultimate in out-of-the-way-so-we-can-prototype-what-we-want spaces, the Fabrication studio has more robust capabilities for woodworking and electronics prototyping. http://goo.gl/maps/iQZD","img":"temp.png","slug":"omerf-fabrication-space","tagline":null},{"title":"Visual Resources Center at Fayerweather Hall","contact":"Victoria Valdes","email":"victoria.valdes@virginia.edu","phone":"434-2976938","location":"Fayerweather Hall","access":"Swipe Card, Graduate credentials for Art History or Archaeology","times":"9-5","tools":"3D Printer – FDM","website":"http://www.virginia.edu/art/resources/","description":"Graduate Student space for design and printing of 3D objects","img":"temp.png","slug":"vrc","tagline":null}];
+
+    var toolCategories = [{"name":"3D Printing","slug":"3d-printing","icon":"3d-printing.svg","locations":["prop-shop","rapid-prototyping-lab","bme-design-lab","drama-scene-shop","bme-fabrication-space","ruffin-hall-wood-and-metal-shop","scholars-lab-makerspace","ilab","fablab","mechatronics-lab-and-the-mill","wilson-hall","rice-120","vrc"]},{"name":"3D Scanning","slug":"3d-scanning","icon":"3d-scanning.svg","locations":["robertson-media-center"]},{"name":"Casting","slug":"casting","icon":"casting.svg","locations":["ruffin-hall-wood-and-metal-shop","fablab"]},{"name":"CNC Cutting","slug":"cnc-cutting","icon":"cnc-cutting.svg","locations":["bme-design-lab","bme-fabrication-space","lacy-hall","fablab","wilson-hall"]},{"name":"Computer + Software","slug":"computer-software","icon":"computer-software.svg","locations":["robertson-media-center","rapid-prototyping-lab","library-materials-collection","scholars-lab-makerspace","wilson-hall"]},{"name":"Drones","slug":"drones","icon":"drones.svg","locations":["robertson-media-center"]},{"name":"Electronics","slug":"electronics","icon":"electronics.svg","locations":["omerf-fabrication-space","bme-design-lab","bme-fabrication-space","scholars-lab-makerspace","mechatronics-lab-and-the-mill","wilson-hall","rice-120"]},{"name":"Material/Data Archive","slug":"material-data-archive","icon":"material-data-archive.svg","locations":["robertson-media-center","library-materials-collection","scholars-lab-makerspace"]},{"name":"Metalworking","slug":"metalworking","icon":"metalworking.svg","locations":["omerf-fabrication-space","prop-shop","drama-scene-shop","bme-fabrication-space","lacy-hall","ruffin-hall-wood-and-metal-shop","milton-airfield-hangar","mechatronics-lab-and-the-mill"]},{"name":"Recording","slug":"recording","icon":"recording.svg","locations":["robertson-media-center","bme-design-lab","wilson-hall"]},{"name":"Robotics","slug":"robotics","icon":"robotics.svg","locations":["fablab","mechatronics-lab-and-the-mill"]},{"name":"Virtual Reality","slug":"virtual-reality","icon":"virtual-reality.svg","locations":["scholars-lab-makerspace"]},{"name":"Woodworking","slug":"woodworking","icon":"woodworking.svg","locations":["omerf-fabrication-space","prop-shop","drama-scene-shop","bme-fabrication-space","ruffin-hall-wood-and-metal-shop","milton-airfield-hangar","fablab","mechatronics-lab-and-the-mill","wilson-hall"]},{"name":"Laser Cutting","slug":"lasercutting","icon":"laser_cutter.svg","locations":["fablab"]},{"name":"Textiles","slug":"textiles","icon":"fabrics.svg","locations":["scholars-lab-makerspace"]}];
+    //makergroundsData is used to access location data from the csv.
+    var makergroundsData = {};
+    var map, markers;
+
+    //maps slug to location info (from the csv)
+    makergroundsJSON.forEach(function(location) {
+      makergroundsData[location.slug] = location;
+    });
+
+    //opens marker popup when a location is selected
+    function openPopup(self) {
+      //only open popup if the location is not inactive
+      if (!$(self).hasClass('inactive')){
+        var marker = makergroundsData[self.getAttribute("map-locations-list-slug")].marker
+        var coordinates = marker.feature.geometry.coordinates;
+        //center marker and open its popup (coordinates from geoJSON are flipped in terms of latitude and longitude)
+        map.panTo([coordinates[1], coordinates[0]], marker._zIndex);
+        marker.openPopup();
+      }
+    }
+  </script>
+
+  <script>
+    //this token is generated a mapbox.com account. Any token works.
+    //the token should really be placed in a config file.
+    L.mapbox.accessToken = 'pk.eyJ1Ijoic2Nob2xhcnNsYWIiLCJhIjoiY2oxdzlqNDh1MDAwMTMzcW96MGxtajZxNSJ9.8I1zZymMKofR_FbOiazznw';
+
+    map = L.mapbox.map('map', 'mapbox.streets')
+      .setView([38.035544, -78.505186], 15.55)
+
+    if (map.scrollWheelZoom) {
+      map.scrollWheelZoom.disable();
+    }
+
+    //creates markers using "features" in the geojson
+
+    markers = L.mapbox.featureLayer()
+      .loadURL('map-geojson/makergrounds-map-data.geojson')
+      .addTo(map);
+
+
+    markers.on('layeradd', function(e) {
+      var marker = e.layer,
+        feature = marker.feature;
+
+      var locationData = makergroundsData[feature.properties["location-slug"]];
+      //add marker object to data so the marker can be accessed later
+      locationData.marker = marker;
+
+      var locationTitle = '<h2><b><a class="marker-popup-title" href="/locations/' + locationData.slug + '.html">' + locationData.title + '</a></b></h2>';
+      var websiteName = locationData.website ? '<p><a href="' + locationData.website + '">' + locationData.website + '</a><p>' : ""
+
+      //adds icons to popup
+      var iconsList = '<div class="marker-popup-icons-container"><ul class="marker-popup-icons-list">';
+      toolCategories.forEach(function(t) {
+        if (t.locations.includes(locationData.slug)) {
+          iconsList += '<li>' +
+            '<img src="img/icons/' + t.icon + '">' +
+            '</li>'
+        }
+      })
+      iconsList += "</ul></div>";
+
+      //bind popup to marker
+      var popup = L.popup({
+          closeButton: false,
+          className: "marker-popup"
+        })
+        .setContent(locationTitle + websiteName + iconsList)
+      marker.bindPopup(popup);
+    });
+
+    //when a filter is clicked
+    //$('.map-filter-list li').click(function(e) {
+    $('.map-filter-item').click(function(e) {
+      e.preventDefault()
+      //all other filers become inactive
+      //$(this).parent().find('li').removeClass('active');
+      $('.map-filter-item').removeClass('active');
+      //all locations in the locations list become inactive
+      $('.map-locations-list').find('li').removeClass();
+      //the filter that is clicked is active
+      $(this).addClass('active');
+
+      var filter = $(this).data('filter');
+
+      var filtered_locations = [];
+      // only make locations active if a filter is applied
+      if (filter != 'all') {
+        //find locations that has tools of that category
+        filtered_locations = toolCategories.filter(function(toolCategory) {
+          return toolCategory.slug == filter;
+        })[0].locations;
+        //highlight locations on the locations list (made active)
+        filtered_locations.forEach(function(l) {
+          $('.map-locations-list').find('[map-locations-list-slug=' + l + "]").addClass('active');
+        })
+
+        //makes all locations that are not filtered inactive
+        $('.map-locations-list li').each(function(index, li){
+          if (!$(li).hasClass('active')){
+            $(li).addClass('inactive')
+          }
+        })
+      }
+
+      if (filter == 'all'){
+        //pan to original position if "show all" is selected
+        map.panTo([38.035544, -78.505186], 15.55);
+        //$('.map-locations-list').find('li').removeClass();
+        $('.map-locations-list').find('li').removeClass();
+      }
+
+      //mapbox: show/hide location markers that are filtered
+      markers.setFilter(function(f) {
+        // If the data-filter attribute is set to "all", return
+        // all (true). Otherwise, filter on the locations that are in the toolcategory.
+        return (filter === 'all') ? true : filtered_locations.includes(f.properties["location-slug"]);
+      });
+
+      return false;
+    });
+  </script>
+
+</section>
+
+  </div>
+</div>
+
+<a name="locations"></a>
+<div class="row">
+  <div class="col s12">
+    <section id="location-section">
+<h2 class="white-text center-align">Locations</h2>
+
+  <div class="row">
+    
+      <div class="col s12 m6 l4">
+        <div class="card">
+          <div class="card-image">
+            <a href="/locations/fablab.html" class="">
+              
+                <img src="images/a-school-fab-lab.jpg" class="" alt="A School FabLab" />
+              
+            </a>
+          </div>
+          <div class="card-content orange darken-4">
+            <span class="card-title">
+              <a class="white-text text-darken-4" 
+                href="/locations/fablab.html">
+                  A School FabLab
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+    
+      <div class="col s12 m6 l4">
+        <div class="card">
+          <div class="card-image">
+            <a href="/locations/bme-design-lab.html" class="">
+              
+                <img src="images/bme_1503519418370.png" class="" alt="BME DesignLab" />
+              
+            </a>
+          </div>
+          <div class="card-content orange darken-4">
+            <span class="card-title">
+              <a class="white-text text-darken-4" 
+                href="/locations/bme-design-lab.html">
+                  BME DesignLab
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+    
+      <div class="col s12 m6 l4">
+        <div class="card">
+          <div class="card-image">
+            <a href="/locations/bme-fabrication-space.html" class="">
+              
+                <img src="images/IMG_4832_1503932279478.jpg" class="" alt="BME Fabrication Space" />
+              
+            </a>
+          </div>
+          <div class="card-content orange darken-4">
+            <span class="card-title">
+              <a class="white-text text-darken-4" 
+                href="/locations/bme-fabrication-space.html">
+                  BME Fabrication Space
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+    
+      <div class="col s12 m6 l4">
+        <div class="card">
+          <div class="card-image">
+            <a href="/locations/drama-scene-shop.html" class="">
+              
+                <img src="images/IMG_20170427_172039541_1507664704243.jpg" class="" alt="Drama Scene Shop" />
+              
+            </a>
+          </div>
+          <div class="card-content orange darken-4">
+            <span class="card-title">
+              <a class="white-text text-darken-4" 
+                href="/locations/drama-scene-shop.html">
+                  Drama Scene Shop
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+    
+      <div class="col s12 m6 l4">
+        <div class="card">
+          <div class="card-image">
+            <a href="/locations/environmental-health-safety.html" class="">
+              
+                <img src="images/Makerspace_Safety_586_A_1506532889591.jpg" class="" alt="Environmental Health & Safety " />
+              
+            </a>
+          </div>
+          <div class="card-content orange darken-4">
+            <span class="card-title">
+              <a class="white-text text-darken-4" 
+                href="/locations/environmental-health-safety.html">
+                  Environmental Health & Safety 
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+    
+      <div class="col s12 m6 l4">
+        <div class="card">
+          <div class="card-image">
+            <a href="/locations/ilab.html" class="">
+              
+                <img src="images/ilab_1501258079195_1503517727294_1503519077756.jpg" class="" alt="iLab @UVA" />
+              
+            </a>
+          </div>
+          <div class="card-content orange darken-4">
+            <span class="card-title">
+              <a class="white-text text-darken-4" 
+                href="/locations/ilab.html">
+                  iLab @UVA
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+    
+      <div class="col s12 m6 l4">
+        <div class="card">
+          <div class="card-image">
+            <a href="/locations/rice-120.html" class="">
+              
+                <img src="images/lacy_1501259238402_1503517670889_1503519112805.jpg" class="" alt="Lacy Design Lab, aka. Rice 120" />
+              
+            </a>
+          </div>
+          <div class="card-content orange darken-4">
+            <span class="card-title">
+              <a class="white-text text-darken-4" 
+                href="/locations/rice-120.html">
+                  Lacy Design Lab, aka. Rice 120
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+    
+      <div class="col s12 m6 l4">
+        <div class="card">
+          <div class="card-image">
+            <a href="/locations/lacy-hall.html" class="">
+              
+                <img src="images/lacy-hall.jpg" class="" alt="Lacy Student Experiential Center (Lacy Hall)" />
+              
+            </a>
+          </div>
+          <div class="card-content orange darken-4">
+            <span class="card-title">
+              <a class="white-text text-darken-4" 
+                href="/locations/lacy-hall.html">
+                  Lacy Student Experiential Center (Lacy Hall)
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+    
+      <div class="col s12 m6 l4">
+        <div class="card">
+          <div class="card-image">
+            <a href="/locations/library-materials-collection.html" class="">
+              
+                <img src="imgs/no-location.png" class="" alt="Library Materials Collection" />
+              
+            </a>
+          </div>
+          <div class="card-content orange darken-4">
+            <span class="card-title">
+              <a class="white-text text-darken-4" 
+                href="/locations/library-materials-collection.html">
+                  Library Materials Collection
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+    
+      <div class="col s12 m6 l4">
+        <div class="card">
+          <div class="card-image">
+            <a href="/locations/mechatronics-lab-and-the-mill.html" class="">
+              
+                <img src="images/mechatronics-lab.jpg" class="" alt="Mechatronics Lab and The MILL" />
+              
+            </a>
+          </div>
+          <div class="card-content orange darken-4">
+            <span class="card-title">
+              <a class="white-text text-darken-4" 
+                href="/locations/mechatronics-lab-and-the-mill.html">
+                  Mechatronics Lab and The MILL
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+    
+      <div class="col s12 m6 l4">
+        <div class="card">
+          <div class="card-image">
+            <a href="/locations/milton-airfield-hangar.html" class="">
+              
+                <img src="imgs/no-location.png" class="" alt="Milton Airfield Hangar" />
+              
+            </a>
+          </div>
+          <div class="card-content orange darken-4">
+            <span class="card-title">
+              <a class="white-text text-darken-4" 
+                href="/locations/milton-airfield-hangar.html">
+                  Milton Airfield Hangar
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+    
+      <div class="col s12 m6 l4">
+        <div class="card">
+          <div class="card-image">
+            <a href="/locations/omerf-fabrication-space.html" class="">
+              
+                <img src="imgs/no-location.png" class="" alt="OMERF Fabrication Space" />
+              
+            </a>
+          </div>
+          <div class="card-content orange darken-4">
+            <span class="card-title">
+              <a class="white-text text-darken-4" 
+                href="/locations/omerf-fabrication-space.html">
+                  OMERF Fabrication Space
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+    
+      <div class="col s12 m6 l4">
+        <div class="card">
+          <div class="card-image">
+            <a href="/locations/prop-shop.html" class="">
+              
+                <img src="imgs/no-location.png" class="" alt="Prop Shop" />
+              
+            </a>
+          </div>
+          <div class="card-content orange darken-4">
+            <span class="card-title">
+              <a class="white-text text-darken-4" 
+                href="/locations/prop-shop.html">
+                  Prop Shop
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+    
+      <div class="col s12 m6 l4">
+        <div class="card">
+          <div class="card-image">
+            <a href="/locations/rapid-prototyping-lab.html" class="">
+              
+                <img src="images/rpl.jpg" class="" alt="Rapid Prototyping Lab" />
+              
+            </a>
+          </div>
+          <div class="card-content orange darken-4">
+            <span class="card-title">
+              <a class="white-text text-darken-4" 
+                href="/locations/rapid-prototyping-lab.html">
+                  Rapid Prototyping Lab
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+    
+      <div class="col s12 m6 l4">
+        <div class="card">
+          <div class="card-image">
+            <a href="/locations/robertson-media-center.html" class="">
+              
+                <img src="images/rmc.jpg" class="" alt="Robertson Media Center" />
+              
+            </a>
+          </div>
+          <div class="card-content orange darken-4">
+            <span class="card-title">
+              <a class="white-text text-darken-4" 
+                href="/locations/robertson-media-center.html">
+                  Robertson Media Center
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+    
+      <div class="col s12 m6 l4">
+        <div class="card">
+          <div class="card-image">
+            <a href="/locations/ruffin-hall-wood-and-metal-shop.html" class="">
+              
+                <img src="images/ruffin-hall.jpg" class="" alt="Ruffin Hall Wood and Metal Shop" />
+              
+            </a>
+          </div>
+          <div class="card-content orange darken-4">
+            <span class="card-title">
+              <a class="white-text text-darken-4" 
+                href="/locations/ruffin-hall-wood-and-metal-shop.html">
+                  Ruffin Hall Wood and Metal Shop
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+    
+      <div class="col s12 m6 l4">
+        <div class="card">
+          <div class="card-image">
+            <a href="/locations/scholars-lab-makerspace.html" class="">
+              
+                <img src="images/scholars_lab_1509469204058.jpg" class="" alt="Scholars' Lab Makerspace" />
+              
+            </a>
+          </div>
+          <div class="card-content orange darken-4">
+            <span class="card-title">
+              <a class="white-text text-darken-4" 
+                href="/locations/scholars-lab-makerspace.html">
+                  Scholars' Lab Makerspace
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+    
+      <div class="col s12 m6 l4">
+        <div class="card">
+          <div class="card-image">
+            <a href="/locations/vrc.html" class="">
+              
+                <img src="images/IMG_E0543_1508359619668.jpg" class="" alt="Visual Resources Center at Fayerweather Hall" />
+              
+            </a>
+          </div>
+          <div class="card-content orange darken-4">
+            <span class="card-title">
+              <a class="white-text text-darken-4" 
+                href="/locations/vrc.html">
+                  Visual Resources Center at Fayerweather Hall
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+    
+      <div class="col s12 m6 l4">
+        <div class="card">
+          <div class="card-image">
+            <a href="/locations/wilson-hall.html" class="">
+              
+                <img src="images/makerstudio_for_makergrounds_1516998755184.jpg" class="" alt="Wilson Hall Maker Studio" />
+              
+            </a>
+          </div>
+          <div class="card-content orange darken-4">
+            <span class="card-title">
+              <a class="white-text text-darken-4" 
+                href="/locations/wilson-hall.html">
+                  Wilson Hall Maker Studio
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+    
+  </div>
+</section>
+
+
+  </div>
+</div>
+
+<a name="people"></a>
+<div class="row">
+  <div class="col s12">
+    <section id="people-section" class="bg-dark">
+  <h2 class="white-text center-align">People Network</h2>
+  <div class="people-key">
+    <div>
+      <div class="keybox-left arts-sciences"></div>
+      <div class="arts-sciences keybox">
+      	Arts & Sciences
+      </div>
+    </div>
+    <div>
+      <div class="keybox-left engineering"></div>
+      <div class="keybox engineering">
+      	Engineering
+      </div>
+    </div>
+    <div>
+      <div class="keybox-left architecture"></div>
+      <div class="keybox architecture">
+        Architecture
+      </div>
+    </div>
+    <div>
+      <div class="keybox-left darden"></div>
+      <div class="keybox darden">
+        Darden
+      </div>
+    </div>
+    <div>
+      <div class="keybox-left health-sciences"></div>
+      <div class="keybox health-sciences">
+        Health Sciences
+      </div>
+    </div>
+    <div>
+      <div class="keybox-left ehs"></div>
+      <div class="keybox ehs">
+        EHS
+      </div>
+    </div>
+  </div>
+
+  <!-- <div style="clear:both; height:40px;"></div> -->
+
+  
+  	
+    <a href="/people/ammon-shepherd.html" class="person-box">
+  	
+      <div class="img-box">
+        
+          <img class="circle responsive-img" src="../images/me_copy_1502826906568.jpg" />
+        
+      </div>
+  		<br/>
+      <p>Ammon Shepherd</p>
+  		
+      <div>
+        <div class="scholars-lab-makerspace person-location-color-block"></div> 
+        <div class="person-location-name">Scholars' Lab Makerspace</div>
+      </div> 
+
+      
+  	</a>
+  
+  
+  	
+    <a href="/people/chris-rybitski.html" class="person-box">
+  	
+      <div class="img-box">
+        
+          <img class="circle responsive-img" src="../images/MBailey_Chris_Rybitski_1507664841313.jpg" />
+        
+      </div>
+  		<br/>
+      <p>Chris Rybitski</p>
+  		
+      <div>
+        <div class="drama-scene-shop person-location-color-block"></div> 
+        <div class="person-location-name">Drama Scene Shop</div>
+      </div> 
+
+      
+  	</a>
+  
+  
+  	
+    <a href="/people/clarissa-lynch.html" class="person-box">
+  	
+      <div class="img-box">
+        
+          <img class="circle responsive-img" src="../images/Clarisa_R_2C_1504717893777.jpg" />
+        
+      </div>
+  		<br/>
+      <p>Clarissa Lynch</p>
+  		
+      <div>
+        <div class="environmental-health-safety person-location-color-block"></div> 
+        <div class="person-location-name">Environmental Health & Safety </div>
+      </div> 
+
+      
+  	</a>
+  
+  
+  	
+    <a href="/people/dwight-dart.html" class="person-box">
+  	
+      <div class="img-box">
+        
+          <img class="circle responsive-img" src="../images/dwight-dart.jpg" />
+        
+      </div>
+  		<br/>
+      <p>Dwight Dart</p>
+  		
+      <div>
+        <div class="rapid-prototyping-lab person-location-color-block"></div> 
+        <div class="person-location-name">Rapid Prototyping Lab </div>
+      </div> 
+
+      
+  	</a>
+  
+  
+  	
+    <a href="/people/eric-schmidt.html" class="person-box">
+  	
+      <div class="img-box">
+        
+          <img class="circle responsive-img" src="../imgs/no-person.png" />
+        
+      </div>
+  		<br/>
+      <p>Eric Schmidt</p>
+  		
+      <div>
+        <div class="ruffin-hall-wood-and-metal-shop person-location-color-block"></div> 
+        <div class="person-location-name">Ruffin Hall Wood and Metal Shop</div>
+      </div> 
+
+      
+  	</a>
+  
+  
+  	
+    <a href="/people/fang-yi.html" class="person-box">
+  	
+      <div class="img-box">
+        
+          <img class="circle responsive-img" src="../images/Staff_Photo_1518021901884.jpg" />
+        
+      </div>
+  		<br/>
+      <p>Fang Yi</p>
+  		
+      <div>
+        <div class="robertson-media-center person-location-color-block"></div> 
+        <div class="person-location-name">Robertson Media Center</div>
+      </div> 
+
+      
+  	</a>
+  
+  
+  	
+    <a href="/people/gavin-t-garner.html" class="person-box">
+  	
+      <div class="img-box">
+        
+          <img class="circle responsive-img" src="../images/Guitar_1522790982285.png" />
+        
+      </div>
+  		<br/>
+      <p>Gavin T. Garner</p>
+  		
+      <div>
+        <div class="mechatronics-lab-and-the-mill person-location-color-block"></div> 
+        <div class="person-location-name">Mechatronics Lab and The MILL</div>
+      </div> 
+
+      
+  	</a>
+  
+  
+  	
+    <a href="/people/reid-bailey.html" class="person-box">
+  	
+      <div class="img-box">
+        
+          <img class="circle responsive-img" src="../imgs/no-person.png" />
+        
+      </div>
+  		<br/>
+      <p>Reid Bailey</p>
+  		
+      <div>
+        <div class="rice-120 person-location-color-block"></div> 
+        <div class="person-location-name">Lacy Design Lab, aka. Rice 120</div>
+      </div> 
+
+      
+  	</a>
+  
+  
+  	
+    <a href="/people/jason-bennett.html" class="person-box">
+  	
+      <div class="img-box">
+        
+          <img class="circle responsive-img" src="../images/large_jason_in_maker_studio_1508348482377.jpg" />
+        
+      </div>
+  		<br/>
+      <p>Jason Bennett</p>
+  		
+      <div>
+        <div class="wilson-hall person-location-color-block"></div> 
+        <div class="person-location-name">Wilson Hall Maker Studio</div>
+      </div> 
+
+      
+  	</a>
+  
+  
+  	
+    <a href="/people/melissa-goldman.html" class="person-box">
+  	
+      <div class="img-box">
+        
+          <img class="circle responsive-img" src="../images/melissagoldman_1507656338971.jpg" />
+        
+      </div>
+  		<br/>
+      <p>Melissa Goldman</p>
+  		
+      <div>
+        <div class="fablab person-location-color-block"></div> 
+        <div class="person-location-name">A School FabLab</div>
+      </div> 
+
+      
+  	</a>
+  
+  
+  	
+    <a href="/people/kate-smith.html" class="person-box">
+  	
+      <div class="img-box">
+        
+          <img class="circle responsive-img" src="../images/kate-smith.jpg" />
+        
+      </div>
+  		<br/>
+      <p>Kate Smith</p>
+  		
+      <div>
+        <div class="environmental-health-safety person-location-color-block"></div> 
+        <div class="person-location-name">Environmental Health &amp; Safety </div>
+      </div> 
+
+      
+  	</a>
+  
+  
+  	
+    <a href="/people/sebring-smith.html" class="person-box">
+  	
+      <div class="img-box">
+        
+          <img class="circle responsive-img" src="../imgs/no-person.png" />
+        
+      </div>
+  		<br/>
+      <p>Sebring Smith</p>
+  		
+      <div>
+        <div class="lacy-hall person-location-color-block"></div> 
+        <div class="person-location-name">Lacy Student Experiential Center (Lacy Hall)</div>
+      </div> 
+
+      
+  	</a>
+  
+  
+  	
+    <a href="/people/victoria-valdes.html" class="person-box">
+  	
+      <div class="img-box">
+        
+          <img class="circle responsive-img" src="../images/victoria-valdes.jpg" />
+        
+      </div>
+  		<br/>
+      <p>Victoria Valdes</p>
+  		
+      <div>
+        <div class="vrc person-location-color-block"></div> 
+        <div class="person-location-name">Visual Resources Center at Fayerweather Hall</div>
+      </div> 
+
+      
+  	</a>
+  
+  
+  	
+    <a href="/people/william-guilford.html" class="person-box">
+  	
+      <div class="img-box">
+        
+          <img class="circle responsive-img" src="../images/Guilford_William_2822_bust_1502201975705.jpg" />
+        
+      </div>
+  		<br/>
+      <p>William Guilford</p>
+  		
+      <div>
+        <div class="bme-fabrication-space person-location-color-block"></div> 
+        <div class="person-location-name">BME Fabrication Space</div>
+      </div> 
+
+      
+  	</a>
+  
+  
+  	
+    <a href="/people/willrourk.html" class="person-box">
+  	
+      <div class="img-box">
+        
+          <img class="circle responsive-img" src="../images/willRourk_1502830049149.jpg" />
+        
+      </div>
+  		<br/>
+      <p>willRourk</p>
+  		
+      <div>
+        <div class="robertson-media-center person-location-color-block"></div> 
+        <div class="person-location-name">Robertson Media Center</div>
+      </div> 
+
+      
+  	</a>
+  
+  
+
+</section>
+
+
+  </div>
+</div>
+
+<!-- <a name="calendar"></a> -->
+<!-- <div class="row"> -->
+<!--   <div class="col s12"> -->
+<!--     <section id="calendar-section">
+  <h2 class="white-text center-align">Calendar</h2>
+
+  <div class="row">
+    <div class="col s12 center-align googleCalendar">
+      <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23c0c0c0&amp;src=makergrounds%40gmail.com&amp;color=%231B887A&amp;src=3pog4rvuj1qj5n9icseh4l0ab0%40group.calendar.google.com&amp;color=%23711616&amp;src=pscjmerihlu3hv76otlct54ql0%40group.calendar.google.com&amp;color=%23691426&amp;src=h9qjcqlotqadatabgs1e9g7igg%40group.calendar.google.com&amp;color=%23711616&amp;ctz=America%2FNew_York" style="border:solid 10px #c0c0c0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+    </div>
+  </div>
+</section>
+ -->
+<!--   </div> -->
+<!-- </div> -->
+
+
+
+
+</main>
+
+<footer class="page-footer orange darken-2">
+  <div class="container">
+    <div class="row">
+      <div class="col s12">
+        <p>Send questions, corrections and comments about the website to 
+          <a class="waves-effect waves-light btn indigo darken-2" 
+            href="mailto:makergroundwebsite@virginia.edu">
+            makergroundwebsite@virginia.edu 
+            <i class="material-icons left">mail</i>
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright orange darken-4">
+    <div class="container">
+      <p>&copy; 2020 by the Rector and Visitors of the University of Virginia<br>
+      <a href="http://www.virginia.edu/copyright.html">Copyright &amp; Privacy</a></p>
+    </div>
+  </div>
+</footer>
+
+
+<div id="scripts">
+  <!--Import jQuery before materialize.js-->
+  <script src="/js/jquery-3.2.1.min.js"></script>
+  <script src="/js/materialize.min.js"></script>
+  <script src="/js/jquery.matchHeight.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.sidenav').sidenav();
+      $(function() {
+        $('.card-content').matchHeight();
+        $('.person-box').matchHeight();
+      });
+    });
+    
+  </script>
+</div>
+
+</body>
+
+</html>
