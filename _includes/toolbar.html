@@ -1,0 +1,38 @@
+{% for tools in site.data.makergrounds | split: ";" }
+<section class="bg-dark">
+  <div class="text-center">
+    <a name="tool-bar"></a>
+    <h2>Tool Bar</h2>
+  </div>
+</section>
+
+<section class="no-padding" id="portfolio">
+    <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12 col-sm-12">
+            <table class="table resources">
+              <tr>
+                <th>Tools</th>
+                <th>Locations</th>
+              </tr>
+            {% for resource in site.data.resources %}
+              <tr>
+                <th>
+                  {{ resource.resource }} 
+                </th>
+                <td>
+                  {% for location in resource.locations %}
+                    <a href="{{ location.page }}">{{ location.name }}</a>
+                    {% if forloop.last == false %}
+                      &nbsp; | &nbsp;
+                    {% endif %}
+                  {% endfor %}
+                </td>
+              </tr>
+            {% endfor %}
+            </table>
+          </div>
+        </div>
+    </div>
+</section>
+

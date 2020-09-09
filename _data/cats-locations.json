@@ -1,0 +1,112 @@
+[
+   {
+      "name": "3D Printing",
+      "slug": "3d-printing",
+      "icon": "3d_printing_1503075821267.svg",
+      "locations": [
+         "Scholars' Lab Makerspace",
+         "Wilson Hall Maker Studio",
+         "BME Fabrication Space",
+         "iLab @UVA",
+         "Visual Resources Center at Fayerweather Hall",
+         "Rapid Prototyping Lab"
+      ]
+   },
+   {
+      "name": "3D Scanning",
+      "slug": "3d-scanning",
+      "icon": "3d_scanning_1503075829829.svg"
+   },
+   {
+      "name": "Casting",
+      "slug": "casting",
+      "icon": "casting_1503075838578.svg",
+      "locations": [
+         "BME Fabrication Space"
+      ]
+   },
+   {
+      "name": "CNC Cutting",
+      "slug": "cnc-cutting",
+      "icon": "cnc_cutting_1503075847199.svg",
+      "locations": [
+         "Drama Scene Shop",
+         "Wilson Hall Maker Studio",
+         "Lacy Student Experiential Center (Lacy Hall)"
+      ]
+   },
+   {
+      "name": "Computer + Software",
+      "slug": "computer-software",
+      "icon": "computer_software_1503512700929.svg"
+   },
+   {
+      "name": "Drones",
+      "slug": "drones",
+      "icon": "drones_1503512596650.svg"
+   },
+   {
+      "name": "Electronics",
+      "slug": "electronics",
+      "icon": "electronics_1503512463424.svg",
+      "locations": [
+         "Scholars' Lab Makerspace",
+         "Lacy Design Lab, aka. Rice 120",
+         "Wilson Hall Maker Studio",
+         "Lacy Student Experiential Center (Lacy Hall)"
+      ]
+   },
+   {
+      "name": "Fabrics",
+      "slug": "fabrics",
+      "icon": "fabrics_1504097528861.svg",
+      "locations": [
+         "Scholars' Lab Makerspace"
+      ]
+   },
+   {
+      "name": "Laser Cutting",
+      "slug": "laser-cutting",
+      "icon": "laser_cutter_1503076275683.svg"
+   },
+   {
+      "name": "Material + Data Archive",
+      "slug": "material-data-archive",
+      "icon": "material_data_archive_1503512192653.svg"
+   },
+   {
+      "name": "Metalworking",
+      "slug": "metalworking",
+      "icon": "metalworking_1503512059783.svg",
+      "locations": [
+         "BME Fabrication Space",
+         "Wilson Hall Maker Studio",
+         "Lacy Student Experiential Center (Lacy Hall)"
+      ]
+   },
+   {
+      "name": "Recording",
+      "slug": "recording",
+      "icon": "recording_1503511854500.svg"
+   },
+   {
+      "name": "Robotics",
+      "slug": "robotics",
+      "icon": "robotics_1503076478400.svg"
+   },
+   {
+      "name": "Virtual + Augmented Reality",
+      "slug": "virtual-augmented-reality",
+      "icon": "virtual_reality_1503076342761.svg"
+   },
+   {
+      "name": "Woodworking",
+      "slug": "woodworking",
+      "icon": "woodworking_1503076856391.svg",
+      "locations": [
+         "Wilson Hall Maker Studio",
+         "BME Fabrication Space",
+         "Drama Scene Shop"
+      ]
+   }
+]

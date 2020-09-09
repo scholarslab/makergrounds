@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117191816-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-117191816-1');
+  </script>
+
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>
+    Makers @ UVA - 
+    {% if page.title %}
+      {{ page.title | upcase }}
+    {% endif %}
+  </title>
+
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="/css/materialize.min.css"  media="screen,projection"/>
+
+
+  <!-- Plugin CSS -->
+  <link rel="stylesheet" href="/css/animate.min.css" type="text/css">
+
+  <!-- Mapbox -->
+  <script src='https://api.mapbox.com/mapbox.js/v3.0.1/mapbox.js'></script>
+  <link href='https://api.mapbox.com/mapbox.js/v3.0.1/mapbox.css' rel='stylesheet' />
+  <!-- this version required for map pins -->
+  <script src='/js/jquery-1.12.4.min.js'></script>
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+  <!-- Mapbox stuff -->
+  <script src='https://api.mapbox.com/mapbox-gl-js/v0.35.1/mapbox-gl.js'></script>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v0.35.1/mapbox-gl.css' rel='stylesheet' />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/css/map.css" type="text/css" >
+  <link rel="stylesheet" href="/css/people.css" type="text/css" >
+  <link rel="stylesheet" href="/css/makergrounds.css" type="text/css">
+</head>
+
+<body id="page-top" class="grey darken-4">
+
+<header>
+  {% include nav.html %}
+</header>
+
+<main>
+
+  {{content}}
+
+</main>
+
+{% include foot.html %}
+
+<div id="scripts">
+  <!--Import jQuery before materialize.js-->
+  <script src="/js/jquery-3.2.1.min.js"></script>
+  <script src="/js/materialize.min.js"></script>
+  <script src="/js/jquery.matchHeight.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.sidenav').sidenav();
+      $(function() {
+        $('.card-content').matchHeight();
+        $('.person-box').matchHeight();
+      });
+    });
+    
+  </script>
+</div>
+
+</body>
+
+</html>

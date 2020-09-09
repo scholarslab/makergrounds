@@ -1,0 +1,292 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#1087bf",
+        "marker-size": "medium",
+        "location-slug": "omerf-fabrication-space"
+      },
+      "geometry": {
+        "coordinates": [
+          -78.521119,
+          38.035491
+        ],
+        "type": "Point"
+      },
+      "id": "1d344290de042921362912c3683b4a5f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#1087bf",
+        "marker-size": "medium",
+        "location-slug": "robertson-media-center"
+      },
+      "geometry": {
+        "coordinates": [
+          -78.506087,
+          38.036351
+        ],
+        "type": "Point"
+      },
+      "id": "1f1758b945718621438c44444ec7cc93"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#1087bf",
+        "marker-size": "medium",
+        "location-slug": "prop-shop"
+      },
+      "geometry": {
+        "coordinates": [
+          -78.504342,
+          38.039098
+        ],
+        "type": "Point"
+      },
+      "id": "2010c84761343fdefc887d82cd95b659"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#1087bf",
+        "marker-size": "medium",
+        "location-slug": "rapid-prototyping-lab"
+      },
+      "geometry": {
+        "coordinates": [
+          -78.510846,
+          38.032769
+        ],
+        "type": "Point"
+      },
+      "id": "211a3099f1fd0eea4879641818ea9de3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#1087bf",
+        "marker-size": "medium",
+        "location-slug": "bme-design-lab"
+      },
+      "geometry": {
+        "coordinates": [
+          -78.501042,
+          38.030919
+        ],
+        "type": "Point"
+      },
+      "id": "211bc81920c1d7d4ea6d96cf3b0ecefc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#1087bf",
+        "marker-size": "medium",
+        "location-slug": "drama-scene-shop"
+      },
+      "geometry": {
+        "coordinates": [
+          -78.504143,
+          38.038822
+        ],
+        "type": "Point"
+      },
+      "id": "39585a876088f56114b01f8b25ca95a5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#1087bf",
+        "marker-size": "medium",
+        "location-slug": "bme-fabrication-space"
+      },
+      "geometry": {
+        "coordinates": [
+          -78.496199,
+          38.0334
+        ],
+        "type": "Point"
+      },
+      "id": "56120db848a0c0a5b24eb4d3e5511976"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#1087bf",
+        "marker-size": "medium",
+        "location-slug": "lacy-hall"
+      },
+      "geometry": {
+        "coordinates": [
+          -78.518568,
+          38.035848
+        ],
+        "type": "Point"
+      },
+      "id": "57b104ed9ec0a88159d0ccb09c947462"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#1087bf",
+        "marker-size": "medium",
+        "location-slug": "ruffin-hall-wood-and-metal-shop"
+      },
+      "geometry": {
+        "coordinates": [
+          -78.503192,
+          38.039388
+        ],
+        "type": "Point"
+      },
+      "id": "6c2443012b49e0a0d1901c16cb393bad"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#1087bf",
+        "marker-size": "medium",
+        "location-slug": "milton-airfield-hangar"
+      },
+      "geometry": {
+        "coordinates": [
+          -78.394788,
+          37.992467
+        ],
+        "type": "Point"
+      },
+      "id": "7264578e8cea509627093fe38602bc3e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#1087bf",
+        "marker-size": "medium",
+        "location-slug": "library-materials-collection"
+      },
+      "geometry": {
+        "coordinates": [
+          -78.503412,
+          38.038999
+        ],
+        "type": "Point"
+      },
+      "id": "90b6478863c0777c4c37ef1d5f8ff4b2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#1087bf",
+        "marker-size": "medium",
+        "location-slug": "scholars-lab-makerspace"
+      },
+      "geometry": {
+        "coordinates": [
+          -78.505372,
+          38.036455
+        ],
+        "type": "Point"
+      },
+      "id": "aa32979ea39e71ffe3ac815cee2d65ec"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#1087bf",
+        "marker-size": "medium",
+        "location-slug": "ilab"
+      },
+      "geometry": {
+        "coordinates": [
+          -78.511498,
+          38.052893
+        ],
+        "type": "Point"
+      },
+      "id": "e001cc4baf5c90ecade4b6d76c243c4f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#1087bf",
+        "marker-size": "medium",
+        "location-slug": "fablab"
+      },
+      "geometry": {
+        "coordinates": [
+          -78.503681,
+          38.038607
+        ],
+        "type": "Point"
+      },
+      "id": "e6f9ccbb4eafece8ad746fcbc7e708f6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#1087bf",
+        "marker-size": "medium",
+        "location-slug": "mechatronics-lab-and-the-mill"
+      },
+      "geometry": {
+        "coordinates": [
+          -78.511266,
+          38.032509
+        ],
+        "type": "Point"
+      },
+      "id": "f5ab095bb5119ebbf76d28ad0dc332c6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#1087bf",
+        "marker-size": "medium",
+        "location-slug": "wilson-hall"
+      },
+      "geometry": {
+        "coordinates": [
+          -78.504016,
+          38.032469
+        ],
+        "type": "Point"
+      },
+      "id": "fe695ec5db06c7dbb40b7b9116b7c16a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#1087bf",
+        "marker-size": "medium",
+        "location-slug": "rice-120"
+      },
+      "geometry": {
+        "coordinates": [
+          -78.510875,
+          38.031631
+        ],
+        "type": "Point"
+      },
+      "id": "fe764df1158f975279a2ba8bceb30176"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#1087bf",
+        "marker-size": "medium",
+        "location-slug": "vrc"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.50304365158081,
+          38.0377467819042
+        ]
+      }
+    }
+  ],
+  "type": "FeatureCollection"
+}

@@ -1,0 +1,69 @@
+<section id="people-section" class="bg-dark">
+  <h2 class="white-text center-align">People Network</h2>
+  <div class="people-key">
+    <div>
+      <div class="keybox-left arts-sciences"></div>
+      <div class="arts-sciences keybox">
+      	Arts & Sciences
+      </div>
+    </div>
+    <div>
+      <div class="keybox-left engineering"></div>
+      <div class="keybox engineering">
+      	Engineering
+      </div>
+    </div>
+    <div>
+      <div class="keybox-left architecture"></div>
+      <div class="keybox architecture">
+        Architecture
+      </div>
+    </div>
+    <div>
+      <div class="keybox-left darden"></div>
+      <div class="keybox darden">
+        Darden
+      </div>
+    </div>
+    <div>
+      <div class="keybox-left health-sciences"></div>
+      <div class="keybox health-sciences">
+        Health Sciences
+      </div>
+    </div>
+    <div>
+      <div class="keybox-left ehs"></div>
+      <div class="keybox ehs">
+        EHS
+      </div>
+    </div>
+  </div>
+
+  <!-- <div style="clear:both; height:40px;"></div> -->
+
+  {% for person in site.data.people %}
+  	
+    <a href="/people/{{ person.slug }}.html" class="person-box">
+  	
+      <div class="img-box">
+        {% if person.picture and person.picture != '  ' %}
+          <img class="circle responsive-img" src="../images/{{ person.picture }}" />
+        {% else %}
+          <img class="circle responsive-img" src="../imgs/no-person.png" />
+        {% endif %}
+      </div>
+  		<br/>
+      <p>{{ person.name }}</p>
+  		
+      <div>
+        <div class="{{ person.location_slug }} person-location-color-block"></div> 
+        <div class="person-location-name">{{ person.location_name }}</div>
+      </div> 
+
+      
+  	</a>
+  
+  {% endfor %}
+
+</section>
+

@@ -1,0 +1,931 @@
+[
+   {
+      "name": "A School FabLab",
+      "slug": "fablab",
+      "description": "There are three main facilities: the Woodshop with the Victor Elmaleh Fabrications Lab, the CNC Lab, and the Milton Airport Facility. Students go through a mandatory training when they enter the School of Architecture, and we always welcome UVa students, faculty, and staff outside of the School to get trained to use the facilities.",
+      "access": "After an initial FabLab training, users gain access to the certain shop spaces and then can gain access to certain advanced tools through the Shops Short Courses (SSCs) taught throughout the semester.  Faculty and staff can schedule specific class or group SSCs with the Fabrication Facilities Manager.",
+      "hours": "",
+      "address": "Campbell Hall 122",
+      "website": "http://www.arch.virginia.edu/fabrication",
+      "email": "goldman@virginia.edu",
+      "phone": "434.924.6443",
+      "latitude": "",
+      "longitude": "",
+      "picture": "a-school-fab-lab.jpg",
+      "updated_at": "2017-08-09T19:20:52.648Z",
+      "tools": [],
+      "people": [
+         {
+            "name": "Melissa Goldman",
+            "moniker": "Fabrication Facilities Manager",
+            "department": "School of Architecture",
+            "slug": "melissa-goldman",
+            "picture": "melissagoldman_1507656338971.jpg",
+            "email": "goldman@virginia.edu"
+         }
+      ]
+   },
+   {
+      "name": "BME DesignLab",
+      "slug": "bme-design-lab",
+      "description": "Space dedicated to developing new concepts related to health and healthy living.  We have a foam cutters, the LulzTaz6, uPrint, arduino's and pi's, and various other hand held tools.  ",
+      "access": "Key card access only",
+      "hours": "Thursday's from 3-7p",
+      "address": "Stacey Hall",
+      "website": "http://bme.virginia.edu/coulter/ugrad/index.html",
+      "email": "uvamedicalinnovation@gmail.com",
+      "phone": "",
+      "latitude": "",
+      "longitude": "",
+      "picture": "bme_1503519418370.png",
+      "updated_at": "2017-08-23T20:16:58.411Z",
+      "tools": [],
+      "people": []
+   },
+   {
+      "name": "BME Fabrication Space",
+      "slug": "bme-fabrication-space",
+      "description": "Machine shop for Biomedical Engineering Students",
+      "access": "By permission and with supervision from Dr. Guilford or other trained staff.",
+      "hours": "To be determined each semester, or by special arrangement. ",
+      "address": "Stacey Hall",
+      "website": "",
+      "email": "guilford@virginia.edu",
+      "phone": "434.243.2740",
+      "latitude": "",
+      "longitude": "",
+      "picture": "IMG_4832_1503932279478.jpg",
+      "updated_at": "2017-08-28T14:57:59.506Z",
+      "tools": [
+         {
+            "name": "Combination sander",
+            "make": "JET",
+            "model": "",
+            "slug": "combination-sander",
+            "picture": "Jet_414550K_1_1503932622829.jpg",
+            "training": ""
+         },
+         {
+            "name": "Saw Stop Table Saw",
+            "make": "Saw Stop",
+            "model": "Cabinet saw",
+            "slug": "saw-stop-table-saw",
+            "picture": "product_ics_straight_800x0.png_1503932733147.jpeg",
+            "training": "(1) In-person and video training through BME 2000, or by appointment, and (2) video re-training prior to use."
+         },
+         {
+            "name": "Taz 5",
+            "make": "Lulzbot",
+            "model": "Taz 5",
+            "slug": "taz-5",
+            "picture": "tol_13300_1503932746853.jpg",
+            "training": "In person training."
+         },
+         {
+            "name": "Vertical band saw",
+            "make": "JET",
+            "model": "",
+            "slug": "vertical-band-saw",
+            "picture": "26425_01_1000_1503932905086.jpg",
+            "training": "(1) In-person and video training through BME 2000, or by appointment, and (2) video re-training prior to use."
+         },
+         {
+            "name": "Vertical metal cutting band saw",
+            "make": "JET",
+            "model": "",
+            "slug": "vertical-metal-cutting-band-saw",
+            "picture": "jet_B0042X9IMM_414500K_main_lg_1503932923876.jpg",
+            "training": "(1) In-person and video training through BME 2000, or by appointment, and (2) video re-training prior to use."
+         },
+         {
+            "name": "MIG (wirefeed) Welder",
+            "make": "Lincoln Electric",
+            "model": "",
+            "slug": "mig-wirefeed-welder",
+            "picture": "22baeff7_b921_448b_b45b_da9420d38723_1000_1503933212918.jpg",
+            "training": "In-person, by appointment, AND prior experience."
+         },
+         {
+            "name": "TIG welder",
+            "make": "Lincoln Electric",
+            "model": "",
+            "slug": "tig-welder",
+            "picture": "2d3cf9d4_d887_487f_a2e5_79e90a80a2e3_1000_1503933258023.jpg",
+            "training": "In-person, AND prior experience."
+         },
+         {
+            "name": "Drill press",
+            "make": "JET",
+            "model": "",
+            "slug": "drill-press",
+            "picture": "7f021912_d73c_4205_b49b_ec61082e686f_1000_1503933323561.jpg",
+            "training": "(1) In-person and video training through BME 2000, or by appointment, and (2) video re-training prior to use."
+         },
+         {
+            "name": "Drill press",
+            "make": "JET",
+            "model": "",
+            "slug": "drill-press",
+            "picture": "7f021912_d73c_4205_b49b_ec61082e686f_1000_1503933347287.jpg",
+            "training": "(1) In-person and video training through BME 2000, or by appointment, and (2) video re-training prior to use."
+         },
+         {
+            "name": "Vacuum former",
+            "make": "Formech",
+            "model": "",
+            "slug": "vacuum-former",
+            "picture": "450DT_NEW_001large_1_1503933438695.jpg",
+            "training": "In person"
+         },
+         {
+            "name": "Horizontal band saw",
+            "make": "Harbor Freight",
+            "model": "",
+            "slug": "horizontal-band-saw",
+            "picture": "Unknown_2_1503933479770",
+            "training": "(1) In-person and video training through BME 2000, or by appointment, and (2) video re-training prior to use."
+         },
+         {
+            "name": "Horizontal metal cutting band saw (hydraulic feed)",
+            "make": "JET",
+            "model": "",
+            "slug": "horizontal-metal-cutting-band-saw-hydraulic-feed-",
+            "picture": "JET_B00004T9KT_3_lg_1503932980915.jpg",
+            "training": "(1) In-person and video training through BME 2000, or by appointment, and (2) video re-training prior to use."
+         },
+         {
+            "name": "CNC Mill",
+            "make": "Roland",
+            "model": "MD-40a",
+            "slug": "cnc-mill",
+            "picture": "Roland_MDX_40_large_1503933655331.jpg",
+            "training": "In person"
+         }
+      ],
+      "people": [
+         {
+            "name": "William Guilford",
+            "moniker": "Associate Professor of BME (SOM), Director of Educational Innovation (SEAS)",
+            "department": "",
+            "slug": "william-guilford",
+            "picture": "Guilford_William_2822_bust_1502201975705.jpg",
+            "email": "guilford@virginia.edu"
+         }
+      ]
+   },
+   {
+      "name": "Drama Scene Shop",
+      "slug": "drama-scene-shop",
+      "description": "The Scene Shop in the Drama Department is primarily used to produce the stage sets and props for performances. The shop has tools for welding, woodworking, metal cutting, a hot wire cutter, a hand held plasma cutter, a vacuum former, and a paint frame for large drops. The shop teaches workshops about welding, vacuum forming, rigging and flying, OSHA, and Arduino micro controllers. There is also a basketball hoop that takes advantage of the high ceilings.",
+      "access": "By appointment with Steve Warner or Chris Rybitski",
+      "hours": "M-F 1-5 PM",
+      "address": "Drama Scene Shop",
+      "website": "",
+      "email": "cmr4gr@virginia.edu",
+      "phone": "",
+      "latitude": "",
+      "longitude": "",
+      "picture": "IMG_20170427_172039541_1507664704243.jpg",
+      "updated_at": "2017-10-10T19:45:21.528Z",
+      "tools": [
+         {
+            "name": "Saw Stop",
+            "make": "Saw Stop",
+            "model": "Cabinet Saw",
+            "slug": "saw-stop",
+            "picture": "e04ee07703ff6615087dcd413acc812c_1_1507664956937.jpg",
+            "training": ""
+         },
+         {
+            "name": "CNC Router",
+            "make": "Shopbot",
+            "model": "PRS Standard 48x96",
+            "slug": "cnc-router",
+            "picture": "products_PRS_1_1507665570354.jpg",
+            "training": ""
+         }
+      ],
+      "people": [
+         {
+            "name": "Chris Rybitski",
+            "moniker": "Shop Foreman",
+            "department": "Drama",
+            "slug": "chris-rybitski",
+            "picture": "MBailey_Chris_Rybitski_1507664841313.jpg",
+            "email": "cmr4gr@virginia.edu"
+         }
+      ]
+   },
+   {
+      "name": "Environmental Health & Safety ",
+      "slug": "environmental-health-safety",
+      "description": "Environmental Health &Safety (EHS) provides and coordinates services for the University's Makerspace, Shop and Studio Managers.  You can find safety and health resources at our EHS website including: the University Policy for students working safely in these environments; the User Agreement to use tools and equipment in University Maker Lab Spaces, Shops, and Studios; and Online Safety Training Modules.  Please give us a call,we love \"a day in the shop\"!  \r\n",
+      "access": "",
+      "hours": "Available for consultation M-F, 8am-5pm",
+      "address": "One Morton Drive Suite 320 Charlottesville, VA 22903",
+      "website": "http://ehs.virginia.edu/Shop-Studio-Safety.html",
+      "email": "maw4u@virginia.edu",
+      "phone": "434-982-4836",
+      "latitude": "",
+      "longitude": "",
+      "picture": "Makerspace_Safety_586_A_1506532889591.jpg",
+      "updated_at": "2017-09-27T17:21:29.646Z",
+      "tools": [],
+      "people": [
+         {
+            "name": "Kate Smith",
+            "moniker": "Research Safety Specialist",
+            "department": "Environmental Health &amp; Safety",
+            "slug": "kate-smith",
+            "picture": "kate-smith.jpg",
+            "email": "kms2cx@virginia.edu"
+         },
+         {
+            "name": "Clarissa Lynch",
+            "moniker": "Chemical Safety Officer",
+            "department": "Environmental Health and Safety",
+            "slug": "clarissa-lynch",
+            "picture": "Clarisa_R_2C_1504717893777.jpg",
+            "email": "cl9ev@virginia.edu"
+         }
+      ]
+   },
+   {
+      "name": "iLab @UVA",
+      "slug": "ilab",
+      "description": "The W.L. Lyons Brown III Innovation Laboratory, or i.Lab at UVA, is a University of Virginia-wide initiative with the mission of supporting entrepreneurs and innovators both on and beyond the UVA Grounds. To accomplish this mission, the i.Lab provides programs, funding, workspace, mentors, community, and additional resources to support new entrepreneurs and accelerate new ventures. The i.Lab is a collaborative effort of 11 schools of the University, the Provost's Office, and U.Va. Innovation.",
+      "access": "Contact Sandra McCutcheon, i.Lab Programs Manager mccutcheons@ilab.virginia.edu",
+      "hours": "",
+      "address": "621 Nash Drive",
+      "website": "http://www.ilabatuva.org/",
+      "email": "mccutcheons@ilab.virginia.edu",
+      "phone": "(434) 924-4775",
+      "latitude": "",
+      "longitude": "",
+      "picture": "ilab_1501258079195_1503517727294_1503519077756.jpg",
+      "updated_at": "2017-08-31T13:43:41.446Z",
+      "tools": [
+         {
+            "name": "MakerBot",
+            "make": "MakerBot",
+            "model": "Replicator 2",
+            "slug": "makerbot",
+            "picture": null,
+            "training": ""
+         }
+      ],
+      "people": []
+   },
+   {
+      "name": "Lacy Design Lab, aka. Rice 120",
+      "slug": "rice-120",
+      "description": "The Lacy Design Lab is a prototyping and design space that is available to all students. 3d printers, soldering and electronics, foam work and hand tools - a wide range of supplies to get you started on your next design project.",
+      "access": "Open hours, evenings and weekends",
+      "hours": "TBD",
+      "address": "Rice Hall 120",
+      "website": "http://www.seas.virginia.edu/acad/programs/tlp/designstudio.php",
+      "email": "rrbailey@virginia.edu",
+      "phone": "",
+      "latitude": "",
+      "longitude": "",
+      "picture": "lacy_1501259238402_1503517670889_1503519112805.jpg",
+      "updated_at": "2017-08-30T15:01:59.521Z",
+      "tools": [
+         {
+            "name": "SparkFun Inventor's Kits",
+            "make": "SparkFun",
+            "model": "v3",
+            "slug": "sparkfun-inventor-s-kits",
+            "picture": null,
+            "training": ""
+         }
+      ],
+      "people": [
+         {
+            "name": "Reid Bailey",
+            "moniker": "Professor",
+            "department": "Eng Sys and Environment",
+            "slug": "reid-bailey",
+            "picture": null,
+            "email": "rrbailey@virginia.edu"
+         }
+      ]
+   },
+   {
+      "name": "Lacy Student Experiential Center (Lacy Hall)",
+      "slug": "lacy-hall",
+      "description": "The 20,000-square-foot, four-story Ann Warrick Lacy Student Experiential Center (Lacy Hall) was designed and constructed to support the needs of students engaged in experiential learning. The Ann Warrick Lacy Experiential Center is located on the third and fourth floors of the building. The third floor, which is at ground level, has large open spaces and a front door large enough to accommodate a vehicle. The fourth floor is divided into various areas, in an open design specifically intended to foster student interaction.\r\n\r\nPrograms and team activities that were previously distributed throughout the Engineering School and elsewhere are now gathered in the building, providing opportunities for students from different teams to help each other in common areas of technology. Students will have access to modern machine tools, including rapid prototyping tools that support the manufacture of parts and devices from computer designs.\r\n\r\nThis shop is for metal and plastic only. \r\n\r\nNO WOODWORKING TOOLS.",
+      "access": "Contact Sebring@virginia.edu or LacyHall@virginia.edu",
+      "hours": "10-5 for newcomers",
+      "address": "Lacy Hall, 510 Edgemont Rd",
+      "website": "http://lacy.seas.virginia.edu/",
+      "email": "LacyHall@virginia.edu",
+      "phone": "434.924.1029",
+      "latitude": "",
+      "longitude": "",
+      "picture": "lacy-hall.jpg",
+      "updated_at": "2018-03-08T20:15:55.769Z",
+      "tools": [
+         {
+            "name": "NC Pneumatic Tube Bender",
+            "make": "NC Pneumatic Tube Bender",
+            "model": "NC Pneumatic Tube Bender",
+            "slug": "nc-pneumatic-tube-bender",
+            "picture": "nc_tube_bender_1520536968817.jpg",
+            "training": ""
+         },
+         {
+            "name": "Drill Press #2",
+            "make": "Jet",
+            "model": "JDP-170a",
+            "slug": "drill-press-2",
+            "picture": "jet_jdp_170a_1520537258759.jpg",
+            "training": ""
+         },
+         {
+            "name": "Drill Press #1",
+            "make": "Jet",
+            "model": "JDP-20mf",
+            "slug": "drill-press-1",
+            "picture": "jet_jdp_20mf_1520537374145.jpg",
+            "training": ""
+         },
+         {
+            "name": "CNC 3-axis Mill",
+            "make": "YCM",
+            "model": "XV 560A",
+            "slug": "cnc-3-axis-mill",
+            "picture": "ycm_xv_560a_1520537603544.jpg",
+            "training": ""
+         },
+         {
+            "name": "CNC 5-axis Water Jet",
+            "make": "Omax",
+            "model": "Maxiem 1515",
+            "slug": "cnc-5-axis-water-jet",
+            "picture": "omax_maxiem1515_1520537824145.jpg",
+            "training": ""
+         },
+         {
+            "name": "CNC Plasma Cutter",
+            "make": "CNC Plasma Cutter",
+            "model": "CNC Plasma Cutter",
+            "slug": "cnc-plasma-cutter",
+            "picture": "cnc_plasma_cutter_1520537505926.jpg",
+            "training": ""
+         },
+         {
+            "name": "3-axis Mill",
+            "make": "Trak",
+            "model": "DPM3",
+            "slug": "3-axis-mill",
+            "picture": "trak_dpm3_1520537692839.jpg",
+            "training": ""
+         },
+         {
+            "name": "Sheetmetal Brake",
+            "make": "Birmingham",
+            "model": "Pan and Box",
+            "slug": "sheetmetal-brake",
+            "picture": "birmingham_brake_1520538192075.jpg",
+            "training": ""
+         },
+         {
+            "name": "Horizontal Bandsaw",
+            "make": "Clausing Kalamazoo",
+            "model": "KC812W",
+            "slug": "horizontal-bandsaw",
+            "picture": "clausing_kalamazoo_kc812w_1520538344542.jpg",
+            "training": ""
+         },
+         {
+            "name": "Arbor Press",
+            "make": "KR Wilson",
+            "model": "unknown",
+            "slug": "arbor-press",
+            "picture": "krwilson_arbor_press_1520538985167.png",
+            "training": ""
+         },
+         {
+            "name": "12-ton Shop Press",
+            "make": "Sunex",
+            "model": "5212",
+            "slug": "12-ton-shop-press",
+            "picture": "sunex_press_5212_1520539003553.jpg",
+            "training": ""
+         },
+         {
+            "name": "Bench Grinder #1",
+            "make": "Kraftsman",
+            "model": "351.215131",
+            "slug": "bench-grinder-1",
+            "picture": "kraftsman_bench_grinder_1520539156531.jpg",
+            "training": ""
+         },
+         {
+            "name": "Bench Grinder #2",
+            "make": "Baldor",
+            "model": "unknown",
+            "slug": "bench-grinder-2",
+            "picture": "baldor_bench_grinder_1520539313385.jpg",
+            "training": ""
+         },
+         {
+            "name": "CNC Lathe",
+            "make": "Haas",
+            "model": "ST-15Y",
+            "slug": "cnc-lathe",
+            "picture": "haas_st_15y_1520539384527.jpg",
+            "training": ""
+         },
+         {
+            "name": "Spot Welder",
+            "make": "Miller",
+            "model": "unknown",
+            "slug": "spot-welder",
+            "picture": "miller_spot_welder_1520539712589.png",
+            "training": ""
+         },
+         {
+            "name": "Welder #1",
+            "make": "Hobart",
+            "model": "Handler 187",
+            "slug": "welder-1",
+            "picture": "hobart_handler_187_1520539768116.jpg",
+            "training": ""
+         },
+         {
+            "name": "Welder #2",
+            "make": "Miller",
+            "model": "unknown",
+            "slug": "welder-2",
+            "picture": "miller_welder_1520539802601.jpg",
+            "training": ""
+         },
+         {
+            "name": "Welder #3",
+            "make": "Miller",
+            "model": "Diversion 180",
+            "slug": "welder-3",
+            "picture": "miller_diversion_180_1520539822361.jpg",
+            "training": ""
+         },
+         {
+            "name": "Manual Metal Lathe",
+            "make": "South Bend Precision",
+            "model": "CL8187AB",
+            "slug": "manual-metal-lathe",
+            "picture": "south_bend_cl8187ab_1520539985633.jpg",
+            "training": ""
+         },
+         {
+            "name": "Hand Tools",
+            "make": "Random",
+            "model": "Many",
+            "slug": "hand-tools",
+            "picture": "hand_tools_1520540041091.jpg",
+            "training": ""
+         },
+         {
+            "name": "Soldering Stations",
+            "make": "Several ",
+            "model": "many",
+            "slug": "soldering-stations",
+            "picture": null,
+            "training": ""
+         }
+      ],
+      "people": [
+         {
+            "name": "Sebring Smith",
+            "moniker": "Shop Manager",
+            "department": "",
+            "slug": "sebring-smith",
+            "picture": null,
+            "email": "LacyHall@virginia.edu"
+         }
+      ]
+   },
+   {
+      "name": "Library Materials Collection",
+      "slug": "library-materials-collection",
+      "description": "The Fiske Kimball Fine Arts Library provides research support and collections for the School of Architecture and the subjects of Art, Art History, and European Archeology. We offer research and digital tool consultation, resources for image scanning, and spaces for quiet and collaborative study.  In addition, the Fine Arts Library features the Niche, a venue for new video art and the Faculty R-Lab, a reservable space dedicated to faculty collaborative work.",
+      "access": "The Materials Collection is available for browsing any time the Fine Arts Library is open.  If you require consultation or wish to schedule a visit for a class, please contact us in advance so we can make arrangements.",
+      "hours": "The collection is open for browsing any time the Fine Arts Library is open.  Library hours are posted on the website.",
+      "address": "Fine Arts Library ",
+      "website": "https://www.library.virginia.edu/libraries/#fine-arts",
+      "email": "rac8f@virginia.edu",
+      "phone": null,
+      "latitude": null,
+      "longitude": null,
+      "picture": "",
+      "updated_at": "2017-07-18T21:16:16.343Z",
+      "tools": [],
+      "people": []
+   },
+   {
+      "name": "Mechatronics Lab and The MILL",
+      "slug": "mechatronics-lab-and-the-mill",
+      "description": "Mechatronics involves the synergistic integration of Mechanical Engineering with electronics and intelligent computer control in the design and manufacture of industrial products and processes.\n\nIn UVA's Mechatronics Lab, students fuse theory and practice, bringing together principles of mechanical, electrical, and software engineering. Here students learn how to integrate microcontrollers, sensors, and smart actuators when designing state-of-the-art mechanisms. The recent drop in cost of embedded computer technology has revolutionized the way that modern products are developed and manufactured. The Mechatronics Lab ensures that UVA's engineering students are prepared to succeed on the cutting edge of technology. For example, our current experiments teach students how to program a microcontroller chip that houses eight, parallel, 32-bit processors, is capable of executing 200 million instructions every second, and only costs about four dollars. When students learn to incorporate this type of intelligence into their machines, their devices come alive and are able to automatically adapt to changes in their environment, that is, they read data from sensors, think about it, and then decide how to move their actuators to react to any changes. In this lab, students are also introduced to basic circuit components and measurement tools such as breadboards, oscilloscopes, function generators, and digital multi-meters. Students working on projects for their senior thesis work, capstone design courses, ASME, Baja car, Hoos Flying, and countless other creative outlets offered through the University, frequently use the resources of this lab to help bring their inventions to life.",
+      "access": "These labs are primarily used for courses in Mechatronics and Machine Design.",
+      "hours": "Not open to the public.",
+      "address": "MEC 204 and MEC B014 (MEC=Mechanical & Aerospace Engineering Building)",
+      "website": "https://gavitronics.com/about/mechatronics-lab/",
+      "email": "garner@virginia.edu",
+      "phone": null,
+      "latitude": null,
+      "longitude": null,
+      "picture": "mechatronics-lab.jpg",
+      "updated_at": "2017-07-18T21:16:16.343Z",
+      "tools": [],
+      "people": [
+         {
+            "name": "Gavin T. Garner",
+            "moniker": "Assistant Professor of Mechanical & Aerospace Engineering",
+            "department": "Mechanical & Aerospace Engineering",
+            "slug": "gavin-t-garner",
+            "picture": "Guitar_1522790982285.png",
+            "email": "garner@virginia.edu"
+         }
+      ]
+   },
+   {
+      "name": "Milton Airfield Hangar",
+      "slug": "milton-airfield-hangar",
+      "description": "The airport hangar at Milton Airfield has a fully equipped woodshop and space for full scale prototyping and design/build projects. In the past, projects at Milton have included ecoMOD, reCOVER, and the Elizabeth River Learning Barge. Studios and courses building at this large scale can coordinate space and schedule through Melissa on a semester basis.",
+      "access": "After an initial project submittal and a training, groups can gain access to the space.  The Landscape Lab uses the buddy system.  Any shop use in the hangar uses a three buddy system.  (Engineering has a different system.)  All projects must be on the radar of Fritz Franke (frf1z@virginia.edu) who is the larger site coordinator.",
+      "hours": null,
+      "address": "Milton Airfield, 2300 Milton Road",
+      "website": "http://www.arch.virginia.edu/fabrication",
+      "email": "goldman@virginia.edu",
+      "phone": "434.924.6443",
+      "latitude": null,
+      "longitude": null,
+      "picture": "",
+      "updated_at": "2017-07-18T21:16:16.343Z",
+      "tools": [],
+      "people": []
+   },
+   {
+      "name": "OMERF Fabrication Space",
+      "slug": "omerf-fabrication-space",
+      "description": "The ultimate in out-of-the-way-so-we-can-prototype-what-we-want spaces, the Fabrication studio has more robust capabilities for woodworking and electronics prototyping. It is available only for the FIRST robotics club.",
+      "access": "Only open for FIRST robotics club.",
+      "hours": null,
+      "address": "Old Reactor, <a href='http://goo.gl/maps/iQZD'>http://goo.gl/maps/iQZD</a>",
+      "website": "",
+      "email": "rrbailey@virginia.edu",
+      "phone": null,
+      "latitude": null,
+      "longitude": null,
+      "picture": "",
+      "updated_at": "2020-01-07T14:10:16.343Z",
+      "tools": [],
+      "people": [
+         {
+            "name": "Reid Bailey",
+            "moniker": "Professor",
+            "department": "Eng Sys and Environment",
+            "slug": "reid-bailey",
+            "picture": null,
+            "email": "rrbailey@virginia.edu"
+         }
+      ]
+   },
+   {
+      "name": "Prop Shop",
+      "slug": "prop-shop",
+      "description": "The Scene Shop in the Drama Department is primarily used to produce the stage sets and props for performances. The shop has tools for welding, woodworking, metal cutting, a hot wire cutter, a hand held plasma cutter, a vacuum former, and a paint frame that can rig up large projects. The shop teaches workshops about welding, vacuum forming, rigging and flying, OSHA, and Arduino micro controllers. There is also a basketball hoop that takes advantage of the high ceilings. All tools are accessible to students outside of the depart ment who have had safety training.",
+      "access": "appointment",
+      "hours": "M-F 10 AM - 7 PM",
+      "address": "Drama Scene Shop",
+      "website": "http://drama.virginia.edu/mfa-scenic-design-and-technical-production",
+      "email": "cmf2r@virginia.edu",
+      "phone": "434.924.8967",
+      "latitude": null,
+      "longitude": null,
+      "picture": "",
+      "updated_at": "2017-07-18T21:16:16.343Z",
+      "tools": [],
+      "people": []
+   },
+   {
+      "name": "Rapid Prototyping Lab",
+      "slug": "rapid-prototyping-lab",
+      "description": "Located in the Department of Mechanical and Aerospace Engineering, within the School of Engineering and Applied Science, the RPL is a state-of-the-art polymer additive manufacturing facility that provides Computer-Aided Design, and FDM and Poly-Jet 3D Printing services to our students, faculty, staff, and external clients.  We welcome sponsored research projects and grant collaborations.  \r\n\r\nWe have three Fused Deposition Modeling (FDM) 3D printers that use ASA plastic.  They have a 10” x 10” x 10” build platform, and a 0.01 inch layer resolution.  \r\n\r\nWe have one Poly-Jet 3D printer.  With material properties from rigid to flexible, 14 different materials can be printed in the same part.  Out poly-jet machine has a 18” x 14” x 6” build platform, and 30 micron layer resolution.",
+      "access": "Submit files to our website for manufacturing and our Department folks go through an orientation for use of the machines.",
+      "hours": "Not open to the public.",
+      "address": "Mechanical and Aerospace Engineering, Room 217",
+      "website": "http://rpl.mae.virginia.edu/",
+      "email": "dwight@virginia.edu",
+      "phone": "434.243.3269",
+      "latitude": "",
+      "longitude": "",
+      "picture": "rpl.jpg",
+      "updated_at": "2017-10-19T18:52:29.905Z",
+      "tools": [
+         {
+            "name": "3D Printer",
+            "make": "uPrint Plus",
+            "model": "",
+            "slug": "3d-printer",
+            "picture": null,
+            "training": ""
+         }
+      ],
+      "people": []
+   },
+   {
+      "name": "Robertson Media Center",
+      "slug": "robertson-media-center",
+      "description": "The Robertson Media Center (RMC) is located on the third floor of Clemons Library and is adjacent to the Digital Media Lab. The Center offers digital media services, including digital audio/video/3D capture and editing, desktop publishing and technical instruction, and analog and digital media collections and services, and provides expertise, equipment, and resources for the use and development of media materials in instruction and research. The Center has a variety of equipment available for circulation such as Flip Cams, tripods, Canon Vixia cameras, Bloggie cameras, Zoom cameras, Marantz audio recorders, USB microphones, USB optical drives, headphones, projectors, memory cards and readers, wired XLR microphones, wireless microphones, cassette audio player/recorder and a limited supply of display adapters. The equipment can not be reserved in advance and is circulated on a first-come, first-served basis from the third floor circulation desk. Equipment can not be renewed online. There are limited supplies of each type of equipment that is circulated. Equipment should be returned to the third floor desk. Library hours are available here. The computer stations in the Center can be reserved in advance for three hour blocks of time. You may check availability and make your reservation by clicking here. A consultant is on duty when the floor is open and is available to assist with questions that arise.",
+      "access": "Open access.",
+      "hours": "Everyday 10 AM - Midnight",
+      "address": "Clemons 3rd floor",
+      "website": "http://static.lib.virginia.edu/directory/libraries.html#robertson-media-center",
+      "email": null,
+      "phone": null,
+      "latitude": null,
+      "longitude": null,
+      "picture": "rmc.jpg",
+      "updated_at": "2017-07-18T21:16:16.343Z",
+      "tools": [],
+      "people": [
+         {
+            "name": "willRourk",
+            "moniker": "Cultural Heritage Informatics Specialist",
+            "department": "UVA Library - Scholars' Lab West (Clemons)",
+            "slug": "willrourk",
+            "picture": "willRourk_1502830049149.jpg",
+            "email": "will@virginia.edu"
+         },
+         {
+            "name": "Fang Yi",
+            "moniker": "Educational Technologist ",
+            "department": "Teaching and Learning Team at UVA Library ",
+            "slug": "fang-yi",
+            "picture": "Staff_Photo_1518021901884.jpg",
+            "email": "fy5g@virginia.edu"
+         }
+      ]
+   },
+   {
+      "name": "Ruffin Hall Wood and Metal Shop",
+      "slug": "ruffin-hall-wood-and-metal-shop",
+      "description": "The Mcintire Department of Art is host to a little known sculpture shop in Ruffin Hall. Beyond tradition- al wood-working equipment the shop has a pneumatic stone carver, sand blaster, Mig welders, and a bronze foundry. The shop space is primarily used by sculpture students in the art department to complete projects and produce shows, but other students are welcome to be trained on the tools. Most students are trained during class time, but TA's are available outside of class hours.\n\nThe Ruffin Shop would like to collaborate with more departments in the future on projects that will help make the Arts more visible around Grounds. Like most shops, they are looking for more space to house new tools, such as a joiner and planar for reclaim wood re- processing. The shop is also looking to acquire a lathe, a ring roller, a plate shear, and a brake.",
+      "access": "Faculty-keys, staff-ID, students have access only when shop is open",
+      "hours": "30-35 hours per week.  Hours not established for Fall 2016 yet",
+      "address": "Ruffin Hall 122 and 121",
+      "website": null,
+      "email": "ems3z@virginia.edu",
+      "phone": null,
+      "latitude": null,
+      "longitude": null,
+      "picture": "ruffin-hall.jpg",
+      "updated_at": "2017-07-18T21:16:16.343Z",
+      "tools": [],
+      "people": [
+         {
+            "name": "Eric Schmidt",
+            "moniker": "Studio/Gallery Tech/Safety Officer",
+            "department": "",
+            "slug": "eric-schmidt",
+            "picture": null,
+            "email": "ems3z@virginia.edu"
+         }
+      ]
+   },
+   {
+      "name": "Scholars' Lab Makerspace",
+      "slug": "scholars-lab-makerspace",
+      "description": "The Scholars' Lab Makerspace is a place for tinkering and experimentation with technologies like desktop fabrication, physical computing, and augmented reality. Open to everyone, we specialize in applications and research questions in the humanities and arts.\r\n\r\nInterested in exploring the Makerspace? Have an idea to use microcontrollers or 3D modeling and printing technology to enhance your research or differently interrogate your assumptions? Contact us at slabmakerspace@virginia.edu to schedule an appointment with Scholars' Lab faculty and staff to discuss your planned project.",
+      "access": "Email for a virtual consultation slabmakerspace@virginia.edu",
+      "hours": "By appointment only",
+      "address": "Clemons, 3rd floor",
+      "website": "http://scholarslab.org/makerspace",
+      "email": "slabmakerspace@virginia.edu",
+      "phone": "",
+      "latitude": "",
+      "longitude": "",
+      "picture": "scholars_lab_1509469204058.jpg",
+      "updated_at": "2018-03-30T18:32:44.217Z",
+      "tools": [
+         {
+            "name": "Arduino 101 Kits",
+            "make": "Arduino",
+            "model": "101",
+            "slug": "arduino-101-kits",
+            "picture": "sparkfun_101_inventor_kit_1504034655459.jpg",
+            "training": ""
+         },
+         {
+            "name": "Arduino Uno Kits",
+            "make": "Arduino",
+            "model": "Uno",
+            "slug": "arduino-uno-kits",
+            "picture": "sparkfun_uno_inventor_kit_1504034629556.jpg",
+            "training": ""
+         },
+         {
+            "name": "Sewing Machine 1",
+            "make": "Bernina",
+            "model": "350F",
+            "slug": "sewing-machine-1",
+            "picture": "bernina_350_1504035228905.png",
+            "training": ""
+         },
+         {
+            "name": "Sewing Machine 2",
+            "make": "Bernina",
+            "model": "350F",
+            "slug": "sewing-machine-2",
+            "picture": "bernina_350_1504292611713.png",
+            "training": ""
+         }
+      ],
+      "people": [
+         {
+            "name": "Ammon Shepherd",
+            "moniker": "Makerspace Manager",
+            "department": "",
+            "slug": "ammon-shepherd",
+            "picture": "me_copy_1502826906568.jpg",
+            "email": "ammon@virginia.edu"
+         }
+      ]
+   },
+   {
+      "name": "Visual Resources Center at Fayerweather Hall",
+      "slug": "vrc",
+      "description": "Graduate Student space for design and printing of 3D objects",
+      "access": "Swipe Card, Graduate credentials for Art History or Archaeology",
+      "hours": "9-5",
+      "address": "151 Rugby Rd, Charlottesville, VA 22901",
+      "website": "http://www.virginia.edu/art/resources/",
+      "email": "victoria.valdes@virginia.edu",
+      "phone": "434-2976938",
+      "latitude": "",
+      "longitude": "",
+      "picture": "IMG_E0543_1508359619668.jpg",
+      "updated_at": "2017-10-18T20:54:40.067Z",
+      "tools": [
+         {
+            "name": "Lulzbot",
+            "make": "Lulzbot",
+            "model": "TAZ6",
+            "slug": "lulzbot",
+            "picture": "IMG_0540_1508428468999.jpg",
+            "training": "Operated by VRC staff"
+         }
+      ],
+      "people": [
+         {
+            "name": "Victoria Valdes",
+            "moniker": "Assistant Director",
+            "department": "McIntire Department of Art",
+            "slug": "vicotria-valdes",
+            "picture": "victoria-valdes.jpg",
+            "email": "victoria.valdes@virginia.edu"
+         }
+      ]
+   },
+   {
+      "name": "Wilson Hall Maker Studio",
+      "slug": "wilson-hall",
+      "description": "The primary mission of the Wilson Hall Maker Studio is to support creative and critical academic projects for the University of Virginia College of Arts & Sciences. We are a new studio, and are growing; we aspire to be open and inclusive to all disciplines and projects. Whether you are faculty, staff, or student, we hope to give you access to the studio, and to listen to your feedback as we grow. ",
+      "access": "Tours are welcome during open hours. Swipe access given after orientation.",
+      "hours": "Orientation and tour hours: Monday through Friday, 10am-4pm",
+      "address": "Wilson Hall 141",
+      "website": "http://wilsonstudios.as.virginia.edu/wilson-hall-maker-studio",
+      "email": "jasonbennett@virginia.edu",
+      "phone": "",
+      "latitude": "",
+      "longitude": "",
+      "picture": "makerstudio_for_makergrounds_1516998755184.jpg",
+      "updated_at": "2018-01-26T20:32:35.230Z",
+      "tools": [
+         {
+            "name": "3D Printer",
+            "make": "MakerBot",
+            "model": "5th Gen",
+            "slug": "3d-printer",
+            "picture": "makerbot_replicator_5th_generation_front_view_1516998833600.jpg",
+            "training": ""
+         },
+         {
+            "name": "Tabletop Jigsaw",
+            "make": "Rockwell",
+            "model": "Bladerunner X2",
+            "slug": "tabletop-jigsaw",
+            "picture": "bladerunner_1516998920061.jpg",
+            "training": "Special training required"
+         },
+         {
+            "name": "X-Carve CNC Router",
+            "make": "Inventables",
+            "model": "X-Carve",
+            "slug": "x-carve-cnc-router",
+            "picture": "xcarve_1508348744458.png",
+            "training": "Individual Training"
+         },
+         {
+            "name": "Nomad 883 CNC Router",
+            "make": "Carbide3D",
+            "model": "Nomad 883",
+            "slug": "nomad-883-cnc-router",
+            "picture": "nomad883_1508349158238.jpg",
+            "training": "Individual Training"
+         },
+         {
+            "name": "Jigsaw",
+            "make": "Bosch",
+            "model": "JS365",
+            "slug": "jigsaw",
+            "picture": "jigsaw_1516998003269.jpg",
+            "training": ""
+         },
+         {
+            "name": "Cordless Drill",
+            "make": "Milwaukee",
+            "model": "9R31",
+            "slug": "cordless-drill",
+            "picture": "dril_1516998107979.jpg",
+            "training": ""
+         },
+         {
+            "name": "Drill Press",
+            "make": "Palmgren",
+            "model": "15\" Benchtop",
+            "slug": "drill-press",
+            "picture": "drillpress_1516998181855.jpeg",
+            "training": "Requires special training"
+         },
+         {
+            "name": "RotoZip Hand Router",
+            "make": "RotoZip",
+            "model": "",
+            "slug": "rotozip-hand-router",
+            "picture": "RotoZip_RotoSaw_Spiral_Saw_1516998314423.jpg",
+            "training": "Requires shop supervisor to operate"
+         },
+         {
+            "name": "Orbital Sander",
+            "make": "Bosch",
+            "model": "3725",
+            "slug": "orbital-sander",
+            "picture": "sander_1516999026795.png",
+            "training": ""
+         },
+         {
+            "name": "Heat Gun",
+            "make": "Wagner",
+            "model": "",
+            "slug": "heat-gun",
+            "picture": "heatgun_1516999087620.jpeg",
+            "training": ""
+         },
+         {
+            "name": "Soldering Iron",
+            "make": "Weller",
+            "model": "WES51",
+            "slug": "soldering-iron",
+            "picture": "soldering_iron_1516999161410.jpg",
+            "training": ""
+         },
+         {
+            "name": "Circular Saw",
+            "make": "Dewalt",
+            "model": "15amp 7.5\"",
+            "slug": "circular-saw",
+            "picture": "saw_1516999228523.jpg",
+            "training": "Requires shop supervisor to operate"
+         },
+         {
+            "name": "Angle Grinder",
+            "make": "Makita",
+            "model": "4.5\"",
+            "slug": "angle-grinder",
+            "picture": "makita_9527nb_800x800_1516999284263.jpg",
+            "training": "Requires shop supervisor to operate"
+         },
+         {
+            "name": "Dremel Hand Rotary Tool",
+            "make": "Dremel",
+            "model": "4000 (with press)",
+            "slug": "dremel-hand-rotary-tool",
+            "picture": "dremel_1516999374535.jpg",
+            "training": ""
+         }
+      ],
+      "people": [
+         {
+            "name": "Jason Bennett",
+            "moniker": "Maker Space Specialist",
+            "department": "Learning Design & Technology",
+            "slug": "jason-bennett",
+            "picture": "large_jason_in_maker_studio_1508348482377.jpg",
+            "email": "jasonb@virginia.edu"
+         }
+      ]
+   }
+]

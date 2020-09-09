@@ -1,0 +1,14 @@
+_site/
+.sass-cache/
+.jekyll-metadata
+.jekyll-cache
+update-server.sh
+update-site.sh
+.DS_Store
+_bin
+_data/categories.csv
+_data/locations.csv
+_data/makergrounds.db
+_data/makergrounds.sql
+prints/
+

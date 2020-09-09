@@ -1,0 +1,198 @@
+<section class="bg-dark">
+  <div class="center">
+    <h2 class="white-text">Makers Map</h2>
+  </div>
+</section>
+
+<section class="" id="portfolio">
+  <section id="map-locations">
+
+    <div id="map" class="map"></div>
+    <script>
+      mapboxgl.accessToken = 'pk.eyJ1Ijoic2Nob2xhcnNsYWIiLCJhIjoiY2oxdzlqNDh1MDAwMTMzcW96MGxtajZxNSJ9.8I1zZymMKofR_FbOiazznw';
+      var map = new mapboxgl.Map({
+      container: 'map',
+      style: 'mapbox://styles/mapbox/dark-v9'
+      });
+    </script>
+
+    <!-- creates overlay of locations on right -->
+    <ul class="map-locations-list">
+      {% for place in site.data.makergrounds %}
+        <li class="map-list-item" map-locations-list-slug={{place.slug}} onClick="openPopup(this)">{{ place.title }}</li>
+      {% endfor %}
+    </ul>
+
+    <!-- creates blue line that separates the map from the map-filter-container -->
+    <div id="under-map-line" class="blue"></div>
+
+    <!-- creates icons and labels for filtering -->
+    <div class="row white" id="map-filter-container">
+      <div class="row">
+        <div class="col s12 valign-wrapper" id="filter">
+          <span class="grey-text text-darken-3" id="filter">Filter: </span>
+            <a class="waves-effect waves-light btn indigo darken-4 map-filter-item" data-filter="all"> Show All </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12">
+          <ul class="map-filter-list">
+            {% for toolCategory in site.data.tool-categories %}
+              <li class="map-filter-item" data-filter={{toolCategory.slug}}>
+                <img src="img/icons/{{toolCategory.icon}}">
+                <span class="text-content">{{toolCategory.name}}</span>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    </div>
+
+  </section>
+
+  <script>
+    // sorts list of locations created above
+    var items = $('.map-locations-list li').get();
+    items.sort(function(a, b) {
+      var keyA = $(a).text().toLowerCase();
+      var keyB = $(b).text().toLowerCase();
+
+      if (keyA < keyB) return -1;
+      if (keyA > keyB) return 1;
+      return 0;
+    });
+    var ul = $('.map-locations-list');
+    $.each(items, function(i, li) {
+      ul.append(li);
+    });
+
+    var makergroundsJSON = {{site.data.makergrounds | jsonify}};
+
+    var toolCategories = {{site.data.tool-categories | jsonify}};
+    //makergroundsData is used to access location data from the csv.
+    var makergroundsData = {};
+    var map, markers;
+
+    //maps slug to location info (from the csv)
+    makergroundsJSON.forEach(function(location) {
+      makergroundsData[location.slug] = location;
+    });
+
+    //opens marker popup when a location is selected
+    function openPopup(self) {
+      //only open popup if the location is not inactive
+      if (!$(self).hasClass('inactive')){
+        var marker = makergroundsData[self.getAttribute("map-locations-list-slug")].marker
+        var coordinates = marker.feature.geometry.coordinates;
+        //center marker and open its popup (coordinates from geoJSON are flipped in terms of latitude and longitude)
+        map.panTo([coordinates[1], coordinates[0]], marker._zIndex);
+        marker.openPopup();
+      }
+    }
+  </script>
+
+  <script>
+    //this token is generated a mapbox.com account. Any token works.
+    //the token should really be placed in a config file.
+    L.mapbox.accessToken = 'pk.eyJ1Ijoic2Nob2xhcnNsYWIiLCJhIjoiY2oxdzlqNDh1MDAwMTMzcW96MGxtajZxNSJ9.8I1zZymMKofR_FbOiazznw';
+
+    map = L.mapbox.map('map', 'mapbox.streets')
+      .setView([38.035544, -78.505186], 15.55)
+
+    if (map.scrollWheelZoom) {
+      map.scrollWheelZoom.disable();
+    }
+
+    //creates markers using "features" in the geojson
+
+    markers = L.mapbox.featureLayer()
+      .loadURL('map-geojson/makergrounds-map-data.geojson')
+      .addTo(map);
+
+
+    markers.on('layeradd', function(e) {
+      var marker = e.layer,
+        feature = marker.feature;
+
+      var locationData = makergroundsData[feature.properties["location-slug"]];
+      //add marker object to data so the marker can be accessed later
+      locationData.marker = marker;
+
+      var locationTitle = '<h2><b><a class="marker-popup-title" href="/locations/' + locationData.slug + '.html">' + locationData.title + '</a></b></h2>';
+      var websiteName = locationData.website ? '<p><a href="' + locationData.website + '">' + locationData.website + '</a><p>' : ""
+
+      //adds icons to popup
+      var iconsList = '<div class="marker-popup-icons-container"><ul class="marker-popup-icons-list">';
+      toolCategories.forEach(function(t) {
+        if (t.locations.includes(locationData.slug)) {
+          iconsList += '<li>' +
+            '<img src="img/icons/' + t.icon + '">' +
+            '</li>'
+        }
+      })
+      iconsList += "</ul></div>";
+
+      //bind popup to marker
+      var popup = L.popup({
+          closeButton: false,
+          className: "marker-popup"
+        })
+        .setContent(locationTitle + websiteName + iconsList)
+      marker.bindPopup(popup);
+    });
+
+    //when a filter is clicked
+    //$('.map-filter-list li').click(function(e) {
+    $('.map-filter-item').click(function(e) {
+      e.preventDefault()
+      //all other filers become inactive
+      //$(this).parent().find('li').removeClass('active');
+      $('.map-filter-item').removeClass('active');
+      //all locations in the locations list become inactive
+      $('.map-locations-list').find('li').removeClass();
+      //the filter that is clicked is active
+      $(this).addClass('active');
+
+      var filter = $(this).data('filter');
+
+      var filtered_locations = [];
+      // only make locations active if a filter is applied
+      if (filter != 'all') {
+        //find locations that has tools of that category
+        filtered_locations = toolCategories.filter(function(toolCategory) {
+          return toolCategory.slug == filter;
+        })[0].locations;
+        //highlight locations on the locations list (made active)
+        filtered_locations.forEach(function(l) {
+          $('.map-locations-list').find('[map-locations-list-slug=' + l + "]").addClass('active');
+        })
+
+        //makes all locations that are not filtered inactive
+        $('.map-locations-list li').each(function(index, li){
+          if (!$(li).hasClass('active')){
+            $(li).addClass('inactive')
+          }
+        })
+      }
+
+      if (filter == 'all'){
+        //pan to original position if "show all" is selected
+        map.panTo([38.035544, -78.505186], 15.55);
+        //$('.map-locations-list').find('li').removeClass();
+        $('.map-locations-list').find('li').removeClass();
+      }
+
+      //mapbox: show/hide location markers that are filtered
+      markers.setFilter(function(f) {
+        // If the data-filter attribute is set to "all", return
+        // all (true). Otherwise, filter on the locations that are in the toolcategory.
+        return (filter === 'all') ? true : filtered_locations.includes(f.properties["location-slug"]);
+      });
+
+      return false;
+    });
+  </script>
+
+</section>
