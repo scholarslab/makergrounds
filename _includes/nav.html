@@ -1,24 +1,24 @@
   <div class="navbar-fixed">
     <nav>
       <div class="nav-wrapper grey darken-2">
-        <a class="brand-logo" href="#"><img id="uva-makers-logo" src="img/uva-makers-logo-non-alpha.png" alt="Makers @ UVA" /></a>
+        <a class="brand-logo" href="{{ absolute_url }}"><img id="uva-makers-logo" src="{{ "img/uva-makers-logo-non-alpha.png" | absolute_url }}" alt="Makers @ UVA" /></a>
         <a href="#" data-target="mobile-menu" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
-          <li> <a href="about.html">About</a> </li>
-          <li> <a href="#map">Map</a> </li>
-          <li> <a href="#locations">Locations</a> </li>
-					<li> <a href="#people">People</a> </li>
+          <li> <a href={{ "about.html" | absolute_url }}>About</a> </li>
+          <li> <a href={{ "#map" | absolute_url }}>Map</a> </li>
+          <li> <a href={{ "#locations" | absolute_url }}>Locations</a> </li>
+					<li> <a href={{ "#people" | absolute_url }}>People</a> </li>
 					<!-- <li> <a href="{{ site.url }}/#calendar">Calendar</a> </li> -->
-					<li> <a href="newsletters/">Newsletters</a> </li>
+					<li> <a href={{ "/newsletters/" | absolute_url }}>Newsletters</a> </li>
         </ul>
       </div>
     </nav>
   </div>
 
   <ul class="sidenav" id="mobile-menu">
-    <li> <a href="/about.html">About</a> </li>
-    <li> <a href="/#map">Map</a> </li>
-    <li> <a href="/#locations">Locations</a> </li>
-    <li> <a href="/#people">People</a> </li>
-    <li> <a href="/newsletters/">Newsletters</a> </li>
+    <li> <a href={{ "about.html" | absolute_url }}>About</a> </li>
+    <li> <a href={{ "#map" | absolute_url }}>Map</a> </li>
+    <li> <a href={{ "#locations" | absolute_url }}>Locations</a> </li>
+    <li> <a href={{ "#people" | absolute_url }}>People</a> </li>
+    <li> <a href={{ "/newsletters/" | absolute_url }}>Newsletters</a> </li>
   </ul>

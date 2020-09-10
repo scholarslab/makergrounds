@@ -43,13 +43,13 @@
 
   {% for person in site.data.people %}
   	
-    <a href="/people/{{ person.slug }}.html" class="person-box">
+    <a href="people/{{ person.slug }}.html" class="person-box">
   	
       <div class="img-box">
         {% if person.picture and person.picture != '  ' %}
-          <img class="circle responsive-img" src="../images/{{ person.picture }}" />
+          <img class="circle responsive-img" src="images/{{ person.picture }}" />
         {% else %}
-          <img class="circle responsive-img" src="../imgs/no-person.png" />
+          <img class="circle responsive-img" src="imgs/no-person.png" />
         {% endif %}
       </div>
   		<br/>
