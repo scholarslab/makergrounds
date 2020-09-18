@@ -1,27 +1,46 @@
-[
-   {
+[{
       "name": "A School FabLab",
       "slug": "fablab",
-      "description": "There are three main facilities: the Woodshop with the Victor Elmaleh Fabrications Lab, the CNC Lab, and the Milton Airport Facility. Students go through a mandatory training when they enter the School of Architecture, and we always welcome UVa students, faculty, and staff outside of the School to get trained to use the facilities.",
-      "access": "After an initial FabLab training, users gain access to the certain shop spaces and then can gain access to certain advanced tools through the Shops Short Courses (SSCs) taught throughout the semester.  Faculty and staff can schedule specific class or group SSCs with the Fabrication Facilities Manager.",
+      "description": "The Fabrication Lab (FabLab) at the School of Architecture has a wide range of equipment and experienced Crew team to help you build!  From small block models to furniture to full scale prototypes, we are ready to train and to help you at all stages of development.  We are located on the 1st floor west wing of Campbell Hall.  The Open Lab, which houses our fleets of 3D printers, laser cutters, sewing machines, electronics equipment and more, is open to trained users 24/7.  The Woodshop is open to trained users whenever a Crew member is on shift according to our semester schedule.  The FabLab also houses classes, studios, and workshops in fabrication and construction techniques and tools in our FabLab Studios and Garage workspace.  Other equipment like our CNC routers, metal 3D printer, clay 3D printer, object and site scanners, CNC embroidery machine, and fleet of Kuka robots are available through FabLab Short Courses.",
+      "access": "After an initial FabLab Training, students, faculty, and staff from all over Grounds can gain access to certain FabLab spaces.  More advanced tools require a specific training through the FabLab Short Courses taught throughout the semester.  Individuals, groups or classes can schedule specific Short Courses or consults through the FabLab Management Team by emailing fablab@virginia.edu",
       "hours": "",
-      "address": "Campbell Hall 122",
-      "website": "http://www.arch.virginia.edu/fabrication",
-      "email": "goldman@virginia.edu",
+      "address": "Campbell Hall 1st Floor",
+      "website": "https://www.arch.virginia.edu/about/studios-labs",
+      "email": "fablab@virginia.edu",
       "phone": "434.924.6443",
       "latitude": "",
       "longitude": "",
-      "picture": "a-school-fab-lab.jpg",
-      "updated_at": "2017-08-09T19:20:52.648Z",
-      "tools": [],
-      "people": [
+      "picture": "fablab.jpg",
+      "images": [{
+            "src": "fablab_openlabA.jpg"
+         },
          {
+            "src": "fablab_openlabB.jpg"
+         },
+         {
+            "src": "fablab-woodshop.jpg"
+         }
+      ],
+      "updated_at": "2020-09-17T10:49:52.648Z",
+      "tools": [],
+      "people": [{
             "name": "Melissa Goldman",
-            "moniker": "Fabrication Facilities Manager",
+            "moniker": "Fabrication Lab Manager",
             "department": "School of Architecture",
             "slug": "melissa-goldman",
             "picture": "melissagoldman_1507656338971.jpg",
+            "phone": "434.924.6443",
             "email": "goldman@virginia.edu"
+         },
+         {
+            "name": "Trevor Kemp",
+            "moniker": "Fabrication Lab Assistant Manager",
+            "department": "School of Architecture",
+            "slug": "trevor-kemp",
+            "picture": "trevor-kemp.jpg",
+            "phone": "434.924.6443",
+            "email": "tk4b@virginia.edu"
+
          }
       ]
    },
@@ -56,8 +75,7 @@
       "longitude": "",
       "picture": "IMG_4832_1503932279478.jpg",
       "updated_at": "2017-08-28T14:57:59.506Z",
-      "tools": [
-         {
+      "tools": [{
             "name": "Combination sander",
             "make": "JET",
             "model": "",
@@ -162,16 +180,14 @@
             "training": "In person"
          }
       ],
-      "people": [
-         {
-            "name": "William Guilford",
-            "moniker": "Associate Professor of BME (SOM), Director of Educational Innovation (SEAS)",
-            "department": "",
-            "slug": "william-guilford",
-            "picture": "Guilford_William_2822_bust_1502201975705.jpg",
-            "email": "guilford@virginia.edu"
-         }
-      ]
+      "people": [{
+         "name": "William Guilford",
+         "moniker": "Associate Professor of BME (SOM), Director of Educational Innovation (SEAS)",
+         "department": "",
+         "slug": "william-guilford",
+         "picture": "Guilford_William_2822_bust_1502201975705.jpg",
+         "email": "guilford@virginia.edu"
+      }]
    },
    {
       "name": "Drama Scene Shop",
@@ -187,8 +203,7 @@
       "longitude": "",
       "picture": "IMG_20170427_172039541_1507664704243.jpg",
       "updated_at": "2017-10-10T19:45:21.528Z",
-      "tools": [
-         {
+      "tools": [{
             "name": "Saw Stop",
             "make": "Saw Stop",
             "model": "Cabinet Saw",
@@ -205,16 +220,14 @@
             "training": ""
          }
       ],
-      "people": [
-         {
-            "name": "Chris Rybitski",
-            "moniker": "Shop Foreman",
-            "department": "Drama",
-            "slug": "chris-rybitski",
-            "picture": "MBailey_Chris_Rybitski_1507664841313.jpg",
-            "email": "cmr4gr@virginia.edu"
-         }
-      ]
+      "people": [{
+         "name": "Chris Rybitski",
+         "moniker": "Shop Foreman",
+         "department": "Drama",
+         "slug": "chris-rybitski",
+         "picture": "MBailey_Chris_Rybitski_1507664841313.jpg",
+         "email": "cmr4gr@virginia.edu"
+      }]
    },
    {
       "name": "Environmental Health & Safety ",
@@ -231,8 +244,7 @@
       "picture": "Makerspace_Safety_586_A_1506532889591.jpg",
       "updated_at": "2017-09-27T17:21:29.646Z",
       "tools": [],
-      "people": [
-         {
+      "people": [{
             "name": "Kate Smith",
             "moniker": "Research Safety Specialist",
             "department": "Environmental Health &amp; Safety",
@@ -264,16 +276,14 @@
       "longitude": "",
       "picture": "ilab_1501258079195_1503517727294_1503519077756.jpg",
       "updated_at": "2017-08-31T13:43:41.446Z",
-      "tools": [
-         {
-            "name": "MakerBot",
-            "make": "MakerBot",
-            "model": "Replicator 2",
-            "slug": "makerbot",
-            "picture": null,
-            "training": ""
-         }
-      ],
+      "tools": [{
+         "name": "MakerBot",
+         "make": "MakerBot",
+         "model": "Replicator 2",
+         "slug": "makerbot",
+         "picture": null,
+         "training": ""
+      }],
       "people": []
    },
    {
@@ -290,26 +300,22 @@
       "longitude": "",
       "picture": "lacy_1501259238402_1503517670889_1503519112805.jpg",
       "updated_at": "2017-08-30T15:01:59.521Z",
-      "tools": [
-         {
-            "name": "SparkFun Inventor's Kits",
-            "make": "SparkFun",
-            "model": "v3",
-            "slug": "sparkfun-inventor-s-kits",
-            "picture": null,
-            "training": ""
-         }
-      ],
-      "people": [
-         {
-            "name": "Reid Bailey",
-            "moniker": "Professor",
-            "department": "Eng Sys and Environment",
-            "slug": "reid-bailey",
-            "picture": null,
-            "email": "rrbailey@virginia.edu"
-         }
-      ]
+      "tools": [{
+         "name": "SparkFun Inventor's Kits",
+         "make": "SparkFun",
+         "model": "v3",
+         "slug": "sparkfun-inventor-s-kits",
+         "picture": null,
+         "training": ""
+      }],
+      "people": [{
+         "name": "Reid Bailey",
+         "moniker": "Professor",
+         "department": "Eng Sys and Environment",
+         "slug": "reid-bailey",
+         "picture": null,
+         "email": "rrbailey@virginia.edu"
+      }]
    },
    {
       "name": "Lacy Student Experiential Center (Lacy Hall)",
@@ -325,8 +331,7 @@
       "longitude": "",
       "picture": "lacy-hall.jpg",
       "updated_at": "2018-03-08T20:15:55.769Z",
-      "tools": [
-         {
+      "tools": [{
             "name": "NC Pneumatic Tube Bender",
             "make": "NC Pneumatic Tube Bender",
             "model": "NC Pneumatic Tube Bender",
@@ -495,16 +500,14 @@
             "training": ""
          }
       ],
-      "people": [
-         {
-            "name": "Sebring Smith",
-            "moniker": "Shop Manager",
-            "department": "",
-            "slug": "sebring-smith",
-            "picture": null,
-            "email": "LacyHall@virginia.edu"
-         }
-      ]
+      "people": [{
+         "name": "Sebring Smith",
+         "moniker": "Shop Manager",
+         "department": "",
+         "slug": "sebring-smith",
+         "picture": null,
+         "email": "LacyHall@virginia.edu"
+      }]
    },
    {
       "name": "Library Materials Collection",
@@ -538,16 +541,14 @@
       "picture": "mechatronics-lab.jpg",
       "updated_at": "2017-07-18T21:16:16.343Z",
       "tools": [],
-      "people": [
-         {
-            "name": "Gavin T. Garner",
-            "moniker": "Assistant Professor of Mechanical & Aerospace Engineering",
-            "department": "Mechanical & Aerospace Engineering",
-            "slug": "gavin-t-garner",
-            "picture": "Guitar_1522790982285.png",
-            "email": "garner@virginia.edu"
-         }
-      ]
+      "people": [{
+         "name": "Gavin T. Garner",
+         "moniker": "Assistant Professor of Mechanical & Aerospace Engineering",
+         "department": "Mechanical & Aerospace Engineering",
+         "slug": "gavin-t-garner",
+         "picture": "Guitar_1522790982285.png",
+         "email": "garner@virginia.edu"
+      }]
    },
    {
       "name": "Milton Airfield Hangar",
@@ -581,16 +582,14 @@
       "picture": "",
       "updated_at": "2020-01-07T14:10:16.343Z",
       "tools": [],
-      "people": [
-         {
-            "name": "Reid Bailey",
-            "moniker": "Professor",
-            "department": "Eng Sys and Environment",
-            "slug": "reid-bailey",
-            "picture": null,
-            "email": "rrbailey@virginia.edu"
-         }
-      ]
+      "people": [{
+         "name": "Reid Bailey",
+         "moniker": "Professor",
+         "department": "Eng Sys and Environment",
+         "slug": "reid-bailey",
+         "picture": null,
+         "email": "rrbailey@virginia.edu"
+      }]
    },
    {
       "name": "Prop Shop",
@@ -623,16 +622,14 @@
       "longitude": "",
       "picture": "rpl.jpg",
       "updated_at": "2017-10-19T18:52:29.905Z",
-      "tools": [
-         {
-            "name": "3D Printer",
-            "make": "uPrint Plus",
-            "model": "",
-            "slug": "3d-printer",
-            "picture": null,
-            "training": ""
-         }
-      ],
+      "tools": [{
+         "name": "3D Printer",
+         "make": "uPrint Plus",
+         "model": "",
+         "slug": "3d-printer",
+         "picture": null,
+         "training": ""
+      }],
       "people": []
    },
    {
@@ -650,11 +647,10 @@
       "picture": "rmc.jpg",
       "updated_at": "2017-07-18T21:16:16.343Z",
       "tools": [],
-      "people": [
-         {
+      "people": [{
             "name": "willRourk",
             "moniker": "Cultural Heritage Informatics Specialist",
-            "department": "UVA Library - Scholars' Lab West (Clemons)",
+            "department": "UVA Library - Scholars' Lab (Clemons)",
             "slug": "willrourk",
             "picture": "willRourk_1502830049149.jpg",
             "email": "will@virginia.edu"
@@ -684,22 +680,20 @@
       "picture": "ruffin-hall.jpg",
       "updated_at": "2017-07-18T21:16:16.343Z",
       "tools": [],
-      "people": [
-         {
-            "name": "Eric Schmidt",
-            "moniker": "Studio/Gallery Tech/Safety Officer",
-            "department": "",
-            "slug": "eric-schmidt",
-            "picture": null,
-            "email": "ems3z@virginia.edu"
-         }
-      ]
+      "people": [{
+         "name": "Eric Schmidt",
+         "moniker": "Studio/Gallery Tech/Safety Officer",
+         "department": "",
+         "slug": "eric-schmidt",
+         "picture": null,
+         "email": "ems3z@virginia.edu"
+      }]
    },
    {
       "name": "Scholars' Lab Makerspace",
       "slug": "scholars-lab-makerspace",
-      "description": "The Scholars' Lab Makerspace is a place for tinkering and experimentation with technologies like desktop fabrication, physical computing, and augmented reality. Open to everyone, we specialize in applications and research questions in the humanities and arts.\r\n\r\nInterested in exploring the Makerspace? Have an idea to use microcontrollers or 3D modeling and printing technology to enhance your research or differently interrogate your assumptions? Contact us at slabmakerspace@virginia.edu to schedule an appointment with Scholars' Lab faculty and staff to discuss your planned project.",
-      "access": "Email for a virtual consultation slabmakerspace@virginia.edu",
+      "description": "The Scholars' Lab Makerspace is a place for tinkering and experimentation with technologies like desktop fabrication, physical computing, and augmented reality. Open to everyone, we specialize in applications and research questions in the humanities and arts.\r\n\r\nInterested in exploring the Makerspace? Have an idea to use microcontrollers or 3D modeling and printing technology to enhance your research or differently interrogate your assumptions? Contact us at <a href='mailto:slabmakerspace@vriginia.edu'>slabmakerspace@virginia.edu</a> to schedule an appointment with Scholars' Lab faculty and staff to discuss your planned project.",
+      "access": "Email for a virtual consultation",
       "hours": "By appointment only",
       "address": "Clemons, 3rd floor",
       "website": "http://scholarslab.org/makerspace",
@@ -707,10 +701,9 @@
       "phone": "",
       "latitude": "",
       "longitude": "",
-      "picture": "scholars_lab_1509469204058.jpg",
-      "updated_at": "2018-03-30T18:32:44.217Z",
-      "tools": [
-         {
+      "picture": "tinker-tank.jpg",
+      "updated_at": "2020-09-18T11:06:44.217Z",
+      "tools": [{
             "name": "Arduino 101 Kits",
             "make": "Arduino",
             "model": "101",
@@ -743,16 +736,14 @@
             "training": ""
          }
       ],
-      "people": [
-         {
-            "name": "Ammon Shepherd",
-            "moniker": "Makerspace Manager",
-            "department": "",
-            "slug": "ammon-shepherd",
-            "picture": "me_copy_1502826906568.jpg",
-            "email": "ammon@virginia.edu"
-         }
-      ]
+      "people": [{
+         "name": "Ammon Shepherd",
+         "moniker": "Makerspace Manager",
+         "department": "",
+         "slug": "ammon-shepherd",
+         "picture": "me_copy_1502826906568.jpg",
+         "email": "ammon@virginia.edu"
+      }]
    },
    {
       "name": "Visual Resources Center at Fayerweather Hall",
@@ -768,26 +759,22 @@
       "longitude": "",
       "picture": "IMG_E0543_1508359619668.jpg",
       "updated_at": "2017-10-18T20:54:40.067Z",
-      "tools": [
-         {
-            "name": "Lulzbot",
-            "make": "Lulzbot",
-            "model": "TAZ6",
-            "slug": "lulzbot",
-            "picture": "IMG_0540_1508428468999.jpg",
-            "training": "Operated by VRC staff"
-         }
-      ],
-      "people": [
-         {
-            "name": "Victoria Valdes",
-            "moniker": "Assistant Director",
-            "department": "McIntire Department of Art",
-            "slug": "vicotria-valdes",
-            "picture": "victoria-valdes.jpg",
-            "email": "victoria.valdes@virginia.edu"
-         }
-      ]
+      "tools": [{
+         "name": "Lulzbot",
+         "make": "Lulzbot",
+         "model": "TAZ6",
+         "slug": "lulzbot",
+         "picture": "IMG_0540_1508428468999.jpg",
+         "training": "Operated by VRC staff"
+      }],
+      "people": [{
+         "name": "Victoria Valdes",
+         "moniker": "Assistant Director",
+         "department": "McIntire Department of Art",
+         "slug": "vicotria-valdes",
+         "picture": "victoria-valdes.jpg",
+         "email": "victoria.valdes@virginia.edu"
+      }]
    },
    {
       "name": "Wilson Hall Maker Studio",
@@ -803,8 +790,7 @@
       "longitude": "",
       "picture": "makerstudio_for_makergrounds_1516998755184.jpg",
       "updated_at": "2018-01-26T20:32:35.230Z",
-      "tools": [
-         {
+      "tools": [{
             "name": "3D Printer",
             "make": "MakerBot",
             "model": "5th Gen",
@@ -917,15 +903,13 @@
             "training": ""
          }
       ],
-      "people": [
-         {
-            "name": "Jason Bennett",
-            "moniker": "Maker Space Specialist",
-            "department": "Learning Design & Technology",
-            "slug": "jason-bennett",
-            "picture": "large_jason_in_maker_studio_1508348482377.jpg",
-            "email": "jasonb@virginia.edu"
-         }
-      ]
+      "people": [{
+         "name": "Jason Bennett",
+         "moniker": "Maker Space Specialist",
+         "department": "Learning Design & Technology",
+         "slug": "jason-bennett",
+         "picture": "large_jason_in_maker_studio_1508348482377.jpg",
+         "email": "jasonb@virginia.edu"
+      }]
    }
 ]

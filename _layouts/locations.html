@@ -10,14 +10,14 @@ layout: page
       <div class="card">
         <div class="card-image">
           {% if page.picture != '' %}
-            <img id="location-pic" class="responsive-img" src="../images/{{ page.picture }}" />
+          <img id="location-pic" class="responsive-img" src="../images/{{ page.picture }}" />
           {% else %}
-            <img id="location-pic" class="responsive-img" src="../imgs/no-location.png" />
+          <img id="location-pic" class="responsive-img" src="../imgs/no-location.png" />
           {% endif %}
         </div>
         <div class="card-content">
           <div class='text-justify'>
-            {{ page.description }} 
+            {{ page.description }}
           </div>
         </div>
         <div class="card-action">
@@ -32,19 +32,33 @@ layout: page
       <table class="responsive-table striped">
         <tbody>
           <tr>
-            <td><h4>Location:</h4></td>
-            <td><p class="location-info">{{ page.address }}</p></td>
+            <td>
+              <h4>Location:</h4>
+            </td>
+            <td>
+              <p class="location-info">{{ page.address }}</p>
+            </td>
           </tr>
           <tr>
-            <td><h4>Access:</h4></td>
-            <td><p class="location-info">{{ page.access }}</p></td>
+            <td>
+              <h4>Access:</h4>
+            </td>
+            <td>
+              <p class="location-info">{{ page.access }}</p>
+            </td>
           </tr>
           <tr>
-            <td><h4>Hours:</h4></td>
-            <td><p class="location-info">{{ page.hours }}</p></td>
+            <td>
+              <h4>Hours:</h4>
+            </td>
+            <td>
+              <p class="location-info">{{ page.hours }}</p>
+            </td>
           </tr>
           <tr>
-            <td><h4>Contact:</h4></td>
+            <td>
+              <h4>Contact:</h4>
+            </td>
             <td>
               <p class="location-info">{{ page.contact }}</p>
               <p class="location-info"><a class="mailto" href="mailto:{{ page.email }}">{{ page.email }}</a></p>
@@ -56,61 +70,80 @@ layout: page
     </div>
   </div>
 
-  {% if page.tools.size > 0 %}
+  {% if page.images.size > 0 %}
   <div class="row">
     <div class="col s12">
-      <h1>Tools</h1>
+      <h1>Images:</h1>
       <div class="row">
-      {% assign tools = page.tools %}
-      {% for tool in tools %}
+        {% for pic in page.images %}
         <div class="col s12 m4 l3">
-          <div class="card tool-card">
+          <div class="card locations-card">
             <div class="card-image">
-            {% if tool.picture %}
-              <img class='responsive-img tool-image' src="../images/{{ tool.picture }}" />
-            {% else %}
-              <img class='responsive-img tool-image' src="../imgs/no-tool.png" />
-            {% endif %}
-            </div>
-            <div class="card-title">
-              {{ tool.name }}
-            </div>
-            <div class="card-content tool-info">
-              <ul>
-                <li class='list-group-item'>
-                  <span class="orange-text text-darken-3">Make:</span> 
-                  {{ tool.make }}
-                </li>
-                <li class='list-group-item'>
-                  <span class="orange-text text-darken-3">Model:</span> 
-                  {{ tool.model }}
-                </li>
-              </ul>
+              <a href="../images/{{ pic.src }}">
+                <img class="responsive-img" src="../images/{{ pic.src }}" /></a>
             </div>
           </div>
         </div>
-      {% endfor %}
+        {% endfor %}
       </div>
     </div>
-  </div>
-  {% endif %}
+    {% endif %}
+
+    {% if page.tools.size > 0 %}
+    <div class="row">
+      <div class="col s12">
+        <h1>Tools</h1>
+        <div class="row">
+          {% assign tools = page.tools %}
+          {% for tool in tools %}
+          <div class="col s12 m4 l3">
+            <div class="card tool-card">
+              <div class="card-image">
+                {% if tool.picture %}
+                <img class='responsive-img tool-image' src="../images/{{ tool.picture }}" />
+                {% else %}
+                <img class='responsive-img tool-image' src="../imgs/no-tool.png" />
+                {% endif %}
+              </div>
+              <div class="card-title">
+                {{ tool.name }}
+              </div>
+              <div class="card-content tool-info">
+                <ul>
+                  <li class='list-group-item'>
+                    <span class="orange-text text-darken-3">Make:</span>
+                    {{ tool.make }}
+                  </li>
+                  <li class='list-group-item'>
+                    <span class="orange-text text-darken-3">Model:</span>
+                    {{ tool.model }}
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    {% endif %}
 
 
-  {% if page.people.size > 0 %}
-  <div class="row">
-    <div class="col s12">
-      <div class="row">
-        <h1>People</h1>
-        {% assign people = page.people %}
-        {% for person in people %}
+    {% if page.people.size > 0 %}
+    <div class="row">
+      <div class="col s12">
+        <div class="row">
+          <h1>People</h1>
+          {% assign people = page.people %}
+          {% for person in people %}
           <div class="col s12 m4 l3">
             <div class="card people-card">
               <div class="card-image">
-              {% if person.picture %}
-                <img class='responsive-img person-image' src="images/{{ person.picture }}" />
-              {% else %}
-                <img class='responsive-img person-image' src="imgs/no-person.png" />
-              {% endif %}
+                {% if person.picture %}
+                <img class='responsive-img person-image' src="../images/{{ person.picture }}" />
+                {% else %}
+                <img class='responsive-img person-image' src="../imgs/no-person.png" />
+                {% endif %}
               </div>
               <div class="card-title">
                 {{ person.name }}
@@ -118,15 +151,14 @@ layout: page
               <div class="card-content">
                 <span class="grey-text">Title:</span> {{ person.moniker }}
                 {% if person.department != empty %}
-                  <span class="grey-text">Department:</span> {{ person.department }}
+                <span class="grey-text">Department:</span> {{ person.department }}
                 {% endif %}
               </div>
             </div>
           </div>
-        {% endfor %}
+          {% endfor %}
+        </div>
       </div>
     </div>
-  </div>
-  {% endif %}
+    {% endif %}
 </section>
-

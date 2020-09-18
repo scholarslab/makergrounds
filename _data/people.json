@@ -1,5 +1,4 @@
-[
-   {
+[{
       "name": "Ammon Shepherd",
       "slug": "ammon-shepherd",
       "moniker": "Makerspace Manager",
@@ -146,7 +145,7 @@
    {
       "name": "Melissa Goldman",
       "slug": "melissa-goldman",
-      "moniker": "Fabrication Facilities Manager",
+      "moniker": "Fabrication Lab Manager",
       "department": "School of Architecture",
       "picture": "melissagoldman_1507656338971.jpg",
       "email": "goldman@virginia.edu",
@@ -154,6 +153,22 @@
       "website": "",
       "office_hours": "",
       "office_address": "123 Campbell Hall",
+      "bio": "",
+      "location_id": 5,
+      "location_name": "A School FabLab",
+      "location_slug": "fablab"
+   },
+   {
+      "name": "Trevor Kemp",
+      "slug": "trevor-kemp",
+      "moniker": "Fabrication Lab Assistant Manager",
+      "department": "School of Architecture",
+      "picture": "trevor-kemp.jpg",
+      "email": "tk4b@virginia.edu",
+      "phone": "434.924.6443",
+      "website": "",
+      "office_hours": "",
+      "office_address": "Campbell Hall 1st Floor",
       "bio": "",
       "location_id": 5,
       "location_name": "A School FabLab",

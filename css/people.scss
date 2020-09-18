@@ -1,18 +1,30 @@
----
+--- 
 ---
 
 /* Arts & Sciences */
-.arts-sciences, .scholars-lab-makerspace, .robertson-media-center, .wilson-hall {
+.arts-sciences,
+.scholars-lab-makerspace,
+.robertson-media-center,
+.wilson-hall,
+.drama-scene-shop,
+.ruffin-hall-wood-and-metal-shop,
+.vrc {
 
 	background-color: orange;
 }
 
 /* Engineering */
-.engineering, .rice-120, .bme-fabrication-space {
+.engineering,
+.rice-120,
+.bme-fabrication-space,
+.lacy-hall,
+.mechatronics-lab-and-the-mill,
+.rapid-prototyping-lab {
 	background-color: blue;
 }
 
-.architecture {
+.architecture,
+.fablab {
 	background-color: green;
 }
 
@@ -26,96 +38,97 @@
 }
 
 /* EHS */
-.ehs, .environmental-health-safety {
+.ehs,
+.environmental-health-safety {
 	background-color: pink;
 }
 
 .people-key {
-	width:200px;
-	height:350px;
-	margin:5px;
-	display:block;
-	float:left;
+	width: 200px;
+	height: 350px;
+	margin: 5px;
+	display: block;
+	float: left;
 }
 
 .keybox {
-	font-family:'Open Sans','Helvetica Neue',Arial,sans-serif;
-	display:block;
-	float:left;
-	width:150px;
-	height:40px;
+	font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+	display: block;
+	float: left;
+	width: 150px;
+	height: 40px;
 	text-align: center;
-	color:#fff;
-	padding-top:10px;
-	margin:5px;
-	float:left;
-	margin-left:0px;
+	color: #fff;
+	padding-top: 10px;
+	margin: 5px;
+	float: left;
+	margin-left: 0px;
 	background-color: #585858;
 }
 
 .keybox-left {
-	display:block;
-	width:20px;
-	height:40px;
-	float:left;
-	margin:5px;
-	margin-right:0px;
+	display: block;
+	width: 20px;
+	height: 40px;
+	float: left;
+	margin: 5px;
+	margin-right: 0px;
 }
 
 .person-box {
 
-	font-family:'Open Sans','Helvetica Neue',Arial,sans-serif;
-	color:white;
-	text-align:center;
+	font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+	color: white;
+	text-align: center;
 	display: block;
-	float:left;
-	width:200px;
-	padding:10px;
+	float: left;
+	width: 200px;
+	padding: 10px;
 	background-color: #585858;
-	padding-left:25px;
-	padding-right:25px;
-	margin:5px;
+	padding-left: 25px;
+	padding-right: 25px;
+	margin: 5px;
 	transition: all .35s;
 
 	&:hover {
-		background-color: rgba(240,95,64,.9);
-		color:#fff;
+		background-color: rgba(240, 95, 64, .9);
+		color: #fff;
 	}
 
 	.person-location-color-block {
-		
-		display:block;
-		width:20%;
-		height:43px;
-		float:left;
-		margin-right:5%;
-		
+
+		display: block;
+		width: 20%;
+		height: 43px;
+		float: left;
+		margin-right: 5%;
+
 	}
 
 	.person-location-name {
-		display:block;
-		float:left;
-		width:75%;
+		display: block;
+		float: left;
+		width: 75%;
 		text-align: left;
 	}
+
 	.img-box {
 
-		width:150px;
-		height:200px;
+		width: 150px;
+		height: 200px;
 		overflow: hidden;
-		display:table-cell;
-		margin-bottom:10px;
+		display: table-cell;
+		margin-bottom: 10px;
 		vertical-align: bottom;
 		background-color: transparent;
 
 		img {
-      max-height: 150px;
+			max-height: 150px;
 			vertical-align: bottom;
 		}
-	
+
 	}
 
-	
+
 
 }
-
