@@ -80,6 +80,11 @@
   padding: 0px !important;
 }
 
+.normal-list {
+  padding-left: 20px !important;
+  list-style-type: disc !important;
+}
+
 footer {
   margin-top: 20px;
 }

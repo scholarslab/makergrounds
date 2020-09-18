@@ -60,9 +60,18 @@ layout: page
               <h4>Contact:</h4>
             </td>
             <td>
-              <p class="location-info">{{ page.contact }}</p>
-              <p class="location-info"><a class="mailto" href="mailto:{{ page.email }}">{{ page.email }}</a></p>
-              <p class="location-info">{{ page.phone }}</p>
+              {% if page.email != '' %}
+              <p class="location-info">
+                <i class="material-icons">email</i>
+                <a class="mailto" href="mailto:{{ page.email }}">{{ page.email }}</a>
+              </p>
+              {% endif %}
+              {% if page.phone != '' %}
+              <p class="location-info">
+                <i class="material-icons">phone</i>
+                <a class="phone" href="tel:{{ page.phone }}">{{ page.phone }}</a>
+              </p>
+              {% endif %}
             </td>
           </tr>
         </tbody>
@@ -111,11 +120,11 @@ layout: page
               <div class="card-content tool-info">
                 <ul>
                   <li class='list-group-item'>
-                    <span class="orange-text text-darken-3">Make:</span>
+                    <span class="grey-text">Make:</span>
                     {{ tool.make }}
                   </li>
                   <li class='list-group-item'>
-                    <span class="orange-text text-darken-3">Model:</span>
+                    <span class="grey-text">Model:</span>
                     {{ tool.model }}
                   </li>
                 </ul>
