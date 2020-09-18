@@ -3,7 +3,7 @@
 ## Quick list of steps to make changes to the website
 - make a copy of the repo.
 - make the changes
-- check your changes locally (run `jekyll serve`).
+- check your changes locally (run `bundle exec jekyll serve`).
   - view your changes in the browser at http://localhost:4000
 - If changes are good, run `bundle exec jekyll build`
 - copy files in `_site` to corgi server.
@@ -12,12 +12,13 @@
 ## Where's stuff at?
 - Most of the home page is sectioned out into files in the `_includes` folder.
 - Design stuff is in the `css` and `layouts` folders
-- Data for the locations is in the `_data/places.json` file
+- Data for each space on its location page is in the `_data/places.json` file
+- Data for the people section on the home page is in `_data/people.json`
 
 
 # Development
 
-## Requireds for Mac Development
+## Requirements for Mac Development
 - Install Homebrew:
   - https://brew.sh/
   - `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
