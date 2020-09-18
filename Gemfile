@@ -5,4 +5,4 @@ gem "kramdown", ">= 2.3.0"
 gem 'rack-jekyll'
 gem "rack", ">= 2.1.4"
 gem 'rake'
-gem "github-pages", group: :jekyll_plugins
+#gem "github-pages", group: :jekyll_plugins
