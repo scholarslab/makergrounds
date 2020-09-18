@@ -29,6 +29,9 @@
   <link type="text/css" rel="stylesheet" href="../css/materialize.min.css"  media="screen,projection"/>
 
 
+  <!-- Plugin CSS -->
+  <link rel="stylesheet" href="{{ 'css/animate.min.css' | absolute_url  }}" type="text/css">
+
   <!-- Custom CSS -->
   <link rel="stylesheet" href="../css/makergrounds.css" type="text/css">
 </head>
@@ -41,9 +44,7 @@
 
 <main>
 
-  <div class="container">
     {{content}}
-  </div> <!-- container -->
 
 </main>
 
@@ -55,8 +56,12 @@
   <script src="../js/materialize.min.js"></script>
   <script src="../js/jquery.matchHeight.js"></script>
   <script>
-    $(function() {
-      $('.card').matchHeight();
+    $(document).ready(function(){
+      $('.sidenav').sidenav();
+      $(function() {
+        $('.card-content').matchHeight();
+        $('.person-box').matchHeight();
+      });
     });
   </script>
 </div>
