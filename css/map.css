@@ -7,7 +7,6 @@
     -moz-background-size: cover;
     -o-background-size: cover;
 }
-
 /**********list of locations on the right side of the map**********/
 .map-locations-list {
     position: absolute;

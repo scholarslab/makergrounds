@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117191816-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
 
     gtag('config', 'UA-117191816-1');
@@ -14,27 +15,27 @@
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
   <title>
-    Makers @ UVA - 
+    Makers @ UVA -
     {% if page.title %}
-      {{ page.title | upcase }}
+    {{ page.title | upcase }}
     {% endif %}
   </title>
 
   <!--Import Google Icon Font-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!--Import materialize.css-->
-  <link type="text/css" rel="stylesheet" href='{{ "css/materialize.min.css" | absolute_url }}'  media="screen,projection"/>
+  <link type="text/css" rel="stylesheet" href='{{ "css/materialize.min.css" | absolute_url }}' media="screen,projection" />
 
 
   <!-- Plugin CSS -->
   <link rel="stylesheet" href="{{ 'css/animate.min.css' | absolute_url  }}" type="text/css">
 
   <!-- Mapbox -->
-  <script src='https://api.mapbox.com/mapbox.js/v3.0.1/mapbox.js'></script>
-  <link href='https://api.mapbox.com/mapbox.js/v3.0.1/mapbox.css' rel='stylesheet' />
+  <script src='https://api.mapbox.com/mapbox.js/v3.3.1/mapbox.js'></script>
+  <link href='https://api.mapbox.com/mapbox.js/v3.3.1/mapbox.css' rel='stylesheet' />
+
   <!-- this version required for map pins -->
   <script src='js/jquery-1.12.4.min.js'></script>
 
@@ -50,41 +51,44 @@
   <link href='https://api.mapbox.com/mapbox-gl-js/v0.35.1/mapbox-gl.css' rel='stylesheet' />
 
   <!-- Custom CSS -->
-  <link rel="stylesheet" href='{{ "css/map.css" | absolute_url }}' type="text/css" >
-  <link rel="stylesheet" href='{{ "css/people.css" | absolute_url }}' type="text/css" >
+  <link rel="stylesheet" href='{{ "css/map.css" | absolute_url }}' type="text/css">
+  <link rel="stylesheet" href='{{ "css/people.css" | absolute_url }}' type="text/css">
   <link rel="stylesheet" href='{{ "css/makergrounds.css" | absolute_url }}' type="text/css">
+
+
+
 </head>
 
 <body id="page-top" class="grey darken-4">
 
-<header>
-  {% include nav.html %}
-</header>
+  <header>
+    {% include nav.html %}
+  </header>
 
-<main>
+  <main>
 
-  {{content}}
+    {{content}}
 
-</main>
+  </main>
 
-{% include foot.html %}
+  {% include foot.html %}
 
-<div id="scripts">
-  <!--Import jQuery before materialize.js-->
-  <script src="js/jquery-3.2.1.min.js"></script>
-  <script src="js/materialize.min.js"></script>
-  <script src="js/jquery.matchHeight.js"></script>
-  <script>
-    $(document).ready(function(){
-      $('.sidenav').sidenav();
-      $(function() {
-        $('.card-content').matchHeight();
-        $('.person-box').matchHeight();
+  <div id="scripts">
+    <!--Import jQuery before materialize.js-->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/jquery.matchHeight.js"></script>
+    <script>
+      $(document).ready(function () {
+        $('.sidenav').sidenav();
+        $(function () {
+          $('.card-content').matchHeight();
+          $('.person-box').matchHeight();
+        });
       });
-    });
-    
-  </script>
-</div>
+
+    </script>
+  </div>
 
 </body>
 
